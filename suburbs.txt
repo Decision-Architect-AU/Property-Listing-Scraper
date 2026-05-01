@@ -1,0 +1,2411 @@
+belconnen-act-2617  # BELCONNEN ACT | rating=3.42 vac=1.12%
+bonner-act-2914  # BONNER ACT | rating=2.69 vac=0.93%
+canberra-act-2600  # CANBERRA ACT | rating=2.89 vac=1.08%
+canberra-city-act-2601  # CANBERRA CITY ACT | rating=3.07 vac=0.0296%
+casey-act-2913  # CASEY ACT | rating=2.79 vac=0.95%
+chifley-act-2606  # CHIFLEY ACT | rating=2.35 vac=2.81%
+gordon-act-2906  # GORDON ACT | rating=3.04 vac=0.69%
+greenway-act-2900  # GREENWAY ACT | rating=3.42 vac=1.22%
+gungahlin-act-2912  # GUNGAHLIN ACT | rating=3.17 vac=1.33%
+hall-act-2618  # HALL ACT | rating=2.53 vac=0.0192%
+hughes-act-2605  # HUGHES ACT | rating=3.45 vac=1.1%
+kambah-act-2902  # KAMBAH ACT | rating=3.69 vac=0.33%
+kippax-act-2615  # KIPPAX ACT | rating=3.7 vac=1.0%
+macquarie-act-2614  # MACQUARIE ACT | rating=3.02 vac=1.12%
+monash-act-2904  # MONASH ACT | rating=2.97 vac=0.59%
+narrabundah-act-2604  # NARRABUNDAH ACT | rating=3.15 vac=1.37%
+red-hill-act-2603  # RED HILL ACT | rating=2.77 vac=2.81%
+symonston-act-2609  # SYMONSTON ACT | rating=2.11 vac=0.0292%
+theodore-act-2905  # THEODORE ACT | rating=3.28 vac=0.54%
+torrens-act-2607  # TORRENS ACT | rating=3.28 vac=1.2%
+turner-act-2612  # TURNER ACT | rating=2.98 vac=2.63%
+wanniassa-act-2903  # WANNIASSA ACT | rating=3.25 vac=0.82%
+watson-act-2602  # WATSON ACT | rating=3.37 vac=1.55%
+weston-creek-act-2611  # WESTON CREEK ACT | rating=3.26 vac=1.96%
+abbotsbury-nsw-2176  # ABBOTSBURY NSW | rating=3.0 vac=0.93%
+acacia-creek-nsw-2476  # ACACIA CREEK NSW | rating=1.9 vac=0.0%
+adaminaby-nsw-2629  # ADAMINABY NSW | rating=1.52 vac=0.0897%
+albion-park-nsw-2527  # ALBION PARK NSW | rating=3.6 vac=0.23%
+albury-nsw-2640  # ALBURY NSW | rating=3.73 vac=0.83%
+alexandria-nsw-2015  # ALEXANDRIA NSW | rating=3.1 vac=1.41%
+amaroo-nsw-2866  # AMAROO NSW | rating=2.4 vac=0.0048%
+angledool-nsw-2834  # ANGLEDOOL NSW | rating=1.49 vac=0.0%
+annandale-nsw-2038  # ANNANDALE NSW | rating=3.02 vac=1.57%
+armidale-nsw-2350  # ARMIDALE NSW | rating=2.98 vac=0.97%
+arncliffe-nsw-2205  # ARNCLIFFE NSW | rating=3.05 vac=1.69%
+artarmon-nsw-2064  # ARTARMON NSW | rating=1.68 vac=1.18%
+arumpo-nsw-2715  # ARUMPO NSW | rating=2.44 vac=0.0114%
+ashby-nsw-2463  # ASHBY NSW | rating=2.04 vac=0.7%
+ashfield-nsw-2131  # ASHFIELD NSW | rating=2.22 vac=1.43%
+ashford-nsw-2361  # ASHFORD NSW | rating=2.52 vac=0.0%
+attunga-nsw-2345  # ATTUNGA NSW | rating=1.94 vac=0.0%
+auburn-nsw-2144  # AUBURN NSW | rating=2.45 vac=1.0%
+avoca-beach-nsw-2251  # AVOCA BEACH NSW | rating=2.4 vac=0.76%
+badgerys-creek-nsw-2555  # BADGERYS CREEK NSW | rating=1.65 vac=0.0%
+baerami-nsw-2333  # BAERAMI NSW | rating=3.44 vac=1.34%
+balgowlah-nsw-2093  # BALGOWLAH NSW | rating=2.66 vac=0.43%
+ballina-nsw-2478  # BALLINA NSW | rating=3.12 vac=0.37%
+balmain-nsw-2041  # BALMAIN NSW | rating=3.09 vac=1.17%
+bangalow-nsw-2479  # BANGALOW NSW | rating=2.92 vac=1.53%
+bankstown-nsw-2200  # BANKSTOWN NSW | rating=2.55 vac=0.67%
+barmedman-nsw-2668  # BARMEDMAN NSW | rating=3.21 vac=0.0%
+barrack-heights-nsw-2528  # BARRACK HEIGHTS NSW | rating=3.16 vac=0.21%
+barrington-nsw-2422  # BARRINGTON NSW | rating=2.92 vac=1.15%
+bass-hill-nsw-2197  # BASS HILL NSW | rating=2.84 vac=0.78%
+batemans-bay-nsw-2536  # BATEMANS BAY NSW | rating=3.01 vac=2.24%
+bathurst-nsw-2795  # BATHURST NSW | rating=3.57 vac=0.87%
+batlow-nsw-2730  # BATLOW NSW | rating=2.28 vac=0.0%
+baulkham-hills-nsw-2153  # BAULKHAM HILLS NSW | rating=3.34 vac=1.45%
+bayview-nsw-2104  # BAYVIEW NSW | rating=1.23 vac=1.68%
+beecroft-nsw-2119  # BEECROFT NSW | rating=3.11 vac=0.12%
+bega-nsw-2550  # BEGA NSW | rating=2.77 vac=1.75%
+belfield-nsw-2191  # BELFIELD NSW | rating=2.25 vac=0.84%
+bellevue-hill-nsw-2023  # BELLEVUE HILL NSW | rating=2.21 vac=1.78%
+belmont-nsw-2280  # BELMONT NSW | rating=3.51 vac=0.43%
+belmore-nsw-2192  # BELMORE NSW | rating=3.07 vac=1.19%
+belrose-nsw-2085  # BELROSE NSW | rating=2.74 vac=1.11%
+berkeley-nsw-2506  # BERKELEY NSW | rating=2.67 vac=0.0%
+berowa-nsw-2081  # BEROWA NSW | rating=2.76 vac=0.0%
+berowra-waters-nsw-2082  # BEROWRA WATERS NSW | rating=2.74 vac=1.63%
+berry-nsw-2535  # BERRY NSW | rating=2.44 vac=0.98%
+beryl-nsw-2852  # BERYL NSW | rating=2.84 vac=0.0179%
+bexley-nsw-2207  # BEXLEY NSW | rating=3.49 vac=2.01%
+bilambil-nsw-2486  # BILAMBIL NSW | rating=3.3 vac=0.81%
+bingara-nsw-2404  # BINGARA NSW | rating=2.11 vac=0.0526%
+blackheath-nsw-2785  # BLACKHEATH NSW | rating=2.42 vac=0.0116%
+blacktown-nsw-2148  # BLACKTOWN NSW | rating=3.32 vac=1.26%
+blair-athol-nsw-2560  # BLAIR ATHOL NSW | rating=3.54 vac=1.06%
+blakehurst-nsw-2221  # BLAKEHURST NSW | rating=2.92 vac=2.15%
+blaxand-nsw-2774  # BLAXAND NSW | rating=3.55 vac=0.39%
+blighty-nsw-2713  # BLIGHTY NSW | rating=3.1 vac=4.05%
+blue-nobby-nsw-2408  # BLUE NOBBY NSW | rating=2.8 vac=0.0%
+boggabilla-nsw-2409  # BOGGABILLA NSW | rating=1.92 vac=0.0%
+bondi-nsw-2026  # BONDI NSW | rating=2.74 vac=1.9%
+bondi-junction-nsw-2022  # BONDI JUNCTION NSW | rating=2.56 vac=1.15%
+bonnyrigg-nsw-2177  # BONNYRIGG NSW | rating=3.48 vac=0.56%
+boolaroo-nsw-2284  # BOOLAROO NSW | rating=3.46 vac=0.43%
+boomanoomana-nsw-2712  # BOOMANOOMANA NSW | rating=2.42 vac=0.0%
+boomi-nsw-2405  # BOOMI NSW | rating=2.08 vac=0.0%
+booral-nsw-2425  # BOORAL NSW | rating=2.18 vac=0.0213%
+boree-creek-nsw-2652  # BOREE CREEK NSW | rating=2.21 vac=0.0062%
+botany-nsw-2019  # BOTANY NSW | rating=1.91 vac=1.19%
+bourke-nsw-2840  # BOURKE NSW | rating=3.13 vac=0.0%
+bournewood-nsw-2868  # BOURNEWOOD NSW | rating=2.17 vac=0.0%
+bowral-nsw-2576  # BOWRAL NSW | rating=3.06 vac=1.91%
+bowraville-nsw-2449  # BOWRAVILLE NSW | rating=2.24 vac=0.0219%
+box-hill-nsw-2765  # BOX HILL NSW | rating=2.85 vac=3.12%
+branxton-nsw-2335  # BRANXTON NSW | rating=3.0 vac=2.12%
+brighton-le-sands-nsw-2216  # BRIGHTON-LE-SANDS NSW | rating=2.58 vac=1.45%
+bringelly-nsw-2556  # BRINGELLY NSW | rating=1.55 vac=0.0127%
+broadmeadow-nsw-2292  # BROADMEADOW NSW | rating=2.66 vac=1.08%
+broken-hill-nsw-2880  # BROKEN HILL NSW | rating=3.49 vac=0.0139%
+bronte-nsw-2024  # BRONTE NSW | rating=2.55 vac=0.85%
+brooklyn-nsw-2083  # BROOKLYN NSW | rating=2.22 vac=0.0472%
+brookvale-nsw-2100  # BROOKVALE NSW | rating=2.77 vac=0.37%
+buddabadah-nsw-2825  # BUDDABADAH NSW | rating=2.35 vac=0.0%
+budgewoi-nsw-2262  # BUDGEWOI NSW | rating=3.68 vac=0.56%
+bulahdelah-nsw-2423  # BULAHDELAH NSW | rating=1.67 vac=0.0333%
+bulla-nsw-2835  # BULLA NSW | rating=2.82 vac=0.0105%
+bullaburra-nsw-2784  # BULLABURRA NSW | rating=1.29 vac=0.0%
+bulli-nsw-2516  # BULLI NSW | rating=3.04 vac=0.4%
+bundanoon-nsw-2578  # BUNDANOON NSW | rating=2.04 vac=0.006%
+bundarra-nsw-2359  # BUNDARRA NSW | rating=2.12 vac=600.0%
+bundella-nsw-2343  # BUNDELLA NSW | rating=2.36 vac=0.79%
+bundemar-nsw-2823  # BUNDEMAR NSW | rating=2.45 vac=0.0088%
+bundure-nsw-2700  # BUNDURE NSW | rating=3.23 vac=0.0132%
+buronga-nsw-2739  # BURONGA NSW | rating=1.2 vac=4.26%
+burringbar-nsw-2483  # BURRINGBAR NSW | rating=2.58 vac=0.71%
+burwood-nsw-2134  # BURWOOD NSW | rating=2.52 vac=2.08%
+busby-nsw-2168  # BUSBY NSW | rating=3.4 vac=0.7%
+byron-bay-nsw-2481  # BYRON BAY NSW | rating=2.18 vac=0.5%
+cabramatta-nsw-2166  # CABRAMATTA NSW | rating=3.65 vac=1.22%
+cambewarra-nsw-2540  # CAMBEWARRA NSW | rating=3.12 vac=1.84%
+camden-nsw-2570  # CAMDEN NSW | rating=3.25 vac=1.05%
+cammeray-nsw-2062  # CAMMERAY NSW | rating=2.31 vac=0.61%
+camperdown-nsw-2050  # CAMPERDOWN NSW | rating=3.0 vac=2.37%
+campsie-nsw-2194  # CAMPSIE NSW | rating=2.5 vac=1.45%
+canterbury-nsw-2193  # CANTERBURY NSW | rating=2.82 vac=0.95%
+capertree-nsw-2846  # CAPERTREE NSW | rating=2.07 vac=0.0%
+captains-flat-nsw-2623  # CAPTAINS FLAT NSW | rating=1.84 vac=0.0286%
+cardiff-nsw-2285  # CARDIFF NSW | rating=3.96 vac=0.34%
+caringbah-nsw-2229  # CARINGBAH NSW | rating=2.96 vac=1.21%
+carlingford-nsw-2118  # CARLINGFORD NSW | rating=2.51 vac=0.89%
+carlton-nsw-2218  # CARLTON NSW | rating=3.05 vac=0.86%
+carrington-nsw-2294  # CARRINGTON NSW | rating=3.02 vac=0.27%
+castle-hill-nsw-2154  # CASTLE HILL NSW | rating=2.55 vac=2.44%
+castlereagh-nsw-2749  # CASTLEREAGH NSW | rating=3.6 vac=0.95%
+catherine-field-nsw-2557  # CATHERINE FIELD NSW | rating=2.84 vac=1.94%
+cecil-hills-nsw-2171  # CECIL HILLS NSW | rating=3.61 vac=0.77%
+cecil-park-nsw-2178  # CECIL PARK NSW | rating=2.54 vac=0.0216%
+cessnock-nsw-2325  # CESSNOCK NSW | rating=3.43 vac=1.55%
+charlestown-nsw-2290  # CHARLESTOWN NSW | rating=3.43 vac=0.38%
+chatswood-nsw-2067  # CHATSWOOD NSW | rating=2.55 vac=1.32%
+cherrybrook-nsw-2126  # CHERRYBROOK NSW | rating=3.43 vac=1.2%
+chippingdale-nsw-2008  # CHIPPINGDALE NSW | rating=2.12 vac=3.3%
+chisholm-nsw-2322  # CHISHOLM NSW | rating=3.7 vac=0.62%
+claymore-nsw-2559  # CLAYMORE NSW | rating=1.83 vac=0.0042%
+clifton-nsw-2515  # CLIFTON NSW | rating=2.67 vac=1.06%
+clovelly-nsw-2031  # CLOVELLY NSW | rating=2.18 vac=1.18%
+cobram-nsw-3644  # COBRAM NSW | rating=2.57 vac=0.75%
+coffs-harbour-nsw-2450  # COFFS HARBOUR NSW | rating=3.24 vac=1.1%
+coleambally-nsw-2707  # COLEAMBALLY NSW | rating=2.49 vac=0.0%
+colinton-nsw-2626  # COLINTON NSW | rating=2.09 vac=0.0%
+collarenebri-nsw-2833  # COLLARENEBRI NSW | rating=2.74 vac=0.0141%
+collaroy-nsw-2097  # COLLAROY NSW | rating=2.68 vac=0.71%
+concord-nsw-2137  # CONCORD NSW | rating=2.4 vac=1.26%
+condobolin-nsw-2877  # CONDOBOLIN NSW | rating=3.03 vac=0.0108%
+congarinni-nsw-2447  # CONGARINNI NSW | rating=2.8 vac=0.82%
+coogee-nsw-2034  # COOGEE NSW | rating=2.3 vac=0.77%
+coolabah-nsw-2831  # COOLABAH NSW | rating=2.0 vac=0.0%
+coolac-nsw-2727  # COOLAC NSW | rating=2.53 vac=0.0%
+coolah-nsw-2843  # COOLAH NSW | rating=2.04 vac=0.0656%
+cooma-nsw-2630  # COOMA NSW | rating=3.05 vac=0.0143%
+cootamundra-nsw-2590  # COOTAMUNDRA NSW | rating=3.12 vac=0.95%
+coraki-nsw-2471  # CORAKI NSW | rating=2.52 vac=0.95%
+corindi-beach-nsw-2456  # CORINDI BEACH NSW | rating=2.77 vac=1.24%
+corrimal-nsw-2518  # CORRIMAL NSW | rating=3.39 vac=0.03%
+cowra-nsw-2794  # COWRA NSW | rating=3.05 vac=1.1%
+cremorne-nsw-2090  # CREMORNE NSW | rating=2.79 vac=1.04%
+cronulla-nsw-2230  # CRONULLA NSW | rating=2.24 vac=0.83%
+croppa-creek-nsw-2411  # CROPPA CREEK NSW | rating=0.66 vac=0.0%
+crows-nest-nsw-2065  # CROWS NEST NSW | rating=2.11 vac=1.54%
+croydon-nsw-2132  # CROYDON NSW | rating=2.34 vac=2.13%
+cumborah-nsw-2832  # CUMBORAH NSW | rating=1.97 vac=0.0%
+curl-curl-nsw-2096  # CURL CURL NSW | rating=3.08 vac=0.33%
+curlew-waters-nsw-2672  # CURLEW WATERS NSW | rating=2.98 vac=0.0%
+currabubula-nsw-2342  # CURRABUBULA NSW | rating=2.18 vac=0.0%
+dapto-nsw-2530  # DAPTO NSW | rating=3.61 vac=0.49%
+darbys-falls-nsw-2793  # DARBYS FALLS NSW | rating=2.35 vac=0.0%
+dareton-nsw-2717  # DARETON NSW | rating=1.29 vac=1.24%
+darlinghurst-nsw-2010  # DARLINGHURST NSW | rating=2.97 vac=1.07%
+darlington-point-nsw-2706  # DARLINGTON POINT NSW | rating=2.0 vac=0.0361%
+dee-why-nsw-2099  # DEE WHY NSW | rating=2.77 vac=0.45%
+deep-creek-nsw-2440  # DEEP CREEK NSW | rating=3.03 vac=1.28%
+delungra-nsw-2403  # DELUNGRA NSW | rating=2.15 vac=0.0%
+deniliquin-nsw-2710  # DENILIQUIN NSW | rating=2.44 vac=0.13%
+dhuragoon-nsw-2733  # DHURAGOON NSW | rating=1.8 vac=0.0%
+dilpurra-nsw-2734  # DILPURRA NSW | rating=0.96 vac=0.0%
+doonside-nsw-2767  # DOONSIDE NSW | rating=3.43 vac=0.62%
+dorrigo-nsw-2453  # DORRIGO NSW | rating=3.19 vac=0.0052%
+double-bay-nsw-2028  # DOUBLE BAY NSW | rating=1.47 vac=2.38%
+douglas-park-nsw-2569  # DOUGLAS PARK NSW | rating=1.75 vac=0.0606%
+drummoyne-nsw-2047  # DRUMMOYNE NSW | rating=2.24 vac=1.87%
+dubbo-nsw-2830  # DUBBO NSW | rating=3.4 vac=0.65%
+duea-nsw-2537  # DUEA NSW | rating=2.75 vac=5.4%
+dulwich-hill-nsw-2203  # DULWICH HILL NSW | rating=3.43 vac=1.18%
+dundee-nsw-2370  # DUNDEE NSW | rating=2.97 vac=0.73%
+dunedoo-nsw-2844  # DUNEDOO NSW | rating=2.01 vac=0.0%
+dungog-nsw-2420  # DUNGOG NSW | rating=2.69 vac=2.82%
+dural-nsw-2158  # DURAL NSW | rating=2.16 vac=1.97%
+duri-nsw-2344  # DURI NSW | rating=1.91 vac=0.0%
+earlwood-nsw-2206  # EARLWOOD NSW | rating=3.04 vac=0.42%
+east-hills-nsw-2213  # EAST HILLS NSW | rating=3.44 vac=0.66%
+east-maitland-nsw-2323  # EAST MAITLAND NSW | rating=3.69 vac=0.8%
+eastwood-nsw-2122  # EASTWOOD NSW | rating=3.26 vac=1.12%
+eden-creek-nsw-2474  # EDEN CREEK NSW | rating=2.24 vac=1.04%
+edmondson-park-nsw-2174  # EDMONDSON PARK NSW | rating=2.81 vac=1.53%
+enfield-south-nsw-2133  # ENFIELD SOUTH NSW | rating=2.6 vac=1.26%
+epping-nsw-2121  # EPPING NSW | rating=2.59 vac=0.89%
+ermington-nsw-2115  # ERMINGTON NSW | rating=2.04 vac=0.84%
+errowanbang-nsw-2791  # ERROWANBANG NSW | rating=1.73 vac=0.0625%
+erskineville-nsw-2043  # ERSKINEVILLE NSW | rating=1.93 vac=1.09%
+eugowra-nsw-2806  # EUGOWRA NSW | rating=2.28 vac=0.0%
+eurimbla-nsw-2867  # EURIMBLA NSW | rating=2.17 vac=0.0%
+euston-nsw-2737  # EUSTON NSW | rating=2.3 vac=0.0%
+evans-head-nsw-2473  # EVANS HEAD NSW | rating=2.15 vac=0.68%
+fairfield-nsw-2165  # FAIRFIELD NSW | rating=3.3 vac=0.76%
+fairlight-nsw-2094  # FAIRLIGHT NSW | rating=2.69 vac=0.48%
+faulconbridge-nsw-2776  # FAULCONBRIDGE NSW | rating=2.27 vac=0.0063%
+ferodale-nsw-2318  # FERODALE NSW | rating=3.27 vac=0.21%
+figtree-nsw-2525  # FIGTREE NSW | rating=2.86 vac=0.6%
+five-dock-nsw-2046  # FIVE DOCK NSW | rating=2.65 vac=0.89%
+forbes-nsw-2871  # FORBES NSW | rating=2.55 vac=2.11%
+forest-hill-nsw-2651  # FOREST HILL NSW | rating=3.57 vac=0.0%
+forster-nsw-2428  # FORSTER NSW | rating=2.91 vac=0.65%
+frenchs-forest-nsw-2086  # FRENCHS FOREST NSW | rating=2.47 vac=1.36%
+galong-nsw-2585  # GALONG NSW | rating=2.42 vac=0.0%
+galston-nsw-2159  # GALSTON NSW | rating=1.86 vac=0.5%
+ganmain-nsw-2702  # GANMAIN NSW | rating=2.38 vac=0.04%
+garland-nsw-2797  # GARLAND NSW | rating=2.51 vac=0.04%
+georges-hall-nsw-2198  # GEORGES HALL NSW | rating=3.02 vac=0.97%
+gerroa-nsw-2534  # GERROA NSW | rating=2.55 vac=0.89%
+gladesville-nsw-2111  # GLADESVILLE NSW | rating=2.19 vac=1.08%
+glebe-nsw-2037  # GLEBE NSW | rating=2.72 vac=1.62%
+glemore-park-nsw-2745  # GLEMORE PARK NSW | rating=3.63 vac=0.86%
+glendon-nsw-2330  # GLENDON NSW | rating=3.3 vac=0.68%
+glenfield-nsw-2167  # GLENFIELD NSW | rating=3.17 vac=0.94%
+glenorie-nsw-2157  # GLENORIE NSW | rating=2.64 vac=0.044%
+goolhi-nsw-2379  # GOOLHI NSW | rating=2.4 vac=0.0%
+gooloogong-nsw-2805  # GOOLOOGONG NSW | rating=2.48 vac=0.0%
+gordon-nsw-2072  # GORDON NSW | rating=1.88 vac=1.58%
+gosford-nsw-2250  # GOSFORD NSW | rating=3.13 vac=0.65%
+gouburn-nsw-2580  # GOUBURN NSW | rating=3.26 vac=0.98%
+grafton-nsw-2460  # GRAFTON NSW | rating=3.11 vac=0.65%
+grahamstown-nsw-2729  # GRAHAMSTOWN NSW | rating=1.98 vac=0.0164%
+granville-nsw-2142  # GRANVILLE NSW | rating=2.4 vac=1.35%
+gravesend-nsw-2401  # GRAVESEND NSW | rating=2.3 vac=0.0%
+greenacre-nsw-2190  # GREENACRE NSW | rating=3.17 vac=1.37%
+greenethorpe-nsw-2809  # GREENETHORPE NSW | rating=1.4 vac=0.0%
+grenfell-nsw-2810  # GRENFELL NSW | rating=1.75 vac=0.0%
+gresford-nsw-2311  # GRESFORD NSW | rating=2.19 vac=0.0556%
+greta-nsw-2334  # GRETA NSW | rating=3.19 vac=1.77%
+griffith-nsw-2680  # GRIFFITH NSW | rating=3.16 vac=0.92%
+growee-nsw-2849  # GROWEE NSW | rating=1.38 vac=0.0545%
+guildford-nsw-2161  # GUILDFORD NSW | rating=2.8 vac=1.03%
+gundagai-nsw-2722  # GUNDAGAI NSW | rating=2.08 vac=1.44%
+gunnedah-nsw-2380  # GUNNEDAH NSW | rating=3.53 vac=1.36%
+gunningbland-nsw-2876  # GUNNINGBLAND NSW | rating=2.03 vac=0.0%
+gwabegar-nsw-2356  # GWABEGAR NSW | rating=1.44 vac=77500.0%
+gymea-nsw-2227  # GYMEA NSW | rating=3.35 vac=0.39%
+haberfield-nsw-2045  # HABERFIELD NSW | rating=3.05 vac=1.15%
+hamilton-nsw-2303  # HAMILTON NSW | rating=3.07 vac=0.68%
+harrington-nsw-2427  # HARRINGTON NSW | rating=2.72 vac=1.68%
+harwood-nsw-2465  # HARWOOD NSW | rating=1.65 vac=0.0%
+hay-nsw-2711  # HAY NSW | rating=2.56 vac=0.0082%
+hazelbrook-nsw-2779  # HAZELBROOK NSW | rating=2.4 vac=1.07%
+hillston-nsw-2675  # HILLSTON NSW | rating=2.56 vac=0.0152%
+homebush-nsw-2140  # HOMEBUSH NSW | rating=2.97 vac=1.79%
+hornsby-nsw-2077  # HORNSBY NSW | rating=2.96 vac=1.0%
+horsley-park-nsw-2175  # HORSLEY PARK NSW | rating=1.49 vac=0.0119%
+howlong-nsw-2643  # HOWLONG NSW | rating=3.41 vac=0.43%
+hunters-hill-nsw-2110  # HUNTERS HILL NSW | rating=2.4 vac=1.48%
+hurstville-nsw-2220  # HURSTVILLE NSW | rating=2.57 vac=1.51%
+illalong-creek-nsw-2584  # ILLALONG CREEK NSW | rating=1.79 vac=0.5%
+iluka-nsw-2466  # ILUKA NSW | rating=2.54 vac=1.14%
+ingleburn-nsw-2565  # INGLEBURN NSW | rating=3.42 vac=1.54%
+ironbark-nsw-2347  # IRONBARK NSW | rating=2.08 vac=0.0222%
+islington-nsw-2296  # ISLINGTON NSW | rating=3.27 vac=0.72%
+ivanhoe-nsw-2878  # IVANHOE NSW | rating=1.33 vac=0.0%
+jacksons-flat-nsw-2469  # JACKSONS FLAT NSW | rating=2.01 vac=0.0085%
+jannali-nsw-2226  # JANNALI NSW | rating=2.46 vac=0.1%
+jerrabomberra-nsw-2619  # JERRABOMBERRA NSW | rating=2.73 vac=0.0%
+jesmond-nsw-2299  # JESMOND NSW | rating=3.13 vac=3.41%
+jindabyne-nsw-2627  # JINDABYNE NSW | rating=2.4 vac=5.74%
+jugiong-nsw-2726  # JUGIONG NSW | rating=1.92 vac=0.0%
+kandos-nsw-2848  # KANDOS NSW | rating=3.06 vac=0.0048%
+kangaroo-valley-nsw-2577  # KANGAROO VALLEY NSW | rating=2.84 vac=1.08%
+katoomba-nsw-2780  # KATOOMBA NSW | rating=3.32 vac=1.65%
+kearns-nsw-2558  # KEARNS NSW | rating=3.16 vac=0.61%
+kellyville-nsw-2155  # KELLYVILLE NSW | rating=3.61 vac=1.29%
+kembla-grange-nsw-2526  # KEMBLA GRANGE NSW | rating=3.06 vac=0.4%
+kenebri-nsw-2396  # KENEBRI NSW | rating=2.41 vac=0.0%
+kensington-nsw-2033  # KENSINGTON NSW | rating=1.36 vac=2.3%
+kenthurst-nsw-2156  # KENTHURST NSW | rating=2.36 vac=2.05%
+kentucky-nsw-2354  # KENTUCKY NSW | rating=2.27 vac=1.27%
+kerrabee-nsw-2328  # KERRABEE NSW | rating=1.89 vac=0.51%
+kew-nsw-2439  # KEW NSW | rating=1.74 vac=0.0038%
+kiama-nsw-2533  # KIAMA NSW | rating=3.03 vac=0.93%
+killara-nsw-2071  # KILLARA NSW | rating=2.2 vac=2.63%
+killarney-heights-nsw-2087  # KILLARNEY HEIGHTS NSW | rating=2.62 vac=1.42%
+kingscliff-nsw-2487  # KINGSCLIFF NSW | rating=2.09 vac=1.03%
+kingsford-nsw-2032  # KINGSFORD NSW | rating=2.48 vac=3.58%
+kingsgrove-nsw-2208  # KINGSGROVE NSW | rating=3.18 vac=0.52%
+knorrit-flat-nsw-2424  # KNORRIT FLAT NSW | rating=1.88 vac=0.0476%
+koorawatha-nsw-2807  # KOORAWATHA NSW | rating=2.36 vac=0.0%
+kootingal-nsw-2352  # KOOTINGAL NSW | rating=2.96 vac=0.0072%
+koraleigh-nsw-2735  # KORALEIGH NSW | rating=2.09 vac=0.0%
+kotara-nsw-2289  # KOTARA NSW | rating=4.02 vac=0.61%
+kurmond-nsw-2757  # KURMOND NSW | rating=1.4 vac=0.0263%
+kurnell-nsw-2231  # KURNELL NSW | rating=1.69 vac=0.66%
+kurrajong-nsw-2758  # KURRAJONG NSW | rating=3.11 vac=0.0191%
+kurri-kurri-nsw-2327  # KURRI KURRI NSW | rating=3.5 vac=0.59%
+la-perouse-nsw-2036  # LA PEROUSE NSW | rating=2.47 vac=1.38%
+lake-cathie-nsw-2445  # LAKE CATHIE NSW | rating=3.26 vac=0.57%
+lakemba-nsw-2195  # LAKEMBA NSW | rating=2.83 vac=1.35%
+lane-cove-nsw-2066  # LANE COVE NSW | rating=3.08 vac=0.77%
+lapstone-nsw-2773  # LAPSTONE NSW | rating=2.84 vac=0.39%
+lawson-nsw-2783  # LAWSON NSW | rating=2.58 vac=0.59%
+leichhardt-nsw-2040  # LEICHHARDT NSW | rating=2.84 vac=0.82%
+leppington-nsw-2179  # LEPPINGTON NSW | rating=2.83 vac=0.0544%
+lidcombe-nsw-2141  # LIDCOMBE NSW | rating=3.08 vac=1.31%
+lindfield-nsw-2070  # LINDFIELD NSW | rating=2.82 vac=3.06%
+lismore-nsw-2480  # LISMORE NSW | rating=2.68 vac=0.48%
+liston-nsw-2372  # LISTON NSW | rating=2.7 vac=0.3%
+liverpool-nsw-2170  # LIVERPOOL NSW | rating=3.62 vac=0.92%
+mabins-well-nsw-2716  # MABINS WELL NSW | rating=2.24 vac=0.2222%
+macquarie-fields-nsw-2564  # MACQUARIE FIELDS NSW | rating=3.37 vac=0.73%
+macquarie-park-nsw-2113  # MACQUARIE PARK NSW | rating=3.07 vac=1.5%
+macquarie-university-nsw-2109  # MACQUARIE UNIVERSITY NSW | rating=1.46 vac=0.0%
+maitland-nsw-2320  # MAITLAND NSW | rating=3.58 vac=1.09%
+mandurama-nsw-2792  # MANDURAMA NSW | rating=2.12 vac=0.0%
+manildra-nsw-2865  # MANILDRA NSW | rating=1.96 vac=0.0%
+manilla-nsw-2346  # MANILLA NSW | rating=2.66 vac=0.0087%
+manly-nsw-2095  # MANLY NSW | rating=2.65 vac=0.88%
+maroubra-nsw-2035  # MAROUBRA NSW | rating=2.64 vac=1.1%
+marrickville-nsw-2204  # MARRICKVILLE NSW | rating=3.1 vac=0.8%
+martinsville-nsw-2265  # MARTINSVILLE NSW | rating=3.51 vac=0.0128%
+mascot-nsw-2020  # MASCOT NSW | rating=2.6 vac=3.01%
+mayfield-nsw-2304  # MAYFIELD NSW | rating=3.72 vac=0.9%
+meadowbank-nsw-2114  # MEADOWBANK NSW | rating=2.96 vac=1.96%
+menai-nsw-2234  # MENAI NSW | rating=2.64 vac=0.56%
+menangle-nsw-2568  # MENANGLE NSW | rating=1.27 vac=0.0857%
+menangle-park-nsw-2563  # MENANGLE PARK NSW | rating=3.2 vac=0.2549%
+menindee-nsw-2879  # MENINDEE NSW | rating=2.03 vac=0.0%
+merewether-nsw-2291  # MEREWETHER NSW | rating=3.55 vac=0.55%
+merrigal-nsw-2827  # MERRIGAL NSW | rating=2.23 vac=0.0%
+merriwa-nsw-2329  # MERRIWA NSW | rating=2.25 vac=0.0099%
+merrylands-nsw-2160  # MERRYLANDS NSW | rating=3.01 vac=1.16%
+millie-nsw-2397  # MILLIE NSW | rating=2.15 vac=200000.0%
+milperra-nsw-2214  # MILPERRA NSW | rating=1.7 vac=3.23%
+milsons-point-nsw-2061  # MILSONS POINT NSW | rating=2.05 vac=1.19%
+milton-nsw-2538  # MILTON NSW | rating=2.13 vac=0.016%
+minimbah-nsw-2312  # MINIMBAH NSW | rating=2.18 vac=0.0%
+minto-nsw-2566  # MINTO NSW | rating=3.47 vac=0.75%
+miranda-nsw-2228  # MIRANDA NSW | rating=2.91 vac=0.57%
+mittagong-nsw-2575  # MITTAGONG NSW | rating=3.01 vac=0.7%
+mollymook-nsw-2539  # MOLLYMOOK NSW | rating=2.49 vac=0.42%
+mona-vale-nsw-2103  # MONA VALE NSW | rating=2.3 vac=0.67%
+monogogarie-nsw-2470  # MONOGOGARIE NSW | rating=3.29 vac=0.62%
+moonbi-nsw-2353  # MOONBI NSW | rating=1.5 vac=0.0%
+moorbel-nsw-2804  # MOORBEL NSW | rating=1.93 vac=0.0049%
+morisset-nsw-2264  # MORISSET NSW | rating=3.1 vac=0.86%
+morven-nsw-2660  # MORVEN NSW | rating=1.85 vac=0.0%
+mosman-nsw-2088  # MOSMAN NSW | rating=2.47 vac=1.14%
+moto-nsw-2426  # MOTO NSW | rating=2.17 vac=0.0625%
+mount-colah-nsw-2079  # MOUNT COLAH NSW | rating=2.72 vac=0.97%
+mount-druitt-nsw-2770  # MOUNT DRUITT NSW | rating=3.3 vac=0.85%
+mount-kuring-gai-nsw-2080  # MOUNT KURING-GAI NSW | rating=2.0 vac=1.64%
+mount-pleasant-nsw-2519  # MOUNT PLEASANT NSW | rating=3.39 vac=0.52%
+mount-wilson-nsw-2786  # MOUNT WILSON NSW | rating=1.41 vac=0.0313%
+mudgee-nsw-2850  # MUDGEE NSW | rating=2.91 vac=2.37%
+mullumbimby-nsw-2482  # MULLUMBIMBY NSW | rating=2.61 vac=1.15%
+mulwala-nsw-2647  # MULWALA NSW | rating=1.86 vac=5.56%
+murwillumbah-nsw-2484  # MURWILLUMBAH NSW | rating=2.99 vac=0.62%
+nambucca-heads-nsw-2448  # NAMBUCCA HEADS NSW | rating=2.81 vac=1.15%
+narellan-nsw-2567  # NARELLAN NSW | rating=3.57 vac=0.52%
+narooma-nsw-2546  # NAROOMA NSW | rating=2.27 vac=1.27%
+narrabeen-nsw-2101  # NARRABEEN NSW | rating=2.6 vac=0.29%
+narrabri-nsw-2390  # NARRABRI NSW | rating=3.07 vac=0.78%
+narromine-nsw-2821  # NARROMINE NSW | rating=2.62 vac=0.0269%
+narwee-nsw-2209  # NARWEE NSW | rating=3.05 vac=0.82%
+nelsons-bay-nsw-2315  # NELSONS BAY NSW | rating=3.19 vac=0.47%
+neutral-bay-nsw-2089  # NEUTRAL BAY NSW | rating=2.32 vac=1.49%
+new-lambton-nsw-2305  # NEW LAMBTON NSW | rating=3.68 vac=0.57%
+newcastle-nsw-2300  # NEWCASTLE NSW | rating=3.01 vac=1.12%
+newcastle-west-nsw-2302  # NEWCASTLE WEST NSW | rating=2.74 vac=0.68%
+newington-nsw-2127  # NEWINGTON NSW | rating=2.97 vac=1.43%
+newnes-nsw-2790  # NEWNES NSW | rating=2.64 vac=1.74%
+newport-nsw-2106  # NEWPORT NSW | rating=2.28 vac=0.94%
+newstead-nsw-2360  # NEWSTEAD NSW | rating=3.25 vac=0.23%
+newtown-nsw-2042  # NEWTOWN NSW | rating=2.43 vac=0.96%
+nooroo-nsw-2415  # NOOROO NSW | rating=1.76 vac=0.0385%
+north-parramatta-nsw-2151  # NORTH PARRAMATTA NSW | rating=2.67 vac=1.09%
+north-sydney-nsw-2060  # NORTH SYDNEY NSW | rating=2.09 vac=0.81%
+northbridge-nsw-2063  # NORTHBRIDGE NSW | rating=1.84 vac=1.59%
+northmead-nsw-2152  # NORTHMEAD NSW | rating=3.34 vac=1.18%
+nowra-nsw-2545  # NOWRA NSW | rating=1.79 vac=0.0741%
+oatlands-nsw-2117  # OATLANDS NSW | rating=3.0 vac=1.25%
+oatley-nsw-2223  # OATLEY NSW | rating=2.82 vac=0.79%
+oberon-nsw-2787  # OBERON NSW | rating=2.67 vac=2.78%
+one-mile-nsw-2316  # ONE MILE NSW | rating=1.65 vac=0.56%
+orange-nsw-2800  # ORANGE NSW | rating=3.08 vac=0.83%
+orchard-hills-nsw-2748  # ORCHARD HILLS NSW | rating=1.68 vac=0.037%
+oxley-nsw-2824  # OXLEY NSW | rating=2.55 vac=0.0072%
+oyster-bay-nsw-2225  # OYSTER BAY NSW | rating=1.32 vac=1.24%
+paddington-nsw-2021  # PADDINGTON NSW | rating=2.27 vac=1.3%
+padstow-nsw-2211  # PADSTOW NSW | rating=2.87 vac=0.79%
+pallamallawa-nsw-2399  # PALLAMALLAWA NSW | rating=1.9 vac=0.0%
+palm-beach-nsw-2108  # PALM BEACH NSW | rating=1.41 vac=8.47%
+palmdale-nsw-2258  # PALMDALE NSW | rating=2.26 vac=0.85%
+pambula-nsw-2549  # PAMBULA NSW | rating=2.78 vac=2.38%
+pappinbarra-nsw-2446  # PAPPINBARRA NSW | rating=2.64 vac=0.41%
+parkes-nsw-2870  # PARKES NSW | rating=3.2 vac=1.44%
+parklea-nsw-2768  # PARKLEA NSW | rating=2.95 vac=0.54%
+parramatta-nsw-2150  # PARRAMATTA NSW | rating=3.38 vac=1.18%
+peakhurst-nsw-2210  # PEAKHURST NSW | rating=2.9 vac=0.73%
+penrith-nsw-2750  # PENRITH NSW | rating=3.66 vac=0.69%
+penshurst-nsw-2222  # PENSHURST NSW | rating=2.8 vac=1.22%
+perisher-valley-nsw-2624  # PERISHER VALLEY NSW | rating=0.69 vac=0.0%
+petersham-nsw-2049  # PETERSHAM NSW | rating=2.65 vac=1.34%
+picton-nsw-2571  # PICTON NSW | rating=3.32 vac=2.92%
+pilliga-nsw-2388  # PILLIGA NSW | rating=2.83 vac=0.0142%
+pleasant-hills-nsw-2658  # PLEASANT HILLS NSW | rating=2.8 vac=0.013%
+pleasure-point-nsw-2172  # PLEASURE POINT NSW | rating=1.2 vac=0.0134%
+plumpton-nsw-2761  # PLUMPTON NSW | rating=3.66 vac=0.75%
+point-piper-nsw-2027  # POINT PIPER NSW | rating=2.06 vac=3.14%
+port-kembla-nsw-2505  # PORT KEMBLA NSW | rating=3.22 vac=0.58%
+port-macquarie-nsw-2444  # PORT MACQUARIE NSW | rating=3.21 vac=0.33%
+portland-nsw-2847  # PORTLAND NSW | rating=2.29 vac=0.0061%
+potts-point-nsw-2011  # POTTS POINT NSW | rating=2.59 vac=1.51%
+pottsville-nsw-2489  # POTTSVILLE NSW | rating=2.95 vac=0.51%
+pymble-nsw-2073  # PYMBLE NSW | rating=2.72 vac=0.7%
+pyrmont-nsw-2009  # PYRMONT NSW | rating=2.6 vac=2.15%
+quakers-hill-nsw-2763  # QUAKERS HILL NSW | rating=3.56 vac=1.42%
+queanbeyan-nsw-2620  # QUEANBEYAN NSW | rating=3.21 vac=1.09%
+ramsgate-nsw-2217  # RAMSGATE NSW | rating=2.58 vac=1.46%
+rannock-nsw-2701  # RANNOCK NSW | rating=2.11 vac=0.0199%
+redfern-nsw-2016  # REDFERN NSW | rating=2.28 vac=1.14%
+regents-park-nsw-2143  # REGENTS PARK NSW | rating=3.29 vac=0.88%
+revesby-nsw-2212  # REVESBY NSW | rating=3.32 vac=0.85%
+rhodes-nsw-2138  # RHODES NSW | rating=2.36 vac=2.16%
+richmond-nsw-2753  # RICHMOND NSW | rating=3.24 vac=0.65%
+rollands-plains-nsw-2441  # ROLLANDS PLAINS NSW | rating=2.05 vac=0.0201%
+rooty-hill-nsw-2766  # ROOTY HILL NSW | rating=3.31 vac=0.78%
+rose-bay-nsw-2029  # ROSE BAY NSW | rating=1.96 vac=1.23%
+rosebery-nsw-2018  # ROSEBERY NSW | rating=3.13 vac=2.33%
+roselands-nsw-2196  # ROSELANDS NSW | rating=3.24 vac=1.34%
+rosemeath-nsw-2632  # ROSEMEATH NSW | rating=2.31 vac=0.0%
+roseville-nsw-2069  # ROSEVILLE NSW | rating=2.55 vac=2.02%
+rouchel-nsw-2336  # ROUCHEL NSW | rating=2.01 vac=0.52%
+rous-nsw-2477  # ROUS NSW | rating=3.06 vac=0.76%
+rozelle-nsw-2039  # ROZELLE NSW | rating=2.2 vac=2.65%
+rydalmere-nsw-2116  # RYDALMERE NSW | rating=2.69 vac=0.8%
+ryde-nsw-2112  # RYDE NSW | rating=2.29 vac=1.26%
+salamander-bay-nsw-2317  # SALAMANDER BAY NSW | rating=2.05 vac=0.0%
+sans-souci-nsw-2219  # SANS SOUCI NSW | rating=2.74 vac=0.83%
+savernake-nsw-2646  # SAVERNAKE NSW | rating=3.02 vac=2.07%
+schofields-nsw-2762  # SCHOFIELDS NSW | rating=3.26 vac=2.04%
+scone-nsw-2337  # SCONE NSW | rating=2.91 vac=0.4%
+scotland-island-nsw-2105  # SCOTLAND ISLAND NSW | rating=1.78 vac=0.0536%
+seaforth-nsw-2092  # SEAFORTH NSW | rating=2.71 vac=0.28%
+seaham-nsw-2324  # SEAHAM NSW | rating=3.16 vac=0.86%
+seahampton-nsw-2286  # SEAHAMPTON NSW | rating=2.55 vac=0.006%
+sefton-nsw-2162  # SEFTON NSW | rating=2.9 vac=0.96%
+seven-hills-nsw-2147  # SEVEN HILLS NSW | rating=3.45 vac=1.28%
+shellharbour-nsw-2529  # SHELLHARBOUR NSW | rating=3.59 vac=0.47%
+shortland-nsw-2307  # SHORTLAND NSW | rating=2.02 vac=1.63%
+silverdale-nsw-2752  # SILVERDALE NSW | rating=3.19 vac=0.0487%
+silverwater-nsw-2128  # SILVERWATER NSW | rating=1.43 vac=2.0%
+smithfield-nsw-2164  # SMITHFIELD NSW | rating=3.47 vac=0.6%
+snowy-plain-nsw-2628  # SNOWY PLAIN NSW | rating=1.97 vac=8.33%
+south-west-rocks-nsw-2431  # SOUTH WEST ROCKS NSW | rating=2.73 vac=1.43%
+springdale-heights-nsw-2641  # SPRINGDALE HEIGHTS NSW | rating=2.8 vac=0.76%
+springwood-nsw-2777  # SPRINGWOOD NSW | rating=3.19 vac=0.55%
+st-clair-nsw-2759  # ST CLAIR NSW | rating=4.25 vac=0.88%
+st-ives-nsw-2075  # ST IVES NSW | rating=3.19 vac=0.49%
+st-marys-nsw-2760  # ST MARYS NSW | rating=3.56 vac=1.07%
+stanmore-nsw-2048  # STANMORE NSW | rating=2.69 vac=1.73%
+stanwell-tops-nsw-2508  # STANWELL TOPS NSW | rating=2.58 vac=0.39%
+stockinbingal-nsw-2725  # STOCKINBINGAL NSW | rating=2.07 vac=0.0%
+stockton-nsw-2295  # STOCKTON NSW | rating=3.41 vac=0.84%
+strathfield-nsw-2135  # STRATHFIELD NSW | rating=1.91 vac=2.27%
+strathfield-south-nsw-2136  # STRATHFIELD SOUTH NSW | rating=2.53 vac=2.07%
+stuart-town-nsw-2820  # STUART TOWN NSW | rating=3.26 vac=1.1%
+summer-hill-nsw-2130  # SUMMER HILL NSW | rating=2.24 vac=1.77%
+summer-hill-nsw-2421  # SUMMER HILL NSW | rating=1.67 vac=0.0%
+sutherland-nsw-2232  # SUTHERLAND NSW | rating=3.06 vac=0.53%
+swansea-nsw-2281  # SWANSEA NSW | rating=3.01 vac=1.25%
+sydney-cbd-nsw-2000  # SYDNEY CBD NSW | rating=2.34 vac=3.78%
+sylvania-nsw-2224  # SYLVANIA NSW | rating=2.38 vac=0.68%
+tahmoor-nsw-2573  # TAHMOOR NSW | rating=3.19 vac=1.36%
+tallimba-nsw-2669  # TALLIMBA NSW | rating=2.35 vac=0.0%
+tallwood-nsw-2798  # TALLWOOD NSW | rating=2.44 vac=0.0235%
+tambar-springs-nsw-2381  # TAMBAR SPRINGS NSW | rating=2.3 vac=0.0%
+tamworth-nsw-2340  # TAMWORTH NSW | rating=3.63 vac=1.1%
+tanglewood-nsw-2488  # TANGLEWOOD NSW | rating=2.09 vac=0.0%
+tanilba-bay-nsw-2319  # TANILBA BAY NSW | rating=3.35 vac=0.98%
+taree-nsw-2430  # TAREE NSW | rating=3.1 vac=1.48%
+taylors-flat-nsw-2586  # TAYLORS FLAT NSW | rating=2.25 vac=0.0078%
+tempe-nsw-2044  # TEMPE NSW | rating=2.74 vac=0.91%
+tennyson-nsw-2754  # TENNYSON NSW | rating=2.63 vac=0.9%
+teridgerie-nsw-2829  # TERIDGERIE NSW | rating=1.63 vac=0.0%
+terrigal-nsw-2260  # TERRIGAL NSW | rating=3.01 vac=1.17%
+terry-hills-nsw-2084  # TERRY HILLS NSW | rating=1.68 vac=1.47%
+the-entrance-nsw-2261  # THE ENTRANCE NSW | rating=3.03 vac=0.68%
+the-gap-nsw-2472  # THE GAP NSW | rating=2.17 vac=0.0144%
+thirlmere-nsw-2572  # THIRLMERE NSW | rating=2.52 vac=0.0073%
+thornleigh-nsw-2120  # THORNLEIGH NSW | rating=2.38 vac=0.62%
+thredbo-nsw-2625  # THREDBO NSW | rating=0.83 vac=0.0233%
+tighes-hill-nsw-2297  # TIGHES HILL NSW | rating=3.08 vac=1.79%
+timor-nsw-2338  # TIMOR NSW | rating=2.61 vac=0.0%
+tingha-nsw-2369  # TINGHA NSW | rating=2.5 vac=0.0526%
+tombong-nsw-2633  # TOMBONG NSW | rating=2.02 vac=0.0625%
+toogong-nsw-2864  # TOOGONG NSW | rating=2.0 vac=0.0278%
+tooleybuc-nsw-2736  # TOOLEYBUC NSW | rating=2.24 vac=0.0%
+tooloom-nsw-2475  # TOOLOOM NSW | rating=1.26 vac=0.0233%
+toongabbie-nsw-2146  # TOONGABBIE NSW | rating=3.1 vac=1.03%
+toormina-nsw-2452  # TOORMINA NSW | rating=3.4 vac=0.6%
+tootool-nsw-2655  # TOOTOOL NSW | rating=1.74 vac=0.0161%
+toronto-nsw-2283  # TORONTO NSW | rating=3.48 vac=0.63%
+tottenham-nsw-2873  # TOTTENHAM NSW | rating=2.15 vac=0.0%
+toukley-nsw-2263  # TOUKLEY NSW | rating=3.42 vac=0.96%
+trentham-cliffs-nsw-2738  # TRENTHAM CLIFFS NSW | rating=1.53 vac=0.0192%
+trewilga-nsw-2869  # TREWILGA NSW | rating=2.08 vac=0.0131%
+trungley-hall-nsw-2666  # TRUNGLEY HALL NSW | rating=2.71 vac=1.63%
+tullakool-nsw-2732  # TULLAKOOL NSW | rating=1.88 vac=1.28%
+tullamore-nsw-2874  # TULLAMORE NSW | rating=2.93 vac=0.0%
+tulloona-nsw-2400  # TULLOONA NSW | rating=3.04 vac=1.49%
+tumbulgum-nsw-2490  # TUMBULGUM NSW | rating=1.27 vac=0.0%
+tumut-nsw-2720  # TUMUT NSW | rating=2.76 vac=1.19%
+tuppal-nsw-2714  # TUPPAL NSW | rating=1.83 vac=1.64%
+turramurra-nsw-2074  # TURRAMURRA NSW | rating=2.76 vac=1.44%
+tweed-heads-nsw-2485  # TWEED HEADS NSW | rating=2.7 vac=0.72%
+ultimo-nsw-2007  # ULTIMO NSW | rating=2.13 vac=3.87%
+umina-beach-nsw-2257  # UMINA BEACH NSW | rating=3.08 vac=1.07%
+uralla-nsw-2358  # URALLA NSW | rating=3.03 vac=1.07%
+urana-nsw-2645  # URANA NSW | rating=1.7 vac=1.0%
+urangeline-nsw-2656  # URANGELINE NSW | rating=2.56 vac=0.0143%
+urunga-nsw-2455  # URUNGA NSW | rating=2.26 vac=0.26%
+valery-nsw-2454  # VALERY NSW | rating=2.82 vac=0.75%
+vaucluse-nsw-2030  # VAUCLUSE NSW | rating=2.56 vac=3.83%
+villawood-nsw-2163  # VILLAWOOD NSW | rating=3.06 vac=0.57%
+vittoria-nsw-2799  # VITTORIA NSW | rating=3.05 vac=0.012%
+wagga-wagga-nsw-2650  # WAGGA WAGGA NSW | rating=3.75 vac=0.93%
+wahroonga-nsw-2076  # WAHROONGA NSW | rating=2.47 vac=1.3%
+wakefield-nsw-2278  # WAKEFIELD NSW | rating=1.36 vac=0.0%
+walla-walla-nsw-2659  # WALLA WALLA NSW | rating=1.71 vac=0.0227%
+wallendbeen-nsw-2588  # WALLENDBEEN NSW | rating=1.89 vac=0.0%
+wallerawang-nsw-2845  # WALLERAWANG NSW | rating=1.9 vac=0.0329%
+walleroobie-nsw-2665  # WALLEROOBIE NSW | rating=2.27 vac=0.0%
+wallsend-nsw-2287  # WALLSEND NSW | rating=3.58 vac=1.53%
+wandsworth-nsw-2365  # WANDSWORTH NSW | rating=3.1 vac=6.3%
+wangi-wangi-nsw-2267  # WANGI WANGI NSW | rating=2.01 vac=1.39%
+wantiool-nsw-2663  # WANTIOOL NSW | rating=2.85 vac=2.39%
+waratah-nsw-2298  # WARATAH NSW | rating=2.48 vac=2.65%
+warialda-nsw-2402  # WARIALDA NSW | rating=2.2 vac=0.0%
+warners-bay-nsw-2282  # WARNERS BAY NSW | rating=3.21 vac=0.09%
+warrah-nsw-2339  # WARRAH NSW | rating=1.99 vac=0.0435%
+warrawong-nsw-2502  # WARRAWONG NSW | rating=3.7 vac=0.59%
+warriewood-nsw-2102  # WARRIEWOOD NSW | rating=2.22 vac=0.38%
+warrumbungle-nsw-2828  # WARRUMBUNGLE NSW | rating=1.68 vac=0.0%
+waterfall-nsw-2233  # WATERFALL NSW | rating=3.46 vac=0.57%
+waterloo-nsw-2017  # WATERLOO NSW | rating=2.71 vac=2.31%
+watsons-creek-nsw-2355  # WATSONS CREEK NSW | rating=1.43 vac=0.0%
+wattle-grove-nsw-2173  # WATTLE GROVE NSW | rating=3.27 vac=0.64%
+wattle-springs-nsw-2357  # WATTLE SPRINGS NSW | rating=2.51 vac=0.0029%
+weetaliba-nsw-2395  # WEETALIBA NSW | rating=2.46 vac=0.0%
+weilmoringle-nsw-2839  # WEILMORINGLE NSW | rating=2.0 vac=0.0%
+wellington-vale-nsw-2371  # WELLINGTON VALE NSW | rating=2.2 vac=0.0377%
+wentworth-nsw-2648  # WENTWORTH NSW | rating=2.76 vac=1.38%
+wentworth-falls-nsw-2782  # WENTWORTH FALLS NSW | rating=2.69 vac=0.26%
+werrington-nsw-2747  # WERRINGTON NSW | rating=2.89 vac=1.23%
+werris-creek-nsw-2341  # WERRIS CREEK NSW | rating=2.13 vac=0.0%
+west-haven-nsw-2443  # WEST HAVEN NSW | rating=2.69 vac=0.14%
+west-nowra-nsw-2541  # WEST NOWRA NSW | rating=3.08 vac=1.43%
+west-pennant-hills-nsw-2125  # WEST PENNANT HILLS NSW | rating=2.97 vac=0.85%
+westmead-nsw-2145  # WESTMEAD NSW | rating=3.11 vac=1.37%
+weston-nsw-2326  # WESTON NSW | rating=2.69 vac=0.87%
+whale-beach-nsw-2107  # WHALE BEACH NSW | rating=2.5 vac=1.68%
+wheeo-nsw-2583  # WHEEO NSW | rating=2.53 vac=0.0%
+white-cliffs-nsw-2836  # WHITE CLIFFS NSW | rating=1.83 vac=0.0%
+whitton-nsw-2705  # WHITTON NSW | rating=3.07 vac=0.35%
+wickham-nsw-2293  # WICKHAM NSW | rating=2.76 vac=0.12%
+willala-nsw-2382  # WILLALA NSW | rating=2.29 vac=0.0659%
+willigobung-nsw-2653  # WILLIGOBUNG NSW | rating=2.13 vac=1.53%
+willoughby-nsw-2068  # WILLOUGHBY NSW | rating=2.76 vac=1.61%
+windale-nsw-2306  # WINDALE NSW | rating=2.4 vac=0.0%
+windsor-nsw-2756  # WINDSOR NSW | rating=2.7 vac=0.6%
+wingello-nsw-2579  # WINGELLO NSW | rating=2.19 vac=0.0357%
+wingham-nsw-2429  # WINGHAM NSW | rating=2.73 vac=0.74%
+winifred-nsw-2631  # WINIFRED NSW | rating=2.19 vac=0.0%
+wirrimah-nsw-2803  # WIRRIMAH NSW | rating=2.42 vac=0.0%
+wisemans-ferry-nsw-2775  # WISEMANS FERRY NSW | rating=2.03 vac=0.0244%
+wollogorang-nsw-2581  # WOLLOGORANG NSW | rating=2.82 vac=0.04%
+wollongong-nsw-2500  # WOLLONGONG NSW | rating=3.3 vac=0.88%
+wombat-nsw-2587  # WOMBAT NSW | rating=2.41 vac=0.0136%
+womboota-nsw-2731  # WOMBOOTA NSW | rating=1.71 vac=0.37%
+wonboyn-nsw-2551  # WONBOYN NSW | rating=1.75 vac=0.73%
+woodford-nsw-2778  # WOODFORD NSW | rating=2.09 vac=0.0%
+woodville-nsw-2321  # WOODVILLE NSW | rating=3.57 vac=1.14%
+wooli-nsw-2462  # WOOLI NSW | rating=2.76 vac=0.0055%
+woollahra-nsw-2025  # WOOLLAHRA NSW | rating=1.69 vac=2.17%
+woomargama-nsw-2644  # WOOMARGAMA NSW | rating=2.54 vac=0.0%
+woonona-nsw-2517  # WOONONA NSW | rating=3.21 vac=0.23%
+woy-woy-nsw-2256  # WOY WOY NSW | rating=3.25 vac=0.8%
+wyalong-nsw-2671  # WYALONG NSW | rating=2.57 vac=0.0%
+wyangala-nsw-2808  # WYANGALA NSW | rating=2.66 vac=0.0%
+wyong-nsw-2259  # WYONG NSW | rating=3.65 vac=0.64%
+yagoona-nsw-2199  # YAGOONA NSW | rating=3.02 vac=0.71%
+yamba-nsw-2464  # YAMBA NSW | rating=2.82 vac=0.78%
+yanco-nsw-2703  # YANCO NSW | rating=2.19 vac=0.0%
+yanderra-nsw-2574  # YANDERRA NSW | rating=2.04 vac=0.8%
+yarrabandi-nsw-2875  # YARRABANDI NSW | rating=1.72 vac=0.0%
+yarragrin-nsw-2842  # YARRAGRIN NSW | rating=2.71 vac=0.0%
+yass-nsw-2582  # YASS NSW | rating=3.31 vac=1.37%
+yellow-pinch-nsw-2548  # YELLOW PINCH NSW | rating=2.78 vac=0.46%
+yenda-nsw-2681  # YENDA NSW | rating=2.24 vac=0.008%
+yerong-creek-nsw-2642  # YERONG CREEK NSW | rating=2.77 vac=1.97%
+yetman-nsw-2410  # YETMAN NSW | rating=2.2 vac=0.0%
+young-nsw-2594  # YOUNG NSW | rating=2.73 vac=0.41%
+alice-springs-nt  # ALICE SPRINGS NT | rating=3.6 vac=0.4%
+batchelor-nt  # BATCHELOR NT | rating=2.69 vac=0.0%
+bayview-nt  # BAYVIEW NT | rating=3.25 vac=0.96%
+berry-springs-nt  # BERRY SPRINGS NT | rating=2.18 vac=0.0%
+berwick-nt  # BERWICK NT | rating=1.91 vac=0.0%
+buffalo-creek-nt  # BUFFALO CREEK NT | rating=3.64 vac=0.5%
+darwin-nt  # DARWIN NT | rating=2.39 vac=0.0171%
+darwin-river-nt  # DARWIN RIVER NT | rating=1.16 vac=0.0%
+davernport-nt  # DAVERNPORT NT | rating=2.02 vac=0.0%
+driver-nt  # DRIVER NT | rating=3.58 vac=0.56%
+dundee-beach-nt  # DUNDEE BEACH NT | rating=1.64 vac=0.0%
+howard-springs-nt  # HOWARD SPRINGS NT | rating=2.1 vac=0.0%
+humpty-doo-nt  # HUMPTY DOO NT | rating=2.72 vac=0.34%
+katherine-nt  # KATHERINE NT | rating=3.15 vac=0.0077%
+knucky-lagoon-nt  # KNUCKY LAGOON NT | rating=2.91 vac=0.0034%
+nightcliff-nt  # NIGHTCLIFF NT | rating=3.42 vac=0.75%
+noonamah-nt  # NOONAMAH NT | rating=2.5 vac=0.0%
+pine-creek-nt  # PINE CREEK NT | rating=1.8 vac=0.0%
+rosebery-nt  # ROSEBERY NT | rating=3.77 vac=0.6%
+tennant-creek-nt  # TENNANT CREEK NT | rating=2.85 vac=0.0018%
+woolaning-nt  # WOOLANING NT | rating=1.74 vac=0.0%
+acland-qld-4401  # ACLAND QLD | rating=2.82 vac=0.29%
+adavale-qld-4474  # ADAVALE QLD | rating=1.02 vac=0.0%
+agnes-water-qld-4677  # AGNES WATER QLD | rating=2.63 vac=0.19%
+airlie-beach-qld-4802  # AIRLIE BEACH QLD | rating=3.19 vac=1.41%
+albany-creek-qld-4035  # ALBANY CREEK QLD | rating=3.77 vac=1.04%
+albion-qld-4822  # ALBION QLD | rating=2.24 vac=0.0%
+albion-qld-4010  # ALBION QLD | rating=2.22 vac=0.5%
+aldoga-qld-4694  # ALDOGA QLD | rating=1.29 vac=0.0%
+alexandra-headland-qld-4572  # ALEXANDRA HEADLAND QLD | rating=2.57 vac=0.0%
+alexandra-hills-qld-4161  # ALEXANDRA HILLS QLD | rating=3.61 vac=0.7%
+alpha-qld-4724  # ALPHA QLD | rating=2.36 vac=0.0%
+amaroo-qld-4829  # AMAROO QLD | rating=1.0 vac=0.0%
+ambrose-qld-4695  # AMBROSE QLD | rating=2.5 vac=0.0303%
+amby-qld-4462  # AMBY QLD | rating=1.07 vac=110000.0%
+anstead-qld-4070  # ANSTEAD QLD | rating=2.64 vac=1.46%
+aramac-qld-4726  # ARAMAC QLD | rating=1.75 vac=0.0%
+aramara-qld-4620  # ARAMARA QLD | rating=2.26 vac=0.0%
+arcadia-qld-4819  # ARCADIA QLD | rating=1.92 vac=1.46%
+archerfield-qld-4108  # ARCHERFIELD QLD | rating=3.41 vac=1.58%
+arundel-qld-4214  # ARUNDEL QLD | rating=3.08 vac=1.11%
+ashgrove-qld-4060  # ASHGROVE QLD | rating=2.74 vac=0.85%
+augathella-qld-4477  # AUGATHELLA QLD | rating=2.06 vac=0.0%
+ayton-qld-4895  # AYTON QLD | rating=1.26 vac=0.0012%
+babinda-qld-4861  # BABINDA QLD | rating=1.63 vac=0.0%
+bald-hills-qld-4036  # BALD HILLS QLD | rating=2.63 vac=0.3%
+bamaga-qld-4876  # BAMAGA QLD | rating=1.52 vac=0.0%
+ban-ban-qld-4625  # BAN BAN QLD | rating=2.04 vac=0.0%
+barambah-qld-4601  # BARAMBAH QLD | rating=2.55 vac=0.0094%
+barcaldine-qld-4725  # BARCALDINE QLD | rating=2.06 vac=0.0096%
+bardon-qld-4065  # BARDON QLD | rating=2.72 vac=2.18%
+barrine-qld-4872  # BARRINE QLD | rating=1.54 vac=0.0031%
+beatirce-qld-4886  # BEATIRCE QLD | rating=2.19 vac=0.0%
+beenleigh-qld-4207  # BEENLEIGH QLD | rating=3.54 vac=0.67%
+beerburrum-qld-4517  # BEERBURRUM QLD | rating=3.17 vac=0.0%
+beilba-qld-4454  # BEILBA QLD | rating=2.04 vac=0.0%
+bell-qld-4408  # BELL QLD | rating=2.0 vac=0.0%
+belmont-qld-4153  # BELMONT QLD | rating=3.12 vac=2.08%
+berat-qld-4362  # BERAT QLD | rating=2.15 vac=0.0086%
+bethania-qld-4205  # BETHANIA QLD | rating=3.0 vac=0.55%
+birdsville-qld-4482  # BIRDSVILLE QLD | rating=1.17 vac=0.0%
+birkdale-qld-4159  # BIRKDALE QLD | rating=3.32 vac=0.91%
+blackall-qld-4472  # BLACKALL QLD | rating=2.02 vac=0.0231%
+blackbutt-qld-4306  # BLACKBUTT QLD | rating=3.03 vac=1.72%
+blackrock-qld-4850  # BLACKROCK QLD | rating=2.61 vac=0.54%
+blackwater-qld-4717  # BLACKWATER QLD | rating=3.0 vac=1.5%
+blaxand-qld-4405  # BLAXAND QLD | rating=2.56 vac=0.06%
+bluewater-qld-4818  # BLUEWATER QLD | rating=3.3 vac=0.68%
+bondoola-qld-4703  # BONDOOLA QLD | rating=3.29 vac=1.04%
+bonnie-doon-qld-4873  # BONNIE DOON QLD | rating=2.29 vac=1.37%
+boonah-qld-4310  # BOONAH QLD | rating=2.33 vac=0.0%
+boondall-qld-4034  # BOONDALL QLD | rating=3.52 vac=0.78%
+booval-qld-4304  # BOOVAL QLD | rating=3.33 vac=0.61%
+boreen-point-qld-4565  # BOREEN POINT QLD | rating=3.24 vac=0.52%
+brandon-qld-4808  # BRANDON QLD | rating=2.61 vac=0.0%
+brendale-qld-4500  # BRENDALE QLD | rating=3.78 vac=0.36%
+brigalow-qld-4412  # BRIGALOW QLD | rating=2.27 vac=0.0%
+brighton-qld-4017  # BRIGHTON QLD | rating=3.46 vac=1.0%
+brisbane-cbd-qld-4000  # BRISBANE CBD QLD | rating=2.42 vac=2.28%
+broadbeach-qld-4218  # BROADBEACH QLD | rating=3.17 vac=1.62%
+brookfield-qld-4069  # BROOKFIELD QLD | rating=3.23 vac=1.95%
+brookwater-qld-4300  # BROOKWATER QLD | rating=4.19 vac=0.94%
+broughton-qld-4820  # BROUGHTON QLD | rating=1.89 vac=0.0%
+bryden-qld-4312  # BRYDEN QLD | rating=1.81 vac=3.23%
+brymaroo-qld-4403  # BRYMAROO QLD | rating=2.79 vac=0.0189%
+buaraba-qld-4311  # BUARABA QLD | rating=2.79 vac=1.38%
+buckland-qld-4722  # BUCKLAND QLD | rating=2.86 vac=0.0%
+buddina-qld-4575  # BUDDINA QLD | rating=3.01 vac=0.73%
+buderim-qld-4556  # BUDERIM QLD | rating=3.52 vac=0.64%
+bundaberg-qld-4670  # BUNDABERG QLD | rating=3.3 vac=1.09%
+bungunya-qld-4494  # BUNGUNYA QLD | rating=0.95 vac=0.0%
+burleigh-qld-4220  # BURLEIGH QLD | rating=2.82 vac=1.77%
+burpengary-qld-4505  # BURPENGARY QLD | rating=3.7 vac=1.34%
+burrum-town-qld-4659  # BURRUM TOWN QLD | rating=2.98 vac=4.25%
+burton-qld-4742  # BURTON QLD | rating=2.76 vac=4.17%
+caboolture-qld-4510  # CABOOLTURE QLD | rating=3.67 vac=0.92%
+caffey-qld-4343  # CAFFEY QLD | rating=2.91 vac=1.45%
+cairns-qld-4870  # CAIRNS QLD | rating=3.52 vac=0.63%
+caloundra-qld-4551  # CALOUNDRA QLD | rating=3.49 vac=0.71%
+camboon-qld-4719  # CAMBOON QLD | rating=1.85 vac=0.0122%
+camoola-qld-4730  # CAMOOLA QLD | rating=2.63 vac=0.0021%
+camooweal-qld-4828  # CAMOOWEAL QLD | rating=0.83 vac=0.0%
+canungra-qld-4275  # CANUNGRA QLD | rating=2.59 vac=0.5%
+capalaba-qld-4157  # CAPALABA QLD | rating=3.78 vac=0.38%
+carina-qld-4152  # CARINA QLD | rating=3.19 vac=0.92%
+carmila-qld-4739  # CARMILA QLD | rating=2.24 vac=0.0%
+carrington-qld-4883  # CARRINGTON QLD | rating=2.82 vac=0.75%
+cecil-plains-qld-4407  # CECIL PLAINS QLD | rating=2.14 vac=0.0303%
+chandler-qld-4155  # CHANDLER QLD | rating=1.88 vac=0.0161%
+charlestown-qld-4608  # CHARLESTOWN QLD | rating=2.48 vac=0.0%
+charleville-qld-4470  # CHARLEVILLE QLD | rating=3.17 vac=0.0022%
+charlwood-qld-4309  # CHARLWOOD QLD | rating=2.3 vac=0.0188%
+cheepie-qld-4475  # CHEEPIE QLD | rating=0.42 vac=0.0%
+chelmsford-qld-4606  # CHELMSFORD QLD | rating=2.33 vac=0.0121%
+chermside-qld-4032  # CHERMSIDE QLD | rating=3.69 vac=0.36%
+chirnside-qld-4723  # CHIRNSIDE QLD | rating=1.34 vac=0.0072%
+clare-qld-4807  # CLARE QLD | rating=2.63 vac=0.63%
+cleveland-qld-4163  # CLEVELAND QLD | rating=3.14 vac=0.16%
+clifton-qld-4361  # CLIFTON QLD | rating=2.07 vac=0.0%
+cockatoo-qld-4419  # COCKATOO QLD | rating=2.96 vac=1.32%
+como-qld-4571  # COMO QLD | rating=1.04 vac=0.0%
+conway-qld-4800  # CONWAY QLD | rating=1.93 vac=0.6%
+coolangatta-qld-4225  # COOLANGATTA QLD | rating=2.31 vac=1.04%
+cooloola-qld-4580  # COOLOOLA QLD | rating=2.56 vac=0.52%
+coolum-beach-qld-4573  # COOLUM BEACH QLD | rating=2.43 vac=0.67%
+coomera-qld-4209  # COOMERA QLD | rating=3.66 vac=0.66%
+coominglah-qld-4630  # COOMINGLAH QLD | rating=1.86 vac=0.0205%
+cooran-qld-4569  # COORAN QLD | rating=2.07 vac=0.0435%
+cooroy-qld-4563  # COOROY QLD | rating=3.44 vac=0.6%
+coorparoo-qld-4151  # COORPAROO QLD | rating=3.44 vac=0.6%
+cooyar-qld-4402  # COOYAR QLD | rating=2.0 vac=0.0%
+corfield-qld-4733  # CORFIELD QLD | rating=1.37 vac=0.0%
+coringa-qld-4621  # CORINGA QLD | rating=1.95 vac=0.0%
+cornubia-qld-4130  # CORNUBIA QLD | rating=2.96 vac=0.48%
+cowley-qld-4871  # COWLEY QLD | rating=2.2 vac=0.0037%
+currajong-qld-4812  # CURRAJONG QLD | rating=3.3 vac=0.47%
+currumbin-qld-4223  # CURRUMBIN QLD | rating=3.15 vac=1.24%
+dalveen-qld-4374  # DALVEEN QLD | rating=2.78 vac=0.0%
+dayboro-qld-4521  # DAYBORO QLD | rating=1.71 vac=0.0%
+daymar-qld-4497  # DAYMAR QLD | rating=2.78 vac=0.0%
+deception-bay-qld-4508  # DECEPTION BAY QLD | rating=3.61 vac=0.86%
+diamantina-lakes-qld-4735  # DIAMANTINA LAKES QLD | rating=2.25 vac=0.0%
+doonan-qld-4562  # DOONAN QLD | rating=2.47 vac=0.0109%
+douglas-qld-4354  # DOUGLAS QLD | rating=1.7 vac=0.0%
+drillham-qld-4424  # DRILLHAM QLD | rating=2.0 vac=0.0%
+duaringa-qld-4712  # DUARINGA QLD | rating=1.59 vac=0.0%
+dulacca-qld-4425  # DULACCA QLD | rating=2.79 vac=346250.0%
+dunkeld-qld-4465  # DUNKELD QLD | rating=2.93 vac=0.0095%
+dunrobin-qld-4728  # DUNROBIN QLD | rating=2.22 vac=0.0%
+dysart-qld-4745  # DYSART QLD | rating=3.27 vac=7.44%
+eagle-heights-qld-4271  # EAGLE HEIGHTS QLD | rating=2.66 vac=0.0%
+eatons-hill-qld-4037  # EATONS HILL QLD | rating=2.51 vac=0.0097%
+edmonton-qld-4869  # EDMONTON QLD | rating=3.61 vac=0.83%
+eidsvold-qld-4627  # EIDSVOLD QLD | rating=2.46 vac=0.0%
+eight-mile-plains-qld-4113  # EIGHT MILE PLAINS QLD | rating=3.21 vac=1.17%
+elimbah-qld-4516  # ELIMBAH QLD | rating=2.25 vac=0.0%
+emerald-qld-4720  # EMERALD QLD | rating=3.54 vac=0.44%
+emu-vale-qld-4371  # EMU VALE QLD | rating=1.51 vac=0.0%
+eton-qld-4741  # ETON QLD | rating=1.88 vac=0.0067%
+eungella-qld-4757  # EUNGELLA QLD | rating=2.13 vac=0.0%
+fairfield-qld-4103  # FAIRFIELD QLD | rating=3.42 vac=0.71%
+farrars-creek-qld-4481  # FARRARS CREEK QLD | rating=1.14 vac=0.0%
+felton-qld-4358  # FELTON QLD | rating=1.67 vac=0.0063%
+feluga-qld-4854  # FELUGA QLD | rating=2.42 vac=0.0018%
+ferny-hills-qld-4055  # FERNY HILLS QLD | rating=3.57 vac=0.68%
+flagstone-creek-qld-4344  # FLAGSTONE CREEK QLD | rating=1.65 vac=0.0207%
+fletcher-qld-4381  # FLETCHER QLD | rating=1.94 vac=0.0%
+flinton-qld-4422  # FLINTON QLD | rating=2.13 vac=0.0%
+forest-hill-qld-4342  # FOREST HILL QLD | rating=1.72 vac=0.0046%
+forest-lake-qld-4078  # FOREST LAKE QLD | rating=3.0 vac=0.65%
+fortitude-valley-qld-4006  # FORTITUDE VALLEY QLD | rating=3.03 vac=0.85%
+freestone-qld-4370  # FREESTONE QLD | rating=3.32 vac=0.98%
+gadgarra-qld-4884  # GADGARRA QLD | rating=1.71 vac=0.0116%
+garbutt-qld-4814  # GARBUTT QLD | rating=3.39 vac=0.77%
+gladstone-qld-4680  # GLADSTONE QLD | rating=3.42 vac=2.79%
+glass-house-mountains-qld-4518  # GLASS HOUSE MOUNTAINS QLD | rating=2.37 vac=0.32%
+glen-russell-qld-4880  # GLEN RUSSELL QLD | rating=2.81 vac=0.46%
+glenhaven-qld-4355  # GLENHAVEN QLD | rating=2.04 vac=0.0091%
+glenlee-qld-4711  # GLENLEE QLD | rating=1.43 vac=0.0%
+glenmorgan-qld-4423  # GLENMORGAN QLD | rating=1.11 vac=0.0%
+goldsborough-qld-4865  # GOLDSBOROUGH QLD | rating=3.29 vac=0.55%
+goolboo-qld-4856  # GOOLBOO QLD | rating=2.42 vac=0.0%
+goondi-qld-4860  # GOONDI QLD | rating=2.43 vac=0.55%
+goondiwindi-qld-4390  # GOONDIWINDI QLD | rating=2.22 vac=0.39%
+graceville-qld-4075  # GRACEVILLE QLD | rating=3.14 vac=0.95%
+greenmount-qld-4359  # GREENMOUNT QLD | rating=1.65 vac=0.0%
+greenslopes-qld-4120  # GREENSLOPES QLD | rating=2.67 vac=0.9%
+greycliffe-qld-4715  # GREYCLIFFE QLD | rating=2.44 vac=0.0021%
+griffin-qld-4503  # GRIFFIN QLD | rating=3.55 vac=0.66%
+guluguba-qld-4418  # GULUGUBA QLD | rating=0.81 vac=0.0%
+gympie-qld-4570  # GYMPIE QLD | rating=3.22 vac=0.92%
+hamilton-qld-4007  # HAMILTON QLD | rating=2.24 vac=0.94%
+hamilton-island-qld-4803  # HAMILTON ISLAND QLD | rating=2.43 vac=4000000.0%
+hawthorne-qld-4171  # HAWTHORNE QLD | rating=2.91 vac=1.42%
+heathwood-qld-4110  # HEATHWOOD QLD | rating=3.32 vac=1.83%
+hebel-qld-4486  # HEBEL QLD | rating=2.33 vac=0.0%
+helensvale-qld-4212  # HELENSVALE QLD | rating=3.29 vac=2.93%
+hemmant-qld-4174  # HEMMANT QLD | rating=2.4 vac=0.68%
+hendra-qld-4011  # HENDRA QLD | rating=3.04 vac=0.82%
+hervey-bay-qld-4655  # HERVEY BAY QLD | rating=3.54 vac=1.1%
+hinchinbrook-qld-4849  # HINCHINBROOK QLD | rating=2.1 vac=0.94%
+hivesville-qld-4612  # HIVESVILLE QLD | rating=2.16 vac=0.0%
+holland-park-qld-4121  # HOLLAND PARK QLD | rating=3.58 vac=1.02%
+holloways-beach-qld-4878  # HOLLOWAYS BEACH QLD | rating=3.45 vac=0.89%
+howitt-qld-4890  # HOWITT QLD | rating=2.62 vac=0.0%
+hunchy-qld-4555  # HUNCHY QLD | rating=2.66 vac=0.5%
+ilfracombe-qld-4727  # ILFRACOMBE QLD | rating=2.1 vac=0.0%
+ilkley-qld-4554  # ILKLEY QLD | rating=1.48 vac=0.0577%
+inala-qld-4077  # INALA QLD | rating=3.12 vac=0.4%
+indooroopilly-qld-4068  # INDOOROOPILLY QLD | rating=2.92 vac=1.99%
+inglewood-qld-4387  # INGLEWOOD QLD | rating=2.61 vac=0.0%
+ipswich-qld-4305  # IPSWICH QLD | rating=3.54 vac=0.68%
+isis-central-qld-4660  # ISIS CENTRAL QLD | rating=1.94 vac=1.15%
+jackson-qld-4426  # JACKSON QLD | rating=2.16 vac=0.0%
+jandowae-qld-4410  # JANDOWAE QLD | rating=2.68 vac=0.0%
+jundah-qld-4736  # JUNDAH QLD | rating=1.8 vac=0.0%
+kalunga-qld-4887  # KALUNGA QLD | rating=1.51 vac=0.0%
+kangaroo-point-qld-4169  # KANGAROO POINT QLD | rating=3.37 vac=1.41%
+karawatha-qld-4117  # KARAWATHA QLD | rating=2.06 vac=0.36%
+karumba-qld-4891  # KARUMBA QLD | rating=2.42 vac=0.0%
+kedron-qld-4031  # KEDRON QLD | rating=2.94 vac=0.66%
+kennedy-qld-4816  # KENNEDY QLD | rating=2.14 vac=0.13%
+keperra-qld-4054  # KEPERRA QLD | rating=3.17 vac=0.51%
+kevin-grove-qld-4059  # KEVIN GROVE QLD | rating=3.44 vac=1.8%
+kilcoy-qld-4515  # KILCOY QLD | rating=2.47 vac=0.0031%
+killarney-qld-4373  # KILLARNEY QLD | rating=1.88 vac=0.0%
+kingsthorpe-qld-4400  # KINGSTHORPE QLD | rating=1.72 vac=0.0%
+kioma-qld-4498  # KIOMA QLD | rating=2.75 vac=0.0%
+kippa-ring-qld-4021  # KIPPA-RING QLD | rating=3.3 vac=0.67%
+kirwan-qld-4817  # KIRWAN QLD | rating=3.44 vac=0.42%
+koumala-qld-4738  # KOUMALA QLD | rating=1.85 vac=0.0%
+kuraby-qld-4112  # KURABY QLD | rating=2.62 vac=1.37%
+kuranda-qld-4881  # KURANDA QLD | rating=1.77 vac=1.17%
+laidley-qld-4341  # LAIDLEY QLD | rating=3.37 vac=1.61%
+landsborough-qld-4550  # LANDSBOROUGH QLD | rating=2.68 vac=0.81%
+lansdowne-qld-4478  # LANSDOWNE QLD | rating=1.1 vac=0.0435%
+lawnton-qld-4501  # LAWNTON QLD | rating=3.53 vac=0.74%
+leyburn-qld-4365  # LEYBURN QLD | rating=2.02 vac=0.0%
+linden-qld-4490  # LINDEN QLD | rating=1.5 vac=0.0%
+logan-city-qld-4114  # LOGAN CITY QLD | rating=3.53 vac=0.59%
+loganholme-qld-4129  # LOGANHOLME QLD | rating=3.9 vac=0.96%
+lowmead-qld-4676  # LOWMEAD QLD | rating=1.58 vac=0.0%
+mackay-qld-4740  # MACKAY QLD | rating=2.85 vac=0.94%
+mackenzie-qld-4156  # MACKENZIE QLD | rating=1.64 vac=2.34%
+malanda-qld-4885  # MALANDA QLD | rating=1.94 vac=0.0031%
+maleny-qld-4552  # MALENY QLD | rating=2.47 vac=1.0%
+manly-qld-4179  # MANLY QLD | rating=3.25 vac=0.73%
+mansfield-qld-4122  # MANSFIELD QLD | rating=3.18 vac=0.88%
+marburg-qld-4346  # MARBURG QLD | rating=1.95 vac=0.0167%
+marian-qld-4753  # MARIAN QLD | rating=2.28 vac=0.0%
+maroochydore-qld-4558  # MAROOCHYDORE QLD | rating=3.05 vac=0.49%
+maroondan-qld-4671  # MAROONDAN QLD | rating=2.41 vac=1.46%
+marsden-qld-4132  # MARSDEN QLD | rating=3.64 vac=0.58%
+maryborough-qld-4650  # MARYBOROUGH QLD | rating=3.17 vac=0.78%
+meadowbrook-qld-4131  # MEADOWBROOK QLD | rating=3.25 vac=0.71%
+melrose-qld-4613  # MELROSE QLD | rating=2.81 vac=0.0%
+meringandan-qld-4352  # MERINGANDAN QLD | rating=3.49 vac=0.86%
+middlemount-qld-4746  # MIDDLEMOUNT QLD | rating=2.61 vac=2.42%
+midge-point-qld-4799  # MIDGE POINT QLD | rating=1.85 vac=0.04%
+millmerran-qld-4357  # MILLMERRAN QLD | rating=1.96 vac=0.0%
+mission-beach-qld-4852  # MISSION BEACH QLD | rating=1.7 vac=1.92%
+mooloolah-qld-4553  # MOOLOOLAH QLD | rating=3.51 vac=0.0119%
+moranbah-qld-4744  # MORANBAH QLD | rating=3.08 vac=9.62%
+morayfield-qld-4506  # MORAYFIELD QLD | rating=3.31 vac=1.24%
+morningside-qld-4170  # MORNINGSIDE QLD | rating=3.61 vac=0.87%
+mornish-qld-4702  # MORNISH QLD | rating=3.03 vac=0.45%
+mount-gardiner-qld-4705  # MOUNT GARDINER QLD | rating=1.67 vac=0.0%
+mount-isa-qld-4825  # MOUNT ISA QLD | rating=3.17 vac=2.22%
+mount-walker-qld-4340  # MOUNT WALKER QLD | rating=2.53 vac=0.0028%
+mountain-creek-qld-4557  # MOUNTAIN CREEK QLD | rating=3.4 vac=0.18%
+mourilyan-qld-4858  # MOURILYAN QLD | rating=2.27 vac=0.0%
+mungallala-qld-4467  # MUNGALLALA QLD | rating=2.4 vac=0.0%
+murarrie-qld-4172  # MURARRIE QLD | rating=3.5 vac=0.86%
+murray-island-qld-4875  # MURRAY ISLAND QLD | rating=1.45 vac=0.0%
+muttaburra-qld-4732  # MUTTABURRA QLD | rating=1.02 vac=0.0%
+myall-park-qld-4415  # MYALL PARK QLD | rating=2.28 vac=0.0%
+nambour-qld-4560  # NAMBOUR QLD | rating=3.38 vac=0.33%
+nanango-qld-4615  # NANANGO QLD | rating=2.43 vac=0.0049%
+narangba-qld-4504  # NARANGBA QLD | rating=3.42 vac=0.94%
+nathan-qld-4111  # NATHAN QLD | rating=1.59 vac=2.56%
+nebine-qld-4488  # NEBINE QLD | rating=2.1 vac=0.0%
+nerang-qld-4211  # NERANG QLD | rating=3.54 vac=1.04%
+netherdale-qld-4756  # NETHERDALE QLD | rating=1.71 vac=0.0%
+new-beith-qld-4124  # NEW BEITH QLD | rating=3.75 vac=1.37%
+nine-mile-creek-qld-4714  # NINE MILE CREEK QLD | rating=2.53 vac=0.028%
+ningi-qld-4511  # NINGI QLD | rating=3.17 vac=0.58%
+nobby-qld-4360  # NOBBY QLD | rating=2.72 vac=0.0%
+noorindoo-qld-4417  # NOORINDOO QLD | rating=2.72 vac=0.0%
+noosa-heads-qld-4567  # NOOSA HEADS QLD | rating=2.49 vac=2.35%
+noosaville-qld-4566  # NOOSAVILLE QLD | rating=2.45 vac=1.91%
+north-lakes-qld-4509  # NORTH LAKES QLD | rating=3.84 vac=1.2%
+north-maclean-qld-4280  # NORTH MACLEAN QLD | rating=3.82 vac=2.64%
+north-tamborine-qld-4272  # NORTH TAMBORINE QLD | rating=3.24 vac=1.58%
+northgate-qld-4013  # NORTHGATE QLD | rating=2.67 vac=0.75%
+oakdale-qld-4605  # OAKDALE QLD | rating=2.12 vac=0.0016%
+oakview-qld-4600  # OAKVIEW QLD | rating=2.27 vac=0.0%
+obi-obi-qld-4574  # OBI OBI QLD | rating=1.68 vac=0.0182%
+oorindi-qld-4824  # OORINDI QLD | rating=2.3 vac=0.0037%
+ormeau-qld-4208  # ORMEAU QLD | rating=3.39 vac=0.75%
+osborne-qld-4806  # OSBORNE QLD | rating=1.96 vac=0.0079%
+paddington-qld-4064  # PADDINGTON QLD | rating=3.24 vac=0.97%
+palm-beach-qld-4221  # PALM BEACH QLD | rating=3.01 vac=0.92%
+palm-cove-qld-4879  # PALM COVE QLD | rating=3.49 vac=1.91%
+park-ridge-qld-4125  # PARK RIDGE QLD | rating=2.95 vac=1.4%
+parkinson-qld-4115  # PARKINSON QLD | rating=3.45 vac=0.91%
+pasha-qld-4721  # PASHA QLD | rating=2.55 vac=0.0021%
+peachester-qld-4519  # PEACHESTER QLD | rating=3.72 vac=0.26%
+petrie-qld-4502  # PETRIE QLD | rating=3.48 vac=0.38%
+pinkenba-qld-4008  # PINKENBA QLD | rating=2.1 vac=0.0%
+pomona-qld-4568  # POMONA QLD | rating=1.77 vac=0.0136%
+porcupine-qld-4821  # PORCUPINE QLD | rating=1.64 vac=0.0%
+port-alma-qld-4699  # PORT ALMA QLD | rating=2.03 vac=0.0%
+port-douglas-qld-4877  # PORT DOUGLAS QLD | rating=2.85 vac=4.0%
+queens-beach-qld-4805  # QUEENS BEACH QLD | rating=2.73 vac=0.45%
+quilpie-qld-4480  # QUILPIE QLD | rating=1.39 vac=0.0%
+rainbow-beach-qld-4581  # RAINBOW BEACH QLD | rating=1.65 vac=3.83%
+rasmussen-qld-4815  # RASMUSSEN QLD | rating=3.92 vac=0.57%
+rathdowney-qld-4287  # RATHDOWNEY QLD | rating=1.41 vac=0.0323%
+redbank-qld-4301  # REDBANK QLD | rating=3.62 vac=1.02%
+redcliffe-qld-4020  # REDCLIFFE QLD | rating=3.03 vac=0.83%
+regents-park-qld-4118  # REGENTS PARK QLD | rating=3.7 vac=0.71%
+riverleigh-qld-4626  # RIVERLEIGH QLD | rating=1.92 vac=0.0046%
+riverton-qld-4385  # RIVERTON QLD | rating=2.63 vac=0.0%
+riverview-qld-4303  # RIVERVIEW QLD | rating=3.07 vac=0.33%
+robina-qld-4226  # ROBINA QLD | rating=3.17 vac=0.77%
+rochedale-qld-4123  # ROCHEDALE QLD | rating=2.81 vac=1.17%
+rockhampton-qld-4700  # ROCKHAMPTON QLD | rating=3.19 vac=0.99%
+rocklea-qld-4106  # ROCKLEA QLD | rating=3.29 vac=1.35%
+rothwell-qld-4022  # ROTHWELL QLD | rating=3.01 vac=0.27%
+roundstone-qld-4718  # ROUNDSTONE QLD | rating=3.05 vac=0.0053%
+russell-island-qld-4184  # RUSSELL ISLAND QLD | rating=3.2 vac=0.0407%
+salisbury-qld-4107  # SALISBURY QLD | rating=3.7 vac=0.66%
+samford-qld-4520  # SAMFORD QLD | rating=2.73 vac=0.67%
+sandringham-qld-4701  # SANDRINGHAM QLD | rating=3.33 vac=0.85%
+sarina-qld-4737  # SARINA QLD | rating=2.95 vac=1.1%
+septimus-qld-4754  # SEPTIMUS QLD | rating=1.31 vac=0.0%
+shell-pocket-qld-4855  # SHELL POCKET QLD | rating=2.71 vac=0.0%
+shoal-point-qld-4750  # SHOAL POINT QLD | rating=2.99 vac=0.73%
+silkwood-east-qld-4857  # SILKWOOD EAST QLD | rating=1.85 vac=0.0%
+silverdale-qld-4307  # SILVERDALE QLD | rating=1.46 vac=0.0%
+sinnamon-park-qld-4073  # SINNAMON PARK QLD | rating=2.9 vac=2.62%
+south-brisbane-qld-4101  # SOUTH BRISBANE QLD | rating=3.1 vac=1.62%
+south-johnstone-qld-4859  # SOUTH JOHNSTONE QLD | rating=2.36 vac=0.0%
+south-stradbroke-qld-4216  # SOUTH STRADBROKE QLD | rating=3.31 vac=1.35%
+southbrook-qld-4363  # SOUTHBROOK QLD | rating=1.37 vac=0.0%
+southport-qld-4215  # SOUTHPORT QLD | rating=3.29 vac=0.73%
+springlands-qld-4804  # SPRINGLANDS QLD | rating=3.35 vac=0.0215%
+springwood-qld-4127  # SPRINGWOOD QLD | rating=3.36 vac=0.46%
+st-george-qld-4487  # ST GEORGE QLD | rating=2.23 vac=0.0041%
+st-helens-beach-qld-4798  # ST HELENS BEACH QLD | rating=1.83 vac=0.0182%
+st-lawrence-qld-4707  # ST LAWRENCE QLD | rating=1.79 vac=0.0%
+st-lucia-qld-4067  # ST LUCIA QLD | rating=2.46 vac=2.38%
+stafford-qld-4053  # STAFFORD QLD | rating=3.49 vac=0.49%
+stanthorpe-qld-4380  # STANTHORPE QLD | rating=2.53 vac=0.82%
+stoneleigh-qld-4356  # STONELEIGH QLD | rating=2.21 vac=0.005%
+stony-creek-qld-4514  # STONY CREEK QLD | rating=2.21 vac=0.65%
+stradbroke-island-qld-4183  # STRADBROKE ISLAND QLD | rating=2.44 vac=4.35%
+stretton-qld-4116  # STRETTON QLD | rating=3.17 vac=1.43%
+sumner-qld-4074  # SUMNER QLD | rating=3.54 vac=1.21%
+sunnybank-qld-4109  # SUNNYBANK QLD | rating=3.31 vac=1.47%
+sunnyside-qld-4416  # SUNNYSIDE QLD | rating=2.57 vac=0.0%
+surfers-paradise-qld-4217  # SURFERS PARADISE QLD | rating=2.56 vac=1.95%
+suttor-qld-4743  # SUTTOR QLD | rating=2.72 vac=0.0%
+taigum-qld-4018  # TAIGUM QLD | rating=3.08 vac=0.19%
+tallebudgera-qld-4228  # TALLEBUDGERA QLD | rating=2.53 vac=3.1%
+talwood-qld-4496  # TALWOOD QLD | rating=2.0 vac=0.0%
+tamborine-qld-4270  # TAMBORINE QLD | rating=2.28 vac=0.02%
+tanah-merah-qld-4128  # TANAH MERAH QLD | rating=3.51 vac=0.87%
+tangalooma-qld-4025  # TANGALOOMA QLD | rating=2.93 vac=0.0656%
+tannymorel-qld-4372  # TANNYMOREL QLD | rating=1.74 vac=0.0%
+tara-qld-4421  # TARA QLD | rating=2.1 vac=0.0%
+taroom-qld-4420  # TAROOM QLD | rating=2.85 vac=0.0%
+taunton-qld-4674  # TAUNTON QLD | rating=1.45 vac=0.0%
+teneriffe-qld-4005  # TENERIFFE QLD | rating=2.56 vac=1.7%
+tennyson-qld-4105  # TENNYSON QLD | rating=3.51 vac=1.07%
+thangool-qld-4716  # THANGOOL QLD | rating=2.68 vac=0.0%
+the-gap-qld-4061  # THE GAP QLD | rating=2.98 vac=0.45%
+the-summit-qld-4377  # THE SUMMIT QLD | rating=1.41 vac=0.0222%
+thorneside-qld-4158  # THORNESIDE QLD | rating=1.92 vac=0.47%
+thornlands-qld-4164  # THORNLANDS QLD | rating=3.49 vac=0.74%
+tingalpa-qld-4173  # TINGALPA QLD | rating=3.03 vac=1.07%
+tolga-qld-4882  # TOLGA QLD | rating=2.25 vac=2.05%
+toowong-qld-4066  # TOOWONG QLD | rating=2.89 vac=1.71%
+toowoomba-qld-4350  # TOOWOOMBA QLD | rating=3.59 vac=0.66%
+torbanlea-qld-4662  # TORBANLEA QLD | rating=1.75 vac=0.0%
+townsville-qld-4810  # TOWNSVILLE QLD | rating=3.07 vac=1.34%
+tugun-qld-4224  # TUGUN QLD | rating=3.2 vac=0.57%
+tumoulin-qld-4888  # TUMOULIN QLD | rating=1.85 vac=0.0065%
+turkey-beach-qld-4678  # TURKEY BEACH QLD | rating=2.56 vac=0.0417%
+twin-waters-qld-4564  # TWIN WATERS QLD | rating=3.25 vac=0.48%
+underwood-qld-4119  # UNDERWOOD QLD | rating=3.57 vac=0.89%
+upper-haughton-qld-4809  # UPPER HAUGHTON QLD | rating=2.45 vac=0.0%
+varsity-lakes-qld-4227  # VARSITY LAKES QLD | rating=3.3 vac=0.41%
+veresdale-qld-4285  # VERESDALE QLD | rating=3.38 vac=0.45%
+victoria-point-qld-4165  # VICTORIA POINT QLD | rating=3.1 vac=1.01%
+virginia-qld-4014  # VIRGINIA QLD | rating=3.77 vac=0.55%
+wacol-qld-4076  # WACOL QLD | rating=3.71 vac=1.48%
+wainui-qld-4404  # WAINUI QLD | rating=2.6 vac=0.0%
+wakerley-qld-4154  # WAKERLEY QLD | rating=3.16 vac=0.33%
+walkerston-qld-4751  # WALKERSTON QLD | rating=1.76 vac=0.0031%
+wallangarra-qld-4383  # WALLANGARRA QLD | rating=2.52 vac=0.0%
+wallumbilla-qld-4428  # WALLUMBILLA QLD | rating=2.89 vac=0.0%
+wamuran-qld-4512  # WAMURAN QLD | rating=2.08 vac=0.0%
+warburton-qld-4823  # WARBURTON QLD | rating=2.87 vac=0.0%
+warra-qld-4411  # WARRA QLD | rating=1.75 vac=0.0%
+waterford-qld-4133  # WATERFORD QLD | rating=3.43 vac=1.49%
+waterloo-qld-4673  # WATERLOO QLD | rating=1.06 vac=0.0%
+wattle-grove-qld-4610  # WATTLE GROVE QLD | rating=3.27 vac=0.86%
+wavell-heights-qld-4012  # WAVELL HEIGHTS QLD | rating=3.44 vac=0.52%
+weipa-qld-4874  # WEIPA QLD | rating=2.65 vac=0.0%
+wellington-point-qld-4160  # WELLINGTON POINT QLD | rating=3.75 vac=0.83%
+west-burleigh-qld-4219  # WEST BURLEIGH QLD | rating=2.07 vac=526.0%
+white-rock-qld-4868  # WHITE ROCK QLD | rating=3.37 vac=0.92%
+wieambilla-qld-4413  # WIEAMBILLA QLD | rating=2.84 vac=0.17%
+wilston-qld-4051  # WILSTON QLD | rating=3.01 vac=0.99%
+windsor-qld-4030  # WINDSOR QLD | rating=3.05 vac=0.34%
+winwill-qld-4347  # WINWILL QLD | rating=2.16 vac=0.0%
+wongawallan-qld-4210  # WONGAWALLAN QLD | rating=3.62 vac=0.92%
+woody-point-qld-4019  # WOODY POINT QLD | rating=3.28 vac=0.8%
+woolloongabba-qld-4102  # WOOLLOONGABBA QLD | rating=2.78 vac=1.0%
+woombye-qld-4559  # WOOMBYE QLD | rating=2.49 vac=0.16%
+woorim-qld-4507  # WOORIM QLD | rating=3.4 vac=1.04%
+worongary-qld-4213  # WORONGARY QLD | rating=3.4 vac=1.47%
+wulguru-qld-4811  # WULGURU QLD | rating=3.12 vac=0.43%
+wyandra-qld-4489  # WYANDRA QLD | rating=0.84 vac=0.0%
+wyberba-qld-4382  # WYBERBA QLD | rating=2.48 vac=297.0%
+wycombe-qld-4455  # WYCOMBE QLD | rating=3.17 vac=0.3%
+wynnum-qld-4178  # WYNNUM QLD | rating=3.31 vac=0.99%
+yandina-qld-4561  # YANDINA QLD | rating=2.92 vac=1.16%
+yarraman-qld-4614  # YARRAMAN QLD | rating=2.13 vac=0.0%
+yelarbon-qld-4388  # YELARBON QLD | rating=2.42 vac=0.0%
+yeronga-qld-4104  # YERONGA QLD | rating=2.75 vac=0.6%
+yimbun-qld-4313  # YIMBUN QLD | rating=1.51 vac=0.63%
+yuleba-qld-4427  # YULEBA QLD | rating=2.82 vac=0.0%
+zilzie-qld-4710  # ZILZIE QLD | rating=2.8 vac=2.06%
+adelaide-cbd-sa-5000  # ADELAIDE CBD SA | rating=2.42 vac=1.58%
+alawoona-sa-5311  # ALAWOONA SA | rating=2.35 vac=0.0%
+albert-park-sa-5014  # ALBERT PARK SA | rating=3.32 vac=0.7%
+aldgate-sa-5154  # ALDGATE SA | rating=1.8 vac=0.0417%
+aldinga-sa-5173  # ALDINGA SA | rating=3.52 vac=0.45%
+andamooka-sa-5722  # ANDAMOOKA SA | rating=2.9 vac=0.3%
+angle-vale-sa-5117  # ANGLE VALE SA | rating=2.98 vac=0.0294%
+arthurton-sa-5572  # ARTHURTON SA | rating=1.32 vac=0.0909%
+ascot-park-sa-5043  # ASCOT PARK SA | rating=3.53 vac=0.28%
+auburn-sa-5451  # AUBURN SA | rating=2.33 vac=0.0233%
+bakara-sa-5354  # BAKARA SA | rating=2.01 vac=0.25%
+balhannah-sa-5242  # BALHANNAH SA | rating=1.93 vac=0.0%
+banksia-park-sa-5091  # BANKSIA PARK SA | rating=3.15 vac=1.7%
+barina-sa-5453  # BARINA SA | rating=2.47 vac=0.64%
+baroota-sa-5495  # BAROOTA SA | rating=1.84 vac=0.0%
+basket-range-sa-5138  # BASKET RANGE SA | rating=2.05 vac=0.0%
+beaufort-sa-5550  # BEAUFORT SA | rating=1.46 vac=0.0081%
+beaumont-sa-5066  # BEAUMONT SA | rating=2.96 vac=0.75%
+berri-sa-5343  # BERRI SA | rating=2.7 vac=0.12%
+bethany-sa-5352  # BETHANY SA | rating=2.59 vac=0.28%
+binnum-sa-5262  # BINNUM SA | rating=1.21 vac=0.0%
+birdwood-sa-5234  # BIRDWOOD SA | rating=1.77 vac=0.0233%
+blakiston-sa-5250  # BLAKISTON SA | rating=2.33 vac=0.0085%
+blyth-sa-5462  # BLYTH SA | rating=2.24 vac=0.0%
+booleroo-centre-sa-5482  # BOOLEROO CENTRE SA | rating=2.6 vac=0.0%
+boonerdo-sa-5633  # BOONERDO SA | rating=2.59 vac=0.0588%
+bordertown-sa-5268  # BORDERTOWN SA | rating=2.14 vac=0.0119%
+bridgewater-sa-5155  # BRIDGEWATER SA | rating=1.62 vac=0.0155%
+bright-sa-5381  # BRIGHT SA | rating=2.54 vac=0.0%
+brighton-sa-5048  # BRIGHTON SA | rating=3.08 vac=0.5%
+brimbago-sa-5267  # BRIMBAGO SA | rating=2.25 vac=0.0114%
+brooker-sa-5607  # BROOKER SA | rating=1.97 vac=1.78%
+bumbunga-sa-5520  # BUMBUNGA SA | rating=2.27 vac=0.0%
+burton-sa-5110  # BURTON SA | rating=2.6 vac=0.62%
+cadell-sa-5321  # CADELL SA | rating=2.7 vac=0.0%
+caltowie-sa-5490  # CALTOWIE SA | rating=2.4 vac=273000.0%
+canowie-belt-sa-5420  # CANOWIE BELT SA | rating=0.81 vac=0.0%
+carey-gully-sa-5144  # CAREY GULLY SA | rating=2.47 vac=0.0%
+castambul-sa-5076  # CASTAMBUL SA | rating=3.49 vac=1.27%
+christie-downs-sa-5164  # CHRISTIE DOWNS SA | rating=3.21 vac=0.29%
+christies-beach-sa-5165  # CHRISTIES BEACH SA | rating=3.38 vac=0.75%
+clarendon-sa-5157  # CLARENDON SA | rating=1.74 vac=0.0%
+clinton-sa-5570  # CLINTON SA | rating=2.56 vac=0.0%
+cocata-sa-5654  # COCATA SA | rating=2.49 vac=163750.0%
+cockburn-sa-5440  # COCKBURN SA | rating=2.51 vac=0.0%
+colton-sa-5670  # COLTON SA | rating=2.4 vac=0.05%
+condowie-sa-5464  # CONDOWIE SA | rating=2.23 vac=0.0%
+conmurra-sa-5272  # CONMURRA SA | rating=2.13 vac=0.0%
+coober-pedy-sa-5723  # COOBER PEDY SA | rating=2.65 vac=0.0125%
+cooke-plains-sa-5261  # COOKE PLAINS SA | rating=2.62 vac=0.0%
+copeville-sa-5308  # COPEVILLE SA | rating=1.69 vac=0.0%
+cowell-sa-5602  # COWELL SA | rating=1.81 vac=0.0087%
+cradock-sa-5432  # CRADOCK SA | rating=0.69 vac=0.0%
+crafers-sa-5152  # CRAFERS SA | rating=2.43 vac=2.02%
+croydon-sa-5008  # CROYDON SA | rating=3.48 vac=0.37%
+cudlee-creek-sa-5232  # CUDLEE CREEK SA | rating=2.62 vac=0.0%
+cummins-sa-5631  # CUMMINS SA | rating=2.85 vac=0.0%
+cunningham-sa-5571  # CUNNINGHAM SA | rating=2.22 vac=0.0%
+curramulka-sa-5580  # CURRAMULKA SA | rating=1.92 vac=0.0%
+darke-peak-sa-5642  # DARKE PEAK SA | rating=0.96 vac=2090982.0%
+davoren-sa-5113  # DAVOREN SA | rating=3.31 vac=1.28%
+dawson-sa-5422  # DAWSON SA | rating=2.53 vac=0.0%
+douglas-point-sa-5601  # DOUGLAS POINT SA | rating=1.49 vac=605000.0%
+dry-creek-sa-5094  # DRY CREEK SA | rating=2.57 vac=0.0198%
+dudley-east-sa-5222  # DUDLEY EAST SA | rating=2.27 vac=0.0%
+dulwich-sa-5065  # DULWICH SA | rating=2.87 vac=1.18%
+dutton-sa-5356  # DUTTON SA | rating=2.12 vac=0.0%
+ebenezer-sa-5355  # EBENEZER SA | rating=3.28 vac=0.28%
+eden-hills-sa-5050  # EDEN HILLS SA | rating=2.23 vac=0.0%
+eden-valley-sa-5235  # EDEN VALLEY SA | rating=1.54 vac=0.0%
+edithburgh-sa-5583  # EDITHBURGH SA | rating=2.23 vac=0.04%
+elizabeth-sa-5112  # ELIZABETH SA | rating=2.95 vac=0.75%
+elwomple-sa-5260  # ELWOMPLE SA | rating=2.1 vac=0.0%
+enfield-sa-5085  # ENFIELD SA | rating=3.46 vac=0.75%
+evanston-sa-5116  # EVANSTON SA | rating=3.14 vac=0.52%
+fairview-park-sa-5126  # FAIRVIEW PARK SA | rating=3.04 vac=0.81%
+farrell-flat-sa-5416  # FARRELL FLAT SA | rating=2.79 vac=0.0%
+field-sa-5265  # FIELD SA | rating=2.49 vac=0.0%
+fishermans-bay-sa-5522  # FISHERMANS BAY SA | rating=2.12 vac=0.0%
+flagstaff-hill-sa-5159  # FLAGSTAFF HILL SA | rating=3.1 vac=0.46%
+forreston-sa-5233  # FORRESTON SA | rating=2.35 vac=0.0%
+freeling-sa-5372  # FREELING SA | rating=2.83 vac=0.0%
+fullham-sa-5024  # FULLHAM SA | rating=3.14 vac=0.68%
+gawler-sa-5118  # GAWLER SA | rating=3.31 vac=0.67%
+georgetown-sa-5472  # GEORGETOWN SA | rating=2.51 vac=0.0%
+gladstone-sa-5473  # GLADSTONE SA | rating=2.99 vac=0.0%
+glen-osmond-sa-5064  # GLEN OSMOND SA | rating=2.98 vac=1.82%
+glenalta-sa-5052  # GLENALTA SA | rating=1.85 vac=0.0053%
+glencoe-sa-5291  # GLENCOE SA | rating=3.32 vac=0.0142%
+glenelg-sa-5045  # GLENELG SA | rating=2.99 vac=0.66%
+glenroy-sa-5277  # GLENROY SA | rating=2.01 vac=0.0%
+glossop-sa-5344  # GLOSSOP SA | rating=1.95 vac=0.0%
+glynde-sa-5070  # GLYNDE SA | rating=2.81 vac=0.9%
+golden-grove-sa-5125  # GOLDEN GROVE SA | rating=3.71 vac=0.23%
+goodwood-sa-5034  # GOODWOOD SA | rating=2.39 vac=0.43%
+goolwa-sa-5214  # GOOLWA SA | rating=2.8 vac=3.26%
+greenhill-sa-5140  # GREENHILL SA | rating=2.24 vac=0.0%
+gulnare-sa-5471  # GULNARE SA | rating=1.32 vac=0.0%
+hackham-sa-5163  # HACKHAM SA | rating=2.87 vac=0.25%
+hackney-sa-5069  # HACKNEY SA | rating=3.0 vac=0.58%
+hahndorf-sa-5245  # HAHNDORF SA | rating=1.96 vac=0.0%
+halbury-sa-5461  # HALBURY SA | rating=2.76 vac=0.0%
+hammond-sa-5431  # HAMMOND SA | rating=1.17 vac=0.0%
+harrogate-sa-5244  # HARROGATE SA | rating=2.14 vac=1.29%
+hartley-sa-5255  # HARTLEY SA | rating=2.76 vac=0.89%
+hawthorndene-sa-5051  # HAWTHORNDENE SA | rating=3.14 vac=0.42%
+hay-flat-sa-5204  # HAY FLAT SA | rating=2.86 vac=2.6%
+heathfield-sa-5153  # HEATHFIELD SA | rating=1.87 vac=0.0%
+henley-beach-sa-5022  # HENLEY BEACH SA | rating=3.25 vac=0.9%
+highbury-sa-5089  # HIGHBURY SA | rating=3.03 vac=0.32%
+highgate-sa-5063  # HIGHGATE SA | rating=3.31 vac=0.35%
+hillcrest-sa-5086  # HILLCREST SA | rating=3.77 vac=0.63%
+hincks-sa-5603  # HINCKS SA | rating=2.84 vac=0.0303%
+hindmarsh-sa-5007  # HINDMARSH SA | rating=3.14 vac=0.44%
+holden-hill-sa-5088  # HOLDEN HILL SA | rating=3.03 vac=0.91%
+holder-sa-5330  # HOLDER SA | rating=2.42 vac=0.0079%
+honiton-sa-5576  # HONITON SA | rating=2.35 vac=0.0%
+hope-valley-sa-5090  # HOPE VALLEY SA | rating=3.23 vac=0.61%
+horsnell-gully-sa-5141  # HORSNELL GULLY SA | rating=2.04 vac=0.0357%
+houghton-sa-5131  # HOUGHTON SA | rating=2.0 vac=0.0%
+inglewood-sa-5133  # INGLEWOOD SA | rating=2.35 vac=0.0%
+jamestown-sa-5491  # JAMESTOWN SA | rating=1.57 vac=0.0%
+jamieson-sa-5640  # JAMIESON SA | rating=2.48 vac=0.0%
+joanna-sa-5271  # JOANNA SA | rating=2.68 vac=0.0%
+kaldoonera-sa-5655  # KALDOONERA SA | rating=1.74 vac=0.0%
+kanyaka-sa-5434  # KANYAKA SA | rating=1.83 vac=0.0%
+kapunda-sa-5373  # KAPUNDA SA | rating=2.43 vac=0.0%
+karatta-sa-5223  # KARATTA SA | rating=2.01 vac=0.0097%
+karoonda-sa-5307  # KAROONDA SA | rating=2.65 vac=0.0%
+kelly-sa-5641  # KELLY SA | rating=2.43 vac=0.0%
+kensington-sa-5068  # KENSINGTON SA | rating=3.04 vac=0.55%
+kersbrook-sa-5231  # KERSBROOK SA | rating=2.24 vac=0.0208%
+keswick-sa-5035  # KESWICK SA | rating=1.88 vac=0.56%
+kidman-park-sa-5025  # KIDMAN PARK SA | rating=2.94 vac=0.93%
+kilburn-sa-5084  # KILBURN SA | rating=3.29 vac=0.2%
+kilkenny-sa-5009  # KILKENNY SA | rating=2.5 vac=0.61%
+koolgera-sa-5661  # KOOLGERA SA | rating=0.39 vac=85000.0%
+koorine-sa-5279  # KOORINE SA | rating=2.18 vac=0.0%
+lake-view-sa-5555  # LAKE VIEW SA | rating=2.84 vac=0.0%
+lameroo-sa-5302  # LAMEROO SA | rating=1.98 vac=0.0%
+largs-bay-sa-5016  # LARGS BAY SA | rating=2.89 vac=0.11%
+lenswood-sa-5240  # LENSWOOD SA | rating=1.98 vac=0.0%
+lobethal-sa-5241  # LOBETHAL SA | rating=2.73 vac=0.0%
+loveday-sa-5346  # LOVEDAY SA | rating=1.86 vac=0.0%
+maclaren-vale-sa-5171  # MACLAREN VALE SA | rating=2.69 vac=0.88%
+magill-sa-5072  # MAGILL SA | rating=3.01 vac=0.74%
+maitland-sa-5573  # MAITLAND SA | rating=2.23 vac=0.0%
+marble-hill-sa-5137  # MARBLE HILL SA | rating=2.55 vac=0.0%
+marree-sa-5733  # MARREE SA | rating=1.29 vac=0.0%
+maslin-beach-sa-5170  # MASLIN BEACH SA | rating=2.48 vac=0.0%
+mawson-lakes-sa-5095  # MAWSON LAKES SA | rating=3.36 vac=0.62%
+mayfield-sa-5454  # MAYFIELD SA | rating=1.97 vac=0.0%
+meadows-sa-5201  # MEADOWS SA | rating=2.21 vac=0.0%
+medindie-sa-5081  # MEDINDIE SA | rating=3.62 vac=0.44%
+melrose-sa-5483  # MELROSE SA | rating=2.61 vac=0.0%
+melrose-park-sa-5039  # MELROSE PARK SA | rating=2.49 vac=0.24%
+meningie-sa-5264  # MENINGIE SA | rating=2.06 vac=0.0%
+middleton-sa-5213  # MIDDLETON SA | rating=2.93 vac=0.1569%
+mintaro-sa-5415  # MINTARO SA | rating=1.81 vac=0.0%
+mitcham-sa-5062  # MITCHAM SA | rating=3.16 vac=0.71%
+modbury-sa-5092  # MODBURY SA | rating=3.17 vac=0.78%
+monarto-sa-5254  # MONARTO SA | rating=2.14 vac=0.069%
+monash-sa-5342  # MONASH SA | rating=2.91 vac=0.0%
+montacute-sa-5134  # MONTACUTE SA | rating=2.64 vac=0.0%
+moorlands-sa-5301  # MOORLANDS SA | rating=1.61 vac=545000.0%
+moorook-sa-5332  # MOOROOK SA | rating=2.6 vac=430.0%
+morgan-sa-5320  # MORGAN SA | rating=1.68 vac=1.0%
+morn-hill-sa-5371  # MORN HILL SA | rating=2.55 vac=0.087%
+mount-barker-sa-5251  # MOUNT BARKER SA | rating=3.12 vac=0.89%
+mount-bryan-sa-5418  # MOUNT BRYAN SA | rating=2.13 vac=0.0%
+mount-gambier-sa-5290  # MOUNT GAMBIER SA | rating=3.68 vac=0.51%
+mundulla-sa-5270  # MUNDULLA SA | rating=2.07 vac=0.0%
+munno-para-sa-5115  # MUNNO PARA SA | rating=3.47 vac=2.02%
+murray-bridge-sa-5253  # MURRAY BRIDGE SA | rating=3.43 vac=1.47%
+murray-town-sa-5481  # MURRAY TOWN SA | rating=1.56 vac=0.0526%
+muston-sa-5221  # MUSTON SA | rating=1.88 vac=0.0%
+myponga-sa-5202  # MYPONGA SA | rating=1.91 vac=0.069%
+nain-sa-5360  # NAIN SA | rating=2.07 vac=0.0%
+nairne-sa-5252  # NAIRNE SA | rating=3.09 vac=1.43%
+nangkita-sa-5210  # NANGKITA SA | rating=1.82 vac=0.0%
+nepabunna-sa-5732  # NEPABUNNA SA | rating=1.58 vac=0.0%
+new-town-sa-5554  # NEW TOWN SA | rating=2.6 vac=0.0019%
+newton-sa-5074  # NEWTON SA | rating=3.5 vac=0.89%
+ninnes-sa-5560  # NINNES SA | rating=2.42 vac=0.0%
+north-adelaide-sa-5006  # NORTH ADELAIDE SA | rating=3.03 vac=1.92%
+north-haven-sa-5018  # NORTH HAVEN SA | rating=2.32 vac=2.02%
+north-plympton-sa-5037  # NORTH PLYMPTON SA | rating=3.45 vac=0.23%
+norton-summit-sa-5136  # NORTON SUMMIT SA | rating=2.13 vac=0.0%
+norwood-sa-5067  # NORWOOD SA | rating=2.74 vac=0.75%
+notts-well-sa-5357  # NOTTS WELL SA | rating=2.25 vac=0.1481%
+novar-gardens-sa-5040  # NOVAR GARDENS SA | rating=1.79 vac=0.0%
+o-halloran-hill-sa-5158  # O'HALLORAN HILL SA | rating=3.87 vac=0.41%
+o-sullivan-beach-sa-5166  # O'SULLIVAN BEACH SA | rating=2.56 vac=0.0044%
+oakbank-sa-5243  # OAKBANK SA | rating=2.25 vac=2.56%
+old-noarlunga-sa-5168  # OLD NOARLUNGA SA | rating=2.44 vac=0.44%
+osborne-sa-5017  # OSBORNE SA | rating=2.38 vac=0.62%
+owen-sa-5460  # OWEN SA | rating=1.79 vac=0.0%
+palmer-sa-5237  # PALMER SA | rating=1.84 vac=0.0%
+panorama-sa-5041  # PANORAMA SA | rating=3.54 vac=0.52%
+para-hills-sa-5096  # PARA HILLS SA | rating=3.41 vac=0.73%
+paracombe-sa-5132  # PARACOMBE SA | rating=2.3 vac=0.0%
+paradise-sa-5075  # PARADISE SA | rating=3.25 vac=0.45%
+parilla-sa-5303  # PARILLA SA | rating=1.58 vac=0.0%
+pasadena-sa-5042  # PASADENA SA | rating=3.07 vac=0.45%
+penfield-sa-5121  # PENFIELD SA | rating=1.9 vac=3.9%
+piccadilly-sa-5151  # PICCADILLY SA | rating=1.53 vac=0.0%
+pine-creek-sa-5419  # PINE CREEK SA | rating=2.03 vac=0.0%
+pinnaroo-sa-5304  # PINNAROO SA | rating=2.36 vac=0.0%
+plympton-sa-5038  # PLYMPTON SA | rating=2.99 vac=0.3%
+point-sturt-sa-5256  # POINT STURT SA | rating=1.65 vac=0.0274%
+port-adelaide-sa-5015  # PORT ADELAIDE SA | rating=2.98 vac=0.78%
+port-augusta-sa-5700  # PORT AUGUSTA SA | rating=3.11 vac=0.0124%
+port-elliot-sa-5212  # PORT ELLIOT SA | rating=2.12 vac=3.14%
+port-gawler-sa-5501  # PORT GAWLER SA | rating=2.76 vac=0.0315%
+port-kenny-sa-5671  # PORT KENNY SA | rating=1.59 vac=0.0%
+port-lincoln-sa-5606  # PORT LINCOLN SA | rating=2.24 vac=0.81%
+port-neill-sa-5604  # PORT NEILL SA | rating=1.81 vac=0.0625%
+port-noarlunga-sa-5167  # PORT NOARLUNGA SA | rating=2.62 vac=0.65%
+port-vincent-sa-5581  # PORT VINCENT SA | rating=1.92 vac=0.0%
+prospect-sa-5082  # PROSPECT SA | rating=2.89 vac=0.41%
+purnong-sa-5238  # PURNONG SA | rating=2.05 vac=19.43%
+pyap-sa-5333  # PYAP SA | rating=2.29 vac=0.0%
+ramco-sa-5322  # RAMCO SA | rating=2.05 vac=0.0%
+ramsay-sa-5575  # RAMSAY SA | rating=2.34 vac=0.0604%
+redbanks-sa-5502  # REDBANKS SA | rating=2.13 vac=0.0152%
+redhill-sa-5521  # REDHILL SA | rating=2.75 vac=1.0%
+regency-park-sa-5010  # REGENCY PARK SA | rating=2.72 vac=0.4%
+renmark-sa-5341  # RENMARK SA | rating=2.58 vac=0.0048%
+reynella-sa-5161  # REYNELLA SA | rating=3.13 vac=0.43%
+richmond-sa-5033  # RICHMOND SA | rating=3.18 vac=0.19%
+risdon-park-sa-5540  # RISDON PARK SA | rating=3.0 vac=0.2%
+riverton-sa-5412  # RIVERTON SA | rating=2.15 vac=0.0%
+robe-sa-5276  # ROBE SA | rating=2.2 vac=3.19%
+rosewater-sa-5013  # ROSEWATER SA | rating=2.63 vac=0.28%
+roxby-downs-sa-5725  # ROXBY DOWNS SA | rating=3.08 vac=3.85%
+salisbury-sa-5108  # SALISBURY SA | rating=3.46 vac=0.77%
+salisbury-heights-sa-5109  # SALISBURY HEIGHTS SA | rating=3.4 vac=1.07%
+salter-springs-sa-5401  # SALTER SPRINGS SA | rating=2.7 vac=0.0%
+sandalwood-sa-5309  # SANDALWOOD SA | rating=1.31 vac=0.0%
+sandy-creek-sa-5350  # SANDY CREEK SA | rating=1.65 vac=0.0%
+sandy-grove-sa-5275  # SANDY GROVE SA | rating=2.85 vac=0.0122%
+seacliff-sa-5049  # SEACLIFF SA | rating=2.64 vac=1.89%
+seacombe-sa-5047  # SEACOMBE SA | rating=2.72 vac=0.39%
+seaford-sa-5169  # SEAFORD SA | rating=2.87 vac=0.28%
+seaton-sa-5023  # SEATON SA | rating=3.53 vac=0.6%
+sefton-park-sa-5083  # SEFTON PARK SA | rating=3.1 vac=0.82%
+sellicks-beach-sa-5174  # SELLICKS BEACH SA | rating=2.62 vac=3.1%
+semaphore-sa-5019  # SEMAPHORE SA | rating=3.06 vac=0.46%
+smithfield-sa-5114  # SMITHFIELD SA | rating=3.39 vac=0.81%
+smoky-bay-sa-5680  # SMOKY BAY SA | rating=2.3 vac=0.0256%
+somerton-park-sa-5044  # SOMERTON PARK SA | rating=2.1 vac=0.2%
+spectacle-lake-sa-5345  # SPECTACLE LAKE SA | rating=2.38 vac=0.28%
+st-agnes-sa-5097  # ST AGNES SA | rating=3.49 vac=0.99%
+stansbury-sa-5582  # STANSBURY SA | rating=2.35 vac=0.0%
+stirling-north-sa-5710  # STIRLING NORTH SA | rating=1.78 vac=0.0085%
+stockport-sa-5410  # STOCKPORT SA | rating=1.45 vac=0.0%
+stone-hut-sa-5480  # STONE HUT SA | rating=2.22 vac=0.0%
+sunnydale-sa-5353  # SUNNYDALE SA | rating=2.16 vac=0.0377%
+sunnyvale-sa-5552  # SUNNYVALE SA | rating=1.98 vac=0.0%
+sutherlands-sa-5374  # SUTHERLANDS SA | rating=2.8 vac=0.0%
+tarlee-sa-5411  # TARLEE SA | rating=2.67 vac=0.0%
+terowie-sa-5421  # TEROWIE SA | rating=2.38 vac=0.0%
+the-pines-sa-5577  # THE PINES SA | rating=1.91 vac=0.0323%
+thornlea-sa-5280  # THORNLEA SA | rating=2.89 vac=0.0%
+tintinara-sa-5266  # TINTINARA SA | rating=2.16 vac=0.0%
+torrensville-sa-5031  # TORRENSVILLE SA | rating=3.28 vac=0.57%
+tothill-belt-sa-5413  # TOTHILL BELT SA | rating=1.64 vac=0.0%
+tranmere-sa-5073  # TRANMERE SA | rating=3.38 vac=1.29%
+tumby-bay-sa-5605  # TUMBY BAY SA | rating=2.52 vac=0.0%
+tungkillo-sa-5236  # TUNGKILLO SA | rating=1.84 vac=0.0%
+underdale-sa-5032  # UNDERDALE SA | rating=3.38 vac=0.67%
+unley-sa-5061  # UNLEY SA | rating=2.47 vac=0.88%
+upper-sturt-sa-5156  # UPPER STURT SA | rating=1.5 vac=0.0%
+uraidla-sa-5142  # URAIDLA SA | rating=2.16 vac=0.0%
+valley-view-sa-5093  # VALLEY VIEW SA | rating=3.5 vac=0.67%
+victor-harbour-sa-5211  # VICTOR HARBOUR SA | rating=2.21 vac=2.57%
+virginia-sa-5120  # VIRGINIA SA | rating=2.19 vac=0.0896%
+walkley-heights-sa-5098  # WALKLEY HEIGHTS SA | rating=3.31 vac=0.9%
+wallaroo-sa-5556  # WALLAROO SA | rating=2.25 vac=0.0021%
+wandearah-sa-5523  # WANDEARAH SA | rating=2.48 vac=0.0085%
+warradale-sa-5046  # WARRADALE SA | rating=3.19 vac=0.53%
+wasleys-sa-5400  # WASLEYS SA | rating=1.45 vac=0.0588%
+watervale-sa-5452  # WATERVALE SA | rating=2.07 vac=0.0%
+wellington-sa-5259  # WELLINGTON SA | rating=2.16 vac=0.0476%
+wepar-sa-5278  # WEPAR SA | rating=2.57 vac=0.0%
+west-lakes-sa-5021  # WEST LAKES SA | rating=2.74 vac=0.63%
+west-lakes-shore-sa-5020  # WEST LAKES SHORE SA | rating=2.0 vac=2.35%
+whyalla-sa-5600  # WHYALLA SA | rating=3.14 vac=2.51%
+whyalla-jenkins-sa-5609  # WHYALLA JENKINS SA | rating=2.01 vac=0.0198%
+whyalla-norrie-sa-5608  # WHYALLA NORRIE SA | rating=3.33 vac=0.0161%
+williamstown-sa-5351  # WILLIAMSTOWN SA | rating=2.44 vac=0.46%
+willunga-sa-5172  # WILLUNGA SA | rating=1.59 vac=1.12%
+wilmington-sa-5485  # WILMINGTON SA | rating=2.67 vac=0.0%
+windsor-gardens-sa-5087  # WINDSOR GARDENS SA | rating=3.45 vac=0.68%
+wolseley-sa-5269  # WOLSELEY SA | rating=1.46 vac=0.0%
+woodcroft-sa-5162  # WOODCROFT SA | rating=3.7 vac=0.38%
+woodville-sa-5011  # WOODVILLE SA | rating=3.31 vac=0.59%
+woodville-north-sa-5012  # WOODVILLE NORTH SA | rating=2.92 vac=0.22%
+wudinna-sa-5652  # WUDINNA SA | rating=2.73 vac=0.0%
+wynarka-sa-5306  # WYNARKA SA | rating=1.41 vac=0.0%
+wynn-vale-sa-5127  # WYNN VALE SA | rating=2.37 vac=0.2%
+yacka-sa-5470  # YACKA SA | rating=2.83 vac=0.0%
+yalata-sa-5690  # YALATA SA | rating=2.82 vac=0.003%
+yamba-sa-5340  # YAMBA SA | rating=1.31 vac=0.0286%
+yankalilla-sa-5203  # YANKALILLA SA | rating=1.57 vac=0.0%
+yarrah-sa-5433  # YARRAH SA | rating=2.31 vac=0.0104%
+yelta-sa-5558  # YELTA SA | rating=1.92 vac=0.78%
+bagdad-tas-7030  # BAGDAD TAS | rating=3.15 vac=0.04%
+banca-tas-7265  # BANCA TAS | rating=1.78 vac=0.0%
+barrington-tas-7306  # BARRINGTON TAS | rating=2.27 vac=0.0%
+beaconsfield-tas-7270  # BEACONSFIELD TAS | rating=2.46 vac=0.0%
+beechford-tas-7252  # BEECHFORD TAS | rating=2.34 vac=0.0%
+bell-bay-tas-7253  # BELL BAY TAS | rating=2.99 vac=1.3%
+bellingham-tas-7254  # BELLINGHAM TAS | rating=2.18 vac=0.0%
+blackmans-bay-tas-7052  # BLACKMANS BAY TAS | rating=2.78 vac=0.0%
+blackwood-creek-tas-7301  # BLACKWOOD CREEK TAS | rating=2.74 vac=0.0%
+blessington-tas-7212  # BLESSINGTON TAS | rating=2.03 vac=0.0%
+blue-rocks-tas-7255  # BLUE ROCKS TAS | rating=1.53 vac=0.0%
+boat-harbour-tas-7321  # BOAT HARBOUR TAS | rating=2.63 vac=0.0203%
+bracknell-tas-7302  # BRACKNELL TAS | rating=1.77 vac=0.0%
+bridgenorth-tas-7277  # BRIDGENORTH TAS | rating=2.63 vac=0.29%
+burnie-tas-7320  # BURNIE TAS | rating=3.59 vac=0.43%
+campania-tas-7026  # CAMPANIA TAS | rating=2.04 vac=0.0%
+campbell-town-tas-7210  # CAMPBELL TOWN TAS | rating=2.91 vac=0.0192%
+carlton-tas-7173  # CARLTON TAS | rating=3.34 vac=0.006%
+carrick-tas-7291  # CARRICK TAS | rating=2.25 vac=0.0%
+claremont-tas-7011  # CLAREMONT TAS | rating=3.23 vac=0.27%
+clarendon-vale-tas-7019  # CLARENDON VALE TAS | rating=2.9 vac=0.14%
+cleveland-tas-7211  # CLEVELAND TAS | rating=2.22 vac=0.0%
+colebrook-tas-7027  # COLEBROOK TAS | rating=2.41 vac=0.0%
+collinsvale-tas-7012  # COLLINSVALE TAS | rating=3.03 vac=0.0%
+cremorne-tas-7024  # CREMORNE TAS | rating=2.73 vac=0.0%
+cygnet-tas-7112  # CYGNET TAS | rating=2.84 vac=2.2%
+devon-hills-tas-7300  # DEVON HILLS TAS | rating=1.91 vac=0.39%
+devonport-tas-7310  # DEVONPORT TAS | rating=3.48 vac=0.26%
+dover-tas-7117  # DOVER TAS | rating=2.36 vac=0.0%
+dunalley-tas-7177  # DUNALLEY TAS | rating=1.67 vac=0.0%
+eaglehawk-neck-tas-7179  # EAGLEHAWK NECK TAS | rating=1.94 vac=0.0%
+fingal-tas-7214  # FINGAL TAS | rating=3.03 vac=0.0%
+flowerpot-tas-7163  # FLOWERPOT TAS | rating=1.38 vac=0.0%
+franklin-tas-7113  # FRANKLIN TAS | rating=1.89 vac=0.0%
+gawler-tas-7315  # GAWLER TAS | rating=2.69 vac=0.14%
+geeveston-tas-7116  # GEEVESTON TAS | rating=2.48 vac=0.0185%
+geilston-bay-tas-7015  # GEILSTON BAY TAS | rating=3.49 vac=0.62%
+glen-huon-tas-7109  # GLEN HUON TAS | rating=2.9 vac=0.58%
+glengarry-tas-7275  # GLENGARRY TAS | rating=2.6 vac=0.0104%
+glenora-tas-7140  # GLENORA TAS | rating=3.0 vac=0.63%
+gordon-tas-7150  # GORDON TAS | rating=2.47 vac=0.0%
+gormanston-tas-7466  # GORMANSTON TAS | rating=0.54 vac=0.0%
+gravelly-beach-tas-7276  # GRAVELLY BEACH TAS | rating=1.18 vac=0.0%
+hadspen-tas-7290  # HADSPEN TAS | rating=2.24 vac=0.0%
+hobart-tas-7000  # HOBART TAS | rating=3.32 vac=0.91%
+huntingfield-tas-7055  # HUNTINGFIELD TAS | rating=1.7 vac=0.0%
+kettering-tas-7155  # KETTERING TAS | rating=2.16 vac=0.04%
+kingston-tas-7050  # KINGSTON TAS | rating=3.12 vac=0.0%
+lauderdale-tas-7021  # LAUDERDALE TAS | rating=2.7 vac=0.0%
+launceston-tas-7250  # LAUNCESTON TAS | rating=3.48 vac=0.49%
+legerwood-tas-7263  # LEGERWOOD TAS | rating=2.2 vac=0.0357%
+lenah-valley-tas-7008  # LENAH VALLEY TAS | rating=3.29 vac=0.1%
+lilydale-tas-7268  # LILYDALE TAS | rating=1.31 vac=0.0%
+margate-tas-7054  # MARGATE TAS | rating=2.77 vac=0.2%
+mayfield-tas-7248  # MAYFIELD TAS | rating=3.61 vac=0.36%
+merseylea-tas-7305  # MERSEYLEA TAS | rating=2.08 vac=0.0333%
+midway-point-tas-7170  # MIDWAY POINT TAS | rating=1.61 vac=1.37%
+montagu-tas-7330  # MONTAGU TAS | rating=2.71 vac=1.17%
+montana-tas-7304  # MONTANA TAS | rating=2.96 vac=0.67%
+montrose-tas-7010  # MONTROSE TAS | rating=3.34 vac=0.15%
+moonah-tas-7009  # MOONAH TAS | rating=3.37 vac=0.3%
+moorina-tas-7264  # MOORINA TAS | rating=1.98 vac=0.0556%
+mount-nelson-tas-7007  # MOUNT NELSON TAS | rating=2.59 vac=0.0%
+murdunna-tas-7178  # MURDUNNA TAS | rating=2.44 vac=0.0%
+myrtle-bank-tas-7259  # MYRTLE BANK TAS | rating=2.1 vac=0.0%
+nubeena-tas-7184  # NUBEENA TAS | rating=2.08 vac=0.0119%
+oaks-tas-7303  # OAKS TAS | rating=1.58 vac=0.0043%
+oatlands-tas-7120  # OATLANDS TAS | rating=1.75 vac=0.0108%
+opossum-bay-tas-7023  # OPOSSUM BAY TAS | rating=1.63 vac=0.0%
+otago-tas-7017  # OTAGO TAS | rating=2.03 vac=0.0%
+port-arthur-tas-7182  # PORT ARTHUR TAS | rating=1.89 vac=0.0313%
+premaydena-tas-7185  # PREMAYDENA TAS | rating=1.17 vac=0.0833%
+punchbowl-tas-7249  # PUNCHBOWL TAS | rating=3.52 vac=0.34%
+queenstown-tas-7467  # QUEENSTOWN TAS | rating=2.4 vac=0.0274%
+riana-tas-7316  # RIANA TAS | rating=2.84 vac=0.71%
+richmond-tas-7025  # RICHMOND TAS | rating=1.51 vac=0.0217%
+risdon-vale-tas-7016  # RISDON VALE TAS | rating=2.36 vac=0.0052%
+rosebery-tas-7470  # ROSEBERY TAS | rating=2.52 vac=2.78%
+rosevale-tas-7292  # ROSEVALE TAS | rating=1.4 vac=0.0%
+rosny-tas-7018  # ROSNY TAS | rating=3.72 vac=0.16%
+ross-tas-7209  # ROSS TAS | rating=2.34 vac=0.0%
+rossarden-tas-7213  # ROSSARDEN TAS | rating=2.15 vac=0.0%
+saltwater-river-tas-7186  # SALTWATER RIVER TAS | rating=2.01 vac=306000.0%
+sandford-tas-7020  # SANDFORD TAS | rating=2.17 vac=0.0204%
+sandy-bay-tas-7005  # SANDY BAY TAS | rating=3.34 vac=0.8%
+scamander-tas-7215  # SCAMANDER TAS | rating=2.34 vac=0.0103%
+scottsdale-tas-7260  # SCOTTSDALE TAS | rating=1.91 vac=0.0038%
+sharks-point-tas-7171  # SHARKS POINT TAS | rating=2.75 vac=0.27%
+shearwater-tas-7307  # SHEARWATER TAS | rating=3.15 vac=0.28%
+somerset-tas-7322  # SOMERSET TAS | rating=2.89 vac=0.21%
+sorell-tas-7172  # SORELL TAS | rating=1.83 vac=0.21%
+south-arm-tas-7022  # SOUTH ARM TAS | rating=2.46 vac=0.0%
+south-hobart-tas-7004  # SOUTH HOBART TAS | rating=2.89 vac=0.32%
+stanley-tas-7331  # STANLEY TAS | rating=2.07 vac=0.0%
+strahan-tas-7468  # STRAHAN TAS | rating=1.95 vac=0.0556%
+takone-tas-7325  # TAKONE TAS | rating=3.05 vac=1.21%
+taranna-tas-7180  # TARANNA TAS | rating=2.15 vac=0.0%
+taroona-tas-7053  # TAROONA TAS | rating=1.98 vac=0.0%
+the-gardens-tas-7216  # THE GARDENS TAS | rating=2.77 vac=0.96%
+triabunna-tas-7190  # TRIABUNNA TAS | rating=2.66 vac=2.37%
+turners-marsh-tas-7267  # TURNERS MARSH TAS | rating=2.42 vac=0.0%
+warrentinna-tas-7261  # WARRENTINNA TAS | rating=2.27 vac=0.0625%
+waterhouse-tas-7262  # WATERHOUSE TAS | rating=2.11 vac=3.48%
+white-hills-tas-7258  # WHITE HILLS TAS | rating=2.1 vac=0.0%
+wickham-tas-7256  # WICKHAM TAS | rating=2.41 vac=0.0192%
+woodbridge-tas-7162  # WOODBRIDGE TAS | rating=2.05 vac=0.0303%
+zeehan-tas-7469  # ZEEHAN TAS | rating=1.59 vac=0.0111%
+abbotsford-vic-3067  # ABBOTSFORD VIC | rating=3.01 vac=0.64%
+albert-park-vic-3206  # ALBERT PARK VIC | rating=2.71 vac=0.73%
+alberton-vic-3971  # ALBERTON VIC | rating=1.99 vac=0.0%
+almonds-vic-3727  # ALMONDS VIC | rating=2.52 vac=0.1667%
+altona-vic-3018  # ALTONA VIC | rating=3.39 vac=0.83%
+altona-east-vic-3025  # ALTONA EAST VIC | rating=3.29 vac=0.93%
+altona-meadows-vic-3028  # ALTONA MEADOWS VIC | rating=3.82 vac=1.67%
+anglers-rest-vic-3898  # ANGLERS REST VIC | rating=1.71 vac=2.7%
+anglesea-vic-3230  # ANGLESEA VIC | rating=2.92 vac=0.0%
+antwerp-vic-3414  # ANTWERP VIC | rating=2.62 vac=0.0%
+apsley-vic-3319  # APSLEY VIC | rating=2.67 vac=110000.0%
+archdale-vic-3475  # ARCHDALE VIC | rating=1.74 vac=0.0%
+ardeer-vic-3022  # ARDEER VIC | rating=2.87 vac=1.28%
+armadale-vic-3143  # ARMADALE VIC | rating=2.2 vac=1.1%
+ascot-vic-3364  # ASCOT VIC | rating=1.28 vac=0.0%
+ascot-vale-vic-3032  # ASCOT VALE VIC | rating=3.23 vac=1.4%
+ashwood-vic-3147  # ASHWOOD VIC | rating=3.34 vac=0.91%
+aspendale-vic-3195  # ASPENDALE VIC | rating=3.46 vac=0.63%
+aubrey-vic-3393  # AUBREY VIC | rating=2.18 vac=0.47%
+auchmore-vic-3570  # AUCHMORE VIC | rating=2.45 vac=0.0%
+avalon-vic-3212  # AVALON VIC | rating=3.18 vac=1.26%
+avoca-vic-3467  # AVOCA VIC | rating=2.61 vac=0.0122%
+avondale-heights-vic-3034  # AVONDALE HEIGHTS VIC | rating=3.25 vac=1.21%
+avonmore-vic-3559  # AVONMORE VIC | rating=2.31 vac=0.0526%
+ballangeich-vic-3279  # BALLANGEICH VIC | rating=1.56 vac=0.0%
+ballarat-vic-3350  # BALLARAT VIC | rating=3.32 vac=0.7%
+balliang-vic-3340  # BALLIANG VIC | rating=3.37 vac=0.82%
+balmoral-vic-3407  # BALMORAL VIC | rating=2.48 vac=70000.0%
+balwyn-vic-3103  # BALWYN VIC | rating=2.28 vac=1.33%
+balwyn-north-vic-3104  # BALWYN NORTH VIC | rating=3.07 vac=1.49%
+bandiana-milpo-vic-3694  # BANDIANA MILPO VIC | rating=0.81 vac=0.0%
+baringhup-vic-3463  # BARINGHUP VIC | rating=1.43 vac=0.0%
+basalt-vic-3460  # BASALT VIC | rating=2.31 vac=0.66%
+bass-vic-3991  # BASS VIC | rating=1.82 vac=0.0%
+baw-baw-vic-3833  # BAW BAW VIC | rating=2.2 vac=0.0%
+bayswater-vic-3153  # BAYSWATER VIC | rating=3.46 vac=0.45%
+beechworth-vic-3747  # BEECHWORTH VIC | rating=3.23 vac=0.81%
+belgrave-vic-3160  # BELGRAVE VIC | rating=2.72 vac=0.78%
+bellellen-vic-3381  # BELLELLEN VIC | rating=1.29 vac=0.0%
+bells-beach-vic-3228  # BELLS BEACH VIC | rating=3.5 vac=0.41%
+bena-vic-3946  # BENA VIC | rating=1.65 vac=0.0%
+benalla-vic-3672  # BENALLA VIC | rating=2.65 vac=1.41%
+benambra-vic-3900  # BENAMBRA VIC | rating=1.52 vac=0.0%
+bendigo-vic-3550  # BENDIGO VIC | rating=3.77 vac=1.83%
+bentleigh-vic-3204  # BENTLEIGH VIC | rating=3.27 vac=1.02%
+bentleigh-east-vic-3165  # BENTLEIGH EAST VIC | rating=3.24 vac=1.05%
+berriwillock-vic-3531  # BERRIWILLOCK VIC | rating=2.61 vac=0.0%
+berrybank-vic-3323  # BERRYBANK VIC | rating=1.14 vac=0.0%
+berwick-vic-3806  # BERWICK VIC | rating=3.62 vac=2.22%
+bete-bolong-vic-3888  # BETE BOLONG VIC | rating=1.64 vac=1.18%
+beveridge-vic-3753  # BEVERIDGE VIC | rating=3.24 vac=0.1847%
+bindi-vic-3896  # BINDI VIC | rating=2.45 vac=0.0%
+birchip-vic-3483  # BIRCHIP VIC | rating=2.84 vac=0.0%
+birregurra-vic-3242  # BIRREGURRA VIC | rating=2.69 vac=0.0172%
+bittern-vic-3918  # BITTERN VIC | rating=2.05 vac=0.46%
+black-rock-vic-3193  # BLACK ROCK VIC | rating=2.73 vac=1.55%
+blackburn-vic-3130  # BLACKBURN VIC | rating=3.08 vac=1.13%
+blairgowrie-vic-3942  # BLAIRGOWRIE VIC | rating=2.95 vac=4.6%
+bogong-vic-3699  # BOGONG VIC | rating=2.23 vac=23.08%
+boho-vic-3669  # BOHO VIC | rating=2.26 vac=0.0119%
+bonnie-doon-vic-3720  # BONNIE DOON VIC | rating=1.62 vac=0.0909%
+boolarra-vic-3870  # BOOLARRA VIC | rating=1.77 vac=0.0%
+boronia-vic-3155  # BORONIA VIC | rating=3.31 vac=1.22%
+boundary-bend-vic-3599  # BOUNDARY BEND VIC | rating=0.21 vac=0.0%
+box-hill-vic-3128  # BOX HILL VIC | rating=2.59 vac=2.19%
+box-hill-north-vic-3129  # BOX HILL NORTH VIC | rating=3.13 vac=1.47%
+boxwood-vic-3725  # BOXWOOD VIC | rating=0.95 vac=0.0%
+branxholme-vic-3302  # BRANXHOLME VIC | rating=2.47 vac=0.0%
+breakaway-creek-vic-3303  # BREAKAWAY CREEK VIC | rating=2.61 vac=0.0%
+bridgewater-vic-3516  # BRIDGEWATER VIC | rating=1.54 vac=0.0%
+bright-vic-3741  # BRIGHT VIC | rating=2.6 vac=0.93%
+brighton-vic-3186  # BRIGHTON VIC | rating=3.02 vac=2.46%
+brighton-east-vic-3187  # BRIGHTON EAST VIC | rating=3.13 vac=1.79%
+brim-vic-3391  # BRIM VIC | rating=1.78 vac=0.0%
+brimin-vic-3685  # BRIMIN VIC | rating=1.66 vac=0.5%
+broadford-vic-3658  # BROADFORD VIC | rating=2.85 vac=1.01%
+broadmeadows-vic-3047  # BROADMEADOWS VIC | rating=3.83 vac=1.16%
+broadwater-vic-3301  # BROADWATER VIC | rating=1.37 vac=0.0%
+bromley-vic-3472  # BROMLEY VIC | rating=2.13 vac=0.0%
+brunswick-vic-3056  # BRUNSWICK VIC | rating=3.82 vac=1.13%
+brunswick-east-vic-3057  # BRUNSWICK EAST VIC | rating=3.0 vac=0.96%
+brunswick-west-vic-3055  # BRUNSWICK WEST VIC | rating=2.93 vac=1.47%
+budgee-budgee-vic-3862  # BUDGEE BUDGEE VIC | rating=1.98 vac=0.0055%
+buffalo-vic-3958  # BUFFALO VIC | rating=1.97 vac=0.0%
+bulart-vic-3314  # BULART VIC | rating=1.86 vac=0.0%
+bulla-vic-3428  # BULLA VIC | rating=1.54 vac=0.0%
+bulleen-vic-3105  # BULLEEN VIC | rating=3.24 vac=1.96%
+buln-buln-vic-3821  # BULN BULN VIC | rating=2.18 vac=0.0192%
+bungeet-vic-3726  # BUNGEET VIC | rating=1.71 vac=0.0%
+buninyong-vic-3357  # BUNINYONG VIC | rating=2.48 vac=0.0%
+bunyip-vic-3815  # BUNYIP VIC | rating=2.19 vac=0.75%
+burnside-vic-3023  # BURNSIDE VIC | rating=3.41 vac=0.91%
+burwood-vic-3125  # BURWOOD VIC | rating=2.77 vac=3.68%
+burwood-heights-vic-3151  # BURWOOD HEIGHTS VIC | rating=3.25 vac=2.42%
+buxton-vic-3711  # BUXTON VIC | rating=2.67 vac=0.0%
+cabbage-tree-creek-vic-3889  # CABBAGE TREE CREEK VIC | rating=1.82 vac=0.0%
+calivil-vic-3573  # CALIVIL VIC | rating=1.31 vac=0.0%
+callignee-vic-3844  # CALLIGNEE VIC | rating=3.27 vac=1.8%
+cambarville-vic-3779  # CAMBARVILLE VIC | rating=1.22 vac=4.08%
+camberwell-vic-3124  # CAMBERWELL VIC | rating=2.9 vac=1.31%
+campbellfield-vic-3061  # CAMPBELLFIELD VIC | rating=2.9 vac=2.68%
+cannie-vic-3540  # CANNIE VIC | rating=2.47 vac=0.0%
+canterbury-vic-3126  # CANTERBURY VIC | rating=2.69 vac=0.83%
+caramut-vic-3274  # CARAMUT VIC | rating=2.41 vac=0.0%
+carina-vic-3512  # CARINA VIC | rating=2.46 vac=0.0%
+carisbrook-vic-3464  # CARISBROOK VIC | rating=2.33 vac=0.0%
+carlton-vic-3053  # CARLTON VIC | rating=2.24 vac=4.67%
+carlton-north-vic-3054  # CARLTON NORTH VIC | rating=3.16 vac=0.6%
+carnegie-vic-3163  # CARNEGIE VIC | rating=3.21 vac=1.33%
+carrum-downs-vic-3201  # CARRUM DOWNS VIC | rating=3.3 vac=0.63%
+casterton-vic-3311  # CASTERTON VIC | rating=2.05 vac=0.0213%
+castlemaine-vic-3450  # CASTLEMAINE VIC | rating=3.11 vac=0.14%
+caulfield-vic-3162  # CAULFIELD VIC | rating=2.96 vac=0.9%
+chadstone-vic-3148  # CHADSTONE VIC | rating=2.98 vac=0.51%
+chapple-vale-vic-3239  # CHAPPLE VALE VIC | rating=2.17 vac=0.0%
+charleroi-vic-3695  # CHARLEROI VIC | rating=1.75 vac=0.0%
+chelsea-vic-3196  # CHELSEA VIC | rating=3.25 vac=0.46%
+cheltenham-vic-3192  # CHELTENHAM VIC | rating=3.08 vac=0.81%
+chepstowe-vic-3351  # CHEPSTOWE VIC | rating=2.49 vac=0.0051%
+chewton-vic-3451  # CHEWTON VIC | rating=2.26 vac=0.75%
+chiltern-vic-3683  # CHILTERN VIC | rating=1.96 vac=0.0%
+chintin-vic-3756  # CHINTIN VIC | rating=2.72 vac=4.53%
+chirnside-park-vic-3116  # CHIRNSIDE PARK VIC | rating=3.79 vac=0.55%
+churchill-vic-3842  # CHURCHILL VIC | rating=3.33 vac=0.0176%
+clarendon-vic-3352  # CLARENDON VIC | rating=3.12 vac=0.82%
+clayton-vic-3168  # CLAYTON VIC | rating=2.84 vac=4.87%
+clayton-south-vic-3169  # CLAYTON SOUTH VIC | rating=3.05 vac=1.66%
+cloverlea-vic-3822  # CLOVERLEA VIC | rating=1.61 vac=0.0%
+clunes-vic-3370  # CLUNES VIC | rating=2.17 vac=0.0%
+clyde-vic-3978  # CLYDE VIC | rating=2.88 vac=0.0337%
+coburg-vic-3058  # COBURG VIC | rating=3.46 vac=0.71%
+cockatoo-vic-3781  # COCKATOO VIC | rating=2.62 vac=0.0364%
+cokum-vic-3542  # COKUM VIC | rating=1.37 vac=0.0%
+colac-vic-3250  # COLAC VIC | rating=3.3 vac=0.86%
+collingwood-vic-3066  # COLLINGWOOD VIC | rating=2.63 vac=0.38%
+congupna-vic-3633  # CONGUPNA VIC | rating=2.21 vac=0.0%
+connewarre-vic-3227  # CONNEWARRE VIC | rating=2.78 vac=0.39%
+corio-vic-3214  # CORIO VIC | rating=3.72 vac=1.11%
+cowwarr-vic-3857  # COWWARR VIC | rating=1.5 vac=0.0%
+craigieburn-vic-3064  # CRAIGIEBURN VIC | rating=3.32 vac=4.06%
+cranbourne-vic-3977  # CRANBOURNE VIC | rating=3.49 vac=1.71%
+cressy-vic-3322  # CRESSY VIC | rating=1.98 vac=0.0%
+creswick-vic-3363  # CRESWICK VIC | rating=2.14 vac=0.0%
+crib-point-vic-3919  # CRIB POINT VIC | rating=1.95 vac=0.0%
+crimea-vic-3161  # CRIMEA VIC | rating=2.83 vac=1.66%
+crowlands-vic-3377  # CROWLANDS VIC | rating=2.79 vac=1.56%
+croydon-vic-3136  # CROYDON VIC | rating=3.62 vac=0.51%
+cudgewa-vic-3705  # CUDGEWA VIC | rating=2.41 vac=0.0%
+cundare-vic-3251  # CUNDARE VIC | rating=2.55 vac=0.0%
+dandenong-vic-3175  # DANDENONG VIC | rating=3.31 vac=1.12%
+dandenong-south-vic-3164  # DANDENONG SOUTH VIC | rating=1.59 vac=0.0%
+darlington-vic-3271  # DARLINGTON VIC | rating=1.68 vac=0.0%
+dewhurst-vic-3808  # DEWHURST VIC | rating=2.56 vac=0.0%
+diamond-creek-vic-3089  # DIAMOND CREEK VIC | rating=2.4 vac=0.24%
+diggers-rest-vic-3427  # DIGGERS REST VIC | rating=3.47 vac=0.011%
+dingee-vic-3571  # DINGEE VIC | rating=2.55 vac=0.0%
+docklands-vic-3008  # DOCKLANDS VIC | rating=1.8 vac=2.48%
+doncaster-vic-3108  # DONCASTER VIC | rating=3.29 vac=1.45%
+doncaster-east-vic-3109  # DONCASTER EAST VIC | rating=3.27 vac=1.04%
+donvale-vic-3111  # DONVALE VIC | rating=2.33 vac=0.43%
+dookie-vic-3646  # DOOKIE VIC | rating=1.69 vac=0.0%
+doreen-vic-3754  # DOREEN VIC | rating=3.53 vac=1.23%
+drouin-vic-3818  # DROUIN VIC | rating=2.92 vac=1.72%
+drysdale-vic-3222  # DRYSDALE VIC | rating=3.39 vac=0.64%
+eagle-point-vic-3878  # EAGLE POINT VIC | rating=2.07 vac=0.0%
+eaglehawk-vic-3556  # EAGLEHAWK VIC | rating=3.54 vac=1.05%
+east-melbourne-vic-3002  # EAST MELBOURNE VIC | rating=2.84 vac=1.93%
+echuca-vic-3564  # ECHUCA VIC | rating=2.26 vac=0.33%
+edi-vic-3678  # EDI VIC | rating=1.68 vac=0.0071%
+eildon-vic-3713  # EILDON VIC | rating=1.61 vac=0.011%
+eldorado-vic-3746  # ELDORADO VIC | rating=1.13 vac=0.0%
+elingamite-vic-3266  # ELINGAMITE VIC | rating=1.71 vac=0.0%
+elizabeth-island-vic-3921  # ELIZABETH ISLAND VIC | rating=1.06 vac=0.0%
+elmhurst-vic-3469  # ELMHURST VIC | rating=1.93 vac=0.0%
+elsternwick-vic-3185  # ELSTERNWICK VIC | rating=2.74 vac=0.96%
+eltham-vic-3095  # ELTHAM VIC | rating=3.23 vac=0.74%
+elwood-vic-3184  # ELWOOD VIC | rating=2.93 vac=0.89%
+emerald-vic-3782  # EMERALD VIC | rating=2.25 vac=0.58%
+endeavour-hills-vic-3802  # ENDEAVOUR HILLS VIC | rating=3.4 vac=0.92%
+ensay-vic-3895  # ENSAY VIC | rating=2.13 vac=0.0%
+epping-vic-3076  # EPPING VIC | rating=3.49 vac=0.73%
+essendon-vic-3040  # ESSENDON VIC | rating=2.95 vac=1.22%
+eumemmerring-vic-3177  # EUMEMMERRING VIC | rating=3.03 vac=1.56%
+eurobin-vic-3739  # EUROBIN VIC | rating=1.44 vac=0.0%
+fairfield-vic-3078  # FAIRFIELD VIC | rating=3.1 vac=1.58%
+fawkner-vic-3060  # FAWKNER VIC | rating=3.24 vac=1.33%
+fernshaw-vic-3778  # FERNSHAW VIC | rating=2.23 vac=0.0%
+ferntree-gully-vic-3156  # FERNTREE GULLY VIC | rating=3.79 vac=0.78%
+ferny-creek-vic-3786  # FERNY CREEK VIC | rating=1.25 vac=0.0294%
+fitzroy-vic-3065  # FITZROY VIC | rating=2.6 vac=0.48%
+fitzroy-north-vic-3068  # FITZROY NORTH VIC | rating=3.33 vac=0.83%
+flemington-vic-3031  # FLEMINGTON VIC | rating=3.27 vac=0.96%
+flinders-vic-3929  # FLINDERS VIC | rating=1.52 vac=8.33%
+flowerdale-vic-3717  # FLOWERDALE VIC | rating=2.39 vac=1.16%
+footscray-vic-3011  # FOOTSCRAY VIC | rating=3.0 vac=2.71%
+forest-hill-vic-3131  # FOREST HILL VIC | rating=3.47 vac=0.89%
+forrest-vic-3236  # FORREST VIC | rating=1.76 vac=0.0%
+foster-vic-3960  # FOSTER VIC | rating=2.44 vac=1.85%
+framlingham-vic-3265  # FRAMLINGHAM VIC | rating=2.34 vac=0.0%
+frankston-vic-3199  # FRANKSTON VIC | rating=3.88 vac=1.32%
+frankston-north-vic-3200  # FRANKSTON NORTH VIC | rating=3.73 vac=1.34%
+garfield-vic-3814  # GARFIELD VIC | rating=1.33 vac=0.96%
+gazette-vic-3289  # GAZETTE VIC | rating=1.61 vac=0.0328%
+geelong-vic-3220  # GEELONG VIC | rating=3.24 vac=1.39%
+geelong-mc-vic-3221  # GEELONG MC VIC | rating=1.97 vac=0.0%
+geelong-north-vic-3215  # GEELONG NORTH VIC | rating=3.48 vac=0.63%
+geelong-west-vic-3218  # GEELONG WEST VIC | rating=3.08 vac=0.84%
+gembrook-vic-3783  # GEMBROOK VIC | rating=1.25 vac=0.0192%
+giffard-vic-3851  # GIFFARD VIC | rating=2.14 vac=10.26%
+gipsy-point-vic-3891  # GIPSY POINT VIC | rating=0.93 vac=355000.0%
+girgarre-vic-3624  # GIRGARRE VIC | rating=2.02 vac=0.0%
+gisborne-vic-3437  # GISBORNE VIC | rating=2.91 vac=0.66%
+glen-iris-vic-3146  # GLEN IRIS VIC | rating=3.05 vac=1.51%
+glen-waverley-vic-3150  # GLEN WAVERLEY VIC | rating=3.28 vac=1.25%
+glengarry-vic-3854  # GLENGARRY VIC | rating=2.17 vac=0.0%
+golden-square-vic-3555  # GOLDEN SQUARE VIC | rating=3.12 vac=0.75%
+gorae-vic-3305  # GORAE VIC | rating=2.77 vac=0.19%
+gordon-vic-3345  # GORDON VIC | rating=2.05 vac=0.0%
+goroke-vic-3412  # GOROKE VIC | rating=3.02 vac=0.0%
+green-gully-vic-3462  # GREEN GULLY VIC | rating=1.58 vac=0.0%
+greendale-vic-3341  # GREENDALE VIC | rating=1.77 vac=0.0%
+greenvale-vic-3059  # GREENVALE VIC | rating=3.32 vac=1.52%
+greta-vic-3675  # GRETA VIC | rating=2.34 vac=0.0167%
+grovedale-vic-3216  # GROVEDALE VIC | rating=3.73 vac=1.04%
+gunbower-vic-3566  # GUNBOWER VIC | rating=1.96 vac=0.0%
+guys-hill-vic-3807  # GUYS HILL VIC | rating=3.3 vac=1.11%
+hallam-vic-3803  # HALLAM VIC | rating=3.36 vac=0.68%
+hamilton-vic-3300  # HAMILTON VIC | rating=3.28 vac=0.41%
+hampton-vic-3188  # HAMPTON VIC | rating=2.63 vac=0.94%
+hampton-park-vic-3976  # HAMPTON PARK VIC | rating=3.6 vac=1.34%
+harrow-vic-3317  # HARROW VIC | rating=2.09 vac=0.0%
+hawthorn-vic-3122  # HAWTHORN VIC | rating=2.06 vac=1.78%
+hawthorn-east-vic-3123  # HAWTHORN EAST VIC | rating=1.98 vac=1.43%
+hazelwood-vic-3840  # HAZELWOOD VIC | rating=3.02 vac=2.76%
+healesville-vic-3777  # HEALESVILLE VIC | rating=2.98 vac=0.38%
+heathcote-vic-3523  # HEATHCOTE VIC | rating=1.6 vac=0.0%
+heathcote-junction-vic-3758  # HEATHCOTE JUNCTION VIC | rating=2.71 vac=0.0%
+heatherton-vic-3202  # HEATHERTON VIC | rating=1.93 vac=0.73%
+heidelberg-vic-3084  # HEIDELBERG VIC | rating=2.6 vac=1.77%
+heidelberg-rgh-vic-3081  # HEIDELBERG RGH VIC | rating=3.21 vac=2.14%
+hepburn-vic-3461  # HEPBURN VIC | rating=1.96 vac=0.0%
+highett-vic-3190  # HIGHETT VIC | rating=3.29 vac=0.85%
+hopetoun-vic-3396  # HOPETOUN VIC | rating=3.48 vac=0.0%
+hoppers-crossing-vic-3029  # HOPPERS CROSSING VIC | rating=3.23 vac=5.03%
+horfield-vic-3567  # HORFIELD VIC | rating=2.09 vac=0.0%
+horsham-vic-3400  # HORSHAM VIC | rating=3.37 vac=0.95%
+howqua-vic-3723  # HOWQUA VIC | rating=1.86 vac=0.1364%
+hunter-vic-3558  # HUNTER VIC | rating=2.66 vac=0.0115%
+illowa-vic-3282  # ILLOWA VIC | rating=2.09 vac=0.0%
+indigo-valley-vic-3688  # INDIGO VALLEY VIC | rating=2.41 vac=0.0%
+inverleigh-vic-3321  # INVERLEIGH VIC | rating=2.07 vac=0.0%
+irrewillipe-vic-3249  # IRREWILLIPE VIC | rating=1.74 vac=0.0%
+irymple-vic-3498  # IRYMPLE VIC | rating=3.09 vac=1.42%
+ivanhoe-vic-3079  # IVANHOE VIC | rating=3.38 vac=1.78%
+jeparit-vic-3423  # JEPARIT VIC | rating=2.7 vac=1.0%
+johnsonville-vic-3902  # JOHNSONVILLE VIC | rating=1.52 vac=0.1111%
+kalimna-vic-3909  # KALIMNA VIC | rating=2.44 vac=0.51%
+kallista-vic-3791  # KALLISTA VIC | rating=2.48 vac=0.0238%
+kalorama-vic-3766  # KALORAMA VIC | rating=1.86 vac=0.0%
+kangaroo-ground-vic-3097  # KANGAROO GROUND VIC | rating=2.52 vac=0.0%
+kaniva-vic-3419  # KANIVA VIC | rating=2.1 vac=0.0208%
+katamatite-vic-3649  # KATAMATITE VIC | rating=1.37 vac=0.0%
+katandra-vic-3634  # KATANDRA VIC | rating=2.19 vac=0.0513%
+katunga-vic-3640  # KATUNGA VIC | rating=2.11 vac=0.0196%
+keilor-vic-3036  # KEILOR VIC | rating=1.65 vac=2.05%
+keilor-east-vic-3033  # KEILOR EAST VIC | rating=3.39 vac=1.1%
+kenley-vic-3597  # KENLEY VIC | rating=2.73 vac=0.0%
+kerang-vic-3579  # KERANG VIC | rating=2.75 vac=0.23%
+kergunyah-vic-3691  # KERGUNYAH VIC | rating=2.71 vac=0.0145%
+kerrisdale-vic-3660  # KERRISDALE VIC | rating=2.89 vac=0.62%
+kew-vic-3101  # KEW VIC | rating=2.65 vac=1.18%
+kew-east-vic-3102  # KEW EAST VIC | rating=2.73 vac=0.19%
+keysborough-vic-3173  # KEYSBOROUGH VIC | rating=3.26 vac=0.44%
+kialla-vic-3631  # KIALLA VIC | rating=2.58 vac=2.18%
+kilmore-vic-3764  # KILMORE VIC | rating=2.43 vac=1.7%
+kilsyth-vic-3137  # KILSYTH VIC | rating=3.62 vac=0.69%
+kinglake-vic-3763  # KINGLAKE VIC | rating=2.07 vac=0.0%
+kinglake-central-vic-3757  # KINGLAKE CENTRAL VIC | rating=2.92 vac=0.69%
+kinypanial-vic-3520  # KINYPANIAL VIC | rating=2.06 vac=0.0%
+knoxfield-vic-3180  # KNOXFIELD VIC | rating=3.28 vac=1.28%
+koo-wee-rup-vic-3981  # KOO WEE RUP VIC | rating=2.21 vac=0.65%
+koondrook-vic-3580  # KOONDROOK VIC | rating=2.2 vac=0.0%
+koonwarra-vic-3954  # KOONWARRA VIC | rating=1.84 vac=0.0%
+koyuga-vic-3622  # KOYUGA VIC | rating=2.4 vac=0.0%
+kurraca-vic-3518  # KURRACA VIC | rating=1.95 vac=0.0152%
+kyneton-vic-3444  # KYNETON VIC | rating=2.57 vac=0.15%
+la-trobe-vic-3083  # LA TROBE VIC | rating=3.32 vac=1.6%
+laen-vic-3480  # LAEN VIC | rating=1.55 vac=0.0%
+lake-charm-vic-3581  # LAKE CHARM VIC | rating=1.1 vac=0.0%
+lalor-vic-3075  # LALOR VIC | rating=3.39 vac=0.99%
+landsborough-vic-3384  # LANDSBOROUGH VIC | rating=1.77 vac=0.0%
+lang-lang-vic-3984  # LANG LANG VIC | rating=2.85 vac=2.22%
+langwarrin-vic-3910  # LANGWARRIN VIC | rating=3.72 vac=0.61%
+langwarrin-south-vic-3911  # LANGWARRIN SOUTH VIC | rating=2.61 vac=0.62%
+lascelles-vic-3487  # LASCELLES VIC | rating=0.42 vac=0.0%
+lavers-hill-vic-3238  # LAVERS HILL VIC | rating=1.42 vac=0.0%
+laverton-north-vic-3026  # LAVERTON NORTH VIC | rating=2.91 vac=0.85%
+leongatha-vic-3953  # LEONGATHA VIC | rating=2.89 vac=0.86%
+leopold-vic-3224  # LEOPOLD VIC | rating=3.7 vac=0.57%
+lethbridge-vic-3332  # LETHBRIDGE VIC | rating=2.14 vac=0.027%
+licola-vic-3858  # LICOLA VIC | rating=2.6 vac=0.0%
+lilydale-vic-3140  # LILYDALE VIC | rating=3.6 vac=0.32%
+lima-vic-3673  # LIMA VIC | rating=1.64 vac=0.0179%
+lindenow-vic-3865  # LINDENOW VIC | rating=2.64 vac=0.0%
+linga-vic-3509  # LINGA VIC | rating=1.82 vac=0.0%
+linton-vic-3360  # LINTON VIC | rating=2.75 vac=0.0%
+lismore-vic-3324  # LISMORE VIC | rating=2.75 vac=0.0%
+little-river-vic-3211  # LITTLE RIVER VIC | rating=2.41 vac=0.0%
+lockington-vic-3563  # LOCKINGTON VIC | rating=2.89 vac=0.0%
+lockwood-vic-3551  # LOCKWOOD VIC | rating=3.33 vac=1.79%
+longwarry-vic-3816  # LONGWARRY VIC | rating=2.51 vac=0.37%
+longwood-vic-3665  # LONGWOOD VIC | rating=1.68 vac=0.0%
+lorne-vic-3232  # LORNE VIC | rating=1.72 vac=0.0%
+lower-plenty-vic-3093  # LOWER PLENTY VIC | rating=1.68 vac=0.56%
+lynbrook-vic-3975  # LYNBROOK VIC | rating=3.48 vac=1.61%
+macarthur-vic-3286  # MACARTHUR VIC | rating=2.31 vac=0.0%
+macedon-vic-3440  # MACEDON VIC | rating=2.35 vac=0.0476%
+macleod-vic-3085  # MACLEOD VIC | rating=2.78 vac=1.54%
+mailors-flat-vic-3275  # MAILORS FLAT VIC | rating=1.52 vac=0.0%
+main-ridge-vic-3928  # MAIN RIDGE VIC | rating=1.88 vac=0.0%
+mallacoota-vic-3892  # MALLACOOTA VIC | rating=1.57 vac=0.1667%
+malmsbury-vic-3446  # MALMSBURY VIC | rating=2.39 vac=0.0625%
+malvern-vic-3144  # MALVERN VIC | rating=2.72 vac=3.36%
+malvern-east-vic-3145  # MALVERN EAST VIC | rating=2.69 vac=5.91%
+mansfield-vic-3722  # MANSFIELD VIC | rating=2.67 vac=0.67%
+mccrae-vic-3938  # MCCRAE VIC | rating=2.3 vac=1.54%
+mead-vic-3568  # MEAD VIC | rating=1.46 vac=1.19%
+meadow-heights-vic-3048  # MEADOW HEIGHTS VIC | rating=3.64 vac=1.34%
+medlyn-vic-3478  # MEDLYN VIC | rating=1.71 vac=0.0%
+melbourne-vic-3004  # MELBOURNE VIC | rating=2.03 vac=1.93%
+melbourne-airport-vic-3045  # MELBOURNE AIRPORT VIC | rating=0.27 vac=0.0%
+melbourne-cbd-vic-3000  # MELBOURNE CBD VIC | rating=2.48 vac=4.42%
+melton-vic-3337  # MELTON VIC | rating=3.42 vac=3.29%
+melton-south-vic-3338  # MELTON SOUTH VIC | rating=3.02 vac=6.3%
+melwood-vic-3875  # MELWOOD VIC | rating=2.85 vac=1.37%
+mentone-vic-3194  # MENTONE VIC | rating=2.93 vac=0.89%
+mepunga-vic-3277  # MEPUNGA VIC | rating=2.05 vac=0.0%
+merebein-vic-3505  # MEREBEIN VIC | rating=1.58 vac=1.01%
+meredith-vic-3333  # MEREDITH VIC | rating=2.54 vac=0.0%
+merino-vic-3310  # MERINO VIC | rating=1.84 vac=0.0%
+merriang-vic-3737  # MERRIANG VIC | rating=2.51 vac=1.46%
+merricks-beach-vic-3926  # MERRICKS BEACH VIC | rating=2.26 vac=0.0%
+merrigum-vic-3618  # MERRIGUM VIC | rating=2.29 vac=0.0%
+metung-vic-3904  # METUNG VIC | rating=2.43 vac=5.77%
+middle-creek-vic-3375  # MIDDLE CREEK VIC | rating=1.55 vac=0.0%
+miga-lake-vic-3409  # MIGA LAKE VIC | rating=2.43 vac=0.027%
+mildura-vic-3500  # MILDURA VIC | rating=3.47 vac=1.45%
+mildura-south-vic-3501  # MILDURA SOUTH VIC | rating=1.51 vac=0.0333%
+mill-park-vic-3082  # MILL PARK VIC | rating=3.6 vac=1.3%
+minhamite-vic-3287  # MINHAMITE VIC | rating=2.11 vac=0.1429%
+minimay-vic-3413  # MINIMAY VIC | rating=1.31 vac=0.0%
+mirboo-vic-3871  # MIRBOO VIC | rating=2.33 vac=1.85%
+mitcham-vic-3132  # MITCHAM VIC | rating=3.39 vac=0.97%
+mitchellstown-vic-3608  # MITCHELLSTOWN VIC | rating=2.63 vac=0.83%
+moggs-creek-vic-3231  # MOGGS CREEK VIC | rating=1.65 vac=0.0%
+monash-university-vic-3800  # MONASH UNIVERSITY VIC | rating=1.72 vac=0.0%
+monbulk-vic-3793  # MONBULK VIC | rating=2.08 vac=0.62%
+montmorency-vic-3094  # MONTMORENCY VIC | rating=2.99 vac=0.16%
+montrose-vic-3765  # MONTROSE VIC | rating=2.66 vac=0.62%
+moonee-ponds-vic-3039  # MOONEE PONDS VIC | rating=2.94 vac=1.02%
+moorabbin-vic-3189  # MOORABBIN VIC | rating=2.34 vac=1.63%
+moorooduc-vic-3933  # MOOROODUC VIC | rating=2.54 vac=0.0%
+mooroolbark-vic-3138  # MOOROOLBARK VIC | rating=3.5 vac=0.61%
+mooroopna-vic-3629  # MOOROOPNA VIC | rating=3.25 vac=0.42%
+moriac-vic-3240  # MORIAC VIC | rating=2.64 vac=0.0%
+mornington-vic-3931  # MORNINGTON VIC | rating=2.96 vac=0.58%
+morrison-vic-3334  # MORRISON VIC | rating=2.14 vac=0.0%
+mortlake-vic-3272  # MORTLAKE VIC | rating=1.33 vac=0.0189%
+mount-dandenong-vic-3767  # MOUNT DANDENONG VIC | rating=1.6 vac=0.0%
+mount-eliza-vic-3930  # MOUNT ELIZA VIC | rating=3.05 vac=0.45%
+mount-evelyn-vic-3796  # MOUNT EVELYN VIC | rating=2.76 vac=0.31%
+mount-lonarch-vic-3468  # MOUNT LONARCH VIC | rating=2.11 vac=0.0%
+mount-macedon-vic-3441  # MOUNT MACEDON VIC | rating=1.67 vac=0.0%
+mount-martha-vic-3934  # MOUNT MARTHA VIC | rating=3.39 vac=1.55%
+mount-wallace-vic-3342  # MOUNT WALLACE VIC | rating=2.34 vac=0.7%
+moyhu-vic-3732  # MOYHU VIC | rating=2.25 vac=0.0%
+mulgrave-vic-3170  # MULGRAVE VIC | rating=3.15 vac=0.55%
+murchison-vic-3610  # MURCHISON VIC | rating=1.99 vac=0.0093%
+murtoa-vic-3390  # MURTOA VIC | rating=1.97 vac=0.0123%
+muskerry-vic-3557  # MUSKERRY VIC | rating=1.95 vac=0.0%
+nangiloc-vic-3494  # NANGILOC VIC | rating=1.49 vac=0.0%
+nar-nar-goon-vic-3812  # NAR NAR GOON VIC | rating=2.64 vac=0.0526%
+nareeb-vic-3293  # NAREEB VIC | rating=2.05 vac=0.0385%
+nareen-vic-3315  # NAREEN VIC | rating=1.97 vac=0.0%
+narre-warren-vic-3805  # NARRE WARREN VIC | rating=3.79 vac=1.26%
+neerim-vic-3831  # NEERIM VIC | rating=1.58 vac=0.0%
+nelson-vic-3292  # NELSON VIC | rating=1.75 vac=0.0%
+new-gisborne-vic-3438  # NEW GISBORNE VIC | rating=2.01 vac=4.48%
+newcomb-vic-3219  # NEWCOMB VIC | rating=3.36 vac=0.95%
+newmerella-vic-3886  # NEWMERELLA VIC | rating=2.31 vac=0.1111%
+newport-vic-3015  # NEWPORT VIC | rating=3.61 vac=1.4%
+nicholson-vic-3882  # NICHOLSON VIC | rating=2.11 vac=0.0417%
+niddrie-vic-3042  # NIDDRIE VIC | rating=3.4 vac=1.58%
+noble-park-vic-3174  # NOBLE PARK VIC | rating=3.29 vac=0.94%
+noorinbee-vic-3890  # NOORINBEE VIC | rating=1.85 vac=0.0%
+north-melbourne-vic-3051  # NORTH MELBOURNE VIC | rating=2.49 vac=2.78%
+northcote-vic-3070  # NORTHCOTE VIC | rating=3.13 vac=0.74%
+nowa-nowa-vic-3887  # NOWA NOWA VIC | rating=1.76 vac=0.0%
+nulla-vale-vic-3435  # NULLA VALE VIC | rating=2.15 vac=2.04%
+numurkah-vic-3636  # NUMURKAH VIC | rating=2.73 vac=1.52%
+nyah-vic-3594  # NYAH VIC | rating=2.84 vac=0.0%
+nyah-west-vic-3595  # NYAH WEST VIC | rating=1.44 vac=0.0%
+nyora-vic-3987  # NYORA VIC | rating=1.82 vac=0.0833%
+oak-park-vic-3046  # OAK PARK VIC | rating=3.67 vac=0.91%
+oaklands-junction-vic-3063  # OAKLANDS JUNCTION VIC | rating=1.35 vac=0.0%
+oakleigh-vic-3166  # OAKLEIGH VIC | rating=2.73 vac=1.17%
+oakleigh-south-vic-3167  # OAKLEIGH SOUTH VIC | rating=2.63 vac=1.42%
+ocean-grove-vic-3226  # OCEAN GROVE VIC | rating=3.18 vac=1.42%
+officer-vic-3809  # OFFICER VIC | rating=3.2 vac=2.28%
+olinda-vic-3788  # OLINDA VIC | rating=1.95 vac=0.0357%
+ovens-vic-3738  # OVENS VIC | rating=1.35 vac=0.0%
+pakenham-vic-3810  # PAKENHAM VIC | rating=3.47 vac=1.75%
+panton-hill-vic-3759  # PANTON HILL VIC | rating=0.81 vac=0.2%
+park-orchards-vic-3114  # PARK ORCHARDS VIC | rating=2.76 vac=0.0968%
+parkville-vic-3052  # PARKVILLE VIC | rating=1.95 vac=1.18%
+pascoe-vale-vic-3044  # PASCOE VALE VIC | rating=3.5 vac=1.08%
+patchewollock-vic-3491  # PATCHEWOLLOCK VIC | rating=1.27 vac=0.0%
+patterson-lakes-vic-3197  # PATTERSON LAKES VIC | rating=2.95 vac=1.34%
+pennyroyal-vic-3235  # PENNYROYAL VIC | rating=1.3 vac=1.0%
+peterborough-vic-3270  # PETERBOROUGH VIC | rating=1.68 vac=0.4286%
+picola-vic-3639  # PICOLA VIC | rating=2.21 vac=0.0%
+pinewood-vic-3149  # PINEWOOD VIC | rating=3.49 vac=0.95%
+plenty-vic-3090  # PLENTY VIC | rating=1.12 vac=0.0%
+point-cook-vic-3030  # POINT COOK VIC | rating=3.29 vac=2.17%
+point-lonsdale-vic-3225  # POINT LONSDALE VIC | rating=2.41 vac=0.78%
+pomborneit-vic-3260  # POMBORNEIT VIC | rating=1.59 vac=0.0%
+poowong-vic-3988  # POOWONG VIC | rating=1.39 vac=0.0%
+porepunkah-vic-3740  # POREPUNKAH VIC | rating=2.1 vac=0.0159%
+port-fairy-vic-3284  # PORT FAIRY VIC | rating=1.61 vac=1.4%
+port-franklin-vic-3964  # PORT FRANKLIN VIC | rating=2.37 vac=0.0%
+port-melbourne-vic-3207  # PORT MELBOURNE VIC | rating=2.61 vac=1.66%
+port-welshpool-vic-3965  # PORT WELSHPOOL VIC | rating=2.24 vac=0.125%
+portsea-vic-3944  # PORTSEA VIC | rating=1.91 vac=0.0541%
+pound-creek-vic-3996  # POUND CREEK VIC | rating=2.37 vac=1.65%
+prahran-vic-3181  # PRAHRAN VIC | rating=2.86 vac=1.71%
+preston-vic-3072  # PRESTON VIC | rating=3.52 vac=1.0%
+princetown-vic-3269  # PRINCETOWN VIC | rating=1.35 vac=0.0172%
+purnim-vic-3278  # PURNIM VIC | rating=1.38 vac=0.0%
+pyalong-vic-3521  # PYALONG VIC | rating=1.82 vac=0.0%
+rainbow-vic-3424  # RAINBOW VIC | rating=2.36 vac=0.0%
+ranceby-vic-3951  # RANCEBY VIC | rating=2.16 vac=0.0%
+ravenswood-vic-3453  # RAVENSWOOD VIC | rating=2.37 vac=0.0%
+raymond-island-vic-3880  # RAYMOND ISLAND VIC | rating=2.53 vac=1.03%
+red-hill-vic-3937  # RED HILL VIC | rating=2.16 vac=0.0323%
+reservoir-vic-3073  # RESERVOIR VIC | rating=3.36 vac=0.94%
+rhyll-vic-3923  # RHYLL VIC | rating=2.54 vac=0.0%
+richmond-vic-3121  # RICHMOND VIC | rating=3.11 vac=0.69%
+riddells-creek-vic-3431  # RIDDELLS CREEK VIC | rating=2.35 vac=0.91%
+ringwood-vic-3134  # RINGWOOD VIC | rating=3.29 vac=0.28%
+ringwood-east-vic-3135  # RINGWOOD EAST VIC | rating=3.07 vac=0.75%
+riverside-vic-3401  # RIVERSIDE VIC | rating=2.04 vac=0.0227%
+robinson-vic-3019  # ROBINSON VIC | rating=3.42 vac=1.34%
+robinvale-vic-3549  # ROBINVALE VIC | rating=2.2 vac=0.17%
+rockbank-vic-3335  # ROCKBANK VIC | rating=3.08 vac=17.19%
+rokewood-vic-3330  # ROKEWOOD VIC | rating=1.57 vac=250000.0%
+romsey-vic-3434  # ROMSEY VIC | rating=2.5 vac=1.36%
+rosebery-vic-3395  # ROSEBERY VIC | rating=1.92 vac=0.0%
+rosebud-vic-3939  # ROSEBUD VIC | rating=3.07 vac=0.76%
+rosebud-west-vic-3940  # ROSEBUD WEST VIC | rating=2.68 vac=0.76%
+rowville-vic-3178  # ROWVILLE VIC | rating=3.72 vac=0.54%
+rupanyup-vic-3388  # RUPANYUP VIC | rating=2.61 vac=0.0%
+rushworth-vic-3612  # RUSHWORTH VIC | rating=2.0 vac=0.027%
+safety-beach-vic-3936  # SAFETY BEACH VIC | rating=2.95 vac=0.97%
+san-remo-vic-3925  # SAN REMO VIC | rating=2.61 vac=1.63%
+sandford-vic-3312  # SANDFORD VIC | rating=2.06 vac=0.0%
+sandringham-vic-3191  # SANDRINGHAM VIC | rating=3.32 vac=0.78%
+sandy-point-vic-3959  # SANDY POINT VIC | rating=2.34 vac=0.0%
+sassafras-vic-3787  # SASSAFRAS VIC | rating=1.89 vac=0.0%
+scoresby-vic-3179  # SCORESBY VIC | rating=3.4 vac=1.12%
+seaford-vic-3198  # SEAFORD VIC | rating=3.62 vac=0.81%
+sebastopol-vic-3356  # SEBASTOPOL VIC | rating=3.18 vac=0.58%
+selby-vic-3159  # SELBY VIC | rating=1.94 vac=0.0%
+serpentine-vic-3517  # SERPENTINE VIC | rating=2.35 vac=0.0%
+seville-vic-3139  # SEVILLE VIC | rating=2.53 vac=0.9%
+sheep-hills-vic-3392  # SHEEP HILLS VIC | rating=2.25 vac=0.0%
+shepparton-vic-3630  # SHEPPARTON VIC | rating=3.85 vac=1.38%
+sherbrooke-vic-3789  # SHERBROOKE VIC | rating=1.64 vac=0.0%
+shoreham-vic-3916  # SHOREHAM VIC | rating=1.93 vac=0.0244%
+silvan-vic-3795  # SILVAN VIC | rating=2.81 vac=0.0192%
+skenes-creek-vic-3233  # SKENES CREEK VIC | rating=2.79 vac=10.15%
+skipton-vic-3361  # SKIPTON VIC | rating=2.0 vac=0.0%
+smiths-gully-vic-3760  # SMITHS GULLY VIC | rating=1.71 vac=0.0%
+somers-vic-3927  # SOMERS VIC | rating=2.17 vac=0.0517%
+somerton-vic-3062  # SOMERTON VIC | rating=0.36 vac=0.0%
+somerville-vic-3912  # SOMERVILLE VIC | rating=2.91 vac=0.38%
+sorrento-vic-3943  # SORRENTO VIC | rating=1.81 vac=5.43%
+south-melbourne-vic-3205  # SOUTH MELBOURNE VIC | rating=2.99 vac=2.96%
+south-morang-vic-3752  # SOUTH MORANG VIC | rating=3.25 vac=1.78%
+south-yarra-vic-3141  # SOUTH YARRA VIC | rating=2.36 vac=2.01%
+southbank-vic-3006  # SOUTHBANK VIC | rating=2.51 vac=3.19%
+southern-cross-vic-3283  # SOUTHERN CROSS VIC | rating=1.15 vac=0.0%
+springhurst-vic-3682  # SPRINGHURST VIC | rating=1.73 vac=0.0%
+springvale-vic-3171  # SPRINGVALE VIC | rating=3.4 vac=1.03%
+springvale-south-vic-3172  # SPRINGVALE SOUTH VIC | rating=3.11 vac=0.66%
+st-albans-vic-3021  # ST ALBANS VIC | rating=3.21 vac=1.01%
+st-andrews-vic-3761  # ST ANDREWS VIC | rating=1.85 vac=0.0%
+st-helena-vic-3088  # ST HELENA VIC | rating=3.4 vac=0.33%
+st-kilda-vic-3182  # ST KILDA VIC | rating=2.42 vac=1.85%
+st-kilda-east-vic-3183  # ST KILDA EAST VIC | rating=3.22 vac=1.5%
+st-leonards-vic-3223  # ST LEONARDS VIC | rating=2.7 vac=1.08%
+stanhope-vic-3623  # STANHOPE VIC | rating=1.6 vac=0.0167%
+stawell-vic-3380  # STAWELL VIC | rating=3.18 vac=0.68%
+strathewen-vic-3099  # STRATHEWEN VIC | rating=2.48 vac=0.0%
+strathmore-vic-3041  # STRATHMORE VIC | rating=3.2 vac=1.09%
+sunset-strip-vic-3922  # SUNSET STRIP VIC | rating=2.79 vac=2.12%
+sunshine-vic-3020  # SUNSHINE VIC | rating=3.13 vac=1.03%
+surrey-hills-vic-3127  # SURREY HILLS VIC | rating=3.0 vac=1.01%
+sutherlands-creek-vic-3331  # SUTHERLANDS CREEK VIC | rating=2.06 vac=1.24%
+sutton-grange-vic-3448  # SUTTON GRANGE VIC | rating=1.69 vac=0.0%
+swan-hill-vic-3585  # SWAN HILL VIC | rating=2.7 vac=0.29%
+taggerty-vic-3714  # TAGGERTY VIC | rating=2.07 vac=1.81%
+talbot-vic-3371  # TALBOT VIC | rating=2.55 vac=0.0%
+tallandoon-vic-3701  # TALLANDOON VIC | rating=1.91 vac=0.0714%
+tallangatta-vic-3700  # TALLANGATTA VIC | rating=1.66 vac=0.0%
+tallarook-vic-3659  # TALLAROOK VIC | rating=1.83 vac=0.0%
+taradale-vic-3447  # TARADALE VIC | rating=2.03 vac=0.0%
+tarcombe-vic-3666  # TARCOMBE VIC | rating=2.59 vac=0.0%
+tarnook-vic-3670  # TARNOOK VIC | rating=2.27 vac=0.0%
+tatura-vic-3616  # TATURA VIC | rating=2.77 vac=2.02%
+tawonga-vic-3697  # TAWONGA VIC | rating=1.64 vac=0.0667%
+tawonga-south-vic-3698  # TAWONGA SOUTH VIC | rating=1.76 vac=0.06%
+taylors-hill-vic-3037  # TAYLORS HILL VIC | rating=2.91 vac=1.28%
+taylors-lakes-vic-3038  # TAYLORS LAKES VIC | rating=3.2 vac=1.27%
+teesdale-vic-3328  # TEESDALE VIC | rating=1.89 vac=0.0196%
+templestowe-vic-3106  # TEMPLESTOWE VIC | rating=3.33 vac=1.08%
+templestowe-lower-vic-3107  # TEMPLESTOWE LOWER VIC | rating=3.2 vac=1.77%
+terang-vic-3264  # TERANG VIC | rating=2.31 vac=0.0%
+the-basin-vic-3154  # THE BASIN VIC | rating=2.14 vac=0.0%
+the-patch-vic-3792  # THE PATCH VIC | rating=1.59 vac=0.0%
+thomastown-vic-3074  # THOMASTOWN VIC | rating=3.39 vac=1.24%
+thornbury-vic-3071  # THORNBURY VIC | rating=3.25 vac=0.56%
+thornton-vic-3712  # THORNTON VIC | rating=1.88 vac=0.0%
+thorpdale-vic-3835  # THORPDALE VIC | rating=2.03 vac=0.0%
+timboon-vic-3268  # TIMBOON VIC | rating=1.88 vac=0.0%
+timmering-vic-3561  # TIMMERING VIC | rating=1.92 vac=0.34%
+timor-vic-3465  # TIMOR VIC | rating=3.01 vac=0.37%
+tinamba-vic-3859  # TINAMBA VIC | rating=1.77 vac=0.0227%
+tooborac-vic-3522  # TOOBORAC VIC | rating=1.8 vac=0.0%
+toolamba-vic-3614  # TOOLAMBA VIC | rating=1.83 vac=0.0%
+toongabbie-vic-3856  # TOONGABBIE VIC | rating=2.89 vac=1.0%
+toora-vic-3962  # TOORA VIC | rating=2.14 vac=0.0%
+toorak-vic-3142  # TOORAK VIC | rating=2.26 vac=1.54%
+tootgarook-vic-3941  # TOOTGAROOK VIC | rating=2.91 vac=2.15%
+torrumbarry-vic-3562  # TORRUMBARRY VIC | rating=1.97 vac=0.0%
+towong-vic-3707  # TOWONG VIC | rating=1.11 vac=0.0132%
+trafalgar-vic-3824  # TRAFALGAR VIC | rating=3.05 vac=1.62%
+trentham-vic-3458  # TRENTHAM VIC | rating=1.89 vac=1.25%
+tresco-west-vic-3584  # TRESCO WEST VIC | rating=2.16 vac=0.0141%
+tuerong-vic-3915  # TUERONG VIC | rating=3.2 vac=0.59%
+tullamarine-vic-3043  # TULLAMARINE VIC | rating=3.07 vac=1.44%
+tutye-vic-3490  # TUTYE VIC | rating=2.04 vac=0.0654%
+tyabb-vic-3913  # TYABB VIC | rating=2.66 vac=0.0%
+tynong-vic-3813  # TYNONG VIC | rating=1.65 vac=0.0244%
+tyrendarra-vic-3285  # TYRENDARRA VIC | rating=1.59 vac=0.0%
+tyrrell-vic-3533  # TYRRELL VIC | rating=2.25 vac=0.0%
+ullswater-vic-3318  # ULLSWATER VIC | rating=2.17 vac=2.2%
+ulupna-vic-3641  # ULUPNA VIC | rating=1.42 vac=0.0294%
+upton-hill-vic-3664  # UPTON HILL VIC | rating=2.45 vac=0.0%
+upwey-vic-3158  # UPWEY VIC | rating=2.95 vac=0.45%
+valencia-creek-vic-3860  # VALENCIA CREEK VIC | rating=3.32 vac=0.2%
+vermont-vic-3133  # VERMONT VIC | rating=2.99 vac=1.0%
+victoria-point-vic-3294  # VICTORIA POINT VIC | rating=2.34 vac=0.0%
+vite-vite-vic-3325  # VITE VITE VIC | rating=1.88 vac=0.0%
+wahgunyah-vic-3687  # WAHGUNYAH VIC | rating=2.02 vac=0.0175%
+walkerville-vic-3956  # WALKERVILLE VIC | rating=2.23 vac=0.0541%
+wallaloo-vic-3387  # WALLALOO VIC | rating=1.72 vac=0.0%
+walwa-vic-3709  # WALWA VIC | rating=2.0 vac=0.0%
+wandiligong-vic-3744  # WANDILIGONG VIC | rating=2.27 vac=0.0667%
+wantirna-vic-3152  # WANTIRNA VIC | rating=3.61 vac=0.86%
+warburton-vic-3799  # WARBURTON VIC | rating=2.08 vac=0.0147%
+warne-vic-3530  # WARNE VIC | rating=1.9 vac=175000.0%
+warneet-vic-3980  # WARNEET VIC | rating=2.45 vac=0.0136%
+warragul-vic-3820  # WARRAGUL VIC | rating=3.18 vac=1.73%
+warrandyte-vic-3113  # WARRANDYTE VIC | rating=1.88 vac=2.02%
+warrnambool-vic-3280  # WARRNAMBOOL VIC | rating=3.3 vac=0.75%
+watchem-vic-3482  # WATCHEM VIC | rating=2.04 vac=0.0%
+waterloo-vic-3373  # WATERLOO VIC | rating=2.2 vac=0.0234%
+watsonia-vic-3087  # WATSONIA VIC | rating=3.67 vac=0.85%
+wattle-glen-vic-3096  # WATTLE GLEN VIC | rating=1.84 vac=0.0%
+wattle-hill-vic-3237  # WATTLE HILL VIC | rating=1.32 vac=0.0%
+welshpool-vic-3966  # WELSHPOOL VIC | rating=1.96 vac=0.0%
+wendouree-vic-3355  # WENDOUREE VIC | rating=3.58 vac=0.62%
+werrimull-vic-3496  # WERRIMULL VIC | rating=3.11 vac=1.67%
+west-creek-vic-3992  # WEST CREEK VIC | rating=2.11 vac=0.0408%
+west-footscray-vic-3012  # WEST FOOTSCRAY VIC | rating=3.37 vac=1.7%
+west-melbourne-vic-3003  # WEST MELBOURNE VIC | rating=2.4 vac=2.68%
+westmeadows-vic-3049  # WESTMEADOWS VIC | rating=2.52 vac=0.83%
+whitelaw-vic-3950  # WHITELAW VIC | rating=2.32 vac=1.21%
+whitfield-vic-3733  # WHITFIELD VIC | rating=2.75 vac=0.0%
+whoorel-vic-3243  # WHOOREL VIC | rating=1.73 vac=0.0556%
+whorouly-vic-3735  # WHOROULY VIC | rating=1.71 vac=0.0244%
+wildwood-vic-3429  # WILDWOOD VIC | rating=3.09 vac=2.6%
+willaura-vic-3379  # WILLAURA VIC | rating=1.72 vac=100000.0%
+williams-landing-vic-3027  # WILLIAMS LANDING VIC | rating=3.05 vac=1.21%
+williamstown-vic-3016  # WILLIAMSTOWN VIC | rating=3.19 vac=1.46%
+willung-vic-3847  # WILLUNG VIC | rating=1.72 vac=1.8%
+wilsons-hill-vic-3515  # WILSONS HILL VIC | rating=2.28 vac=0.0%
+winchelsea-vic-3241  # WINCHELSEA VIC | rating=2.98 vac=0.92%
+winnap-vic-3304  # WINNAP VIC | rating=1.81 vac=0.0%
+wodonga-vic-3690  # WODONGA VIC | rating=3.79 vac=0.71%
+wollert-vic-3750  # WOLLERT VIC | rating=2.68 vac=3.23%
+wonga-park-vic-3115  # WONGA PARK VIC | rating=2.04 vac=0.0%
+wonthaggi-vic-3995  # WONTHAGGI VIC | rating=2.68 vac=1.33%
+woodend-vic-3442  # WOODEND VIC | rating=3.07 vac=0.67%
+woodford-vic-3281  # WOODFORD VIC | rating=2.3 vac=0.0%
+woodleigh-vic-3945  # WOODLEIGH VIC | rating=1.91 vac=0.0476%
+woodside-vic-3874  # WOODSIDE VIC | rating=2.09 vac=0.0%
+woodstock-vic-3751  # WOODSTOCK VIC | rating=0.81 vac=1.0%
+woolsthorpe-vic-3276  # WOOLSTHORPE VIC | rating=1.6 vac=0.0%
+woomelang-vic-3485  # WOOMELANG VIC | rating=2.26 vac=0.0%
+woorinen-vic-3589  # WOORINEN VIC | rating=1.34 vac=0.0%
+wulgulmerang-vic-3885  # WULGULMERANG VIC | rating=1.95 vac=0.0351%
+wunghnu-vic-3635  # WUNGHNU VIC | rating=2.68 vac=0.0909%
+wurruk-vic-3850  # WURRUK VIC | rating=3.3 vac=1.29%
+wycheproof-vic-3527  # WYCHEPROOF VIC | rating=2.33 vac=0.0%
+wyndham-vale-vic-3024  # WYNDHAM VALE VIC | rating=2.52 vac=8.51%
+wyuna-vic-3620  # WYUNA VIC | rating=2.28 vac=0.14%
+yackandandah-vic-3749  # YACKANDANDAH VIC | rating=1.61 vac=0.0149%
+yalca-vic-3637  # YALCA VIC | rating=1.56 vac=0.0%
+yallourn-vic-3825  # YALLOURN VIC | rating=2.84 vac=0.97%
+yambuna-vic-3621  # YAMBUNA VIC | rating=2.4 vac=0.0055%
+yan-yean-vic-3755  # YAN YEAN VIC | rating=2.01 vac=0.125%
+yanac-vic-3418  # YANAC VIC | rating=2.1 vac=0.47%
+yando-vic-3537  # YANDO VIC | rating=2.6 vac=0.0%
+yarck-vic-3719  # YARCK VIC | rating=1.35 vac=0.0588%
+yarra-glen-vic-3775  # YARRA GLEN VIC | rating=1.95 vac=0.0%
+yarra-junction-vic-3797  # YARRA JUNCTION VIC | rating=2.05 vac=0.47%
+yarragon-vic-3823  # YARRAGON VIC | rating=1.61 vac=0.0303%
+yarrambat-vic-3091  # YARRAMBAT VIC | rating=2.24 vac=0.0%
+yarraville-vic-3013  # YARRAVILLE VIC | rating=3.42 vac=0.96%
+yarrawalla-vic-3575  # YARRAWALLA VIC | rating=1.7 vac=0.0%
+yarrawonga-vic-3730  # YARRAWONGA VIC | rating=2.75 vac=1.8%
+yarrunga-vic-3677  # YARRUNGA VIC | rating=3.38 vac=0.33%
+yering-vic-3770  # YERING VIC | rating=1.75 vac=0.0%
+yeungroon-vic-3525  # YEUNGROON VIC | rating=2.26 vac=0.0%
+yielima-vic-3638  # YIELIMA VIC | rating=1.98 vac=0.76%
+yinnar-vic-3869  # YINNAR VIC | rating=1.78 vac=0.0%
+youarang-vic-3728  # YOUARANG VIC | rating=1.99 vac=0.0455%
+abbey-wa-6280  # ABBEY WA | rating=3.27 vac=0.64%
+angelo-river-wa-6642  # ANGELO RIVER WA | rating=2.46 vac=0.0%
+applecross-wa-6153  # APPLECROSS WA | rating=3.15 vac=1.12%
+armadale-wa-6112  # ARMADALE WA | rating=3.59 vac=1.22%
+arrowsmith-wa-6525  # ARROWSMITH WA | rating=2.01 vac=0.0025%
+ascot-wa-6104  # ASCOT WA | rating=3.42 vac=0.49%
+ashby-wa-6065  # ASHBY WA | rating=3.63 vac=0.41%
+attadale-wa-6156  # ATTADALE WA | rating=3.15 vac=0.49%
+atwell-wa-6164  # ATWELL WA | rating=3.38 vac=0.52%
+augusta-wa-6290  # AUGUSTA WA | rating=1.84 vac=0.0%
+aveley-wa-6069  # AVELEY WA | rating=3.51 vac=1.1%
+bailup-wa-6082  # BAILUP WA | rating=2.1 vac=0.0%
+bakers-hill-wa-6562  # BAKERS HILL WA | rating=2.03 vac=0.0%
+baldivis-wa-6171  # BALDIVIS WA | rating=3.86 vac=1.66%
+ballajura-wa-6066  # BALLAJURA WA | rating=3.27 vac=0.45%
+ballaying-wa-6315  # BALLAYING WA | rating=2.77 vac=0.0172%
+ballidu-wa-6606  # BALLIDU WA | rating=2.73 vac=0.0%
+banksia-grove-wa-6031  # BANKSIA GROVE WA | rating=3.85 vac=0.45%
+bannister-wa-6390  # BANNISTER WA | rating=2.94 vac=0.0065%
+banskiadale-wa-6213  # BANSKIADALE WA | rating=1.67 vac=0.0238%
+barberton-wa-6510  # BARBERTON WA | rating=2.45 vac=0.0%
+bayswater-wa-6053  # BAYSWATER WA | rating=3.3 vac=0.66%
+beacon-wa-6472  # BEACON WA | rating=1.7 vac=0.0%
+beechboro-wa-6063  # BEECHBORO WA | rating=3.25 vac=0.85%
+bentley-wa-6102  # BENTLEY WA | rating=3.62 vac=0.85%
+beverley-wa-6304  # BEVERLEY WA | rating=2.65 vac=0.0357%
+bindoon-wa-6502  # BINDOON WA | rating=1.73 vac=0.0%
+bolgart-wa-6568  # BOLGART WA | rating=2.06 vac=0.0%
+boorabbin-wa-6429  # BOORABBIN WA | rating=2.15 vac=0.0118%
+borden-wa-6338  # BORDEN WA | rating=2.93 vac=0.0%
+borderdale-wa-6320  # BORDERDALE WA | rating=2.7 vac=0.0%
+bowes-wa-6535  # BOWES WA | rating=2.75 vac=0.0%
+boyanup-wa-6237  # BOYANUP WA | rating=2.79 vac=0.0%
+brookhampton-wa-6239  # BROOKHAMPTON WA | rating=2.3 vac=0.0%
+brookton-wa-6306  # BROOKTON WA | rating=2.43 vac=0.0%
+broome-wa-6725  # BROOME WA | rating=2.77 vac=0.88%
+broomehill-wa-6318  # BROOMEHILL WA | rating=2.98 vac=0.0%
+bruce-rock-wa-6418  # BRUCE ROCK WA | rating=2.57 vac=0.0%
+brunswick-wa-6224  # BRUNSWICK WA | rating=2.58 vac=0.0%
+buckland-wa-6401  # BUCKLAND WA | rating=2.33 vac=0.0%
+bunbury-wa-6230  # BUNBURY WA | rating=2.99 vac=0.75%
+bundanoon-wa-6522  # BUNDANOON WA | rating=2.18 vac=0.0%
+burekup-wa-6227  # BUREKUP WA | rating=1.45 vac=0.087%
+burracoppin-wa-6421  # BURRACOPPIN WA | rating=0.81 vac=0.0%
+burswood-wa-6100  # BURSWOOD WA | rating=3.03 vac=0.61%
+cable-beach-wa-6726  # CABLE BEACH WA | rating=2.52 vac=1.64%
+calingiri-wa-6569  # CALINGIRI WA | rating=1.29 vac=0.0%
+camballin-wa-6728  # CAMBALLIN WA | rating=1.53 vac=0.0009%
+canning-vale-wa-6155  # CANNING VALE WA | rating=3.75 vac=1.14%
+cannington-wa-6107  # CANNINGTON WA | rating=3.51 vac=0.92%
+capel-wa-6271  # CAPEL WA | rating=2.61 vac=0.0053%
+caraban-wa-6041  # CARABAN WA | rating=1.78 vac=0.0385%
+carabooda-wa-6033  # CARABOODA WA | rating=2.03 vac=0.0%
+carlisle-wa-6101  # CARLISLE WA | rating=3.42 vac=0.54%
+carnamah-wa-6517  # CARNAMAH WA | rating=2.22 vac=0.0%
+cervantes-wa-6511  # CERVANTES WA | rating=2.35 vac=0.0%
+cheynes-wa-6328  # CHEYNES WA | rating=1.93 vac=0.0%
+chittering-wa-6084  # CHITTERING WA | rating=1.96 vac=0.0078%
+christmas-island-wa-6798  # CHRISTMAS ISLAND WA | rating=1.1 vac=0.0%
+city-beach-wa-6015  # CITY BEACH WA | rating=3.01 vac=0.0053%
+claremont-wa-6010  # CLAREMONT WA | rating=2.91 vac=0.24%
+cloverdale-wa-6105  # CLOVERDALE WA | rating=3.48 vac=0.5%
+collie-wa-6225  # COLLIE WA | rating=2.3 vac=0.67%
+contine-wa-6311  # CONTINE WA | rating=2.69 vac=0.0%
+coogee-wa-6166  # COOGEE WA | rating=3.69 vac=0.16%
+coolandar-hill-wa-6638  # COOLANDAR HILL WA | rating=1.59 vac=0.0319%
+coolup-wa-6214  # COOLUP WA | rating=1.88 vac=0.0%
+coorow-wa-6515  # COOROW WA | rating=2.24 vac=54750.0%
+corinthia-wa-6426  # CORINTHIA WA | rating=2.2 vac=0.0263%
+corrigin-wa-6375  # CORRIGIN WA | rating=2.63 vac=0.0%
+cossack-wa-6720  # COSSACK WA | rating=2.05 vac=0.0%
+cottesloe-wa-6011  # COTTESLOE WA | rating=2.32 vac=0.78%
+cowcowing-wa-6485  # COWCOWING WA | rating=2.46 vac=0.0%
+cramphorne-wa-6420  # CRAMPHORNE WA | rating=1.44 vac=0.0%
+cranbrook-wa-6321  # CRANBROOK WA | rating=2.15 vac=0.0%
+cue-wa-6640  # CUE WA | rating=1.61 vac=0.0182%
+cunderdin-wa-6407  # CUNDERDIN WA | rating=2.27 vac=0.0%
+dampier-wa-6713  # DAMPIER WA | rating=2.16 vac=0.0068%
+dandaragan-wa-6507  # DANDARAGAN WA | rating=1.84 vac=0.0%
+dardanup-wa-6236  # DARDANUP WA | rating=2.43 vac=0.0%
+darkan-wa-6392  # DARKAN WA | rating=2.62 vac=0.0303%
+darling-downs-wa-6122  # DARLING DOWNS WA | rating=3.16 vac=0.0216%
+darlington-wa-6070  # DARLINGTON WA | rating=2.26 vac=0.0%
+datatine-wa-6317  # DATATINE WA | rating=1.7 vac=0.005%
+denham-wa-6537  # DENHAM WA | rating=2.48 vac=0.0%
+devils-creek-wa-6630  # DEVILS CREEK WA | rating=2.03 vac=0.0%
+dianella-wa-6059  # DIANELLA WA | rating=3.68 vac=0.47%
+doodlakine-wa-6411  # DOODLAKINE WA | rating=1.29 vac=0.0%
+dudinin-wa-6363  # DUDININ WA | rating=1.89 vac=0.0%
+dukin-wa-6475  # DUKIN WA | rating=2.0 vac=0.0%
+duncraig-wa-6023  # DUNCRAIG WA | rating=3.75 vac=0.89%
+dunsborough-wa-6281  # DUNSBOROUGH WA | rating=3.13 vac=0.42%
+durack-wa-6743  # DURACK WA | rating=1.62 vac=0.11%
+east-fremantle-wa-6158  # EAST FREMANTLE WA | rating=2.25 vac=0.31%
+east-perth-wa-6004  # EAST PERTH WA | rating=2.42 vac=0.95%
+eaton-wa-6232  # EATON WA | rating=3.5 vac=0.62%
+eglington-wa-6034  # EGLINGTON WA | rating=2.73 vac=0.0386%
+emu-flat-wa-6431  # EMU FLAT WA | rating=1.29 vac=0.0%
+exmouth-wa-6707  # EXMOUTH WA | rating=1.33 vac=1.31%
+fimiston-wa-6432  # FIMISTON WA | rating=3.81 vac=1.55%
+fitzgerald-wa-6337  # FITZGERALD WA | rating=2.69 vac=0.0%
+fitzroy-crossing-wa-6765  # FITZROY CROSSING WA | rating=1.51 vac=0.0%
+forest-hill-wa-6324  # FOREST HILL WA | rating=1.95 vac=0.0%
+forrestania-wa-6359  # FORRESTANIA WA | rating=1.6 vac=0.0%
+forrestfield-wa-6058  # FORRESTFIELD WA | rating=3.66 vac=0.32%
+frankland-wa-6396  # FRANKLAND WA | rating=2.48 vac=0.0%
+fremantle-wa-6160  # FREMANTLE WA | rating=2.64 vac=0.26%
+gabbin-wa-6476  # GABBIN WA | rating=1.29 vac=0.0%
+gelncoe-wa-6316  # GELNCOE WA | rating=2.96 vac=0.0%
+geraldton-wa-6530  # GERALDTON WA | rating=3.43 vac=0.89%
+gibson-wa-6448  # GIBSON WA | rating=1.76 vac=0.0%
+glenoran-wa-6258  # GLENORAN WA | rating=2.51 vac=0.0%
+golden-bay-wa-6174  # GOLDEN BAY WA | rating=3.03 vac=0.0176%
+goodlands-wa-6468  # GOODLANDS WA | rating=1.49 vac=0.0%
+goomalling-wa-6460  # GOOMALLING WA | rating=2.03 vac=0.0217%
+goomarin-wa-6415  # GOOMARIN WA | rating=2.54 vac=0.0062%
+gorrie-wa-6556  # GORRIE WA | rating=1.88 vac=0.0%
+gosnells-wa-6110  # GOSNELLS WA | rating=3.39 vac=0.76%
+gracetown-wa-6284  # GRACETOWN WA | rating=1.77 vac=0.0%
+greenbushes-wa-6254  # GREENBUSHES WA | rating=2.13 vac=0.0238%
+grey-wa-6521  # GREY WA | rating=2.16 vac=0.0%
+guilford-wa-6055  # GUILFORD WA | rating=3.83 vac=1.38%
+gunyidi-wa-6513  # GUNYIDI WA | rating=1.13 vac=0.0%
+gwelup-wa-6018  # GWELUP WA | rating=3.49 vac=0.39%
+hamersley-wa-6022  # HAMERSLEY WA | rating=1.99 vac=0.0%
+harvey-wa-6220  # HARVEY WA | rating=2.05 vac=0.0%
+hatter-hill-wa-6356  # HATTER HILL WA | rating=1.83 vac=0.0%
+hester-wa-6255  # HESTER WA | rating=2.1 vac=0.004%
+high-wycombe-wa-6057  # HIGH WYCOMBE WA | rating=3.47 vac=0.16%
+highgate-wa-6003  # HIGHGATE WA | rating=1.71 vac=0.35%
+hope-valley-wa-6165  # HOPE VALLEY WA | rating=2.72 vac=0.0%
+hopetoun-wa-6348  # HOPETOUN WA | rating=2.27 vac=0.1094%
+hovea-wa-6071  # HOVEA WA | rating=2.61 vac=0.0%
+iluka-wa-6028  # ILUKA WA | rating=2.51 vac=0.37%
+inglewood-wa-6052  # INGLEWOOD WA | rating=3.17 vac=0.49%
+jarrahdale-wa-6124  # JARRAHDALE WA | rating=1.8 vac=0.0%
+jerdacuttup-wa-6346  # JERDACUTTUP WA | rating=2.66 vac=0.026%
+jindalee-wa-6036  # JINDALEE WA | rating=2.81 vac=0.3%
+jingalup-wa-6395  # JINGALUP WA | rating=2.05 vac=0.0%
+joondalup-wa-6027  # JOONDALUP WA | rating=3.65 vac=0.61%
+jurien-bay-wa-6516  # JURIEN BAY WA | rating=2.31 vac=0.6%
+kadathinni-wa-6519  # KADATHINNI WA | rating=2.47 vac=0.0%
+kalbarri-wa-6536  # KALBARRI WA | rating=1.66 vac=0.0077%
+kalgoorie-wa-6430  # KALGOORIE WA | rating=3.62 vac=0.94%
+kambalda-west-wa-6442  # KAMBALDA WEST WA | rating=2.58 vac=0.0261%
+karlgarin-wa-6358  # KARLGARIN WA | rating=1.25 vac=0.0%
+karloning-wa-6479  # KARLONING WA | rating=1.71 vac=0.0%
+karnup-wa-6176  # KARNUP WA | rating=2.21 vac=0.0273%
+karratha-wa-6714  # KARRATHA WA | rating=3.32 vac=0.41%
+karridale-wa-6288  # KARRIDALE WA | rating=2.16 vac=0.0%
+katrine-wa-6566  # KATRINE WA | rating=2.72 vac=0.0134%
+kellerberrin-wa-6410  # KELLERBERRIN WA | rating=2.83 vac=0.0%
+kelmscott-wa-6111  # KELMSCOTT WA | rating=3.17 vac=1.07%
+kendenup-wa-6323  # KENDENUP WA | rating=2.35 vac=0.0%
+keysbrook-wa-6126  # KEYSBROOK WA | rating=1.22 vac=0.0%
+kiara-wa-6054  # KIARA WA | rating=3.79 vac=0.35%
+kingston-wa-6256  # KINGSTON WA | rating=1.68 vac=0.0%
+kondinin-wa-6367  # KONDININ WA | rating=2.39 vac=0.0%
+konnongorring-wa-6603  # KONNONGORRING WA | rating=2.63 vac=0.0%
+koolanooka-wa-6623  # KOOLANOOKA WA | rating=2.05 vac=0.0%
+koomberkine-wa-6461  # KOOMBERKINE WA | rating=2.27 vac=0.0%
+kukerin-wa-6352  # KUKERIN WA | rating=2.52 vac=0.0%
+kulin-wa-6365  # KULIN WA | rating=2.3 vac=0.0%
+kununoppin-wa-6489  # KUNUNOPPIN WA | rating=1.26 vac=0.0%
+kwinana-beach-wa-6167  # KWINANA BEACH WA | rating=3.05 vac=1.22%
+lake-carnegie-wa-6646  # LAKE CARNEGIE WA | rating=1.46 vac=0.0%
+lake-grace-wa-6353  # LAKE GRACE WA | rating=1.48 vac=0.0208%
+lancelin-wa-6044  # LANCELIN WA | rating=2.61 vac=0.0%
+laverton-wa-6440  # LAVERTON WA | rating=1.31 vac=0.0%
+ledge-point-wa-6043  # LEDGE POINT WA | rating=1.85 vac=0.0%
+leederville-wa-6007  # LEEDERVILLE WA | rating=3.27 vac=0.7%
+leeman-wa-6514  # LEEMAN WA | rating=1.56 vac=0.0833%
+leeming-wa-6149  # LEEMING WA | rating=3.18 vac=0.67%
+leonora-wa-6438  # LEONORA WA | rating=2.66 vac=0.0%
+lynwood-wa-6147  # LYNWOOD WA | rating=3.12 vac=1.05%
+maddington-wa-6109  # MADDINGTON WA | rating=2.82 vac=0.67%
+madura-wa-6443  # MADURA WA | rating=2.19 vac=0.0%
+mahogany-creek-wa-6072  # MAHOGANY CREEK WA | rating=3.32 vac=0.0%
+malaga-wa-6090  # MALAGA WA | rating=0.0 vac=0.0%
+mandurah-wa-6210  # MANDURAH WA | rating=3.13 vac=1.37%
+marangaroo-wa-6064  # MARANGAROO WA | rating=3.42 vac=0.29%
+marble-bar-wa-6760  # MARBLE BAR WA | rating=2.15 vac=0.0%
+maylands-wa-6051  # MAYLANDS WA | rating=3.33 vac=0.47%
+menora-wa-6050  # MENORA WA | rating=2.97 vac=0.64%
+menzies-wa-6436  # MENZIES WA | rating=1.43 vac=0.0%
+midland-wa-6056  # MIDLAND WA | rating=3.37 vac=0.61%
+miling-wa-6575  # MILING WA | rating=1.67 vac=0.0%
+mindarie-wa-6030  # MINDARIE WA | rating=3.8 vac=0.27%
+mindarra-wa-6503  # MINDARRA WA | rating=1.94 vac=0.0%
+moorine-rock-wa-6425  # MOORINE ROCK WA | rating=1.23 vac=0.0%
+morangup-wa-6083  # MORANGUP WA | rating=1.64 vac=0.0128%
+morley-wa-6062  # MORLEY WA | rating=3.77 vac=0.34%
+mornington-wa-6221  # MORNINGTON WA | rating=1.05 vac=0.0%
+mosman-park-wa-6012  # MOSMAN PARK WA | rating=2.34 vac=0.35%
+mount-hawthorn-wa-6016  # MOUNT HAWTHORN WA | rating=3.1 vac=0.69%
+muchea-wa-6501  # MUCHEA WA | rating=2.37 vac=0.0%
+mundaring-wa-6073  # MUNDARING WA | rating=2.81 vac=0.0%
+munglinup-wa-6450  # MUNGLINUP WA | rating=2.13 vac=0.23%
+murdoch-wa-6150  # MURDOCH WA | rating=3.25 vac=0.0079%
+myara-wa-6207  # MYARA WA | rating=2.43 vac=0.0%
+myaree-wa-6154  # MYAREE WA | rating=3.43 vac=0.99%
+nannup-wa-6275  # NANNUP WA | rating=1.93 vac=0.0%
+narembeen-wa-6369  # NAREMBEEN WA | rating=2.81 vac=0.0%
+narrikup-wa-6326  # NARRIKUP WA | rating=1.51 vac=0.0%
+narrogin-wa-6312  # NARROGIN WA | rating=2.31 vac=0.0056%
+nedlands-wa-6009  # NEDLANDS WA | rating=2.67 vac=0.93%
+newdegate-wa-6355  # NEWDEGATE WA | rating=1.22 vac=0.0%
+newlands-wa-6251  # NEWLANDS WA | rating=2.29 vac=0.0%
+newman-wa-6753  # NEWMAN WA | rating=2.6 vac=0.95%
+nippering-wa-6350  # NIPPERING WA | rating=2.55 vac=0.0%
+north-cascade-wa-6445  # NORTH CASCADE WA | rating=2.0 vac=0.0%
+north-coogee-wa-6163  # NORTH COOGEE WA | rating=3.78 vac=0.45%
+north-fremantle-wa-6159  # NORTH FREMANTLE WA | rating=2.54 vac=0.37%
+north-perth-wa-6006  # NORTH PERTH WA | rating=3.81 vac=0.44%
+northcliffe-wa-6262  # NORTHCLIFFE WA | rating=1.77 vac=0.0%
+nowergup-wa-6032  # NOWERGUP WA | rating=1.76 vac=0.0%
+nugadong-wa-6609  # NUGADONG WA | rating=2.2 vac=0.0%
+nullagine-wa-6758  # NULLAGINE WA | rating=1.5 vac=0.0%
+nungarin-wa-6490  # NUNGARIN WA | rating=2.29 vac=0.0%
+nyabing-wa-6341  # NYABING WA | rating=2.37 vac=0.0%
+oakford-wa-6121  # OAKFORD WA | rating=1.6 vac=0.0%
+onslow-wa-6710  # ONSLOW WA | rating=2.69 vac=0.0544%
+orchid-valley-wa-6394  # ORCHID VALLEY WA | rating=1.57 vac=0.0%
+osborne-park-wa-6017  # OSBORNE PARK WA | rating=2.83 vac=0.23%
+osmington-wa-6285  # OSMINGTON WA | rating=2.95 vac=0.56%
+padbury-wa-6025  # PADBURY WA | rating=3.66 vac=0.6%
+pallinup-wa-6335  # PALLINUP WA | rating=3.04 vac=0.0%
+palmyra-wa-6157  # PALMYRA WA | rating=3.06 vac=0.15%
+paraburdoo-wa-6754  # PARABURDOO WA | rating=2.76 vac=0.0%
+pemberton-wa-6260  # PEMBERTON WA | rating=1.81 vac=0.0%
+perth-wa-6000  # PERTH WA | rating=2.6 vac=1.29%
+picton-wa-6229  # PICTON WA | rating=1.94 vac=0.0%
+pingelly-wa-6308  # PINGELLY WA | rating=1.6 vac=0.0%
+pingrup-wa-6343  # PINGRUP WA | rating=1.28 vac=0.0%
+pinjarra-wa-6208  # PINJARRA WA | rating=2.89 vac=2.36%
+popanyinning-wa-6309  # POPANYINNING WA | rating=2.09 vac=0.0%
+port-hedland-wa-6721  # PORT HEDLAND WA | rating=2.85 vac=2.21%
+port-kennedy-wa-6172  # PORT KENNEDY WA | rating=2.95 vac=0.64%
+quairading-wa-6383  # QUAIRADING WA | rating=1.77 vac=0.0%
+redgate-wa-6286  # REDGATE WA | rating=2.09 vac=0.0132%
+reservior-wa-6076  # RESERVIOR WA | rating=2.82 vac=0.33%
+rivervale-wa-6103  # RIVERVALE WA | rating=3.15 vac=0.66%
+rockingham-wa-6168  # ROCKINGHAM WA | rating=3.35 vac=0.91%
+rocklea-wa-6751  # ROCKLEA WA | rating=2.03 vac=0.0057%
+roebourne-wa-6718  # ROEBOURNE WA | rating=0.99 vac=0.0%
+roelands-wa-6226  # ROELANDS WA | rating=2.09 vac=0.0%
+rossmoyne-wa-6148  # ROSSMOYNE WA | rating=3.33 vac=0.77%
+rothsay-wa-6620  # ROTHSAY WA | rating=2.5 vac=0.0%
+sawyers-valley-wa-6074  # SAWYERS VALLEY WA | rating=2.61 vac=0.0%
+scarborough-wa-6019  # SCARBOROUGH WA | rating=2.91 vac=0.18%
+seabird-wa-6042  # SEABIRD WA | rating=2.64 vac=0.0%
+secret-harbour-wa-6173  # SECRET HARBOUR WA | rating=2.94 vac=0.0031%
+serpentine-wa-6125  # SERPENTINE WA | rating=1.19 vac=0.0%
+shackleton-wa-6386  # SHACKLETON WA | rating=1.85 vac=0.0%
+shadforth-wa-6333  # SHADFORTH WA | rating=1.95 vac=0.23%
+shoalwater-wa-6169  # SHOALWATER WA | rating=3.92 vac=1.11%
+singleton-wa-6175  # SINGLETON WA | rating=2.68 vac=0.0085%
+sorrento-wa-6020  # SORRENTO WA | rating=2.99 vac=0.2%
+south-fremantle-wa-6162  # SOUTH FREMANTLE WA | rating=3.1 vac=0.57%
+south-hedland-wa-6722  # SOUTH HEDLAND WA | rating=3.08 vac=1.79%
+south-perth-wa-6151  # SOUTH PERTH WA | rating=2.65 vac=1.22%
+southampton-wa-6253  # SOUTHAMPTON WA | rating=2.48 vac=0.0%
+stirling-wa-6021  # STIRLING WA | rating=3.63 vac=0.62%
+stoneville-wa-6081  # STONEVILLE WA | rating=2.46 vac=0.0%
+subiaco-wa-6008  # SUBIACO WA | rating=2.76 vac=0.64%
+talbot-wa-6302  # TALBOT WA | rating=2.13 vac=0.0109%
+tammin-wa-6409  # TAMMIN WA | rating=2.81 vac=0.0%
+tenterden-wa-6322  # TENTERDEN WA | rating=2.07 vac=0.0%
+thornlie-wa-6108  # THORNLIE WA | rating=3.06 vac=0.42%
+tincurrin-wa-6361  # TINCURRIN WA | rating=1.26 vac=0.0%
+tonebridge-wa-6244  # TONEBRIDGE WA | rating=2.21 vac=0.0%
+toompup-wa-6336  # TOOMPUP WA | rating=2.0 vac=0.0%
+trayning-wa-6488  # TRAYNING WA | rating=2.3 vac=0.0%
+trigg-wa-6029  # TRIGG WA | rating=1.59 vac=1.52%
+two-rocks-wa-6037  # TWO ROCKS WA | rating=2.74 vac=0.0625%
+walkaway-wa-6528  # WALKAWAY WA | rating=1.94 vac=0.0%
+walpole-wa-6398  # WALPOLE WA | rating=1.93 vac=0.0145%
+wannamal-wa-6505  # WANNAMAL WA | rating=1.67 vac=0.3333%
+waroona-wa-6215  # WAROONA WA | rating=1.93 vac=0.0049%
+warradarge-wa-6518  # WARRADARGE WA | rating=1.8 vac=0.0333%
+warwick-wa-6024  # WARWICK WA | rating=3.29 vac=0.004%
+waterford-wa-6152  # WATERFORD WA | rating=3.17 vac=0.32%
+waterloo-wa-6228  # WATERLOO WA | rating=1.92 vac=321.0%
+welbungin-wa-6477  # WELBUNGIN WA | rating=1.01 vac=0.0%
+wellard-wa-6170  # WELLARD WA | rating=3.6 vac=0.0155%
+wellesley-wa-6233  # WELLESLEY WA | rating=3.39 vac=1.04%
+wembley-wa-6014  # WEMBLEY WA | rating=3.12 vac=0.29%
+west-perth-wa-6005  # WEST PERTH WA | rating=2.36 vac=1.26%
+westminster-wa-6061  # WESTMINSTER WA | rating=3.78 vac=0.38%
+westonia-wa-6423  # WESTONIA WA | rating=1.97 vac=0.0%
+whitby-wa-6123  # WHITBY WA | rating=2.37 vac=0.0101%
+wialki-wa-6473  # WIALKI WA | rating=0.75 vac=0.0%
+wickepin-wa-6370  # WICKEPIN WA | rating=2.41 vac=0.0%
+williams-wa-6391  # WILLIAMS WA | rating=2.11 vac=0.0%
+woodvale-wa-6026  # WOODVALE WA | rating=3.78 vac=0.23%
+wooroloo-wa-6558  # WOOROLOO WA | rating=2.14 vac=0.125%
+wundowie-wa-6560  # WUNDOWIE WA | rating=2.25 vac=0.0%
+wyndham-wa-6740  # WYNDHAM WA | rating=2.43 vac=0.0%
+yallingup-wa-6282  # YALLINGUP WA | rating=2.47 vac=0.0%
+yanchep-wa-6035  # YANCHEP WA | rating=3.35 vac=2.08%
+yandoo-creek-wa-6701  # YANDOO CREEK WA | rating=2.58 vac=0.0034%
+yarloop-wa-6218  # YARLOOP WA | rating=2.73 vac=0.0%
+yealering-wa-6372  # YEALERING WA | rating=1.5 vac=0.0%
+yokine-wa-6060  # YOKINE WA | rating=3.54 vac=0.33%
+yuna-wa-6532  # YUNA WA | rating=2.62 vac=0.0021%
