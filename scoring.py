@@ -203,22 +203,46 @@ def score_listing(row: dict) -> dict:
 
     # ── Rent & yield enrichment ───────────────────────────────
     rent_info = estimate_rent(listing_desc, beds, ptype, suburb, state)
-    annual_rent   = rent_info['annual_rent']
-    weekly_rent   = rent_info['weekly_rent']
+    annual_rent      = rent_info['annual_rent']
+    weekly_rent      = rent_info['weekly_rent']
     rent_assumptions = rent_info['assumptions']
 
-    # Gross yield: use listing price if known, else suburb median
-    is_house = 'house' in ptype or 'villa' in ptype
-    stats    = stats_lookup(suburb, state)
-    gross_yield = 0.0
-    if annual_rent and price_n >= 10_000:
-        gross_yield = round(annual_rent / price_n * 100, 2)
+    is_house    = 'house' in ptype or 'villa' in ptype
+    stats       = stats_lookup(suburb, state)
 
-    # Suburb stats enrichment
-    sub_rent_pw    = stats.get('rent_house_pw', 0) if is_house else stats.get('rent_unit_pw', 0)
-    sub_median     = stats.get('median_house', 0)  if is_house else stats.get('median_unit', 0)
-    vacancy_pct    = stats.get('vacancy_pct', 0)
-    sqm_rating     = stats.get('sqm_rating', 0)
+    # Suburb stats
+    sub_rent_pw = stats.get('rent_house_pw', 0) if is_house else stats.get('rent_unit_pw', 0)
+    sub_median  = stats.get('median_house', 0)  if is_house else stats.get('median_unit', 0)
+    vacancy_pct = stats.get('vacancy_pct', 0)
+    sqm_rating  = stats.get('sqm_rating', 0)
+
+    # Gross yield — use listing price where known; substitute suburb median when price is missing
+    gross_yield = 0.0
+    if annual_rent:
+        if price_n >= 10_000:
+            gross_yield = round(annual_rent / price_n * 100, 2)
+        elif sub_median >= 10_000:
+            # Price unknown (Contact Agent / Auction) — fall back to suburb median price
+            gross_yield = round(annual_rent / sub_median * 100, 2)
+            median_note = f"suburb median price ${sub_median:,} used (listing price unknown)"
+            rent_assumptions = (f"{rent_assumptions}; {median_note}"
+                                if rent_assumptions else median_note)
+
+    # ── Yield-based cashflow score ────────────────────────────
+    # <5% = average (no bonus), 5–6% = ok, 6–7% = above avg,
+    # 7–8% = good, 8–9% = high, 9%+ = excellent
+    if gross_yield >= 9.0:
+        c_score += 5; c_signals.append(f"Yield {gross_yield:.1f}% — excellent cashflow")
+    elif gross_yield >= 8.0:
+        c_score += 4; c_signals.append(f"Yield {gross_yield:.1f}% — high cashflow")
+    elif gross_yield >= 7.0:
+        c_score += 3; c_signals.append(f"Yield {gross_yield:.1f}% — good cashflow")
+    elif gross_yield >= 6.0:
+        c_score += 2; c_signals.append(f"Yield {gross_yield:.1f}% — above average cashflow")
+    elif gross_yield >= 5.0:
+        c_score += 1; c_signals.append(f"Yield {gross_yield:.1f}% — average cashflow")
+    # <5% adds nothing
+    c_score = min(c_score, 10)
 
     # Cashflow score boost for strong-yield indicators from stats
     if sqm_rating >= 3.5 and vacancy_pct <= 1.0:

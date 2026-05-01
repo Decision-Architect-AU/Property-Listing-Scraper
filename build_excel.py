@@ -424,7 +424,7 @@ def main(scored_path: Path = None, out_path: Path = None):
 
     listings = json.loads(scored_path.read_text(encoding="utf-8"))
     today    = str(date.today())
-    print(f"Building Excel for {len(listings)} listings → {out_path}")
+    print(f"Building Excel for {len(listings)} listings -> {out_path}")
 
     wb = Workbook()
     wb.remove(wb.active)  # remove default sheet
