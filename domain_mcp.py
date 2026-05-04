@@ -1110,6 +1110,42 @@ def debug_listing_page(listing_url: str) -> dict:
 
 
 # ─────────────────────────────────────────────────────────────
+# Tool 8 — send_email_report
+# ─────────────────────────────────────────────────────────────
+@mcp.tool()
+def send_email_report(
+    project_dir: str,
+    suburb: Optional[str] = None,
+) -> dict:
+    """
+    Send the scored listings report to the email address configured in email_config.json.
+    Attaches SEQ_Listings.xlsx and includes a colour-coded HTML summary table.
+
+    Args:
+        project_dir: Absolute path containing scored_listings.json, SEQ_Listings.xlsx,
+                     send_report.py, and email_config.json
+        suburb:      Optional suburb name to filter the report (e.g. "Bendigo").
+                     If omitted, all suburbs are included.
+
+    Returns:
+        { "success": bool, "message": str }
+    """
+    import importlib.util, traceback
+    send_script = Path(project_dir) / "send_report.py"
+    if not send_script.exists():
+        return {"success": False, "message": f"send_report.py not found in {project_dir}"}
+
+    try:
+        spec = importlib.util.spec_from_file_location("send_report", str(send_script))
+        mod  = importlib.util.module_from_spec(spec)
+        mod.__file__ = str(send_script)
+        spec.loader.exec_module(mod)
+        return mod.send_report(suburb_filter=suburb)
+    except Exception as e:
+        return {"success": False, "message": f"Error: {e}", "traceback": traceback.format_exc()}
+
+
+# ─────────────────────────────────────────────────────────────
 # Entry point
 # ─────────────────────────────────────────────────────────────
 if __name__ == "__main__":
