@@ -20,10 +20,8 @@ import json
 import smtplib
 import sys
 from datetime import date
-from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from email import encoders
 from pathlib import Path
 
 
@@ -235,23 +233,11 @@ def send_report(suburb_filter: str | None = None) -> dict:
 
     html_body = build_html(listings, suburb_filter, today)
 
-    msg = MIMEMultipart("mixed")
+    msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
     msg["From"]    = gmail_addr
     msg["To"]      = to_addr
-
-    # HTML body
     msg.attach(MIMEText(html_body, "html", "utf-8"))
-
-    # Attach Excel file if it exists
-    excel_path = PROJECT_DIR / "SEQ_Listings.xlsx"
-    if excel_path.exists():
-        with open(excel_path, "rb") as f:
-            part = MIMEBase("application", "vnd.openxmlformats-officedocument.spreadsheetml.sheet")
-            part.set_payload(f.read())
-        encoders.encode_base64(part)
-        part.add_header("Content-Disposition", f'attachment; filename="SEQ_Listings_{today}.xlsx"')
-        msg.attach(part)
 
     try:
         with smtplib.SMTP("smtp.gmail.com", 587) as smtp:
@@ -259,8 +245,7 @@ def send_report(suburb_filter: str | None = None) -> dict:
             smtp.starttls()
             smtp.login(gmail_addr, app_password)
             smtp.sendmail(gmail_addr, to_addr, msg.as_string())
-        attached = " + Excel attached" if excel_path.exists() else ""
-        return {"success": True, "message": f"Report sent to {to_addr}{attached}"}
+        return {"success": True, "message": f"Report sent to {to_addr}"}
     except smtplib.SMTPAuthenticationError:
         return {"success": False,
                 "message": "Gmail authentication failed. Check your App Password in email_config.json."}
