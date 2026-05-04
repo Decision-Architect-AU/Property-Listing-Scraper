@@ -28,7 +28,6 @@ sys.path.insert(0, str(_here))          # scoring, rent_estimator
 sys.path.insert(0, str(_root))          # listing_tracker, scraper, etc.
 
 from scoring import score_listing
-from listing_tracker import load_history, update_history, enrich_row
 
 
 def parse_row(parts: list[str]) -> dict:
@@ -56,21 +55,12 @@ def main():
     parser.add_argument("--out", required=True)
     args = parser.parse_args()
 
-    raw_path     = Path(args.raw)
-    out_path     = Path(args.out)
-    history_path = raw_path.parent / "listing_history.json"
+    raw_path = Path(args.raw)
+    out_path = Path(args.out)
 
     if not raw_path.exists():
         print(f"ERROR: {raw_path} not found", file=sys.stderr)
         sys.exit(1)
-
-    # Update history with current raw_listings, then load it
-    hist_stats = update_history(str(raw_path), str(history_path))
-    print(f"History: {hist_stats['new']} new  |  "
-          f"{hist_stats['price_dropped']} price drops  |  "
-          f"{hist_stats['desc_changed']} desc changes  |  "
-          f"{hist_stats['unchanged']} unchanged")
-    history = load_history(str(history_path))
 
     lines   = [l.strip() for l in raw_path.read_text(encoding="utf-8").splitlines() if l.strip()]
     scored  = []
@@ -85,11 +75,10 @@ def main():
         if not row["suburb"]:
             skipped += 1
             continue
-        row = enrich_row(row, history)   # inject history signals
         scored.append(score_listing(row))
 
     out_path.write_text(json.dumps(scored, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Scored {len(scored)} listings -> {out_path}  (skipped {skipped})")
+    print(f"Scored {len(scored)} listings → {out_path}  (skipped {skipped})")
 
 
 if __name__ == "__main__":
