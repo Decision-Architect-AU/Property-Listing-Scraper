@@ -1,0 +1,25 @@
+[2026-05-04 20:37:04] [INFO] Run folder: C:\MCP_Servers\DomainScaper\runs\2026-05-04
+[2026-05-04 20:37:04] [INFO] ============================================================
+[2026-05-04 20:37:04] [INFO] Batch scrape — 2411 suburbs  max-pages=5  max-price=$2,000,000
+[2026-05-04 20:37:04] [INFO] Already completed: 0  Refresh: False
+[2026-05-04 20:37:04] [INFO] ============================================================
+[2026-05-04 20:37:06] [INFO] [1/2411] Scraping: belconnen-act-2617  # BELCONNEN ACT | rating=3.42 vac=1.12%
+[2026-05-04 20:37:06] [INFO]   0 total listings across 0 pages — fetching up to 0
+[2026-05-04 20:37:06] [INFO]   Scraped 0 listings
+[2026-05-04 20:37:06] [INFO]   New: 0  Total in file: 0
+[2026-05-04 20:37:12] [INFO] [2/2411] Scraping: bonner-act-2914  # BONNER ACT | rating=2.69 vac=0.93%
+[2026-05-04 20:37:12] [INFO]   0 total listings across 0 pages — fetching up to 0
+[2026-05-04 20:37:12] [INFO]   Scraped 0 listings
+[2026-05-04 20:37:12] [INFO]   New: 0  Total in file: 0
+[2026-05-04 20:37:18] [INFO] [3/2411] Scraping: canberra-act-2600  # CANBERRA ACT | rating=2.89 vac=1.08%
+[2026-05-04 20:37:18] [INFO]   0 total listings across 0 pages — fetching up to 0
+[2026-05-04 20:37:18] [INFO]   Scraped 0 listings
+[2026-05-04 20:37:18] [INFO]   New: 0  Total in file: 0
+[2026-05-04 20:37:24] [INFO] [4/2411] Scraping: canberra-city-act-2601  # CANBERRA CITY ACT | rating=3.07 vac=0.0296%
+[2026-05-04 20:37:24] [INFO]   0 total listings across 0 pages — fetching up to 0
+[2026-05-04 20:37:24] [INFO]   Scraped 0 listings
+[2026-05-04 20:37:24] [INFO]   New: 0  Total in file: 0
+[2026-05-04 20:37:32] [INFO] [5/2411] Scraping: casey-act-2913  # CASEY ACT | rating=2.79 vac=0.95%
+[2026-05-04 20:37:32] [INFO]   0 total listings across 0 pages — fetching up to 0
+[2026-05-04 20:37:32] [INFO]   Scraped 0 listings
+[2026-05-04 20:37:32] [INFO]   New: 0  Total in file: 0
