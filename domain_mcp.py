@@ -588,24 +588,18 @@ def run_scoring(project_dir: str) -> dict:
         { "success": bool, "scored_json_path": str, "rows_scored": int, "stderr": str }
     """
     import importlib.util, traceback
-    _pdir  = Path(project_dir)
-    script = _pdir / "Strategy_Scoring" / "score_listings.py"
-    raw    = _pdir / "raw_listings.txt"
-    out    = _pdir / "scored_listings.json"
+    script = Path(project_dir) / "score_listings.py"
+    raw    = Path(project_dir) / "raw_listings.txt"
+    out    = Path(project_dir) / "scored_listings.json"
 
     if not script.exists():
-        return {"success": False, "error": f"score_listings.py not found in {_pdir / 'Strategy_Scoring'}"}
+        return {"success": False, "error": f"score_listings.py not found in {project_dir}"}
     if not raw.exists():
         return {"success": False, "error": f"raw_listings.txt not found in {project_dir}"}
 
     try:
-        # Ensure Strategy_Scoring and Domain_Info are on the path so sub-imports resolve
-        for _p in [str(_pdir), str(_pdir / "Domain_Info"), str(_pdir / "Strategy_Scoring")]:
-            if _p not in sys.path:
-                sys.path.insert(0, _p)
         spec   = importlib.util.spec_from_file_location("score_listings", str(script))
         mod    = importlib.util.module_from_spec(spec)
-        mod.__file__ = str(script)
         spec.loader.exec_module(mod)
 
         lines  = [l.strip() for l in raw.read_text(encoding="utf-8").splitlines() if l.strip()]
@@ -780,14 +774,27 @@ def full_pipeline(
         summary["message"] = excel.get("error", "Excel build failed")
         return summary
 
-    # Email is intentionally NOT sent here — full_pipeline is called once per suburb
-    # and sending per-suburb would generate dozens of emails. The scheduled task
-    # calls send_report.py once after ALL suburbs are processed.
-    summary["status"]       = "success"
-    summary["output_files"] = excel.get("files", [])
-    summary["message"]      = (
+    # Step 5: email report (optional — skipped if email_config.json is absent)
+    email_result = {"success": False, "message": "email_config.json not found — skipping email"}
+    try:
+        import importlib.util
+        send_script = Path(project_dir) / "send_report.py"
+        if send_script.exists() and (Path(project_dir) / "email_config.json").exists():
+            spec = importlib.util.spec_from_file_location("send_report", str(send_script))
+            mod  = importlib.util.module_from_spec(spec)
+            mod.__file__ = str(send_script)
+            spec.loader.exec_module(mod)
+            email_result = mod.send_report(suburb_filter=suburb_name)
+    except Exception as e:
+        email_result = {"success": False, "message": f"Email step error: {e}"}
+
+    summary["steps"]["email"] = email_result
+    summary["status"]         = "success"
+    summary["output_files"]   = excel.get("files", [])
+    summary["message"]        = (
         f"Pipeline complete — {append['total_rows']} total listings, "
-        f"{scrape['rows_kept']} new from {suburb_slug}."
+        f"{scrape['rows_kept']} new from {suburb_slug}. "
+        f"Email: {email_result['message']}"
     )
     return summary
 
