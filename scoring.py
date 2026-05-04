@@ -83,6 +83,16 @@ def score_listing(row: dict) -> dict:
     beds_n     = int(beds) if beds.isdigit() else 0
     dom        = days_on_market(date_listed)
 
+    # History-derived fields (populated by listing_tracker.enrich_row)
+    price_changes       = int(row.get("price_changes", 0) or 0)
+    price_reduction_pct = float(row.get("price_reduction_pct", 0.0) or 0.0)
+    price_reduction_n   = float(row.get("price_reduction_n", 0.0) or 0.0)
+    desc_changes        = int(row.get("desc_changes", 0) or 0)
+    history_dom         = int(row.get("history_dom", 0) or 0)
+
+    # Use history DOM when listing date is missing / unreliable
+    effective_dom = history_dom if history_dom > dom else dom
+
     # ── Growth ────────────────────────────────────────────────
     g_score, g_signals = 0, []
 
@@ -144,13 +154,33 @@ def score_listing(row: dict) -> dict:
     if keyword(all_text, "auction"):
         d_score += 1;  d_signals.append("Auction — price discovery")
 
-    # Days on market signals — longer = more vendor motivation
-    if dom >= 180:
-        d_score += 3;  d_signals.append(f"Very stale listing ({dom}d on market)")
-    elif dom >= 90:
-        d_score += 2;  d_signals.append(f"Long-listed ({dom}d on market)")
-    elif dom >= 60:
-        d_score += 1;  d_signals.append(f"Stale listing ({dom}d on market)")
+    # Days on market signals — use the better of listing date vs history DOM
+    if effective_dom >= 180:
+        d_score += 3;  d_signals.append(f"Very stale listing ({effective_dom}d on market)")
+    elif effective_dom >= 90:
+        d_score += 2;  d_signals.append(f"Long-listed ({effective_dom}d on market)")
+    elif effective_dom >= 60:
+        d_score += 1;  d_signals.append(f"Stale listing ({effective_dom}d on market)")
+
+    # Price cut history signals
+    if price_reduction_pct >= 10.0:
+        d_score += 3
+        d_signals.append(f"Price cut {price_reduction_pct:.1f}% (${price_reduction_n:,.0f} off ask)")
+    elif price_reduction_pct >= 5.0:
+        d_score += 2
+        d_signals.append(f"Price cut {price_reduction_pct:.1f}% (${price_reduction_n:,.0f} off)")
+    elif price_changes >= 2:
+        d_score += 2
+        d_signals.append(f"Multiple price drops ({price_changes}x reductions)")
+    elif price_changes == 1:
+        d_score += 1
+        d_signals.append(f"Price reduced once (${price_reduction_n:,.0f} off)")
+
+    # Description relaunch — vendor refreshing a stale campaign
+    if desc_changes >= 2:
+        d_score += 2;  d_signals.append(f"Listing relaunched {desc_changes}x — vendor motivated")
+    elif desc_changes == 1:
+        d_score += 1;  d_signals.append("Description updated — campaign refresh")
 
     d_score = min(d_score, 10)
 
@@ -276,8 +306,15 @@ def score_listing(row: dict) -> dict:
         "zone_notes":          zone_info.get("notes", ""),
         "rezone_potential":    rezone_pot,
         "date_listed":         date_listed,
-        "days_on_market":      dom if dom > 0 else "",
+        "days_on_market":      effective_dom if effective_dom > 0 else "",
         "scraped_date":        str(date.today()),
+        # History / SCD fields
+        "price_changes":       price_changes,
+        "price_reduction_pct": price_reduction_pct,
+        "price_reduction_n":   price_reduction_n,
+        "desc_changes":        desc_changes,
+        "first_seen":          row.get("first_seen", ""),
+        "history_dom":         history_dom,
         # Rent & yield
         "annual_rent":         annual_rent,
         "weekly_rent":         weekly_rent,

@@ -269,6 +269,19 @@ def _is_strata(address: str) -> bool:
     return bool(re.match(r"^\d+/\d+", address.strip()))
 
 
+_UNDER_CONTRACT_TERMS = (
+    "under contract", "under offer", "unconditional",
+    "deposit taken", "sold subject", "contract issued",
+)
+
+def _is_under_contract(row_parts: list[str]) -> bool:
+    """Return True if any field signals the property is under contract / offer."""
+    # Check price (field 2), headline (field 10) and description (field 11)
+    check_fields = [row_parts[i] for i in (2, 10, 11) if len(row_parts) > i]
+    combined = " ".join(check_fields).lower()
+    return any(term in combined for term in _UNDER_CONTRACT_TERMS)
+
+
 def _should_keep(row: str) -> bool:
     parts = row.split("|")
     if len(parts) < 8:
@@ -278,6 +291,8 @@ def _should_keep(row: str) -> bool:
     if ("new house" in ptype and "land" in ptype) or "new home design" in ptype:
         return False
     if _is_strata(address):
+        return False
+    if _is_under_contract(parts):
         return False
     return True
 
@@ -971,6 +986,9 @@ def fetch_descriptions(
         existing = parts[11].strip() if len(parts) > 11 else ""
         url_part = parts[9].strip() if len(parts) > 9 else ""
         if existing or not url_part.startswith("/"):
+            continue
+        if _is_under_contract(parts):
+            rows_skipped += 1
             continue
         if _is_uninteresting(parts):
             rows_skipped += 1

@@ -401,19 +401,21 @@ def _write_dashboard(ws, listings: list[dict], today: str):
 # Main
 # ─────────────────────────────────────────────────────────────────────────────
 
-def main(scored_path: Path = None, out_path: Path = None):
+def main(scored_path: Path = None, out_path: Path = None, data_dir: Path = None):
     """
     Build Excel report from scored_listings.json.
 
     Args:
-        scored_path: Path to scored_listings.json (default: project dir)
-        out_path:    Output .xlsx path (default: SEQ_Listings.xlsx in project dir)
+        scored_path: Path to scored_listings.json (default: data_dir or project dir)
+        out_path:    Output .xlsx path (default: SEQ_Listings.xlsx in data_dir)
+        data_dir:    Directory for data files and email config (default: project dir)
     """
     project_dir = Path(__file__).parent
+    data_dir    = Path(data_dir) if data_dir else project_dir
     if scored_path is None:
-        scored_path = project_dir / "scored_listings.json"
+        scored_path = data_dir / "scored_listings.json"
     if out_path is None:
-        out_path = project_dir / "SEQ_Listings.xlsx"
+        out_path = data_dir / "SEQ_Listings.xlsx"
 
     scored_path = Path(scored_path)
     out_path    = Path(out_path)
@@ -446,6 +448,25 @@ def main(scored_path: Path = None, out_path: Path = None):
 
     wb.save(str(out_path))
     print(f"Saved listings: {out_path}")
+
+    # ── Auto-email report (runs if email_config.json is present) ──────────────
+    import json as _json, importlib.util as _ilu
+    send_script = data_dir / "send_report.py"
+    config_file = data_dir / "email_config.json"
+    log_file    = data_dir / "email_log.json"
+    if send_script.exists() and config_file.exists():
+        try:
+            _spec = _ilu.spec_from_file_location("send_report", str(send_script))
+            _mod  = _ilu.module_from_spec(_spec)
+            _mod.__file__ = str(send_script)
+            _spec.loader.exec_module(_mod)
+            result = _mod.send_report()
+        except Exception as _e:
+            result = {"success": False, "message": f"Email step error: {_e}"}
+    else:
+        result = {"success": False, "message": "email_config.json or send_report.py not found"}
+    log_file.write_text(_json.dumps(result, indent=2), encoding="utf-8")
+    print(f"Email: {result['message']}")
 
 
 if __name__ == "__main__":
