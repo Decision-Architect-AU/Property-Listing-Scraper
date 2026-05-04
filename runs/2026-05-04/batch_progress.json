@@ -1,0 +1,35 @@
+{
+  "completed": {
+    "belconnen-act-2617  # BELCONNEN ACT | rating=3.42 vac=1.12%": {
+      "status": "done",
+      "scraped": 0,
+      "added": 0,
+      "ts": "2026-05-04 20:37:06.997100"
+    },
+    "bonner-act-2914  # BONNER ACT | rating=2.69 vac=0.93%": {
+      "status": "done",
+      "scraped": 0,
+      "added": 0,
+      "ts": "2026-05-04 20:37:12.973649"
+    },
+    "canberra-act-2600  # CANBERRA ACT | rating=2.89 vac=1.08%": {
+      "status": "done",
+      "scraped": 0,
+      "added": 0,
+      "ts": "2026-05-04 20:37:18.763598"
+    },
+    "canberra-city-act-2601  # CANBERRA CITY ACT | rating=3.07 vac=0.0296%": {
+      "status": "done",
+      "scraped": 0,
+      "added": 0,
+      "ts": "2026-05-04 20:37:24.657373"
+    },
+    "casey-act-2913  # CASEY ACT | rating=2.79 vac=0.95%": {
+      "status": "done",
+      "scraped": 0,
+      "added": 0,
+      "ts": "2026-05-04 20:37:32.362488"
+    }
+  },
+  "started": "2026-05-04 20:37:04.405603"
+}
