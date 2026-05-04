@@ -7,7 +7,7 @@ Merges SQM Research stats, Fast 50 membership, and auto-generated Domain
 search slugs into a master JSON, then outputs a filtered suburbs.txt.
 
 Usage:
-    # All defaults — write all suburbs to master_suburbs.json, suburbs.txt
+    # All defaults — write all suburbs to Ref_Suburbs.json, suburbs.txt
     python build_suburb_list.py
 
     # Filter to QLD only, Fast 50 only, high SQM rating
@@ -20,7 +20,7 @@ Usage:
     python build_suburb_list.py --output my_suburbs.txt
 
 Output files:
-    master_suburbs.json  — full enriched record for every suburb in the stats file
+    Ref_Suburbs.json     — full enriched record for every suburb in the stats file
     suburbs.txt (or --output) — one Domain slug per line for run_batch.py
 """
 
@@ -39,7 +39,7 @@ except ImportError:
 
 PROJECT_DIR  = Path(__file__).parent
 STATS_FILE   = PROJECT_DIR / "suburbs_stats_extracted.xlsx"
-MASTER_JSON  = PROJECT_DIR / "master_suburbs.json"
+MASTER_JSON  = PROJECT_DIR / "Ref_Suburbs.json"
 DEFAULT_OUT  = PROJECT_DIR / "suburbs.txt"
 
 
@@ -190,7 +190,7 @@ def main():
     parser.add_argument("--max-price",   type=int,   default=0, help="Max median price (e.g. 900000)")
     parser.add_argument("--region",      default=None, help="Region keyword to filter suburb names")
     parser.add_argument("--output",      default=str(DEFAULT_OUT), help="Output suburbs.txt path")
-    parser.add_argument("--no-master",   action="store_true", help="Skip writing master_suburbs.json")
+    parser.add_argument("--no-master",   action="store_true", help="Skip writing Ref_Suburbs.json")
     args = parser.parse_args()
 
     print("Loading stats file…")
@@ -201,7 +201,7 @@ def main():
         MASTER_JSON.write_text(
             json.dumps(records, indent=2, ensure_ascii=False), encoding="utf-8"
         )
-        print(f"  master_suburbs.json saved ({len(records)} records)")
+        print(f"  Ref_Suburbs.json saved ({len(records)} records)")
 
     # Apply filters
     filtered = apply_filters(

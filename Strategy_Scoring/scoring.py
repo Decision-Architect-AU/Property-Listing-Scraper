@@ -2,8 +2,16 @@
 scoring.py — Three-Pillar Investment Scoring Engine
 Edit this file to tune scores, add/remove signals, or adjust DOM thresholds.
 
-Imports suburb knowledge from regions.py.
+Imports suburb knowledge from regions.py (Domain_Info/) and rent_estimator.py (same folder).
 """
+
+import sys
+from pathlib import Path
+
+# Allow imports from Domain_Info/ (regions, suburb_stats) and this folder (rent_estimator)
+_here = Path(__file__).parent
+sys.path.insert(0, str(_here))                    # Strategy_Scoring/ — rent_estimator
+sys.path.insert(0, str(_here.parent / "Domain_Info"))  # Domain_Info/ — regions, suburb_stats
 
 import re
 from datetime import date

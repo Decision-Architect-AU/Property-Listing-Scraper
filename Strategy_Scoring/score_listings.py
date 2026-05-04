@@ -21,6 +21,12 @@ import json
 import sys
 from pathlib import Path
 
+# Resolve paths so this script can be run from anywhere
+_here = Path(__file__).parent           # Strategy_Scoring/
+_root = _here.parent                    # project root
+sys.path.insert(0, str(_here))          # scoring, rent_estimator
+sys.path.insert(0, str(_root))          # listing_tracker, scraper, etc.
+
 from scoring import score_listing
 from listing_tracker import load_history, update_history, enrich_row
 

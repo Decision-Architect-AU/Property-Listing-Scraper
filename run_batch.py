@@ -32,7 +32,10 @@ import time
 from datetime import datetime
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
+_root = Path(__file__).parent
+sys.path.insert(0, str(_root))                           # scraper, listing_tracker, etc.
+sys.path.insert(0, str(_root / "Domain_Info"))           # regions, suburb_stats
+sys.path.insert(0, str(_root / "Strategy_Scoring"))      # scoring, rent_estimator
 from scraper import curl_get, warm_cookies, build_search_url, parse_listings_page, extract_listing_desc, parse_land_m2
 from scoring import score_listing
 from suburb_stats import lookup as stats_lookup
@@ -41,7 +44,7 @@ from listing_tracker import load_history, update_history, enrich_row
 # ── Config ────────────────────────────────────────────────────────────────────
 PROJECT_DIR  = Path(__file__).parent
 DATA_DIR     = Path(r"C:\DomainListingData")   # central data store
-SUBURBS_FILE = PROJECT_DIR / "suburbs.txt"
+SUBURBS_FILE = PROJECT_DIR / "Domain_Info" / "suburbs.txt"
 MAX_PRICE    = 2_000_000
 MAX_PAGES    = 5
 PAGE_DELAY   = 8.0
