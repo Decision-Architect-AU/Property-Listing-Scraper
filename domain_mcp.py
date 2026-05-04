@@ -765,15 +765,36 @@ def full_pipeline(
     excel = run_excel_build(project_dir)
     summary["steps"]["excel"] = {
         "success": excel["success"],
-        "files":   excel["files"],
+        "files":   excel.get("files", []),
         "errors":  excel.get("stderr", ""),
     }
 
-    summary["status"]     = "success" if excel["success"] else "failed_at_excel"
-    summary["output_files"] = excel.get("files", [])
-    summary["message"]    = (
-        f"✅ Pipeline complete — {append['total_rows']} total listings, "
-        f"{scrape['rows_kept']} new from {suburb_slug}"
+    if not excel["success"]:
+        summary["status"]  = "failed_at_excel"
+        summary["message"] = excel.get("error", "Excel build failed")
+        return summary
+
+    # Step 5: email report (optional — skipped if email_config.json is absent)
+    email_result = {"success": False, "message": "email_config.json not found — skipping email"}
+    try:
+        import importlib.util
+        send_script = Path(project_dir) / "send_report.py"
+        if send_script.exists() and (Path(project_dir) / "email_config.json").exists():
+            spec = importlib.util.spec_from_file_location("send_report", str(send_script))
+            mod  = importlib.util.module_from_spec(spec)
+            mod.__file__ = str(send_script)
+            spec.loader.exec_module(mod)
+            email_result = mod.send_report(suburb_filter=suburb_name)
+    except Exception as e:
+        email_result = {"success": False, "message": f"Email step error: {e}"}
+
+    summary["steps"]["email"] = email_result
+    summary["status"]         = "success"
+    summary["output_files"]   = excel.get("files", [])
+    summary["message"]        = (
+        f"Pipeline complete — {append['total_rows']} total listings, "
+        f"{scrape['rows_kept']} new from {suburb_slug}. "
+        f"Email: {email_result['message']}"
     )
     return summary
 
