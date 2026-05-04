@@ -36,11 +36,9 @@ sys.path.insert(0, str(Path(__file__).parent))
 from scraper import curl_get, warm_cookies, build_search_url, parse_listings_page, extract_listing_desc, parse_land_m2
 from scoring import score_listing
 from suburb_stats import lookup as stats_lookup
-from listing_tracker import load_history, update_history, enrich_row
 
 # ── Config ────────────────────────────────────────────────────────────────────
 PROJECT_DIR  = Path(__file__).parent
-DATA_DIR     = Path(r"C:\DomainListingData")   # central data store
 SUBURBS_FILE = PROJECT_DIR / "suburbs.txt"
 MAX_PRICE    = 2_000_000
 MAX_PAGES    = 5
@@ -48,22 +46,23 @@ PAGE_DELAY   = 8.0
 DESC_DELAY   = 0.5
 SUBURB_PAUSE = 5.0
 
-# Central data paths (all data lives in DATA_DIR)
-RAW_FILE      = DATA_DIR / "raw_listings.txt"
-SCORED_FILE   = DATA_DIR / "scored_listings.json"
-HISTORY_FILE  = DATA_DIR / "listing_history.json"
-
 # Run-specific paths — set by setup_run_dir()
-RUN_DIR       = DATA_DIR
+RUN_DIR       = PROJECT_DIR
+RAW_FILE      = RUN_DIR / "raw_listings.txt"
+SCORED_FILE   = RUN_DIR / "scored_listings.json"
 PROGRESS_FILE = RUN_DIR / "batch_progress.json"
 LOG_FILE      = RUN_DIR / "batch_run.log"
 
 
 def setup_run_dir(date_str: str = None) -> Path:
-    """Ensure DATA_DIR exists and set run-specific log/progress paths."""
-    global RUN_DIR, PROGRESS_FILE, LOG_FILE
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
-    RUN_DIR       = DATA_DIR
+    """Create and set the dated run folder. Call before any other function."""
+    global RUN_DIR, RAW_FILE, SCORED_FILE, PROGRESS_FILE, LOG_FILE
+    if not date_str:
+        date_str = datetime.now().strftime("%Y-%m-%d")
+    RUN_DIR       = PROJECT_DIR / "runs" / date_str
+    RUN_DIR.mkdir(parents=True, exist_ok=True)
+    RAW_FILE      = RUN_DIR / "raw_listings.txt"
+    SCORED_FILE   = RUN_DIR / "scored_listings.json"
     PROGRESS_FILE = RUN_DIR / "batch_progress.json"
     LOG_FILE      = RUN_DIR / "batch_run.log"
     return RUN_DIR
@@ -83,11 +82,6 @@ def _is_strata(address: str) -> bool:
     return bool(re.match(r"^\d+/\d+", address.strip()))
 
 
-_UNDER_CONTRACT_TERMS = (
-    "under contract", "under offer", "unconditional",
-    "deposit taken", "sold subject", "contract issued",
-)
-
 def should_keep(row: str) -> bool:
     parts = row.split("|")
     if len(parts) < 8:
@@ -97,10 +91,6 @@ def should_keep(row: str) -> bool:
     if ("new house" in ptype and "land" in ptype) or "new home design" in ptype:
         return False
     if _is_strata(address):
-        return False
-    # Skip under contract / under offer listings
-    check = " ".join(parts[i] for i in (2, 10, 11) if len(parts) > i).lower()
-    if any(t in check for t in _UNDER_CONTRACT_TERMS):
         return False
     return True
 
@@ -293,12 +283,6 @@ def fetch_all_descriptions(skip_boring: bool = True) -> dict:
 
 # ── Scoring ───────────────────────────────────────────────────────────────────
 def run_scoring():
-    # Update history then load it
-    hist_stats = update_history(str(RAW_FILE), str(HISTORY_FILE))
-    log(f"  History: {hist_stats['new']} new | {hist_stats['price_dropped']} price drops | "
-        f"{hist_stats['desc_changed']} desc changes | {hist_stats['unchanged']} unchanged")
-    history = load_history(str(HISTORY_FILE))
-
     lines  = [l.strip() for l in RAW_FILE.read_text(encoding="utf-8").splitlines() if l.strip()]
     scored = []
     for line in lines:
@@ -313,7 +297,6 @@ def run_scoring():
             "url":    f(9), "description": f(10),
             "date_listed": f(11), "listing_description": f(12),
         }
-        row = enrich_row(row, history)
         scored.append(score_listing(row))
     SCORED_FILE.write_text(json.dumps(scored, indent=2, ensure_ascii=False), encoding="utf-8")
     log(f"scored_listings.json saved ({len(scored)} rows)")
@@ -328,12 +311,8 @@ def run_excel():
     mod    = importlib.util.module_from_spec(spec)
     mod.__file__ = str(script)
     spec.loader.exec_module(mod)
-    mod.main(
-        scored_path=SCORED_FILE,
-        out_path=DATA_DIR / "SEQ_Listings.xlsx",
-        data_dir=DATA_DIR,
-    )
-    log("SEQ_Listings.xlsx saved + email sent")
+    mod.main(scored_path=SCORED_FILE, out_path=RUN_DIR / "Listings.xlsx")
+    log("Listings.xlsx saved")
 
 
 # ── Progress ──────────────────────────────────────────────────────────────────
