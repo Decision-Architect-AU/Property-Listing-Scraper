@@ -981,46 +981,6 @@ Kepnock|11 Greathead Road|Offers Above $649,000|4|1|3|898m²|House|2020769765|/1
 Kepnock|3 Jocumsen Street|BRAND NEW HOME - $760K+|3|2|1|1030m²|House|2020761069|/3-jocumsen-street-kepnock-qld-4670-2020761069|BRAND NEW HOME - $760K+|
 Kepnock|103 Clive Crescent|Offers Above $715,000|4|1|2|668m²|House|2020765500|/103-clive-crescent-kepnock-qld-4670-2020765500|Offers Above $715,000|
 Kepnock|88 Elliott Heads Road|OFFERS ABOVE $699,000|4|2|5||House|2020636184|/88-elliott-heads-road-kepnock-qld-4670-2020636184|OFFERS ABOVE $699,000|
-Kingaroy|103 Ivy Street|Offers Over $460,000|2|1|3|817m²|House|2020743438|/103-ivy-street-kingaroy-qld-4610-2020743438|Offers Over $460,000|
-Kingaroy|361 Haly Street|Offers above $720,000|4|2|6|3855m²|House|2020474761|/361-haly-street-kingaroy-qld-4610-2020474761|Offers above $720,000|
-Kingaroy|32 Bernard Crescent|Offers over $800k|4|2|2|906m²|House|2020414117|/32-bernard-crescent-kingaroy-qld-4610-2020414117|Offers over $800k|
-Kingaroy|26 Frangipani Drive|Offers Over $649,000|4|2|2|901m²|House|2020813937|/26-frangipani-drive-kingaroy-qld-4610-2020813937|Offers Over $649,000|
-Kingaroy|8 Belle Street|$540,000|5|1|2|843m²|House|2020807624|/8-belle-street-kingaroy-qld-4610-2020807624|$540,000|
-Kingaroy|8 Avocado Crescent|$740,000 Offers over|4|2|2|900m²|House|2020794282|/8-avocado-crescent-kingaroy-qld-4610-2020794282|$740,000 Offers over|
-Kingaroy|25 Webster Street|$680,000 Offers over|3|2|3|1012m²|House|2020793356|/25-webster-street-kingaroy-qld-4610-2020793356|$680,000 Offers over|
-Kingaroy|15 Lara Court|O/O $650,000|4|2|2|883m²|House|2020792868|/15-lara-court-kingaroy-qld-4610-2020792868|O/O $650,000|
-Kingaroy|13 Patrick Street|Contact Julian|3|1|2|920m²|House|2020786066|/13-patrick-street-kingaroy-qld-4610-2020786066|Contact Julian|
-Kingaroy|31 Fairview Drive|O/O $600,000 Contact Julian|3|1|2|933m²|House|2020786041|/31-fairview-drive-kingaroy-qld-4610-2020786041|O/O $600,000 Contact Julian|
-Kingaroy|136 Doonkuna Street|O/O $550,000 Contact Julian|3|1|2|1012m²|House|2020785993|/136-doonkuna-street-kingaroy-qld-4610-2020785993|O/O $550,000 Contact Julian|
-Kingaroy|52 Webster Street|$720,000 Offers over|3|2|2|1288m²|House|2020785620|/52-webster-street-kingaroy-qld-4610-2020785620|$720,000 Offers over|
-Kingaroy|12 Murray Parade|$470,000|3|1|2|967m²|House|2020783817|/12-murray-parade-kingaroy-qld-4610-2020783817|$470,000|
-Kingaroy||House for Removal|3|1|||House|2020778328|/kingaroy-qld-4610-2020778328|House for Removal|
-Kingaroy|86 Windsor Circle|Offers Over $600,000|4|2|2|816m²|House|2020773787|/86-windsor-circle-kingaroy-qld-4610-2020773787|Offers Over $600,000|
-Kingaroy|7 Avocado Crescent|$740,000|4|2|3|920m²|House|2020772220|/7-avocado-crescent-kingaroy-qld-4610-2020772220|$740,000|
-Kingaroy|15 Moore Street|$775,000|3|2|8|985m²|House|2020771932|/15-moore-street-kingaroy-qld-4610-2020771932|$775,000|
-Kingaroy|15 MOORE STREET|$775,000|3|2|8|985m²|House|2020771742|/15-moore-street-kingaroy-qld-4610-2020771742|$775,000|
-Kingaroy|355 Hillsdale|$610,000|3|1|2|40468m²|House|2020769751|/355-hillsdale-kingaroy-qld-4610-2020769751|$610,000|
-Kingaroy|355 Hillsdale road|$610,000|3|1|2|40468m²|House|2020768239|/355-hillsdale-road-kingaroy-qld-4610-2020768239|$610,000|
-Kingaroy|98A Alford Street|$695,000|5|2|2|1190m²|House|2020766633|/98a-alford-street-kingaroy-qld-4610-2020766633|$695,000|
-Kingaroy|12 Windsor Circle|$545,000|3|1|2|1000m²|House|2020759045|/12-windsor-circle-kingaroy-qld-4610-2020759045|$545,000|
-Kingaroy|Lot 170/75 - 77 PREMIER DRIVE|FOR SALE||||4000m²|Vacant land|2020756605|/lot-170-75-77-premier-drive-kingaroy-qld-4610-2020756605|FOR SALE|
-Kingaroy|38 Kingaroy Street|Offers Over $495,000|3|1|2|699m²|House|2020747546|/38-kingaroy-street-kingaroy-qld-4610-2020747546|Offers Over $495,000|
-Kingaroy|120 Ivy Street|$585,000|3|1|1|803m²|House|2020740102|/120-ivy-street-kingaroy-qld-4610-2020740102|$585,000|
-Kingaroy|57 Cowie Drive|Offers over $670,000|4|2|1|801m²|House|2020737678|/57-cowie-drive-kingaroy-qld-4610-2020737678|Offers over $670,000|
-Kingaroy|90-92 Rosella Parade|Offers Over $799,000|5|2|4|4222m²|House|2020710402|/90-92-rosella-parade-kingaroy-qld-4610-2020710402|Offers Over $799,000|
-Kingaroy|9 Alice Street|$399,000|2|1|4|1012m²|House|2020724690|/9-alice-street-kingaroy-qld-4610-2020724690|$399,000|
-Kingaroy|12 Fisher Street|$550,000 offers over|4|1|2|1012m²|House|2020722687|/12-fisher-street-kingaroy-qld-4610-2020722687|$550,000 offers over|
-Kingaroy|36 Banksia Drive|$695,000 Offers over|4|2|4|871m²|House|2020716978|/36-banksia-drive-kingaroy-qld-4610-2020716978|$695,000 Offers over|
-Kingaroy|55 First Avenue|$535,000|3|1|1|809m²|House|2020715591|/55-first-avenue-kingaroy-qld-4610-2020715591|$535,000|
-Kingaroy|30 Bridget Carroll Road|O/O $629,000 Contact Julian|3|1|5|4462m²|House|2020707014|/30-bridget-carroll-road-kingaroy-qld-4610-2020707014|O/O $629,000 Contact Julian|
-Kingaroy|6 Summers Court|Offers Over $740,000|5|2|2|1053m²|House|2020704036|/6-summers-court-kingaroy-qld-4610-2020704036|Offers Over $740,000|
-Kingaroy|57A Parkside|$600,000|4|2|2|414m²|House|2020701374|/57a-parkside-kingaroy-qld-4610-2020701374|$600,000|
-Kingaroy|1 Sharon Crescent|$720,000|4|2|3|1075m²|House|2020670287|/1-sharon-crescent-kingaroy-qld-4610-2020670287|$720,000|
-Kingaroy|1 Sharon Crescent|$720,000|4|2|3|1075m²|House|2020655072|/1-sharon-crescent-kingaroy-qld-4610-2020655072|$720,000|
-Kingaroy|10 Lara Court|$590,000|4|2|2|811m²|House|2020539650|/10-lara-court-kingaroy-qld-4610-2020539650|$590,000|
-Kingaroy|56 CARINYA STREET|$472,000|3|1|1|1088m²|House|2020295859|/56-carinya-street-kingaroy-qld-4610-2020295859|$472,000|
-Kingaroy|Lot 8 Moonya Street|$360,000||||1506m²|Vacant land|2020200906|/lot-8-moonya-street-kingaroy-qld-4610-2020200906|$360,000|
-Kingaroy|1&2/74 Windsor Circle|$750,000|6|2|2|800m²|Duplex|2020067133|/1-2-74-windsor-circle-kingaroy-qld-4610-2020067133|$750,000|
 Booie|198 Burkes Road|$775K Dual Living|5|2|5|6.61ha|Acreage / Semi-Rural|2020757294|/198-burkes-road-booie-qld-4610-2020757294|$775K Dual Living|
 Ballogie|12 MCLUCAS ROAD|$500,000||||16ha|Acreage / Semi-Rural|2019267269|/12-mclucas-road-ballogie-qld-4610-2019267269|$500,000|
 Memerambi|53 Safflower st|$150,000||||2023m²|Vacant land|2020641941|/53-safflower-st-memerambi-qld-4610-2020641941|$150,000|
@@ -1241,3 +1201,71 @@ Bli Bli|47a Camelot Court|$695,000||||700m²|New land|2020204117|/47a-camelot-co
 Bli Bli|62 Camelot Court|$695K+||||750m²|Vacant land|2020556963|/62-camelot-court-bli-bli-qld-4560-2020556963|$695K+|
 Mapleton|26 Warruga Street|Contact Agent|2|1|1|20440m²|Apartment / Unit / Flat|2018900920|/26-warruga-street-mapleton-qld-4560-2018900920|Contact Agent|
 Bli Bli|244 Camp Flat Road|$695,000||||750m²|Vacant land|2019272861|/244-camp-flat-road-bli-bli-qld-4560-2019272861|$695,000|
+Dangore|754 Pedersens Road|$1,350,000|1|1|2|560.89ha|Rural|2019136791|/754-pedersens-road-dangore-qld-4610-2019136791|$1,350,000|
+Booie||$1,450,000|4|2|10|16.06ha|Rural Lifestyle|2020794551|/booie-qld-4610-2020794551|$1,450,000|
+Benair|Lot 2 Reedy Creek Road|PRICE DROP - $1,200,000|||4|100.6ha|Farm|2020178650|/lot-2-reedy-creek-road-benair-qld-4610-2020178650|PRICE DROP - $1,200,000|
+Dangore|754 Pedersens Road|$1,350,000|1|1|2|560.49ha|Rural|2019773812|/754-pedersens-road-dangore-qld-4610-2019773812|$1,350,000|
+Booie|230 Wittman|$980,000|3|2|6|119.79ha|Acreage / Semi-Rural|2020806291|/230-wittman-booie-qld-4610-2020806291|$980,000|
+Hodgleigh|420 HODGLEIGH NORTH ROAD|$1,890,000|4|2|7|45.92ha|Rural|2020795379|/420-hodgleigh-north-road-hodgleigh-qld-4610-2020795379|$1,890,000|
+Booie|Lot 9 Booie Crawford road|$950,000||||146.58ha|Rural|2020715679|/lot-9-booie-crawford-road-booie-qld-4610-2020715679|$950,000|
+Booie|149 BURKES ROAD|$1,250,000|4|2|6|16.19ha|Rural|2020697654|/149-burkes-road-booie-qld-4610-2020697654|$1,250,000|
+Inverlaw|225 Beils Road|$1,300,000||||124.5ha|Rural|2020673238|/225-beils-road-inverlaw-qld-4610-2020673238|$1,300,000|
+Booie|58 Malar Road|$1,000,000|4|2|7|12100m²|House|2020656490|/58-malar-road-booie-qld-4610-2020656490|$1,000,000|
+Benair|544 WATTLEGROVE ROAD|$1,400,000|5|4|11|64.82ha|Rural|2020567105|/544-wattlegrove-road-benair-qld-4610-2020567105|$1,400,000|
+Ellesmere|12 Kumbia Road|Offers Over $260,000||||2.04ha|Vacant land|2020487813|/12-kumbia-road-ellesmere-qld-4610-2020487813|Offers Over $260,000|
+Benair|716 Reedy Creek Road|$1,480,000|3|1|8|66.5ha|Rural|2020359175|/716-reedy-creek-road-benair-qld-4610-2020359175|$1,480,000|
+Inverlaw|225 Beils Road|Contact Agent for Price||||124.5ha|Rural|2019140211|/225-beils-road-inverlaw-qld-4610-2019140211|Contact Agent for Price|
+Kingaroy|103 Ivy Street|Offers Over $460,000|2|1|3|817m²|House|2020743438|/103-ivy-street-kingaroy-qld-4610-2020743438|Offers Over $460,000|
+Kingaroy|55 Webster St|$840,000|4|2|4|1082m²|House|2020503489|/55-webster-st-kingaroy-qld-4610-2020503489|$840,000|
+Kingaroy|225 Beils Road|Contact Agent for Price||||124.48ha|Farm|2020638575|/225-beils-road-kingaroy-qld-4610-2020638575|Contact Agent for Price|
+Kingaroy|361 Haly Street|Offers above $720,000|4|2|6|3855m²|House|2020474761|/361-haly-street-kingaroy-qld-4610-2020474761|Offers above $720,000|
+Kingaroy|32 Bernard Crescent|Offers over $800k|4|2|2|906m²|House|2020414117|/32-bernard-crescent-kingaroy-qld-4610-2020414117|Offers over $800k|
+Kingaroy|26 Frangipani Drive|Offers Over $649,000|4|2|2|901m²|House|2020813937|/26-frangipani-drive-kingaroy-qld-4610-2020813937|Offers Over $649,000|
+Kingaroy|8 Belle Street|$540,000|5|1|2|843m²|House|2020807624|/8-belle-street-kingaroy-qld-4610-2020807624|$540,000|
+Kingaroy|8 Avocado Crescent|$740,000 Offers over|4|2|2|900m²|House|2020794282|/8-avocado-crescent-kingaroy-qld-4610-2020794282|$740,000 Offers over|
+Kingaroy|25 Webster Street|$680,000 Offers over|3|2|3|1012m²|House|2020793356|/25-webster-street-kingaroy-qld-4610-2020793356|$680,000 Offers over|
+Kingaroy|15 Lara Court|O/O $650,000|4|2|2|883m²|House|2020792868|/15-lara-court-kingaroy-qld-4610-2020792868|O/O $650,000|
+Kingaroy|13 Patrick Street|Contact Julian|3|1|2|920m²|House|2020786066|/13-patrick-street-kingaroy-qld-4610-2020786066|Contact Julian|
+Kingaroy|31 Fairview Drive|O/O $600,000 Contact Julian|3|1|2|933m²|House|2020786041|/31-fairview-drive-kingaroy-qld-4610-2020786041|O/O $600,000 Contact Julian|
+Kingaroy|136 Doonkuna Street|O/O $550,000 Contact Julian|3|1|2|1012m²|House|2020785993|/136-doonkuna-street-kingaroy-qld-4610-2020785993|O/O $550,000 Contact Julian|
+Kingaroy|52 Webster Street|$720,000 Offers over|3|2|2|1288m²|House|2020785620|/52-webster-street-kingaroy-qld-4610-2020785620|$720,000 Offers over|
+Kingaroy|12 Murray Parade|$470,000|3|1|2|967m²|House|2020783817|/12-murray-parade-kingaroy-qld-4610-2020783817|$470,000|
+Kingaroy||House for Removal|3|1|||House|2020778328|/kingaroy-qld-4610-2020778328|House for Removal|
+Kingaroy|86 Windsor Circle|Offers Over $600,000|4|2|2|816m²|House|2020773787|/86-windsor-circle-kingaroy-qld-4610-2020773787|Offers Over $600,000|
+Kingaroy|7 Avocado Crescent|$740,000|4|2|3|920m²|House|2020772220|/7-avocado-crescent-kingaroy-qld-4610-2020772220|$740,000|
+Kingaroy|15 Moore Street|$775,000|3|2|8|985m²|House|2020771932|/15-moore-street-kingaroy-qld-4610-2020771932|$775,000|
+Kingaroy|15 MOORE STREET|$775,000|3|2|8|985m²|House|2020771742|/15-moore-street-kingaroy-qld-4610-2020771742|$775,000|
+Kingaroy|355 Hillsdale|$610,000|3|1|2|40468m²|House|2020769751|/355-hillsdale-kingaroy-qld-4610-2020769751|$610,000|
+Kingaroy|355 Hillsdale road|$610,000|3|1|2|40468m²|House|2020768239|/355-hillsdale-road-kingaroy-qld-4610-2020768239|$610,000|
+Kingaroy|98A Alford Street|$695,000|5|2|2|1190m²|House|2020766633|/98a-alford-street-kingaroy-qld-4610-2020766633|$695,000|
+Kingaroy|12 Windsor Circle|$545,000|3|1|2|1000m²|House|2020759045|/12-windsor-circle-kingaroy-qld-4610-2020759045|$545,000|
+Kingaroy|Lot 170/75 - 77 PREMIER DRIVE|FOR SALE||||4000m²|Vacant land|2020756605|/lot-170-75-77-premier-drive-kingaroy-qld-4610-2020756605|FOR SALE|
+Kingaroy|38 Kingaroy Street|Offers Over $495,000|3|1|2|699m²|House|2020747546|/38-kingaroy-street-kingaroy-qld-4610-2020747546|Offers Over $495,000|
+Kingaroy|120 Ivy Street|$585,000|3|1|1|803m²|House|2020740102|/120-ivy-street-kingaroy-qld-4610-2020740102|$585,000|
+Kingaroy|57 Cowie Drive|Offers over $670,000|4|2|1|801m²|House|2020737678|/57-cowie-drive-kingaroy-qld-4610-2020737678|Offers over $670,000|
+Kingaroy|27 Jarrah Street|O/O $890,000 Contact Julian|5|2|2|854m²|House|2020732882|/27-jarrah-street-kingaroy-qld-4610-2020732882|O/O $890,000 Contact Julian|
+Kingaroy|90-92 Rosella Parade|Offers Over $799,000|5|2|4|4222m²|House|2020710402|/90-92-rosella-parade-kingaroy-qld-4610-2020710402|Offers Over $799,000|
+Kingaroy|9 Alice Street|$399,000|2|1|4|1012m²|House|2020724690|/9-alice-street-kingaroy-qld-4610-2020724690|$399,000|
+Kingaroy|12 Fisher Street|$550,000 offers over|4|1|2|1012m²|House|2020722687|/12-fisher-street-kingaroy-qld-4610-2020722687|$550,000 offers over|
+Kingaroy|63 First Avenue|$950,000 Offers overs|4|2|2|2098m²|House|2020717629|/63-first-avenue-kingaroy-qld-4610-2020717629|$950,000 Offers overs|
+Kingaroy|36 Banksia Drive|$695,000 Offers over|4|2|4|871m²|House|2020716978|/36-banksia-drive-kingaroy-qld-4610-2020716978|$695,000 Offers over|
+Kingaroy|55 First Avenue|$535,000|3|1|1|809m²|House|2020715591|/55-first-avenue-kingaroy-qld-4610-2020715591|$535,000|
+Kingaroy|42 Windsor Circle|$1,400,000|7|4|3|1308m²|Block of Units|2020710686|/42-windsor-circle-kingaroy-qld-4610-2020710686|$1,400,000|
+Kingaroy|30 Bridget Carroll Road|O/O $629,000 Contact Julian|3|1|5|4462m²|House|2020707014|/30-bridget-carroll-road-kingaroy-qld-4610-2020707014|O/O $629,000 Contact Julian|
+Kingaroy|6 Summers Court|Offers Over $740,000|5|2|2|1053m²|House|2020704036|/6-summers-court-kingaroy-qld-4610-2020704036|Offers Over $740,000|
+Kingaroy|57A Parkside|$600,000|4|2|2|414m²|House|2020701374|/57a-parkside-kingaroy-qld-4610-2020701374|$600,000|
+Kingaroy|6 Sorensen Street|$890,000|4|2|6|4000m²|House|2020693090|/6-sorensen-street-kingaroy-qld-4610-2020693090|$890,000|
+Kingaroy|1 Sharon Crescent|$720,000|4|2|3|1075m²|House|2020670287|/1-sharon-crescent-kingaroy-qld-4610-2020670287|$720,000|
+Kingaroy|1 Sharon Crescent|$720,000|4|2|3|1075m²|House|2020655072|/1-sharon-crescent-kingaroy-qld-4610-2020655072|$720,000|
+Kingaroy|25 Deep Creek Road|$1,100,000|3|1|8|8.66ha|Farm|2020621492|/25-deep-creek-road-kingaroy-qld-4610-2020621492|$1,100,000|
+Kingaroy|10 Lara Court|$590,000|4|2|2|811m²|House|2020539650|/10-lara-court-kingaroy-qld-4610-2020539650|$590,000|
+Kingaroy|1285 Kingaroy Burrandowan Road, Wattle Grove|$900,000||||64.45ha|Rural|2020526023|/1285-kingaroy-burrandowan-road-wattle-grove-kingaroy-qld-4610-2020526023|$900,000|
+Kingaroy|25 Jarrah Street|Offers Over $835,000|4|2|4|837m²|House|2020485368|/25-jarrah-street-kingaroy-qld-4610-2020485368|Offers Over $835,000|
+Kingaroy|42 Windsor Circle|$1,400,000|7|4|4|1308m²|House|2020482010|/42-windsor-circle-kingaroy-qld-4610-2020482010|$1,400,000|
+Kingaroy|Lot 340 Weens Road|$1,670,000|4|2|12|24.36ha|House|2020432481|/lot-340-weens-road-kingaroy-qld-4610-2020432481|$1,670,000|
+Kingaroy|56 CARINYA STREET|$472,000|3|1|1|1088m²|House|2020295859|/56-carinya-street-kingaroy-qld-4610-2020295859|$472,000|
+Kingaroy|Lot 10 River Road|$850,000||||31500m²|Vacant land|2020294366|/lot-10-river-road-kingaroy-qld-4610-2020294366|$850,000|
+Kingaroy|Lot 8 Moonya Street|$360,000||||1506m²|Vacant land|2020200906|/lot-8-moonya-street-kingaroy-qld-4610-2020200906|$360,000|
+Kingaroy|222 & 224 HALY STREET|$1,500,000|4|2||3222m²|House|2020107315|/222-224-haly-street-kingaroy-qld-4610-2020107315|$1,500,000|
+Kingaroy|1&2/74 Windsor Circle|$750,000|6|2|2|800m²|Duplex|2020067133|/1-2-74-windsor-circle-kingaroy-qld-4610-2020067133|$750,000|
+Kingaroy|225 BEILS ROAD|Price on request||||124.24ha|Rural|2018833665|/225-beils-road-kingaroy-qld-4610-2018833665|Price on request|
