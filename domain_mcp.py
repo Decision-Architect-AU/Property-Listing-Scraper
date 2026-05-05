@@ -596,12 +596,15 @@ def run_scoring(project_dir: str) -> dict:
         { "success": bool, "scored_json_path": str, "rows_scored": int, "stderr": str }
     """
     import importlib.util, traceback
-    script = Path(project_dir) / "score_listings.py"
+    # Look for score_listings.py in Strategy_Scoring/ first, then root fallback
+    script = Path(project_dir) / "Strategy_Scoring" / "score_listings.py"
+    if not script.exists():
+        script = Path(project_dir) / "score_listings.py"
     raw    = DATA_DIR / "raw_listings.txt"
     out    = DATA_DIR / "scored_listings.json"
 
     if not script.exists():
-        return {"success": False, "error": f"score_listings.py not found in {project_dir}"}
+        return {"success": False, "error": f"score_listings.py not found in {project_dir}/Strategy_Scoring or {project_dir}"}
     if not raw.exists():
         return {"success": False, "error": f"raw_listings.txt not found in {DATA_DIR}"}
 

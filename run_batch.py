@@ -32,14 +32,16 @@ import time
 from datetime import datetime
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
-from scraper import curl_get, warm_cookies, build_search_url, parse_listings_page, extract_listing_desc, parse_land_m2
+_here = Path(__file__).parent
+sys.path.insert(0, str(_here))
+sys.path.insert(0, str(_here / "Strategy_Scoring"))
+sys.path.insert(0, str(_here / "Domain_Info"))
 from scoring import score_listing
 from suburb_stats import lookup as stats_lookup
 
 # ── Config ────────────────────────────────────────────────────────────────────
 PROJECT_DIR  = Path(__file__).parent
-SUBURBS_FILE = PROJECT_DIR / "suburbs.txt"
+SUBURBS_FILE = PROJECT_DIR / "Domain_Info" / "suburbs.txt"
 MAX_PRICE    = 2_000_000
 MAX_PAGES    = 5
 PAGE_DELAY   = 8.0
