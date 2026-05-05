@@ -69,7 +69,11 @@ def main():
         if not row["suburb"]:
             skipped += 1
             continue
-        scored.append(score_listing(row))
+        result = score_listing(row)
+        if result is None:
+            skipped += 1  # excluded (e.g. character/unique home)
+            continue
+        scored.append(result)
 
     out_path.write_text(json.dumps(scored, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"Scored {len(scored)} listings → {out_path}  (skipped {skipped})")

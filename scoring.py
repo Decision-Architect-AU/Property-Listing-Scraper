@@ -15,6 +15,25 @@ from regions import (
 from rent_estimator import estimate_rent
 from suburb_stats import lookup as stats_lookup
 
+# ── Exclusion keyword lists ───────────────────────────────────────────────────
+
+# Character/unique homes — not suitable for standard investment analysis
+CHARACTER_KEYWORDS = [
+    "character home", "character property", "character house", "character cottage",
+    "unique home", "unique property", "unique character", "truly unique",
+    "period home", "period property", "period features", "period charm",
+    "art deco", "heritage listed", "heritage home", "heritage property",
+    "original character", "original charm", "original features",
+    "one of a kind",
+]
+
+# Sold/off-market indicators — deactivate rather than delete
+SOLD_KEYWORDS = [
+    "sold -", "sold for", "sold!", "under contract", "conditional",
+    "contract signed", "sale pending",
+]
+
+
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
 def parse_land_m2(land_str: str) -> float:
@@ -74,6 +93,17 @@ def score_listing(row: dict) -> dict:
     state        = row.get("state", "").strip()
 
     all_text = f"{price_s} {desc} {listing_desc} {street}".lower()
+    price_text = price_s.lower()
+
+    # ── Early exits ───────────────────────────────────────────────────────────
+
+    # 1. Unique/character homes — excluded from scoring entirely
+    if any(kw in all_text for kw in CHARACTER_KEYWORDS):
+        return None  # caller must filter out None results
+
+    # 2. Sold/under-contract listings — deactivated (kept for history)
+    is_sold = any(kw in price_text for kw in SOLD_KEYWORDS) or \
+              any(kw in all_text  for kw in SOLD_KEYWORDS)
 
     zone_info  = ZONING.get(suburb, DEFAULT_ZONE)
     rezone_pot = REZONE_POTENTIAL.get(suburb, "UNKNOWN")
@@ -250,6 +280,8 @@ def score_listing(row: dict) -> dict:
         c_signals.append(f"Low vacancy ({vacancy_pct}%) — strong rental demand")
 
     return {
+        "active":              not is_sold,
+        "status":              "sold" if is_sold else "active",
         "suburb":              suburb,
         "address":             f"{street} {suburb}".strip(),
         "price":               price_s,

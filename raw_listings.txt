@@ -777,7 +777,6 @@ Berserker|63 Burnett Street|Offers over $499,000|3|1|5|818m²|House|2020765664|/
 Park Avenue|176 Richardson Rd|Offers over $790000|4|2|2|655m²|Apartment / Unit / Flat|2020758641|/176-richardson-rd-park-avenue-qld-4701-2020758641|Offers over $790000|
 Berserker|71 Burnett Street|Offers over $475,000|3|1|1|610m²|House|2020758549|/71-burnett-street-berserker-qld-4701-2020758549|Offers over $475,000|
 Lakes Creek|435 Rockonia Road|Offers over $575,000|2|1|1|1768m²|House|2020758099|/435-rockonia-road-lakes-creek-qld-4701-2020758099|Offers over $575,000|
-Gladstone|91 Central Lane|Offers Over $675,000|3|2|2|799m²|House|2020703194|/91-central-lane-gladstone-qld-4680-2020703194|Offers Over $675,000|
 Clinton|27 Gretel Drive|OFFERS OVER $695,000|4|3|2|622m²|House|2020800160|/27-gretel-drive-clinton-qld-4680-2020800160|OFFERS OVER $695,000|
 Toolooa|11 Drummer Street|Auction|3|1|2|636m²|House|2020798484|/11-drummer-street-toolooa-qld-4680-2020798484|Auction|
 West Gladstone|7 Beale Street|$559,000|3|2|1|632m²|House|2020769741|/7-beale-street-west-gladstone-qld-4680-2020769741|$559,000|
@@ -1269,3 +1268,38 @@ Kingaroy|Lot 8 Moonya Street|$360,000||||1506m²|Vacant land|2020200906|/lot-8-m
 Kingaroy|222 & 224 HALY STREET|$1,500,000|4|2||3222m²|House|2020107315|/222-224-haly-street-kingaroy-qld-4610-2020107315|$1,500,000|
 Kingaroy|1&2/74 Windsor Circle|$750,000|6|2|2|800m²|Duplex|2020067133|/1-2-74-windsor-circle-kingaroy-qld-4610-2020067133|$750,000|
 Kingaroy|225 BEILS ROAD|Price on request||||124.24ha|Rural|2018833665|/225-beils-road-kingaroy-qld-4610-2018833665|Price on request|
+Calliope|105 Weeroona Road|$850,000|4|2|4|5.88ha|Acreage / Semi-Rural|2020721104|/105-weeroona-road-calliope-qld-4680-2020721104|$850,000|
+Beecher|20 Boundary Road|Expression of Interest by COB 27/04/2026|6|5|3|4008m²|Acreage / Semi-Rural|2020717805|/20-boundary-road-beecher-qld-4680-2020717805|Expression of Interest by COB 27/04/2026|
+Gladstone Central|4 Ferris Street|Offers Over $1,200,000|4|3|4|878m²|House|2020175105|/4-ferris-street-gladstone-central-qld-4680-2020175105|Offers Over $1,200,000|
+West Gladstone|25 Rigby Crescent|Offers over $910,000|5|3|2|782m²|House|2020802971|/25-rigby-crescent-west-gladstone-qld-4680-2020802971|Offers over $910,000|
+South Gladstone|23 Beaver Avenue|Offers Over $849,000|4|2|2|933m²|House|2020791947|/23-beaver-avenue-south-gladstone-qld-4680-2020791947|Offers Over $849,000|
+Glen Eden|17 Leichhardt Court|Offers Over $899,000 Considered|4|2|2|1155m²|House|2020788417|/17-leichhardt-court-glen-eden-qld-4680-2020788417|Offers Over $899,000 Considered|
+Clinton|45 Fitzroy Avenue|Offers over $850,000|4|2|2|794m²|House|2020777615|/45-fitzroy-avenue-clinton-qld-4680-2020777615|Offers over $850,000|
+Calliope|141 Ironmonger Street|Offers Over $1,049,000!|4|2|6|4.43ha|House|2020777311|/141-ironmonger-street-calliope-qld-4680-2020777311|Offers Over $1,049,000!|
+Clinton|23 Aquarius St|Offers Over $880,000|5|2|2||House|2020094330|/23-aquarius-st-clinton-qld-4680-2020094330|Offers Over $880,000|
+Glen Eden|30 Beezley Street|Offers Over $1,150,000|4|2|4|1172m²|House|2020769816|/30-beezley-street-glen-eden-qld-4680-2020769816|Offers Over $1,150,000|
+Tannum Sands|3 Creek Road|Offers over $925,000|3|3|2|749m²|House|2020757269|/3-creek-road-tannum-sands-qld-4680-2020757269|Offers over $925,000|
+Calliope|4 Racecourse Road|Offers above $1,300,000|4|2|10|11.89ha|Acreage / Semi-Rural|2020746134|/4-racecourse-road-calliope-qld-4680-2020746134|Offers above $1,300,000|
+Benaraby|49 Hoad Road|Offers over $1,199,000|3|2|6|10.08ha|House|2020745760|/49-hoad-road-benaraby-qld-4680-2020745760|Offers over $1,199,000|
+Glen Eden|14 Glen Eden Drive|Offers over $975,000|4|2|5|2630m²|House|2020741639|/14-glen-eden-drive-glen-eden-qld-4680-2020741639|Offers over $975,000|
+New Auckland|10 Windjana Court|Offers over $699,000|4|2|2|700m²|House|2020737959|/10-windjana-court-new-auckland-qld-4680-2020737959|Offers over $699,000|
+New Auckland|8 Namadgi Terrace|Offers Over $685,000!|4|2|2|640m²|House|2020737956|/8-namadgi-terrace-new-auckland-qld-4680-2020737956|Offers Over $685,000!|
+Kirkwood|32 Phelps Circuit|Offers over $699,000!|4|2|2|450m²|House|2020737954|/32-phelps-circuit-kirkwood-qld-4680-2020737954|Offers over $699,000!|
+West Gladstone|18 Steed Street|$575,000|3|1|1|597m²|House|2020737548|/18-steed-street-west-gladstone-qld-4680-2020737548|$575,000|
+Clinton|12 Carpentaria Close|Offers over $500,000|3|1|1|842m²|House|2020719384|/12-carpentaria-close-clinton-qld-4680-2020719384|Offers over $500,000|
+Glen Eden|14 Bendee Street|Offers Over $699,000|4|2|2|640m²|House|2020712538|/14-bendee-street-glen-eden-qld-4680-2020712538|Offers Over $699,000|
+Clinton|77 Gretel Drive|NOW AVAILABLE - CONTACT AGENT|3|1|3|707m²|House|2020708107|/77-gretel-drive-clinton-qld-4680-2020708107|NOW AVAILABLE - CONTACT AGENT|
+South Gladstone|118 Off Lane|Offers over $575,000|3|2|2|544m²|House|2020703887|/118-off-lane-south-gladstone-qld-4680-2020703887|Offers over $575,000|
+Gladstone Central|103 Auckland Street|Offers over $519,000|3|1|1|568m²|House|2020703471|/103-auckland-street-gladstone-central-qld-4680-2020703471|Offers over $519,000|
+South Gladstone|219 Auckland Street|Offers Over $675,000 Considered|3|2|4|1012m²|House|2020698821|/219-auckland-street-south-gladstone-qld-4680-2020698821|Offers Over $675,000 Considered|
+Boyne Valley|4513 Gladstone Monto Road|$385,000|||6|3.12ha|Vacant land|2020697295|/4513-gladstone-monto-road-boyne-valley-qld-4680-2020697295|$385,000|
+Clinton|53 Gretel Drive|Offers Over $599,000|3|1|2|683m²|House|2020697190|/53-gretel-drive-clinton-qld-4680-2020697190|Offers Over $599,000|
+Kirkwood|40 Seagull Boulevard|Offers Around $190,000||||782m²|Vacant land|2020684824|/40-seagull-boulevard-kirkwood-qld-4680-2020684824|Offers Around $190,000|
+Kin Kora|25 Paperbark Street|Offers over $750,000|5|2|4|841m²|House|2020684033|/25-paperbark-street-kin-kora-qld-4680-2020684033|Offers over $750,000|
+Beecher|44 Jefferis Road|Contact Agent!|3|1|1|6.59ha|House|2020679385|/44-jefferis-road-beecher-qld-4680-2020679385|Contact Agent!|
+Tannum Sands|10 Jacinta Court|$1,350,000|4|2|6|922m²|House|2020677849|/10-jacinta-court-tannum-sands-qld-4680-2020677849|$1,350,000|
+South Gladstone|27B Agnes Street|$190,000||||1159m²|Vacant land|2020664766|/27b-agnes-street-south-gladstone-qld-4680-2020664766|$190,000|
+Boyne Island|34 Stella Street|$199,000||||939m²|Vacant land|2020649706|/34-stella-street-boyne-island-qld-4680-2020649706|$199,000|
+Calliope|Lot 4 Melrose Place|$220,000||||1708m²|Vacant land|2020648913|/lot-4-melrose-place-calliope-qld-4680-2020648913|$220,000|
+Gladstone|91 Central Lane|Offers Over $675,000|3|2|2|799m²|House|2020703194|/91-central-lane-gladstone-qld-4680-2020703194|Offers Over $675,000|
+Gladstone||$1,275,000|4|4|||House|2016042377|/gladstone-qld-4680-2016042377|$1,275,000|
