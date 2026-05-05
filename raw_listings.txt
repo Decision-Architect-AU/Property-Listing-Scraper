@@ -780,3 +780,46 @@ Glenella|7A Kinnon Street|Offers From $849,000|5|4|2|757m²|House|2020740836|/7a
 Beaconsfield|6 Ultimo Court|Offers From $775,000|4|4|2|670m²|House|2020713643|/6-ultimo-court-beaconsfield-qld-4740-2020713643|Offers From $775,000|
 Eimeo|9A Danelles Way|Offers From $799,000|3|2|3|843m²|House|2020711988|/9a-danelles-way-eimeo-qld-4740-2020711988|Offers From $799,000|
 Habana|175 Barrow Hill Road|By Negotiation|3|2|8|23760m²|House|2020711375|/175-barrow-hill-road-habana-qld-4740-2020711375|By Negotiation|
+Oxley|33 Chapman Place|Auction|4|2|2|465m²|House|2020795266|/33-chapman-place-oxley-qld-4075-2020795266|Auction|
+Oxley|27 Woodgate Street|Auction|4|2|2|420m²|House|2020776680|/27-woodgate-street-oxley-qld-4075-2020776680|Auction|
+Oxley|48 Sandi Street|Auction|5|2|2|396m²|House|2020741845|/48-sandi-street-oxley-qld-4075-2020741845|Auction|
+Oxley|9 Davies Street|OFFERS CLOSING ON 5TH MAY 2026.|12|4|4|3463m²|House|2020738348|/9-davies-street-oxley-qld-4075-2020738348|OFFERS CLOSING ON 5TH MAY 2026.|
+Oxley|1087 Oxley Road|Auction|3|1|2|754m²|House|2020815660|/1087-oxley-road-oxley-qld-4075-2020815660|Auction|
+Oxley|17 Thornburgh Street|Auction|4|2|2|569m²|House|2020799400|/17-thornburgh-street-oxley-qld-4075-2020799400|Auction|
+Oxley|103 Portal Street|Offers Over $1,200,000|4|2|2|400m²|House|2020689623|/103-portal-street-oxley-qld-4075-2020689623|Offers Over $1,200,000|
+Oxley||$1,329,900|4|2|2||House|2014480618|/oxley-qld-4075-2014480618|$1,329,900|
+Oxley|93 Douglas Street|Auction|3|1|2|728m²|House|2020776626|/93-douglas-street-oxley-qld-4075-2020776626|Auction|
+Oxley|371 Seventeen Mile Rocks Road|Offers over $1,030,000|3|2|1|445m²|House|2020727868|/371-seventeen-mile-rocks-road-oxley-qld-4075-2020727868|Offers over $1,030,000|
+Oxley|4 Riviera Court|Offers Over $1,200,000|4|2|2|540m²|House|2020685670|/4-riviera-court-oxley-qld-4075-2020685670|Offers Over $1,200,000|
+Oxley||$1,050,000|3|2|2|200m²|Townhouse|2019589199|/oxley-qld-4075-2019589199|$1,050,000|
+Oxley||$1,190,000*|4|2|2||House|2020544132|/oxley-qld-4075-2020544132|$1,190,000*|
+Oxley|10 Honeyeater Circuit|From $1.215m|3|2|2||Terrace|2020296947|/10-honeyeater-circuit-oxley-qld-4075-2020296947|From $1.215m|
+Oxley||From $750,000|3|2|1||Townhouse|2015610126|/oxley-qld-4075-2015610126|From $750,000|
+Chapel Hill|19 Mukurta Street|For Sale Now|4|2|2|897m²|House|2020815966|/19-mukurta-street-chapel-hill-qld-4069-2020815966|For Sale Now|
+Heathwood|13 Glendale Crescent|$1.2mil+|4|2|2|483m²|House|2020815160|/13-glendale-crescent-heathwood-qld-4110-2020815160|$1.2mil+|
+Wacol|37 Wilga Street|FOR SALE|3|2|5|683m²|House|2020810696|/37-wilga-street-wacol-qld-4076-2020810696|FOR SALE|
+Brookfield|7 Campden Court|JUST LISTED|4|2|2|869m²|House|2020803365|/7-campden-court-brookfield-qld-4069-2020803365|JUST LISTED|
+Sherwood|33 Robertson Street|Auction|3|3|2|405m²|House|2020803172|/33-robertson-street-sherwood-qld-4075-2020803172|Auction|
+Graceville|149 Graceville Avenue|Auction|5|3|2|405m²|House|2020801490|/149-graceville-avenue-graceville-qld-4075-2020801490|Auction|
+Sherwood|3 Kenilworth Street|FOR SALE|4|2|2|448m²|House|2020800926|/3-kenilworth-street-sherwood-qld-4075-2020800926|FOR SALE|
+Graceville|15 Magee Street|Auction|4|2|5|810m²|House|2020793353|/15-magee-street-graceville-qld-4075-2020793353|Auction|
+Kenmore|33 Katunga Street|Auction|4|3|2|400m²|House|2020766840|/33-katunga-street-kenmore-qld-4069-2020766840|Auction|
+Brookfield|2 Roberts Court|Offers Over $2,000,000|5|3|3|867m²|House|2020727458|/2-roberts-court-brookfield-qld-4069-2020727458|Offers Over $2,000,000|
+Kenmore Hills|205 Bielby Road|Genuine Sellers - $1.85M+|4|2|1|1712m²|House|2020526200|/205-bielby-road-kenmore-hills-qld-4069-2020526200|Genuine Sellers - $1.85M+|
+Chapel Hill|37 Cassandra Street|Auction|3|1|2|675m²|House|2020795779|/37-cassandra-street-chapel-hill-qld-4069-2020795779|Auction|
+Doolandella|42 Saint Marys Close|Offers Over $1,000,000|4|2|2|480m²|House|2020787818|/42-saint-marys-close-doolandella-qld-4077-2020787818|Offers Over $1,000,000|
+Kenmore Hills|149 Bielby Road|Auction|3|3|2|689m²|House|2020785303|/149-bielby-road-kenmore-hills-qld-4069-2020785303|Auction|
+Chapel Hill|7 Wandella Street|For Sale by Negotiation|3|2|2|756m²|House|2020783135|/7-wandella-street-chapel-hill-qld-4069-2020783135|For Sale by Negotiation|
+Durack|175 Blunder Road|Expression of Interest|3|2|2|587m²|House|2020759015|/175-blunder-road-durack-qld-4077-2020759015|Expression of Interest|
+Durack|8 Chanel Place|Auction|4|2|2|450m²|House|2020758409|/8-chanel-place-durack-qld-4077-2020758409|Auction|
+Kenmore Hills|36 Clarkson Place|Auction|5|2|2|1847m²|House|2020750172|/36-clarkson-place-kenmore-hills-qld-4069-2020750172|Auction|
+Pallara|12 Bill Watson Way|Offers Over $1,050,000|4|2|2|325m²|House|2020741014|/12-bill-watson-way-pallara-qld-4110-2020741014|Offers Over $1,050,000|
+Chapel Hill|225 Chapel Hill Road|Offers Over $1,950,000|5|3|2|607m²|House|2020611916|/225-chapel-hill-road-chapel-hill-qld-4069-2020611916|Offers Over $1,950,000|
+Inala|278 Freeman Road|$875,000|3|2|1||Townhouse|2020600924|/278-freeman-road-inala-qld-4077-2020600924|$875,000|
+Brookfield|475 Gold Creek Road|Offers Over $1.85M Considered|4|2|3|4.43ha|Acreage / Semi-Rural|2020406519|/475-gold-creek-road-brookfield-qld-4069-2020406519|Offers Over $1.85M Considered|
+Sinnamon Park|15 Cityview Road|Auction|5|3|2|722m²|House|2020771775|/15-cityview-road-sinnamon-park-qld-4073-2020771775|Auction|
+Sinnamon Park|59 McPherson Road|Auction|4|2|2|682m²|House|2020771005|/59-mcpherson-road-sinnamon-park-qld-4073-2020771005|Auction|
+Doolandella|48 Colebrook Crescent|For Sale|4|2|2|617m²|House|2020769158|/48-colebrook-crescent-doolandella-qld-4077-2020769158|For Sale|
+Acacia Ridge|34 Mawson Street|Auction|3|1|2|461m²|House|2020768340|/34-mawson-street-acacia-ridge-qld-4110-2020768340|Auction|
+Fig Tree Pocket|28 Dressage Place|JUST LISTED|6|3|3|601m²|House|2020765905|/28-dressage-place-fig-tree-pocket-qld-4069-2020765905|JUST LISTED|
+Doolandella|40 Colebrook Crescent|For Sale|4|2|3|673m²|House|2020764975|/40-colebrook-crescent-doolandella-qld-4077-2020764975|For Sale|
