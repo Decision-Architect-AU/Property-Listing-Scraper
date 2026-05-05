@@ -28,7 +28,8 @@ from pathlib import Path
 # ── Config ────────────────────────────────────────────────────────────────────
 
 PROJECT_DIR = Path(__file__).parent
-SCORED_JSON = PROJECT_DIR / "scored_listings.json"
+DATA_DIR    = Path(r"C:\DomainListingData")
+SCORED_JSON = DATA_DIR / "scored_listings.json"
 CONFIG_FILE = PROJECT_DIR / "email_config.json"
 
 
