@@ -58,7 +58,7 @@ from fastmcp import FastMCP
 # ─────────────────────────────────────────────────────────────
 # Data directory — all listing data lives here, not in project_dir
 # ─────────────────────────────────────────────────────────────
-DATA_DIR = Path(r"C:\DomainListingData")
+DATA_DIR = Path(r"C:\DomainListingData")   # v2 — data separated from scripts
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 # ─────────────────────────────────────────────────────────────
