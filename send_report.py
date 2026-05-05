@@ -20,8 +20,6 @@ import json
 import smtplib
 import sys
 from datetime import date
-from email import encoders
-from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from pathlib import Path
@@ -30,11 +28,7 @@ from pathlib import Path
 # ── Config ────────────────────────────────────────────────────────────────────
 
 PROJECT_DIR = Path(__file__).parent
-DATA_DIR    = Path(r"C:\DomainListingData")
-# Fall back to project dir if data dir doesn't exist (e.g. running on Linux/bash)
-_scored_in_data    = DATA_DIR / "scored_listings.json"
-_scored_in_project = PROJECT_DIR / "scored_listings.json"
-SCORED_JSON = _scored_in_data if _scored_in_data.exists() else _scored_in_project
+SCORED_JSON = PROJECT_DIR / "scored_listings.json"
 CONFIG_FILE = PROJECT_DIR / "email_config.json"
 
 
@@ -239,31 +233,11 @@ def send_report(suburb_filter: str | None = None) -> dict:
 
     html_body = build_html(listings, suburb_filter, today)
 
-    msg = MIMEMultipart("mixed")
+    msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
     msg["From"]    = gmail_addr
     msg["To"]      = to_addr
-
-    # HTML body
-    alt_part = MIMEMultipart("alternative")
-    alt_part.attach(MIMEText(html_body, "html", "utf-8"))
-    msg.attach(alt_part)
-
-    # Attach Excel report if it exists
-    excel_path = PROJECT_DIR / "SEQ_Listings.xlsx"
-    if excel_path.exists():
-        with open(excel_path, "rb") as f:
-            excel_data = f.read()
-        attachment = MIMEBase(
-            "application",
-            "vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-        )
-        attachment.set_payload(excel_data)
-        encoders.encode_base64(attachment)
-        attachment.add_header(
-            "Content-Disposition", "attachment", filename="SEQ_Listings.xlsx"
-        )
-        msg.attach(attachment)
+    msg.attach(MIMEText(html_body, "html", "utf-8"))
 
     try:
         with smtplib.SMTP("smtp.gmail.com", 587) as smtp:
@@ -284,13 +258,6 @@ def send_report(suburb_filter: str | None = None) -> dict:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--suburb", help="Filter report to a single suburb", default=None)
-    args = parser.parse_args()
-
-    result = send_report(suburb_filter=args.suburb)
-    print(result["message"])
-    if not result["success"]:
-        sys.exit(1)
-rburb", help="Filter report to a single suburb", default=None)
     args = parser.parse_args()
 
     result = send_report(suburb_filter=args.suburb)
