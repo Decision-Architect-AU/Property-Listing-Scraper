@@ -584,3 +584,199 @@ Nambour|56 Price Street|Openn Offers||||1535m²|New land|2017443328|/56-price-st
 Nambour|56 Price Street|$550,000||||1535m²|Vacant land|2017430296|/56-price-street-nambour-qld-4560-2017430296|$550,000|
 Nambour||From $555,000|2|1|1||Apartment / Unit / Flat|2017420148|/nambour-qld-4560-2017420148|From $555,000|
 Nambour|89 Blackall Terrace|Auction|6|1|8||House|2020790864|/89-blackall-terrace-nambour-qld-4560-2020790864|Auction|
+Narangba|10 Kintail Place|NEW TO MARKET|4|2|2|700m²|House|2020806308|/10-kintail-place-narangba-qld-4504-2020806308|NEW TO MARKET|
+Narangba|6 Dublane Court|Contact Agent|4|2|2|873m²|House|2020765062|/6-dublane-court-narangba-qld-4504-2020765062|Contact Agent|
+Narangba|1 Aberdeen Way|Just Listed|4|2|2|863m²|House|2020790591|/1-aberdeen-way-narangba-qld-4504-2020790591|Just Listed|
+Narangba|48 Friarbird Drive|Just Listed!|4|2|2|748m²|House|2020763110|/48-friarbird-drive-narangba-qld-4504-2020763110|Just Listed!|
+Narangba|109 Macdonald Drive|Offers Over $1,399,000|5|2|2|877m²|House|2020693235|/109-macdonald-drive-narangba-qld-4504-2020693235|Offers Over $1,399,000|
+Narangba|96 Crest Street|Duplex For Sale|5|3|3|519m²|Duplex|2020814874|/96-crest-street-narangba-qld-4504-2020814874|Duplex For Sale|
+Narangba|61 Highlands Drive|Auction|4|2|3|1001m²|House|2020802701|/61-highlands-drive-narangba-qld-4504-2020802701|Auction|
+Narangba|36 Retreat Crescent|For Sale|3|2|2|350m²|House|2020757295|/36-retreat-crescent-narangba-qld-4504-2020757295|For Sale|
+Narangba|7 Rufus Street|Offers over $900,000|4|2|2|375m²|House|2020752720|/7-rufus-street-narangba-qld-4504-2020752720|Offers over $900,000|
+Narangba|5 Butcherbird Court|Offers Over $1,065,000|3|1|4|750m²|House|2020815934|/5-butcherbird-court-narangba-qld-4504-2020815934|Offers Over $1,065,000|
+Narangba|84 Creekside Drive|Offers Over $1,250,000|4|2|2|800m²|House|2020814766|/84-creekside-drive-narangba-qld-4504-2020814766|Offers Over $1,250,000|
+Narangba|47 Nocturnal Promenade|WELCOME HOME|4|2|2|408m²|House|2020800364|/47-nocturnal-promenade-narangba-qld-4504-2020800364|WELCOME HOME|
+Narangba|20 Side Creek Parade|FOR SALE|4|2|2|350m²|House|2020798044|/20-side-creek-parade-narangba-qld-4504-2020798044|FOR SALE|
+Narangba|4 Tamarillo Circuit|WELCOME HOME|4|2|2|600m²|House|2020797327|/4-tamarillo-circuit-narangba-qld-4504-2020797327|WELCOME HOME|
+Narangba|11 Wollumbin Place|Offers Over $949,000|3|2|1|835m²|House|2020791162|/11-wollumbin-place-narangba-qld-4504-2020791162|Offers Over $949,000|
+Narangba|105 Mackie Road|WELCOME HOME|4|2|4|3050m²|House|2020788137|/105-mackie-road-narangba-qld-4504-2020788137|WELCOME HOME|
+Narangba|18 Geneva Crescent|Offers Over $1,200,000|4|2|2|844m²|House|2020785700|/18-geneva-crescent-narangba-qld-4504-2020785700|Offers Over $1,200,000|
+Narangba|84 Tibrogargan Drive|FOR SALE|4|2|2|610m²|House|2020781839|/84-tibrogargan-drive-narangba-qld-4504-2020781839|FOR SALE|
+Narangba|1 Stunning Crescent|ANOTHER ONE IN CONTRACT|4|2|2|600m²|House|2020773942|/1-stunning-crescent-narangba-qld-4504-2020773942|ANOTHER ONE IN CONTRACT|
+Narangba|43 Tuckeroo Street|Offers Over $1,100,000|5|2|6|1011m²|House|2020765976|/43-tuckeroo-street-narangba-qld-4504-2020765976|Offers Over $1,100,000|
+Narangba|36 Wedgetail Circuit|DEFINED BY DESIGN|4|3|4|628m²|House|2020764983|/36-wedgetail-circuit-narangba-qld-4504-2020764983|DEFINED BY DESIGN|
+Narangba|2 Maidenhair Drive|$1,275,000 Negotiable|4|2|2|800m²|House|2020757557|/2-maidenhair-drive-narangba-qld-4504-2020757557|$1,275,000 Negotiable|
+Narangba|161 MacDonald Drive|Expressions of Interest|3|2|2|1000m²|House|2020756184|/161-macdonald-drive-narangba-qld-4504-2020756184|Expressions of Interest|
+Narangba|28 Greenhaven Circuit|Offers Over $1,100,000|4|2|2|439m²|House|2020737950|/28-greenhaven-circuit-narangba-qld-4504-2020737950|Offers Over $1,100,000|
+Narangba|8 Corymbia Close|Value Range $890 to $970K|4|2|2|420m²|House|2020704120|/8-corymbia-close-narangba-qld-4504-2020704120|Value Range $890 to $970K|
+Narangba|94 Bazeridge Drive|CONTACT AGENT|5|2|6|3937m²|House|2020662933|/94-bazeridge-drive-narangba-qld-4504-2020662933|CONTACT AGENT|
+Narangba|10 Coochin Avenue|For Sale|3|2|1|871m²|House|2020815722|/10-coochin-avenue-narangba-qld-4504-2020815722|For Sale|
+Narangba|56 Stunning Crescent|$595,000 to $645,000||||300m²|New land|2020779338|/56-stunning-crescent-narangba-qld-4504-2020779338|$595,000 to $645,000|
+Narangba|41 Ridge Parade|$750,000 PLUS|3|2|1|210m²|House|2020765732|/41-ridge-parade-narangba-qld-4504-2020765732|$750,000 PLUS|
+Narangba|45 Cottonwood Street|$999,900|4|1|2|900m²|House|2020764610|/45-cottonwood-street-narangba-qld-4504-2020764610|$999,900|
+Narangba|86-90 Tibrogargan Drive|INVITING OFFERS|||||Vacant land|2020752065|/86-90-tibrogargan-drive-narangba-qld-4504-2020752065|INVITING OFFERS|
+Narangba|16 Magenta Crescent|Offers Over $1,050,000|4|2|2|850m²|House|2020703365|/16-magenta-crescent-narangba-qld-4504-2020703365|Offers Over $1,050,000|
+Narangba|13 Florence Court|$1,300,000|4|2|4|1274m²|House|2020653703|/13-florence-court-narangba-qld-4504-2020653703|$1,300,000|
+Narangba|24 New Road|$1,059,950|4|2|2|397m²|House|2020644656|/24-new-road-narangba-qld-4504-2020644656|$1,059,950|
+Narangba|10 Waratah Street|OPEN FOR PRIVATE INSPECTION BY PRIOR ARRANGEMENT|4|2|2||House|2020544683|/10-waratah-street-narangba-qld-4504-2020544683|OPEN FOR PRIVATE INSPECTION BY PRIOR ARRANGEMENT|
+Narangba|12 Culcross Drive|Open to offers|6|3|2|854m²|House|2020626714|/12-culcross-drive-narangba-qld-4504-2020626714|Open to offers|
+Narangba|21 Possum Drive|Contact Agent!|4|2||1500m²|House|2020600813|/21-possum-drive-narangba-qld-4504-2020600813|Contact Agent!|
+Narangba|3 Premier Place|Offers Over $950,000|4|2|2|350m²|House|2020591222|/3-premier-place-narangba-qld-4504-2020591222|Offers Over $950,000|
+Narangba|22 Hall Road|Offers over $1,400,000|3|1|3|1.01ha|Rural|2020493198|/22-hall-road-narangba-qld-4504-2020493198|Offers over $1,400,000|
+Narangba|23 Thomas Street|Expressions Of Interest|3|1|2|1406m²|House|2020377893|/23-thomas-street-narangba-qld-4504-2020377893|Expressions Of Interest|
+Norman Gardens|9 Mccoll Street|BUYERS OVER $689,000|3|2|1|620m²|House|2020814793|/9-mccoll-street-norman-gardens-qld-4701-2020814793|BUYERS OVER $689,000|
+Norman Gardens|1 Amy Court|BUYERS OVER $735,000|3|2|2|952m²|House|2020503064|/1-amy-court-norman-gardens-qld-4701-2020503064|BUYERS OVER $735,000|
+Norman Gardens|4 Riverwood Grove|Offers Over $915,000|4|2|2|809m²|House|2020802554|/4-riverwood-grove-norman-gardens-qld-4701-2020802554|Offers Over $915,000|
+Norman Gardens|15 Laird Avenue|Offers over $899,000|4|2|2|773m²|House|2020786335|/15-laird-avenue-norman-gardens-qld-4701-2020786335|Offers over $899,000|
+Norman Gardens|5 Kenmare Court|Offers Over $899,000|4|2|2|1001m²|House|2020778900|/5-kenmare-court-norman-gardens-qld-4701-2020778900|Offers Over $899,000|
+Norman Gardens|84 Springfield Drive|Offers Over $1,375,000|5|2|2|943m²|House|2020776575|/84-springfield-drive-norman-gardens-qld-4701-2020776575|Offers Over $1,375,000|
+Norman Gardens|12 Keppel Avenue|Offers over $675,000|3|2|2|401m²|House|2020773893|/12-keppel-avenue-norman-gardens-qld-4701-2020773893|Offers over $675,000|
+Norman Gardens|13 Geoff Wilson Drive|Offers over $785,000|4|2|2|731m²|House|2020769974|/13-geoff-wilson-drive-norman-gardens-qld-4701-2020769974|Offers over $785,000|
+Norman Gardens|4 Chalmers Street|Offers Over $599,000|3|1|1|612m²|House|2020768522|/4-chalmers-street-norman-gardens-qld-4701-2020768522|Offers Over $599,000|
+Norman Gardens|17 Atherton Street|Offers over $675,000|4|1||654m²|House|2020767233|/17-atherton-street-norman-gardens-qld-4701-2020767233|Offers over $675,000|
+Norman Gardens|13 Harris Crescent|OFFERS OVER $845,000|4|2||1007m²|House|2020738285|/13-harris-crescent-norman-gardens-qld-4701-2020738285|OFFERS OVER $845,000|
+Norman Gardens|51 River Rose Drive|Offers Over $975,000|5|2|2|847m²|House|2020735090|/51-river-rose-drive-norman-gardens-qld-4701-2020735090|Offers Over $975,000|
+Norman Gardens|36 Keppel Avenue|Offers Over $789,000|4|2|2|401m²|House|2020709028|/36-keppel-avenue-norman-gardens-qld-4701-2020709028|Offers Over $789,000|
+Norman Gardens|23 Jacaranda Place|Offers over $699,000|4|2|2|712m²|House|2020697304|/23-jacaranda-place-norman-gardens-qld-4701-2020697304|Offers over $699,000|
+Norman Gardens|8 Tamarind Avenue|Offers over $849,000|4|3|2|740m²|House|2020679381|/8-tamarind-avenue-norman-gardens-qld-4701-2020679381|Offers over $849,000|
+Norman Gardens|36 Stan Jones Street|Offers Over $799,000|3|2|4|802m²|House|2020654896|/36-stan-jones-street-norman-gardens-qld-4701-2020654896|Offers Over $799,000|
+Norman Gardens|17 Weaver Street|$649,000|5|2|2|610m²|House|2020598756|/17-weaver-street-norman-gardens-qld-4701-2020598756|$649,000|
+Norman Gardens|19 Amy Court|Offers over $225,000||||2875m²|Vacant land|2019899680|/19-amy-court-norman-gardens-qld-4701-2019899680|Offers over $225,000|
+Norman Gardens|14 Permien Street|Offers Over $949,000|3|2|4|838m²|House|2020800924|/14-permien-street-norman-gardens-qld-4701-2020800924|Offers Over $949,000|
+Norman Gardens|1 Bruce Hiskins Court|Offers Over $725,000|3|2|2|666m²|House|2020798691|/1-bruce-hiskins-court-norman-gardens-qld-4701-2020798691|Offers Over $725,000|
+Norman Gardens|6 Eucalyptus Crescent|Offers Over $925,000 Considered|4|2|2|679m²|House|2020784771|/6-eucalyptus-crescent-norman-gardens-qld-4701-2020784771|Offers Over $925,000 Considered|
+Norman Gardens|9 Cypress Avenue|Offers Over $825,000|4|2|3|970m²|House|2020780994|/9-cypress-avenue-norman-gardens-qld-4701-2020780994|Offers Over $825,000|
+Norman Gardens|21 Sunset Drive|Offers Over $1,100,000|4|2|3|1592m²|House|2020772210|/21-sunset-drive-norman-gardens-qld-4701-2020772210|Offers Over $1,100,000|
+Norman Gardens|9 Red Gum Court|Offers Over $870,000 Considered|4|2|4|1136m²|House|2020770441|/9-red-gum-court-norman-gardens-qld-4701-2020770441|Offers Over $870,000 Considered|
+Norman Gardens|6 Brookside Avenue|Offers Over $899,000.00 Considered|4|2|2|720m²|House|2020761139|/6-brookside-avenue-norman-gardens-qld-4701-2020761139|Offers Over $899,000.00 Considered|
+Gracemere|11 Doongarra Crescent|Offers over $639,000|4|2|2|634m²|House|2020801449|/11-doongarra-crescent-gracemere-qld-4702-2020801449|Offers over $639,000|
+Lakes Creek|38 Totteridge Street|Expression of Interest|3|2|10|4452m²|House|2020797723|/38-totteridge-street-lakes-creek-qld-4701-2020797723|Expression of Interest|
+Gracemere|12 McCarthy Street|OFFERS OVER $540,000|3|1|4|792m²|House|2020732388|/12-mccarthy-street-gracemere-qld-4702-2020732388|OFFERS OVER $540,000|
+Gracemere|32 Conway Court|Offers Over $720,000|4|2|3|712m²|House|2020784670|/32-conway-court-gracemere-qld-4702-2020784670|Offers Over $720,000|
+Frenchville|35 Forbes Avenue|OFFERS OVER $859,000|4|2|2|752m²|House|2020757537|/35-forbes-avenue-frenchville-qld-4701-2020757537|OFFERS OVER $859,000|
+Berserker|118 Sharples Street|OFFERS OVER $595,000|2|1|2|360m²|House|2020756202|/118-sharples-street-berserker-qld-4701-2020756202|OFFERS OVER $595,000|
+Koongal|99 Thozet Road|OFFERS OVER $440,000|3|1|1|506m²|House|2020659297|/99-thozet-road-koongal-qld-4701-2020659297|OFFERS OVER $440,000|
+Bouldercombe|60 Goodson Road|OFFERS OVER $840,000|3|3|6|9500m²|House|2020717204|/60-goodson-road-bouldercombe-qld-4702-2020717204|OFFERS OVER $840,000|
+Limestone Creek|494 Yeppoon Road|$725,000||||144.97ha|Rural|2020711872|/494-yeppoon-road-limestone-creek-qld-4701-2020711872|$725,000|
+Westwood|33 Little Road|offers over $295,000||||14.67ha|Rural|2020711825|/33-little-road-westwood-qld-4702-2020711825|offers over $295,000|
+Pink Lily|238 Six Mile Road|$1,200,000|3|2|5|3.04ha|Rural|2020711798|/238-six-mile-road-pink-lily-qld-4702-2020711798|$1,200,000|
+Bushley|197 Brickworks Road|Offers over $1,400,000|2|2||54.34ha|Rural|2020711786|/197-brickworks-road-bushley-qld-4702-2020711786|Offers over $1,400,000|
+Bouldercombe|13 Carige Avenue|$775,000|2|1|3|10000m²|House|2020711753|/13-carige-avenue-bouldercombe-qld-4702-2020711753|$775,000|
+Park Avenue|5 Churchill Street|Offers Over $620,000|3|2||564m²|House|2020711742|/5-churchill-street-park-avenue-qld-4701-2020711742|Offers Over $620,000|
+Berserker|92 Randwick Street|OFFERS OVER $499,000|3|2|1|1310m²|House|2020709556|/92-randwick-street-berserker-qld-4701-2020709556|OFFERS OVER $499,000|
+Park Avenue|11 Farrell Street|Buyers over $710,000|3|2|3|450m²|House|2020709372|/11-farrell-street-park-avenue-qld-4701-2020709372|Buyers over $710,000|
+Kabra|58 Kabralea Road|Offers Over $990,000|3|1|2|16.12ha|Acreage / Semi-Rural|2020686370|/58-kabralea-road-kabra-qld-4702-2020686370|Offers Over $990,000|
+Gracemere|15 O'Shanesy Street|OFFERS OVER $899,000|6|2|2|800m²|House|2020680226|/15-o-shanesy-street-gracemere-qld-4702-2020680226|OFFERS OVER $899,000|
+Koongal|423 Rockonia Road|OFFERS OVER $719,000|3|1|4|1012m²|House|2020675057|/423-rockonia-road-koongal-qld-4701-2020675057|OFFERS OVER $719,000|
+Gracemere|52 Lucas Street|Offers Over $599,000|3|1|2|886m²|House|2020650867|/52-lucas-street-gracemere-qld-4702-2020650867|Offers Over $599,000|
+Gracemere|20 Reservoir Street|OFFERS OVER $439,000|3|1|1|832m²|House|2020611150|/20-reservoir-street-gracemere-qld-4702-2020611150|OFFERS OVER $439,000|
+Koongal|425 Rockonia Road|Offers over $1,300,000|5|3|4|1012m²|House|2020531139|/425-rockonia-road-koongal-qld-4701-2020531139|Offers over $1,300,000|
+Rockyview|2 Fairmont Terrace|1,300,000|5|2|6|4000m²|House|2020508740|/2-fairmont-terrace-rockyview-qld-4701-2020508740|1,300,000|
+Gracemere|37 Kelly Road|From $450,000 - $650,000||||64.75ha|Rural|2020433990|/37-kelly-road-gracemere-qld-4702-2020433990|From $450,000 - $650,000|
+Westwood|0 'Spring Creek Hollow' Capricorn Highway|$944,047||||146.9ha|Rural|2019945669|/0-spring-creek-hollow-capricorn-highway-westwood-qld-4702-2019945669|$944,047|
+Gracemere|48 Washpool Road|$915,000|3|1|3|1.34ha|House|2019890707|/48-washpool-road-gracemere-qld-4702-2019890707|$915,000|
+Kawana|33 Roderkirchen Street|OFFERS OVER $649,000|4|1|4|607m²|House|2020766568|/33-roderkirchen-street-kawana-qld-4701-2020766568|OFFERS OVER $649,000|
+Wowan|3 & 5 Don Street|$775,000|20|8|20|1.29ha|House|2020765025|/3-5-don-street-wowan-qld-4702-2020765025|$775,000|
+Kabra|8 Cecil Street|530,000|3|2|2|1320m²|House|2020764782|/8-cecil-street-kabra-qld-4702-2020764782|530,000|
+Berserker|81 Marie Street|Offers Over $620,000|3|2|2|455m²|House|2020732414|/81-marie-street-berserker-qld-4701-2020732414|Offers Over $620,000|
+Cawarral|5 Actons Road|Offers Over $1,275,000 Considered|4|2|5|50000m²|House|2020725688|/5-actons-road-cawarral-qld-4702-2020725688|Offers Over $1,275,000 Considered|
+Westwood|"The Ironfarm" 3835 Capricorn Highway|Auction Postponed|4|3|4|16.55ha|Acreage / Semi-Rural|2020702410|/-the-ironfarm-3835-capricorn-highway-westwood-qld-4702-2020702410|Auction Postponed|
+Berserker|6 Princess Street|OFFERS OVER $350,000|3|1||521m²|House|2020695450|/6-princess-street-berserker-qld-4701-2020695450|OFFERS OVER $350,000|
+North Lakes|21 Hampden Street|Just Listed!|4|2|3|640m²|House|2020224113|/21-hampden-street-north-lakes-qld-4509-2020224113|Just Listed!|
+North Lakes|5 Portmarnock Street|Offers Over $990,000|3|2|2|316m²|House|2020806435|/5-portmarnock-street-north-lakes-qld-4509-2020806435|Offers Over $990,000|
+North Lakes|6 Otway Parade|Best Offers By Monday 11th May 3pm|4|2|2|646m²|House|2020794905|/6-otway-parade-north-lakes-qld-4509-2020794905|Best Offers By Monday 11th May 3pm|
+North Lakes|29 Moorrinya Circuit|Just Listed!|4|2|2|540m²|House|2020778743|/29-moorrinya-circuit-north-lakes-qld-4509-2020778743|Just Listed!|
+North Lakes|12 Moonie Crescent|Just Listed!|4|2|2|455m²|House|2020778737|/12-moonie-crescent-north-lakes-qld-4509-2020778737|Just Listed!|
+North Lakes|32 Hampden Street|Contact Agent|5|2|2|709m²|House|2020723656|/32-hampden-street-north-lakes-qld-4509-2020723656|Contact Agent|
+North Lakes|14 Wallaby Street|Inviting Offers!|3|2|1|336m²|House|2020710562|/14-wallaby-street-north-lakes-qld-4509-2020710562|Inviting Offers!|
+North Lakes|23 Grebe Circuit|$1,600,000+|4|2|2|859m²|House|2020688187|/23-grebe-circuit-north-lakes-qld-4509-2020688187|$1,600,000+|
+North Lakes|19 Attenborough Circuit|Expression of Interest|4|2|2|313m²|House|2020730434|/19-attenborough-circuit-north-lakes-qld-4509-2020730434|Expression of Interest|
+North Lakes|13 Edmund Circuit|$1,300,000+|4|2|2|512m²|House|2020654895|/13-edmund-circuit-north-lakes-qld-4509-2020654895|$1,300,000+|
+North Lakes|25 Elkington Circuit|Available Now|4|2|2|444m²|House|2020815812|/25-elkington-circuit-north-lakes-qld-4509-2020815812|Available Now|
+North Lakes|32 Tarong Avenue|For Sale|4|2|2|420m²|House|2020810637|/32-tarong-avenue-north-lakes-qld-4509-2020810637|For Sale|
+North Lakes|10 Monaghan Crescent|$979,000 negotiable|3|2|1|336m²|House|2020761511|/10-monaghan-crescent-north-lakes-qld-4509-2020761511|$979,000 negotiable|
+North Lakes|60 Denham Crescent|Offers over $1.1mil|4|2|2|400m²|House|2020760865|/60-denham-crescent-north-lakes-qld-4509-2020760865|Offers over $1.1mil|
+North Lakes||$992,500 +|3|2|2|400m²|House|2020606003|/north-lakes-qld-4509-2020606003|$992,500 +|
+North Lakes|20 Campion Drive|OFFERS OVER $1,450,000|4|2|2|773m²|House|2020810369|/20-campion-drive-north-lakes-qld-4509-2020810369|OFFERS OVER $1,450,000|
+North Lakes|11 Morwell Crescent|Offers In Excess Of $949,000|4|2|2|533m²|House|2020789543|/11-morwell-crescent-north-lakes-qld-4509-2020789543|Offers In Excess Of $949,000|
+North Lakes|95 Cowen Terrace|OFFERS OVER $1,900,000|5|3|2|640m²|House|2020768338|/95-cowen-terrace-north-lakes-qld-4509-2020768338|OFFERS OVER $1,900,000|
+North Lakes|14 Duggan Street|For Sale Now|4|2|2|640m²|House|2020759601|/14-duggan-street-north-lakes-qld-4509-2020759601|For Sale Now|
+North Lakes|30 Sandpiper Avenue|Offers Over $1,550,000|5|2|2|730m²|House|2020757491|/30-sandpiper-avenue-north-lakes-qld-4509-2020757491|Offers Over $1,550,000|
+North Lakes|3 Ballesteros Street|JUST LISTED!|5|2|2|409m²|House|2020790267|/3-ballesteros-street-north-lakes-qld-4509-2020790267|JUST LISTED!|
+North Lakes|26 Kurrajong Circuit|Offers from $1,299,000|5|3|2|416m²|House|2020803251|/26-kurrajong-circuit-north-lakes-qld-4509-2020803251|Offers from $1,299,000|
+North Lakes|9 Mcpherson Court|Auction|4|2|2|400m²|House|2020797275|/9-mcpherson-court-north-lakes-qld-4509-2020797275|Auction|
+North Lakes|6 Quoll Circuit|For Sale|4|2|2|464m²|House|2020541589|/6-quoll-circuit-north-lakes-qld-4509-2020541589|For Sale|
+North Lakes|23 Cheviot Street|For Sale by Negotiation|3|2|2|401m²|House|2020795587|/23-cheviot-street-north-lakes-qld-4509-2020795587|For Sale by Negotiation|
+North Lakes|35 Wallarah Parade|JUST LISTED!|4|2|2|416m²|House|2020792537|/35-wallarah-parade-north-lakes-qld-4509-2020792537|JUST LISTED!|
+North Lakes|14 Severn Crescent|JUST LISTED!|4|2|1||House|2020767053|/14-severn-crescent-north-lakes-qld-4509-2020767053|JUST LISTED!|
+North Lakes|66 Nicklaus Parade|Offers Over $1,095,000|4|2|2|540m²|House|2020725313|/66-nicklaus-parade-north-lakes-qld-4509-2020725313|Offers Over $1,095,000|
+North Lakes|2 Ainslie Street|from $1,150,000 - all serious offers considered|4|2|2|628m²|House|2020720182|/2-ainslie-street-north-lakes-qld-4509-2020720182|from $1,150,000 - all serious offers considered|
+North Lakes|42 Paterson Street|$1,850,000+|6|4|2|671m²|House|2020628533|/42-paterson-street-north-lakes-qld-4509-2020628533|$1,850,000+|
+North Lakes|57 Possum Parade|FOR SALE|4|2|2|490m²|House|2020594388|/57-possum-parade-north-lakes-qld-4509-2020594388|FOR SALE|
+North Lakes|33 Whitecedar Circuit|OFFERS OVER $1,499,995.00|5|2|3|754m²|House|2020766155|/33-whitecedar-circuit-north-lakes-qld-4509-2020766155|OFFERS OVER $1,499,995.00|
+North Lakes|5 Mcilwaith Street|Expressions of Interest|3|2|2|400m²|House|2020797069|/5-mcilwaith-street-north-lakes-qld-4509-2020797069|Expressions of Interest|
+North Lakes|11 Allenby Close|Expressions of Interest|4|2|2|337m²|House|2020796560|/11-allenby-close-north-lakes-qld-4509-2020796560|Expressions of Interest|
+North Lakes|17 Samson Street|Offers Over $1,069,000|4|2|2|549m²|House|2020793265|/17-samson-street-north-lakes-qld-4509-2020793265|Offers Over $1,069,000|
+North Lakes||For Sale|3|2|1||Townhouse|2020768006|/north-lakes-qld-4509-2020768006|For Sale|
+North Lakes|10 Cooksland Crescent|PRICE BY NEGOTIATION|4|2|2|528m²|House|2020629768|/10-cooksland-crescent-north-lakes-qld-4509-2020629768|PRICE BY NEGOTIATION|
+Murrumba Downs|12 Dumaresq Crescent|For Sale By Negotiation|4|2|2|400m²|House|2020816611|/12-dumaresq-crescent-murrumba-downs-qld-4503-2020816611|For Sale By Negotiation|
+Griffin|22 Majestic Avenue|For Sale By Negotiation|4|2|2|375m²|House|2020816491|/22-majestic-avenue-griffin-qld-4503-2020816491|For Sale By Negotiation|
+Griffin|1 Vermilion Avenue|Just Listed!|4|2|2|699m²|House|2020816469|/1-vermilion-avenue-griffin-qld-4503-2020816469|Just Listed!|
+Murrumba Downs|6A River Vista Crescent|Just Listed!|5|3|2|1520m²|House|2020816461|/6a-river-vista-crescent-murrumba-downs-qld-4503-2020816461|Just Listed!|
+Griffin|67 Greens Road|Submit best offer by 12th May unless sold prior|3|2|2|420m²|House|2020806683|/67-greens-road-griffin-qld-4503-2020806683|Submit best offer by 12th May unless sold prior|
+Griffin|26 Azorean Street|Offers Over $959,000|4|2|2|375m²|House|2020794978|/26-azorean-street-griffin-qld-4503-2020794978|Offers Over $959,000|
+Griffin|28 Copper Crescent|Offers Over $1,080,000|4|2|2|600m²|House|2020794347|/28-copper-crescent-griffin-qld-4503-2020794347|Offers Over $1,080,000|
+Deception Bay|55 Lisa Street|For Sale|3|1|3|600m²|House|2020794006|/55-lisa-street-deception-bay-qld-4508-2020794006|For Sale|
+Mango Hill|98 Beresford Street|For Sale By Negotiation|5|2|2|570m²|House|2020784273|/98-beresford-street-mango-hill-qld-4509-2020784273|For Sale By Negotiation|
+Murrumba Downs|15 Goodwood Road|For Sale By Negotiation|6|3||1863m²|House|2020783200|/15-goodwood-road-murrumba-downs-qld-4503-2020783200|For Sale By Negotiation|
+Griffin|28 Spearmint Street|CONTACT AGENT|4|2|2|400m²|House|2020781093|/28-spearmint-street-griffin-qld-4503-2020781093|CONTACT AGENT|
+Ooralea|18 Salisbury Place|By Negotiation|3|2|3|512m²|House|2020796709|/18-salisbury-place-ooralea-qld-4740-2020796709|By Negotiation|
+Ooralea|14 Makybe Diva Drive|By Negotiation|4|2|2|822m²|House|2020745784|/14-makybe-diva-drive-ooralea-qld-4740-2020745784|By Negotiation|
+Ooralea|50 Monash Way|Offers Over $899,000|4|2|5|883m²|House|2020767598|/50-monash-way-ooralea-qld-4740-2020767598|Offers Over $899,000|
+Ooralea|1 Bath Avenue|749000|3|2|2|1022m²|House|2020689453|/1-bath-avenue-ooralea-qld-4740-2020689453|749000|
+Ooralea|23 Vidar Crescent|Expression of Interest|4|2|4|660m²|House|2020696278|/23-vidar-crescent-ooralea-qld-4740-2020696278|Expression of Interest|
+Richmond|64 Shuttlewood Drive|By Negotiation|5|2|2|2389m²|House|2020816430|/64-shuttlewood-drive-richmond-qld-4740-2020816430|By Negotiation|
+West Mackay|84 Donaldson Street|Offers Over $749,000|3|1|2|809m²|House|2020815346|/84-donaldson-street-west-mackay-qld-4740-2020815346|Offers Over $749,000|
+Glenella|20 Kinnon Street|Offers Over $1,150,000|5|3|3|1033m²|House|2020815345|/20-kinnon-street-glenella-qld-4740-2020815345|Offers Over $1,150,000|
+Mount Pleasant|7 Tolcher Street|Offers from $749,000|3|2|2|750m²|House|2020803178|/7-tolcher-street-mount-pleasant-qld-4740-2020803178|Offers from $749,000|
+Glenella|60 Victor Avenue|Offers Over $1M|4|2|6|701m²|House|2020802882|/60-victor-avenue-glenella-qld-4740-2020802882|Offers Over $1M|
+Blacks Beach|21 Warilla View|By Negotiation|4|2|2|375m²|House|2020802808|/21-warilla-view-blacks-beach-qld-4740-2020802808|By Negotiation|
+Blacks Beach|89 Scarborough Circuit|By Negotiation|4|2|2|300m²|House|2020802598|/89-scarborough-circuit-blacks-beach-qld-4740-2020802598|By Negotiation|
+Blacks Beach|8 Cavanagh Drive|By Negotiation|4|1|2|800m²|House|2020802435|/8-cavanagh-drive-blacks-beach-qld-4740-2020802435|By Negotiation|
+Andergrove|13 Miner Lane|Offers From $399,000|2|1|1|136m²|House|2020801465|/13-miner-lane-andergrove-qld-4740-2020801465|Offers From $399,000|
+East Mackay|42 McIntyre Street|OFFERS OVER $749,000|4|2|3|819m²|House|2020801255|/42-mcintyre-street-east-mackay-qld-4740-2020801255|OFFERS OVER $749,000|
+Habana|67 Gardiners Road|Auction|4|2|4|2.09ha|Acreage / Semi-Rural|2020801193|/67-gardiners-road-habana-qld-4740-2020801193|Auction|
+Blacks Beach|23 Pacific Drive|Offers Over $749,000|5|2|4|741m²|House|2020800030|/23-pacific-drive-blacks-beach-qld-4740-2020800030|Offers Over $749,000|
+Rural View|16 Marcella Street|OFFERS OVER $1,220,000|4|2|6|1098m²|House|2020799591|/16-marcella-street-rural-view-qld-4740-2020799591|OFFERS OVER $1,220,000|
+Beaconsfield|12 Inverness Court|$849,000|5|2|3|895m²|House|2020799522|/12-inverness-court-beaconsfield-qld-4740-2020799522|$849,000|
+Beaconsfield|11 Leahy Street|Offers over $669,000|3|1|1|607m²|House|2020798020|/11-leahy-street-beaconsfield-qld-4740-2020798020|Offers over $669,000|
+Slade Point|13 Ocean Avenue|By Negotiation|3|2|2|647m²|House|2020797101|/13-ocean-avenue-slade-point-qld-4740-2020797101|By Negotiation|
+Blacks Beach|21 Coral Drive|Expressions of Interest|5|3|4|809m²|House|2020796718|/21-coral-drive-blacks-beach-qld-4740-2020796718|Expressions of Interest|
+Balnagowan|145 Griffiths Road|$1,300,000|6|2|4|3.69ha|House|2020731590|/145-griffiths-road-balnagowan-qld-4740-2020731590|$1,300,000|
+Rural View|5 Gillies Court|Offers Over $799,000|4|2|3|738m²|House|2020589939|/5-gillies-court-rural-view-qld-4740-2020589939|Offers Over $799,000|
+Mount Pleasant|15 James Croker Drive|By Negotiation|5|2|2|800m²|House|2020528182|/15-james-croker-drive-mount-pleasant-qld-4740-2020528182|By Negotiation|
+East Mackay|8 Nott Street|By Negotiation|4|2|2|809m²|House|2020795252|/8-nott-street-east-mackay-qld-4740-2020795252|By Negotiation|
+South Mackay|23 Black Street|Offers Over $849,000|4|2|3|733m²|House|2020794879|/23-black-street-south-mackay-qld-4740-2020794879|Offers Over $849,000|
+Glenella|15 Burge Court|Offers From $759,000|4|2|2|682m²|House|2020794450|/15-burge-court-glenella-qld-4740-2020794450|Offers From $759,000|
+Bakers Creek|335 Holmes Road|Offers From $899,000|4|2|4|10000m²|House|2020792808|/335-holmes-road-bakers-creek-qld-4740-2020792808|Offers From $899,000|
+Rural View|5 Cooper Court|Offers Over $799,000|4|2|2|774m²|House|2020792340|/5-cooper-court-rural-view-qld-4740-2020792340|Offers Over $799,000|
+The Leap|2038 Maraju-Yakapari Road|Offers Over $799,000|3|1|8|30351m²|House|2020791001|/2038-maraju-yakapari-road-the-leap-qld-4740-2020791001|Offers Over $799,000|
+Andergrove|14 Jasmine Street|By Negotiation|4|1|3|783m²|House|2020783393|/14-jasmine-street-andergrove-qld-4740-2020783393|By Negotiation|
+Sandiford|116 Brieffies Road|By Negotiation|4|1|8|2025m²|House|2020783356|/116-brieffies-road-sandiford-qld-4740-2020783356|By Negotiation|
+Beaconsfield|11 Hermosa Circuit|By Negotiation|4|2|4|742m²|House|2020781342|/11-hermosa-circuit-beaconsfield-qld-4740-2020781342|By Negotiation|
+South Mackay|23 Lamb Street|Offers from $729,000|4|2|6|822m²|House|2020781266|/23-lamb-street-south-mackay-qld-4740-2020781266|Offers from $729,000|
+North Mackay|11 Cartledge Court|Offers From $679,000|4|2|2|533m²|House|2020780646|/11-cartledge-court-north-mackay-qld-4740-2020780646|Offers From $679,000|
+Glenella|36 Davey Street|Offers Over $650,000|3|2|4|802m²|House|2020780541|/36-davey-street-glenella-qld-4740-2020780541|Offers Over $650,000|
+Mount Pleasant|8 Mckellar Court|By Negotiation|4|2|3|912m²|House|2020779607|/8-mckellar-court-mount-pleasant-qld-4740-2020779607|By Negotiation|
+East Mackay|5a Neill Street|Offers Over $699,000|3|2|2|350m²|House|2020778578|/5a-neill-street-east-mackay-qld-4740-2020778578|Offers Over $699,000|
+North Mackay|28 Green Street|Offers From $599,000|3|1|1|742m²|House|2020777803|/28-green-street-north-mackay-qld-4740-2020777803|Offers From $599,000|
+Rural View|1 Hinkler Court|Offers over $549,000|2|2|1|113m²|Duplex|2020777756|/1-hinkler-court-rural-view-qld-4740-2020777756|Offers over $549,000|
+Blacks Beach|64 Pacific Drive|Offers Over $699,000|3|1|3|829m²|House|2020776863|/64-pacific-drive-blacks-beach-qld-4740-2020776863|Offers Over $699,000|
+West Mackay|15 McGinn Street|Offers Over $779,000|4|3|3|809m²|House|2020755231|/15-mcginn-street-west-mackay-qld-4740-2020755231|Offers Over $779,000|
+Rural View|63 Caroval Drive|Offers From $779,000|4|2|2|695m²|House|2020750760|/63-caroval-drive-rural-view-qld-4740-2020750760|Offers From $779,000|
+Glenella|11 Royal Boulevard|Offers From $1,100,000|4|2|3|830m²|House|2020747951|/11-royal-boulevard-glenella-qld-4740-2020747951|Offers From $1,100,000|
+West Mackay|129 Donaldson Street|Offers From $779,000|4|2|4|809m²|House|2020747565|/129-donaldson-street-west-mackay-qld-4740-2020747565|Offers From $779,000|
+Glenella|7A Kinnon Street|Offers From $849,000|5|4|2|757m²|House|2020740836|/7a-kinnon-street-glenella-qld-4740-2020740836|Offers From $849,000|
+Beaconsfield|6 Ultimo Court|Offers From $775,000|4|4|2|670m²|House|2020713643|/6-ultimo-court-beaconsfield-qld-4740-2020713643|Offers From $775,000|
+Eimeo|9A Danelles Way|Offers From $799,000|3|2|3|843m²|House|2020711988|/9a-danelles-way-eimeo-qld-4740-2020711988|Offers From $799,000|
+Habana|175 Barrow Hill Road|By Negotiation|3|2|8|23760m²|House|2020711375|/175-barrow-hill-road-habana-qld-4740-2020711375|By Negotiation|
