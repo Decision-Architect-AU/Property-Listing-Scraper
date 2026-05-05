@@ -56,12 +56,6 @@ except ImportError:
 from fastmcp import FastMCP
 
 # ─────────────────────────────────────────────────────────────
-# Data directory — all listing data lives here, not in project_dir
-# ─────────────────────────────────────────────────────────────
-DATA_DIR = Path(r"C:\DomainListingData")
-DATA_DIR.mkdir(parents=True, exist_ok=True)
-
-# ─────────────────────────────────────────────────────────────
 # Server
 # ─────────────────────────────────────────────────────────────
 mcp = FastMCP(
@@ -537,7 +531,7 @@ def append_listings(
         { "raw_listings_path": str, "rows_written": int,
           "rows_removed": int, "total_rows": int }
     """
-    raw_path = DATA_DIR / "raw_listings.txt"
+    raw_path = Path(project_dir) / "raw_listings.txt"
 
     existing: list[str] = []
     if raw_path.exists():
@@ -594,26 +588,14 @@ def run_scoring(project_dir: str) -> dict:
         { "success": bool, "scored_json_path": str, "rows_scored": int, "stderr": str }
     """
     import importlib.util, traceback
-
-    # Look for score_listings.py in Strategy_Scoring/ first, then root
-    script = Path(project_dir) / "Strategy_Scoring" / "score_listings.py"
-    if not script.exists():
-        script = Path(project_dir) / "score_listings.py"
-
-    raw = DATA_DIR / "raw_listings.txt"
-    out = DATA_DIR / "scored_listings.json"
+    script = Path(project_dir) / "score_listings.py"
+    raw    = Path(project_dir) / "raw_listings.txt"
+    out    = Path(project_dir) / "scored_listings.json"
 
     if not script.exists():
         return {"success": False, "error": f"score_listings.py not found in {project_dir}"}
     if not raw.exists():
-        return {"success": False, "error": f"raw_listings.txt not found in {DATA_DIR}"}
-
-    # Ensure imports resolve from both project root and subfolders
-    for p in [str(project_dir),
-              str(Path(project_dir) / "Strategy_Scoring"),
-              str(Path(project_dir) / "Domain_Info")]:
-        if p not in sys.path:
-            sys.path.insert(0, p)
+        return {"success": False, "error": f"raw_listings.txt not found in {project_dir}"}
 
     try:
         spec   = importlib.util.spec_from_file_location("score_listings", str(script))
@@ -640,9 +622,7 @@ def run_scoring(project_dir: str) -> dict:
                 "description":          parts[10].strip() if len(parts) > 10 else "",
                 "listing_description":  parts[11].strip() if len(parts) > 11 else "",
             }
-            result = mod.score_listing(row)
-            if result is not None:
-                scored.append(result)
+            scored.append(mod.score_listing(row))
 
         out.write_text(json.dumps(scored, indent=2, ensure_ascii=False), encoding="utf-8")
         return {
@@ -672,28 +652,24 @@ def run_excel_build(project_dir: str) -> dict:
     """
     import importlib.util, traceback
     script = Path(project_dir) / "build_excel.py"
-    scored = DATA_DIR / "scored_listings.json"
+    scored = Path(project_dir) / "scored_listings.json"
 
     if not script.exists():
         return {"success": False, "error": f"build_excel.py not found in {project_dir}"}
     if not scored.exists():
-        return {"success": False, "error": f"scored_listings.json not found in {DATA_DIR} — run run_scoring() first"}
+        return {"success": False, "error": f"scored_listings.json not found — run run_scoring() first"}
 
     try:
         spec = importlib.util.spec_from_file_location("build_excel", str(script))
         mod  = importlib.util.module_from_spec(spec)
+        # Make project_dir available as the script's __file__ so Path(__file__).parent works
         mod.__file__ = str(script)
         sys.path.insert(0, str(project_dir))
         spec.loader.exec_module(mod)
-        out_file = DATA_DIR / "SEQ_Listings.xlsx"
-        # Pass explicit paths if build_excel.main() supports them
-        try:
-            mod.main(scored_path=scored, out_path=out_file)
-        except TypeError:
-            mod.main()
-            out_file = Path(project_dir) / "SEQ_Listings.xlsx"
+        mod.main()
         sys.path.pop(0)
 
+        out_file = Path(project_dir) / "SEQ_Listings.xlsx"
         files = [str(out_file)] if out_file.exists() else []
         return {
             "success": True,
@@ -798,12 +774,27 @@ def full_pipeline(
         summary["message"] = excel.get("error", "Excel build failed")
         return summary
 
-    # Email is NOT sent per-suburb — call send_report.py separately after all suburbs are done
-    summary["status"]       = "success"
-    summary["output_files"] = excel.get("files", [])
-    summary["message"]      = (
+    # Step 5: email report (optional — skipped if email_config.json is absent)
+    email_result = {"success": False, "message": "email_config.json not found — skipping email"}
+    try:
+        import importlib.util
+        send_script = Path(project_dir) / "send_report.py"
+        if send_script.exists() and (Path(project_dir) / "email_config.json").exists():
+            spec = importlib.util.spec_from_file_location("send_report", str(send_script))
+            mod  = importlib.util.module_from_spec(spec)
+            mod.__file__ = str(send_script)
+            spec.loader.exec_module(mod)
+            email_result = mod.send_report(suburb_filter=suburb_name)
+    except Exception as e:
+        email_result = {"success": False, "message": f"Email step error: {e}"}
+
+    summary["steps"]["email"] = email_result
+    summary["status"]         = "success"
+    summary["output_files"]   = excel.get("files", [])
+    summary["message"]        = (
         f"Pipeline complete — {append['total_rows']} total listings, "
-        f"{scrape['rows_kept']} new from {suburb_slug}."
+        f"{scrape['rows_kept']} new from {suburb_slug}. "
+        f"Email: {email_result['message']}"
     )
     return summary
 
@@ -843,9 +834,9 @@ def fetch_descriptions(
     """
     import tempfile
 
-    raw_path = DATA_DIR / "raw_listings.txt"
+    raw_path = Path(project_dir) / "raw_listings.txt"
     if not raw_path.exists():
-        return {"success": False, "error": f"raw_listings.txt not found in {DATA_DIR}"}
+        return {"success": False, "error": f"raw_listings.txt not found in {project_dir}"}
 
     lines = raw_path.read_text(encoding="utf-8").splitlines()
     cookie_file = tempfile.mktemp(suffix=".txt")
