@@ -17,15 +17,9 @@ Usage:
 """
 
 import argparse
-import importlib
 import json
 import sys
 from pathlib import Path
-
-# Force reload of scoring module so any changes to scoring.py are picked up
-# even when this module is loaded via importlib in a long-running process.
-if "scoring" in sys.modules:
-    importlib.reload(sys.modules["scoring"])
 
 from scoring import score_listing
 
@@ -75,11 +69,7 @@ def main():
         if not row["suburb"]:
             skipped += 1
             continue
-        result = score_listing(row)
-        if result is None:
-            skipped += 1  # excluded (e.g. character/unique home)
-            continue
-        scored.append(result)
+        scored.append(score_listing(row))
 
     out_path.write_text(json.dumps(scored, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"Scored {len(scored)} listings → {out_path}  (skipped {skipped})")
