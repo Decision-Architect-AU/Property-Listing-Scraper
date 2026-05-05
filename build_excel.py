@@ -422,12 +422,9 @@ def main(scored_path: Path = None, out_path: Path = None):
         print(f"ERROR: {scored_path} not found — run score_listings.py first", file=sys.stderr)
         sys.exit(1)
 
-    all_listings = json.loads(scored_path.read_text(encoding="utf-8"))
-    # Exclude sold/inactive listings from the report
-    listings = [l for l in all_listings if l.get("active", True)]
+    listings = json.loads(scored_path.read_text(encoding="utf-8"))
     today    = str(date.today())
-    sold_ct  = len(all_listings) - len(listings)
-    print(f"Building Excel for {len(listings)} active listings ({sold_ct} sold/inactive excluded) -> {out_path}")
+    print(f"Building Excel for {len(listings)} listings -> {out_path}")
 
     wb = Workbook()
     wb.remove(wb.active)  # remove default sheet

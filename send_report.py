@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-send_report.py — Email the scored listings as an HTML report via Gmail SMTP,
-                 with SEQ_Listings.xlsx attached.
+send_report.py — Email the scored listings as an HTML report via Gmail SMTP.
 
 Usage:
     python send_report.py                        # send full report
@@ -21,8 +20,6 @@ import json
 import smtplib
 import sys
 from datetime import date
-from email import encoders
-from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from pathlib import Path
@@ -31,13 +28,7 @@ from pathlib import Path
 # ── Config ────────────────────────────────────────────────────────────────────
 
 PROJECT_DIR = Path(__file__).parent
-DATA_DIR    = Path(r"C:\DomainListingData")
-
-# Fall back to project dir if data dir doesn't exist (e.g. running on Linux/bash)
-_scored_in_data    = DATA_DIR / "scored_listings.json"
-_scored_in_project = PROJECT_DIR / "scored_listings.json"
-SCORED_JSON = _scored_in_data if _scored_in_data.exists() else _scored_in_project
-
+SCORED_JSON = PROJECT_DIR / "scored_listings.json"
 CONFIG_FILE = PROJECT_DIR / "email_config.json"
 
 
@@ -57,10 +48,11 @@ def combined_score(lst: dict) -> int:
 # ── Colour helpers ────────────────────────────────────────────────────────────
 
 def score_colour(val: int, thresholds=(5, 3)) -> str:
+    """Return a hex colour for a score value."""
     hi, lo = thresholds
-    if val >= hi:   return "#1B7A34"
-    if val >= lo:   return "#E85D04"
-    return "#888888"
+    if val >= hi:   return "#1B7A34"   # dark green
+    if val >= lo:   return "#E85D04"   # amber
+    return "#888888"                   # grey
 
 
 def yield_colour(yld: float) -> str:
@@ -72,10 +64,11 @@ def yield_colour(yld: float) -> str:
 
 # ── HTML builder ──────────────────────────────────────────────────────────────
 
-def build_html(listings: list, suburb_filter, today: str) -> str:
+def build_html(listings: list[dict], suburb_filter: str | None, today: str) -> str:
     if suburb_filter:
         listings = [l for l in listings if l.get("suburb", "").lower() == suburb_filter.lower()]
 
+    # Sort by combined score desc, then cashflow desc
     listings = sorted(listings, key=lambda l: (combined_score(l), l.get("cashflow_score") or 0), reverse=True)
 
     total      = len(listings)
@@ -86,6 +79,7 @@ def build_html(listings: list, suburb_filter, today: str) -> str:
 
     suburb_label = suburb_filter or "All Suburbs"
 
+    # ── Summary cards ────────────────────────────────────────────────────────
     cards_html = f"""
     <div style="display:flex;gap:16px;margin-bottom:24px;flex-wrap:wrap;">
       <div style="background:#16213E;color:#fff;padding:16px 24px;border-radius:8px;min-width:120px;text-align:center;">
@@ -111,6 +105,7 @@ def build_html(listings: list, suburb_filter, today: str) -> str:
     </div>
     """
 
+    # ── Table rows ───────────────────────────────────────────────────────────
     rows_html = ""
     for i, lst in enumerate(listings):
         bg       = "#F8F9FA" if i % 2 == 0 else "#FFFFFF"
@@ -167,6 +162,7 @@ def build_html(listings: list, suburb_filter, today: str) -> str:
 
   <div style="max-width:1100px;margin:0 auto;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08);">
 
+    <!-- Header -->
     <div style="background:#1A1A2E;padding:24px 32px;">
       <h1 style="margin:0;color:#E8C547;font-size:22px;letter-spacing:.5px;">
         Property Listings Report
@@ -180,6 +176,7 @@ def build_html(listings: list, suburb_filter, today: str) -> str:
 
       {cards_html}
 
+      <!-- Table -->
       <table style="width:100%;border-collapse:collapse;font-size:13px;">
         <thead>
           <tr style="background:#16213E;color:#fff;">
@@ -212,25 +209,23 @@ def build_html(listings: list, suburb_filter, today: str) -> str:
 
 # ── Sender ────────────────────────────────────────────────────────────────────
 
-def send_report(suburb_filter=None) -> dict:
+def send_report(suburb_filter: str | None = None) -> dict:
     """
-    Load scored listings, build HTML report, attach Excel, and send via Gmail SMTP.
+    Load scored listings, build HTML report, and send via Gmail SMTP.
     Returns {"success": bool, "message": str}.
     """
     if not SCORED_JSON.exists():
         return {"success": False, "message": f"{SCORED_JSON} not found — run the pipeline first."}
 
     cfg = load_config()
-    gmail_addr   = cfg.get("gmail_address", "")
-    app_password = cfg.get("gmail_app_password", "")
-    to_addr      = cfg.get("to", gmail_addr)
+    gmail_addr    = cfg.get("gmail_address", "")
+    app_password  = cfg.get("gmail_app_password", "")
+    to_addr       = cfg.get("to", gmail_addr)
 
     if not gmail_addr or not app_password:
         return {"success": False, "message": "email_config.json is missing gmail_address or gmail_app_password."}
 
-    all_listings = json.loads(SCORED_JSON.read_text(encoding="utf-8"))
-    # Exclude sold/inactive listings from the report
-    listings = [l for l in all_listings if l.get("active", True)]
+    listings = json.loads(SCORED_JSON.read_text(encoding="utf-8"))
     today    = str(date.today())
 
     suburb_label = suburb_filter or "All Suburbs"
@@ -238,32 +233,11 @@ def send_report(suburb_filter=None) -> dict:
 
     html_body = build_html(listings, suburb_filter, today)
 
-    # Build message with attachment support
-    msg = MIMEMultipart("mixed")
+    msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
     msg["From"]    = gmail_addr
     msg["To"]      = to_addr
-
-    # HTML body
-    alt_part = MIMEMultipart("alternative")
-    alt_part.attach(MIMEText(html_body, "html", "utf-8"))
-    msg.attach(alt_part)
-
-    # Attach Excel report
-    excel_path = PROJECT_DIR / "SEQ_Listings.xlsx"
-    if excel_path.exists():
-        with open(excel_path, "rb") as f:
-            excel_data = f.read()
-        attachment = MIMEBase(
-            "application",
-            "vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-        )
-        attachment.set_payload(excel_data)
-        encoders.encode_base64(attachment)
-        attachment.add_header(
-            "Content-Disposition", "attachment", filename="SEQ_Listings.xlsx"
-        )
-        msg.attach(attachment)
+    msg.attach(MIMEText(html_body, "html", "utf-8"))
 
     try:
         with smtplib.SMTP("smtp.gmail.com", 587) as smtp:
