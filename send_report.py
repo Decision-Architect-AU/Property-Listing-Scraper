@@ -31,7 +31,10 @@ from pathlib import Path
 
 PROJECT_DIR = Path(__file__).parent
 DATA_DIR    = Path(r"C:\DomainListingData")
-SCORED_JSON = DATA_DIR / "scored_listings.json"
+# Fall back to project dir if data dir doesn't exist (e.g. running on Linux/bash)
+_scored_in_data    = DATA_DIR / "scored_listings.json"
+_scored_in_project = PROJECT_DIR / "scored_listings.json"
+SCORED_JSON = _scored_in_data if _scored_in_data.exists() else _scored_in_project
 CONFIG_FILE = PROJECT_DIR / "email_config.json"
 
 
@@ -281,6 +284,13 @@ def send_report(suburb_filter: str | None = None) -> dict:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--suburb", help="Filter report to a single suburb", default=None)
+    args = parser.parse_args()
+
+    result = send_report(suburb_filter=args.suburb)
+    print(result["message"])
+    if not result["success"]:
+        sys.exit(1)
+rburb", help="Filter report to a single suburb", default=None)
     args = parser.parse_args()
 
     result = send_report(suburb_filter=args.suburb)
