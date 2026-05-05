@@ -638,7 +638,20 @@ def run_scoring(project_dir: str) -> dict:
                 "description":          parts[10].strip() if len(parts) > 10 else "",
                 "listing_description":  parts[11].strip() if len(parts) > 11 else "",
             }
-            scored.append(mod.score_listing(row))
+            result = mod.score_listing(row)
+            if result is not None:
+                scored.append(result)
+
+        # Apply tracker status — delist missing listings, reactivate returned ones
+        try:
+            _tpath = Path(project_dir) / "listing_tracker.py"
+            if _tpath.exists():
+                _spec = importlib.util.spec_from_file_location("listing_tracker", str(_tpath))
+                _lt   = importlib.util.module_from_spec(_spec)
+                _spec.loader.exec_module(_lt)
+                scored = _lt.apply_to_scored(scored)
+        except Exception:
+            pass  # tracker errors are non-fatal
 
         out.write_text(json.dumps(scored, indent=2, ensure_ascii=False), encoding="utf-8")
         return {
@@ -763,6 +776,28 @@ def full_pipeline(
         "rows_removed": append["rows_removed"],
         "total_rows":   append["total_rows"],
     }
+
+    # Step 2b: update listing tracker — detects delisted & reactivated listings
+    try:
+        import importlib.util as _ilu, sys as _sys
+        _tpath = str(Path(project_dir) / "listing_tracker.py")
+        _spec  = _ilu.spec_from_file_location("listing_tracker", _tpath)
+        _lt    = _ilu.module_from_spec(_spec)
+        _spec.loader.exec_module(_lt)
+
+        # Extract listing_ids from freshly scraped rows
+        _current_ids = []
+        for _row in scrape["rows"]:
+            _parts = _row.split("|")
+            if len(_parts) > 8:
+                _lid = _parts[8].strip()
+                if _lid:
+                    _current_ids.append(_lid)
+
+        _tracker_summary = _lt.update_suburb(suburb_name, _current_ids)
+        summary["steps"]["tracker"] = _tracker_summary
+    except Exception as _te:
+        summary["steps"]["tracker"] = {"error": str(_te)}
 
     # Step 3: score
     score = run_scoring(project_dir)

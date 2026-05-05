@@ -13,6 +13,26 @@ import sys
 from datetime import date
 from pathlib import Path
 
+# ── Exclusion filters (applied at report time) ────────────────────────────────
+CHARACTER_KEYWORDS = [
+    "character home", "character property", "character house", "character cottage",
+    "character residence", "character building", "character dwelling",
+    "unique home", "unique property", "unique character", "truly unique",
+    "period home", "period property", "period features", "period charm",
+    "art deco", "heritage listed", "heritage home", "heritage property",
+    "original character", "original charm", "original features",
+    "one of a kind", "timeless charm",
+    "built in the 1800", "built in late 1800", "built in the 1900",
+]
+
+
+def is_character_home(listing: dict) -> bool:
+    text = " ".join([
+        listing.get("description", ""),
+        listing.get("listing_description", ""),
+    ]).lower()
+    return any(kw in text for kw in CHARACTER_KEYWORDS)
+
 try:
     from openpyxl import Workbook
     from openpyxl.styles import (
@@ -423,8 +443,9 @@ def main(scored_path: Path = None, out_path: Path = None):
         sys.exit(1)
 
     all_listings = json.loads(scored_path.read_text(encoding="utf-8"))
-    # Exclude sold/inactive listings from the report
-    listings = [l for l in all_listings if l.get("active", True)]
+    # Exclude sold/delisted/inactive and character homes from the report
+    listings = [l for l in all_listings
+                if l.get("active", True) and not is_character_home(l)]
     today    = str(date.today())
     sold_ct  = len(all_listings) - len(listings)
     print(f"Building Excel for {len(listings)} active listings ({sold_ct} sold/inactive excluded) -> {out_path}")

@@ -20,11 +20,13 @@ from suburb_stats import lookup as stats_lookup
 # Character/unique homes — not suitable for standard investment analysis
 CHARACTER_KEYWORDS = [
     "character home", "character property", "character house", "character cottage",
+    "character residence", "character building", "character dwelling",
     "unique home", "unique property", "unique character", "truly unique",
     "period home", "period property", "period features", "period charm",
     "art deco", "heritage listed", "heritage home", "heritage property",
     "original character", "original charm", "original features",
-    "one of a kind",
+    "one of a kind", "timeless charm",
+    "built in the 1800", "built in late 1800", "built in the 1900",
 ]
 
 # Sold/off-market indicators — deactivate rather than delete

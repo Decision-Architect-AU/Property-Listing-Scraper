@@ -1301,5 +1301,6 @@ Tannum Sands|10 Jacinta Court|$1,350,000|4|2|6|922m²|House|2020677849|/10-jacin
 South Gladstone|27B Agnes Street|$190,000||||1159m²|Vacant land|2020664766|/27b-agnes-street-south-gladstone-qld-4680-2020664766|$190,000|
 Boyne Island|34 Stella Street|$199,000||||939m²|Vacant land|2020649706|/34-stella-street-boyne-island-qld-4680-2020649706|$199,000|
 Calliope|Lot 4 Melrose Place|$220,000||||1708m²|Vacant land|2020648913|/lot-4-melrose-place-calliope-qld-4680-2020648913|$220,000|
+Glen Eden|15 Amaroo Close|Auction|3|1|2|668m²|House|2020815399|/15-amaroo-close-glen-eden-qld-4680-2020815399|Auction|
 Gladstone|91 Central Lane|Offers Over $675,000|3|2|2|799m²|House|2020703194|/91-central-lane-gladstone-qld-4680-2020703194|Offers Over $675,000|
 Gladstone||$1,275,000|4|4|||House|2016042377|/gladstone-qld-4680-2016042377|$1,275,000|

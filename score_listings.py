@@ -17,9 +17,15 @@ Usage:
 """
 
 import argparse
+import importlib
 import json
 import sys
 from pathlib import Path
+
+# Force reload of scoring module so any changes to scoring.py are picked up
+# even when this module is loaded via importlib in a long-running process.
+if "scoring" in sys.modules:
+    importlib.reload(sys.modules["scoring"])
 
 from scoring import score_listing
 
