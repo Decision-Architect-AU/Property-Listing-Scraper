@@ -56,6 +56,14 @@ except ImportError:
 from fastmcp import FastMCP
 
 # ─────────────────────────────────────────────────────────────
+# Data directory — all data files (raw_listings.txt,
+# scored_listings.json, SEQ_Listings.xlsx) are stored here,
+# separate from the Python scripts in project_dir.
+# ─────────────────────────────────────────────────────────────
+DATA_DIR = Path(r"C:\DomainListingData")
+DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+# ─────────────────────────────────────────────────────────────
 # Server
 # ─────────────────────────────────────────────────────────────
 mcp = FastMCP(
@@ -531,7 +539,7 @@ def append_listings(
         { "raw_listings_path": str, "rows_written": int,
           "rows_removed": int, "total_rows": int }
     """
-    raw_path = Path(project_dir) / "raw_listings.txt"
+    raw_path = DATA_DIR / "raw_listings.txt"
 
     existing: list[str] = []
     if raw_path.exists():
@@ -589,15 +597,23 @@ def run_scoring(project_dir: str) -> dict:
     """
     import importlib.util, traceback
     script = Path(project_dir) / "score_listings.py"
-    raw    = Path(project_dir) / "raw_listings.txt"
-    out    = Path(project_dir) / "scored_listings.json"
+    raw    = DATA_DIR / "raw_listings.txt"
+    out    = DATA_DIR / "scored_listings.json"
 
     if not script.exists():
         return {"success": False, "error": f"score_listings.py not found in {project_dir}"}
     if not raw.exists():
-        return {"success": False, "error": f"raw_listings.txt not found in {project_dir}"}
+        return {"success": False, "error": f"raw_listings.txt not found in {DATA_DIR}"}
 
     try:
+        # Ensure project_dir (and subfolders) are on sys.path so score_listings.py
+        # can import scoring, regions, rent_estimator etc.
+        for p in [str(project_dir),
+                  str(Path(project_dir) / "Strategy_Scoring"),
+                  str(Path(project_dir) / "Domain_Info")]:
+            if p not in sys.path:
+                sys.path.insert(0, p)
+
         spec   = importlib.util.spec_from_file_location("score_listings", str(script))
         mod    = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
@@ -652,24 +668,24 @@ def run_excel_build(project_dir: str) -> dict:
     """
     import importlib.util, traceback
     script = Path(project_dir) / "build_excel.py"
-    scored = Path(project_dir) / "scored_listings.json"
+    scored = DATA_DIR / "scored_listings.json"
 
     if not script.exists():
         return {"success": False, "error": f"build_excel.py not found in {project_dir}"}
     if not scored.exists():
-        return {"success": False, "error": f"scored_listings.json not found — run run_scoring() first"}
+        return {"success": False, "error": f"scored_listings.json not found in {DATA_DIR} — run run_scoring() first"}
 
     try:
         spec = importlib.util.spec_from_file_location("build_excel", str(script))
         mod  = importlib.util.module_from_spec(spec)
-        # Make project_dir available as the script's __file__ so Path(__file__).parent works
         mod.__file__ = str(script)
-        sys.path.insert(0, str(project_dir))
+        if str(project_dir) not in sys.path:
+            sys.path.insert(0, str(project_dir))
         spec.loader.exec_module(mod)
-        mod.main()
-        sys.path.pop(0)
+        # Pass explicit paths so data files are read/written to DATA_DIR
+        out_file = DATA_DIR / "SEQ_Listings.xlsx"
+        mod.main(scored_path=scored, out_path=out_file)
 
-        out_file = Path(project_dir) / "SEQ_Listings.xlsx"
         files = [str(out_file)] if out_file.exists() else []
         return {
             "success": True,
@@ -821,9 +837,9 @@ def fetch_descriptions(
     """
     import tempfile
 
-    raw_path = Path(project_dir) / "raw_listings.txt"
+    raw_path = DATA_DIR / "raw_listings.txt"
     if not raw_path.exists():
-        return {"success": False, "error": f"raw_listings.txt not found in {project_dir}"}
+        return {"success": False, "error": f"raw_listings.txt not found in {DATA_DIR}"}
 
     lines = raw_path.read_text(encoding="utf-8").splitlines()
     cookie_file = tempfile.mktemp(suffix=".txt")
