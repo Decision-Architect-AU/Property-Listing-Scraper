@@ -1358,20 +1358,6 @@ South Ripley|109 Danbulla Street|FOR SALE||||497m²|Vacant land|2020781977|/109-
 White Rock|5203 Celestial Way|Contact The Agent||||316m²|Vacant land|2020779456|/5203-celestial-way-white-rock-qld-4306-2020779456|Contact The Agent|
 South Ripley|3 Granite Street|$495,000 to $545,000||||280m²|New land|2020779360|/3-granite-street-south-ripley-qld-4306-2020779360|$495,000 to $545,000|
 South Ripley|Lot 598 Gossan Street|$560,000||||320m²|Vacant land|2020778525|/lot-598-gossan-street-south-ripley-qld-4306-2020778525|$560,000|
-Mackay|35 Byron Street|Offers Over $689,000|3|1|5|753m²|House|2020798814|/35-byron-street-mackay-qld-4740-2020798814|Offers Over $689,000|
-Mackay|17 Hucker Street|Contact Agent|3|1|2|716m²|House|2020767923|/17-hucker-street-mackay-qld-4740-2020767923|Contact Agent|
-Mackay|15 Othello Street|Offers by Expressions of Interest|2|1|1|910m²|House|2020463814|/15-othello-street-mackay-qld-4740-2020463814|Offers by Expressions of Interest|
-Mackay|32-34 Wentford Street|$600,000|||||Vacant land|2020483912|/32-34-wentford-street-mackay-qld-4740-2020483912|$600,000|
-Mackay|Lot CM Basil Bay Precinct, Keswick Island|Offers from $100,000||||1537m²|Vacant land|2018058531|/lot-cm-basil-bay-precinct-keswick-island-mackay-qld-4740-2018058531|Offers from $100,000|
-Mackay|Lot AC Basil Bay Precinct, Keswick Island|$80,000||||1657m²|Vacant land|2017378322|/lot-ac-basil-bay-precinct-keswick-island-mackay-qld-4740-2017378322|$80,000|
-Mackay|Lot AM Basil Bay Precinct, Keswick Island|Interest from $120,000 considered||||1648m²|Vacant land|2014342677|/lot-am-basil-bay-precinct-keswick-island-mackay-qld-4740-2014342677|Interest from $120,000 considered|
-Mackay|Lot HL Azure Bay, Keswick Island|Offers by Expressions of Interest||||2708m²|Vacant land|2013957576|/lot-hl-azure-bay-keswick-island-mackay-qld-4740-2013957576|Offers by Expressions of Interest|
-Mackay|Lot HJB Azure Bay, Keswick Island|Offers by Expressions of Interest||||424m²|Vacant land|2011398322|/lot-hjb-azure-bay-keswick-island-mackay-qld-4740-2011398322|Offers by Expressions of Interest|
-Mackay|Lot HJA Azure Bay, Keswick Island|Offers by Expressions of Interest||||410m²|Vacant land|2010176425|/lot-hja-azure-bay-keswick-island-mackay-qld-4740-2010176425|Offers by Expressions of Interest|
-Mackay|Lot CH Basil Bay Precinct, Keswick Island|Expressions of Interest||||3117m²|Vacant land|2010102618|/lot-ch-basil-bay-precinct-keswick-island-mackay-qld-4740-2010102618|Expressions of Interest|
-Mackay|1 Grant Street|Offers over $719,000|4|2|4|804m²|House|2020801013|/1-grant-street-mackay-qld-4740-2020801013|Offers over $719,000|
-Mackay|7 Grant Street|Offers Over $579,000|5|1|1|706m²|House|2020800529|/7-grant-street-mackay-qld-4740-2020800529|Offers Over $579,000|
-Mackay|49 Peel Street|Offers From $789,000|4|2|2|754m²|House|2020775203|/49-peel-street-mackay-qld-4740-2020775203|Offers From $789,000|
 Andergrove|7 Sunita Drive|By Negotiation|3|2|2|549m²|House|2020833901|/7-sunita-drive-andergrove-qld-4740-2020833901|By Negotiation|
 Beaconsfield|34 Nicklin Drive|Offers Over $649,000|3|1|3|708m²|House|2020832190|/34-nicklin-drive-beaconsfield-qld-4740-2020832190|Offers Over $649,000|
 Andergrove|10 Roseville Street|By Negotiation|4|2|2|375m²|House|2020825694|/10-roseville-street-andergrove-qld-4740-2020825694|By Negotiation|
@@ -1946,3 +1932,34 @@ Buaraba|1517 Buaraba Creek Road|EXPRESSIONS OF INTEREST||||81400m²|Vacant land|
 Karalee||$799,000||||4221m²|Vacant land|2020845051|/karalee-qld-4306-2020845051|$799,000|
 Karalee||$799,000||||4221m²|Vacant land|2020762497|/karalee-qld-4306-2020762497|$799,000|
 Brightview||$449,000||||3060m²|Vacant land|2020840431|/brightview-qld-4311-2020840431|$449,000|
+Mackay|8 George Street|By Negotiation|2|2|4|910m²|House|2020854681|/8-george-street-mackay-qld-4740-2020854681|By Negotiation|
+Mackay|12 & 15/11 Porter Street|By Negotiation|1|1|1|66m²|Apartment / Unit / Flat|2020845115|/12-15-11-porter-street-mackay-qld-4740-2020845115|By Negotiation|
+Mackay|15 Othello Street|Offers by Expressions of Interest|2|1|1|910m²|House|2020463814|/15-othello-street-mackay-qld-4740-2020463814|Offers by Expressions of Interest|
+Mackay|17 Hucker Street|Contact Agent|3|1|2|716m²|House|2020767923|/17-hucker-street-mackay-qld-4740-2020767923|Contact Agent|
+Mackay|32-34 Wentford Street|$600,000|||||Vacant land|2020483912|/32-34-wentford-street-mackay-qld-4740-2020483912|$600,000|
+Mackay|Lot CM Basil Bay Precinct, Keswick Island|Offers from $100,000||||1537m²|Vacant land|2018058531|/lot-cm-basil-bay-precinct-keswick-island-mackay-qld-4740-2018058531|Offers from $100,000|
+Mackay|Lot AC Basil Bay Precinct, Keswick Island|$80,000||||1657m²|Vacant land|2017378322|/lot-ac-basil-bay-precinct-keswick-island-mackay-qld-4740-2017378322|$80,000|
+Mackay|Lot AM Basil Bay Precinct, Keswick Island|Interest from $120,000 considered||||1648m²|Vacant land|2014342677|/lot-am-basil-bay-precinct-keswick-island-mackay-qld-4740-2014342677|Interest from $120,000 considered|
+Mackay|Lot HL Azure Bay, Keswick Island|Offers by Expressions of Interest||||2708m²|Vacant land|2013957576|/lot-hl-azure-bay-keswick-island-mackay-qld-4740-2013957576|Offers by Expressions of Interest|
+Mackay|Lot HJB Azure Bay, Keswick Island|Offers by Expressions of Interest||||424m²|Vacant land|2011398322|/lot-hjb-azure-bay-keswick-island-mackay-qld-4740-2011398322|Offers by Expressions of Interest|
+Mackay|Lot HJA Azure Bay, Keswick Island|Offers by Expressions of Interest||||410m²|Vacant land|2010176425|/lot-hja-azure-bay-keswick-island-mackay-qld-4740-2010176425|Offers by Expressions of Interest|
+Mackay|Lot CH Basil Bay Precinct, Keswick Island|Expressions of Interest||||3117m²|Vacant land|2010102618|/lot-ch-basil-bay-precinct-keswick-island-mackay-qld-4740-2010102618|Expressions of Interest|
+Mackay|1 Grant Street|Offers over $719,000|4|2|4|804m²|House|2020801013|/1-grant-street-mackay-qld-4740-2020801013|Offers over $719,000|
+Mackay|7 Grant Street|Offers Over $579,000|5|1|1|706m²|House|2020800529|/7-grant-street-mackay-qld-4740-2020800529|Offers Over $579,000|
+Mackay|49 Peel Street|Offers From $789,000|4|2|2|754m²|House|2020775203|/49-peel-street-mackay-qld-4740-2020775203|Offers From $789,000|
+West Mackay|51 Adrian Street|Offers from $599,000|3|1|3|784m²|House|2020860377|/51-adrian-street-west-mackay-qld-4740-2020860377|Offers from $599,000|
+Rural View|34 Montgomery Street|Offers From $799,000|3|2|6|586m²|House|2020859063|/34-montgomery-street-rural-view-qld-4740-2020859063|Offers From $799,000|
+East Mackay|8 Hoey Street|Offers Over $725,000|3|2|5|749m²|House|2020855627|/8-hoey-street-east-mackay-qld-4740-2020855627|Offers Over $725,000|
+Rural View|2 Pindo Circuit|By Negotiation|4|2|3|709m²|House|2020854604|/2-pindo-circuit-rural-view-qld-4740-2020854604|By Negotiation|
+North Mackay|60 Hamilton Street|Offers Over $549,000|3|2|2|627m²|House|2020852647|/60-hamilton-street-north-mackay-qld-4740-2020852647|Offers Over $549,000|
+North Mackay|8 Norris Road|Offers Over $749,000|4|2|2|809m²|House|2020850606|/8-norris-road-north-mackay-qld-4740-2020850606|Offers Over $749,000|
+North Mackay|44 Green Street|Offers From $699,000|3|2|2|785m²|House|2020850399|/44-green-street-north-mackay-qld-4740-2020850399|Offers From $699,000|
+Mount Pleasant|7 Bligh Court|Offers Over $769,000|3|2|2|755m²|House|2020849343|/7-bligh-court-mount-pleasant-qld-4740-2020849343|Offers Over $769,000|
+Andergrove|57 Tropical Avenue|Auction|3|1|2|689m²|House|2020848343|/57-tropical-avenue-andergrove-qld-4740-2020848343|Auction|
+Rural View|46 Sonoran Street|Offers Over $749,000|4|2|2|552m²|House|2020845678|/46-sonoran-street-rural-view-qld-4740-2020845678|Offers Over $749,000|
+Beaconsfield|19 Coatbridge Court|Offers from $689,000|3|2|3|823m²|House|2020842535|/19-coatbridge-court-beaconsfield-qld-4740-2020842535|Offers from $689,000|
+Mount Pleasant|5 Pioneer Street|Offers Over $730,000|3|1|2|743m²|House|2020841758|/5-pioneer-street-mount-pleasant-qld-4740-2020841758|Offers Over $730,000|
+Ooralea|59 Peak Downs Highway|By Negotiation|4|2|2|880m²|House|2020841020|/59-peak-downs-highway-ooralea-qld-4740-2020841020|By Negotiation|
+Andergrove|21 Domino Crescent|By Negotiation|4|2|2|821m²|House|2020840497|/21-domino-crescent-andergrove-qld-4740-2020840497|By Negotiation|
+Andergrove|14 Sunbird Lane|By Negotiation|3|2|1|389m²|House|2020840494|/14-sunbird-lane-andergrove-qld-4740-2020840494|By Negotiation|
+Glenella|67 Bradman Drive|By Negotiation|3|1|6|750m²|House|2020837347|/67-bradman-drive-glenella-qld-4740-2020837347|By Negotiation|
