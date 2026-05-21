@@ -215,11 +215,6 @@ def send_report(suburb_filter: str | None = None) -> dict:
     Load scored listings, build HTML report, and send via Gmail SMTP.
     Returns {"success": bool, "message": str}.
     """
-    # Suppress per-suburb emails during batch runs — delete this file to re-enable
-    suppress_flag = PROJECT_DIR / "suppress_email.flag"
-    if suppress_flag.exists():
-        return {"success": False, "message": "Email suppressed (suppress_email.flag present)"}
-
     if not SCORED_JSON.exists():
         return {"success": False, "message": f"{SCORED_JSON} not found — run the pipeline first."}
 
