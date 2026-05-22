@@ -1374,107 +1374,29 @@ Beaconsfield|13 Dixon Court|Offers over $699,000|3|2|2|704m²|House|2020767181|/
 Balnagowan|27 Argents Drive|Offers Over $799,000|3|1|6|2.01ha|Acreage / Semi-Rural|2020615235|/27-argents-drive-balnagowan-qld-4740-2020615235|Offers Over $799,000|
 Rothwell|33 Saltwater Drive|$750,000 - $850,000||||712m²|Vacant land|2020759424|/33-saltwater-drive-rothwell-qld-4022-2020759424|$750,000 - $850,000|
 Rothwell|L281-282 Jones Street|For Sale||||810m²|Vacant land|2020377415|/l281-282-jones-street-rothwell-qld-4022-2020377415|For Sale|
-Marsden|9 Leanne Street|$770,000+|4|2|1|382m²|House|2020767799|/9-leanne-street-marsden-qld-4132-2020767799|$770,000+|
-Marsden|8 Macaranga Street|$799,000+|3|2|2|464m²|House|2020785460|/8-macaranga-street-marsden-qld-4132-2020785460|$799,000+|
-Marsden|UNIT 106/37 Mulgrave Road|Contact for Price|3|2|3||Townhouse|2020830070|/unit-106-37-mulgrave-road-marsden-qld-4132-2020830070|Contact for Price|
-Marsden||$739,990|5|3|2|371m²|House|2017906547|/marsden-qld-4132-2017906547|$739,990|
 Waterford|33 Tash Court|Contact Agent||||941m²|Vacant land|2020628254|/33-tash-court-waterford-qld-4133-2020628254|Contact Agent|
 Logan Reserve|78 Bayes Road|Offers Welcome||||27200m²|Vacant land|2019297088|/78-bayes-road-logan-reserve-qld-4133-2019297088|Offers Welcome|
 Chambers Flat||Only 1 remaining - be quick||||400m²|Vacant land|2018195971|/chambers-flat-qld-4133-2018195971|Only 1 remaining - be quick|
 Chambers Flat||$725,400|4|2|2|407m²|House|2017906897|/chambers-flat-qld-4133-2017906897|$725,400|
-Maryborough|2 Doon Villa Avenue|$650,000|3|2|2|1247m²|House|2020593979|/2-doon-villa-avenue-maryborough-qld-4650-2020593979|$650,000|
-Maryborough|16 Woodstock Street|Offers Over $749,000|4|2|6|1821m²|House|2020805028|/16-woodstock-street-maryborough-qld-4650-2020805028|Offers Over $749,000|
-Maryborough|48 Tooley St|Contact Agent|2|1|4||House|2020666053|/48-tooley-st-maryborough-qld-4650-2020666053|Contact Agent|
-Maryborough|16 Bashford Street|Offers from $660,000|4|2|4|686m²|House|2020796955|/16-bashford-street-maryborough-qld-4650-2020796955|Offers from $660,000|
-Maryborough|33 Wilson Street|Offers Over $599,000|2|1|3|797m²|House|2020833085|/33-wilson-street-maryborough-qld-4650-2020833085|Offers Over $599,000|
-Maryborough|45 Edward Street|OFFERS FROM $540,000|2|1|1|516m²|House|2020822952|/45-edward-street-maryborough-qld-4650-2020822952|OFFERS FROM $540,000|
-Maryborough|129 Mary Street|$400000|2|1|1|1012m²|House|2020758025|/129-mary-street-maryborough-qld-4650-2020758025|$400000|
-Maryborough|13 March Lane|$520,000|3|1|1|526m²|House|2020639365|/13-march-lane-maryborough-qld-4650-2020639365|$520,000|
-Maryborough|18 Walton Street|$629,000|3|1|2|534m²|House|2020810348|/18-walton-street-maryborough-qld-4650-2020810348|$629,000|
-Maryborough|2 Brennan Avenue|ALL SERIOUS OFFERS CONSIDERED|4|2||865m²|House|2020803084|/2-brennan-avenue-maryborough-qld-4650-2020803084|ALL SERIOUS OFFERS CONSIDERED|
-Maryborough|20 NORTH STREET|SUBMIT ALL OFFERS|5|1||1282m²|House|2020800082|/20-north-street-maryborough-qld-4650-2020800082|SUBMIT ALL OFFERS|
-Maryborough|14 Robinson Street|Offers Over $720,000|3|1|2|1012m²|House|2020794180|/14-robinson-street-maryborough-qld-4650-2020794180|Offers Over $720,000|
-Maryborough|210 Fort Street|Offers over $749,000|4|2|5|1052m²|House|2020790293|/210-fort-street-maryborough-qld-4650-2020790293|Offers over $749,000|
-Maryborough|Lot 40 Bimbadeen Drive|$399,000||||5002m²|Vacant land|2020780725|/lot-40-bimbadeen-drive-maryborough-qld-4650-2020780725|$399,000|
-Maryborough|25 Carlisle Street|$480,000|2|1|1|1047m²|House|2020727093|/25-carlisle-street-maryborough-qld-4650-2020727093|$480,000|
-Maryborough|56 Lennox Street|OFFERS FROM $450,000|2|1|1|711m²|House|2020695675|/56-lennox-street-maryborough-qld-4650-2020695675|OFFERS FROM $450,000|
-Maryborough|104 Cheapside Street|OFFERS FROM $660,000|2|2|4|1012m²|House|2020687488|/104-cheapside-street-maryborough-qld-4650-2020687488|OFFERS FROM $660,000|
-Maryborough|24 John Street|$650,000|4|2||931m²|House|2020680659|/24-john-street-maryborough-qld-4650-2020680659|$650,000|
-Maryborough|39 Tooley Street|$479000|2|1|1|607m²|House|2020618846|/39-tooley-street-maryborough-qld-4650-2020618846|$479000|
-Maryborough|116 Richmond Street|Expressions of Interest||||407m²|Vacant land|2020300210|/116-richmond-street-maryborough-qld-4650-2020300210|Expressions of Interest|
-Maryborough|33 Unity Street|725,000.00 plus|3|2|5|809m²|House|2020111081|/33-unity-street-maryborough-qld-4650-2020111081|725,000.00 plus|
-Maryborough|77d Kent Street|$295,000||||2025m²|Vacant land|2020007492|/77d-kent-street-maryborough-qld-4650-2020007492|$295,000|
-Maryborough|247 Ann Street|Offers Over $500,000|3|1|2|546m²|House|2020693125|/247-ann-street-maryborough-qld-4650-2020693125|Offers Over $500,000|
-Maryborough|114 Saltwater Creek Road|Offers Over $750,000|3|2|5|2039m²|House|2020824069|/114-saltwater-creek-road-maryborough-qld-4650-2020824069|Offers Over $750,000|
-Maryborough|96 Boys Avenue|$565,000|3|2|1|809m²|House|2020763875|/96-boys-avenue-maryborough-qld-4650-2020763875|$565,000|
-Maryborough|73 March Street|Offers Over $519,000|2|1|2|809m²|House|2020746592|/73-march-street-maryborough-qld-4650-2020746592|Offers Over $519,000|
-Maryborough|32 Muriel Street|Offers Over $499,000|2|1|2|637m²|House|2020650131|/32-muriel-street-maryborough-qld-4650-2020650131|Offers Over $499,000|
-Maryborough|62 Pallas Street|$650,000|3|2|2|941m²|House|2020648055|/62-pallas-street-maryborough-qld-4650-2020648055|$650,000|
-Maryborough|170 Queen Street|Offers From $269,000|||3|769m²|Vacant land|2020587329|/170-queen-street-maryborough-qld-4650-2020587329|Offers From $269,000|
-Maryborough|27 Zante Street|$75,500||||799m²|Vacant land|2020512392|/27-zante-street-maryborough-qld-4650-2020512392|$75,500|
 Tiaro|lot 103 Pidgeons Road|Offers over $800,000||||18.84ha|Rural|2020715175|/lot-103-pidgeons-road-tiaro-qld-4650-2020715175|Offers over $800,000|
 Tiaro|3 Mayne Street|$400,000||||4648m²|Vacant land|2020709296|/3-mayne-street-tiaro-qld-4650-2020709296|$400,000|
 Aldershot|40 Lenthall Street|Offers Above $750,000|4|2|2|1012m²|House|2020692851|/40-lenthall-street-aldershot-qld-4650-2020692851|Offers Above $750,000|
 Tinana|Lot 12 Central Acres|$420,000||||11320000m²|Vacant land|2020691897|/lot-12-central-acres-tinana-qld-4650-2020691897|$420,000|
-Morayfield|14 Serendipity Street|Auction|4|2|2|280m²|House|2020793016|/14-serendipity-street-morayfield-qld-4506-2020793016|Auction|
-Morayfield|23 Coogera Court|Inviting Offers|3|2|1||House|2020723647|/23-coogera-court-morayfield-qld-4506-2020723647|Inviting Offers|
-Morayfield||$605,000 to $655,000||||359m²|New land|2020808004|/morayfield-qld-4506-2020808004|$605,000 to $655,000|
-Morayfield|Lot 26 Anderson Road|$500,000 to $550,000||||255m²|New land|2020807979|/lot-26-anderson-road-morayfield-qld-4506-2020807979|$500,000 to $550,000|
-Morayfield|11 McNamara Crescent|Auction|3|2|3|1031m²|House|2020795768|/11-mcnamara-crescent-morayfield-qld-4506-2020795768|Auction|
-Morayfield|Lot 576 Rosella Circuit|SUBMIT ALL OFFERS||||675m²|Vacant land|2020749909|/lot-576-rosella-circuit-morayfield-qld-4506-2020749909|SUBMIT ALL OFFERS|
-Morayfield|L1/122 Williamson Road|Offers Over $719,000||||3000m²|Vacant land|2020492990|/l1-122-williamson-road-morayfield-qld-4506-2020492990|Offers Over $719,000|
-Morayfield|ID:21158574/61 Caboolture River Road|FOR SALES|3|2|1||Townhouse|2020171867|/id-21158574-61-caboolture-river-road-morayfield-qld-4506-2020171867|FOR SALES|
-Morayfield||$799,900|3|3|1||Townhouse|2020821749|/morayfield-qld-4506-2020821749|$799,900|
-Morayfield|Lot 241/11 Dajarra Street|$605,000||||400m²|Vacant land|2020807080|/lot-241-11-dajarra-street-morayfield-qld-4506-2020807080|$605,000|
-Morayfield|19 Neitz Street|For Sale|4|2|2|400m²|House|2020779990|/19-neitz-street-morayfield-qld-4506-2020779990|For Sale|
-Morayfield|Lot 173/13 Malbon Street|$670,000||||535m²|Vacant land|2020766358|/lot-173-13-malbon-street-morayfield-qld-4506-2020766358|$670,000|
-Morayfield|Lot 206/6 Rokeby Street|$605,000||||400m²|Vacant land|2020766352|/lot-206-6-rokeby-street-morayfield-qld-4506-2020766352|$605,000|
-Morayfield||$775,000||||543m²|Vacant land|2020547442|/morayfield-qld-4506-2020547442|$775,000|
-Morayfield|Lot 817 Luminous Place|$455,000||||403m²|Vacant land|2019248972|/lot-817-luminous-place-morayfield-qld-4506-2019248972|$455,000|
-Morayfield|Clark Road|H&L PACKAGE FROM $800K+|4|2|2|300m²|House|2018789412|/clark-road-morayfield-qld-4506-2018789412|H&L PACKAGE FROM $800K+|
-Nambour|6 Thomas Crescent|Buyers in the low to mid $800,000s|3|1|2|688m²|House|2020771858|/6-thomas-crescent-nambour-qld-4560-2020771858|Buyers in the low to mid $800,000s|
-Nambour|7 Thomas Crescent|Auction|3|1|1|903m²|House|2020733276|/7-thomas-crescent-nambour-qld-4560-2020733276|Auction|
-Nambour|18 Washington Street|Contact Agent|3|2|2|320m²|House|2020782537|/18-washington-street-nambour-qld-4560-2020782537|Contact Agent|
-Nambour|34 Vernon Street|Offers Over $799,000|3|1||865m²|House|2020813857|/34-vernon-street-nambour-qld-4560-2020813857|Offers Over $799,000|
-Nambour|32 Rigby Street|Offers over $799,000 considered|3|1|4|782m²|House|2020765872|/32-rigby-street-nambour-qld-4560-2020765872|Offers over $799,000 considered|
-Nambour|2 Garden Place|$590,000||||1133m²|Vacant land|2020797910|/2-garden-place-nambour-qld-4560-2020797910|$590,000|
-Nambour|23 Esther Place|$570,000||||701m²|Vacant land|2020797898|/23-esther-place-nambour-qld-4560-2020797898|$570,000|
-Nambour|35-37 Arundell Avenue|$695,000||||810m²|Vacant land|2020099901|/35-37-arundell-avenue-nambour-qld-4560-2020099901|$695,000|
-Nambour|unit 46/18 Doolan Street|$555,000|2|2|1||Apartment / Unit / Flat|2020667316|/unit-46-18-doolan-street-nambour-qld-4560-2020667316|$555,000|
-Nambour|*56 Price Street|Offers $650k||||1535m²|Vacant land|2020563997|/-56-price-street-nambour-qld-4560-2020563997|Offers $650k|
-Nambour|unit 54/18 Doolan Street|Best Buy $415,000|2|1|1|28327m²|Apartment / Unit / Flat|2020061916|/unit-54-18-doolan-street-nambour-qld-4560-2020061916|Best Buy $415,000|
-Nambour|unit 43/18 Doolan Street|Brand new $565,000|2|2|1||Apartment / Unit / Flat|2019989084|/unit-43-18-doolan-street-nambour-qld-4560-2019989084|Brand new $565,000|
-Nambour|28 NAMBOUR MAPLETON ROAD|$800,000||||731m²|Vacant land|2018773396|/28-nambour-mapleton-road-nambour-qld-4560-2018773396|$800,000|
-Nambour|56 Price Street|$550,000||||1535m²|Vacant land|2017819628|/56-price-street-nambour-qld-4560-2017819628|$550,000|
-Nambour|56 Price Street|Openn Offers||||1535m²|New land|2017443328|/56-price-street-nambour-qld-4560-2017443328|Openn Offers|
-Nambour|56 Price Street|$550,000||||1535m²|Vacant land|2017430296|/56-price-street-nambour-qld-4560-2017430296|$550,000|
-Nambour||From $555,000|2|1|1||Apartment / Unit / Flat|2017420148|/nambour-qld-4560-2017420148|From $555,000|
-Nambour|89 Blackall Terrace|Auction|6|1|8||House|2020790864|/89-blackall-terrace-nambour-qld-4560-2020790864|Auction|
 Flaxton|21 Carrington Drive|Offers over 660,000||||1479m²|Vacant land|2020691702|/21-carrington-drive-flaxton-qld-4560-2020691702|Offers over 660,000|
 Woombye|77 Foley Road|Buyer Interest from $599,000||||4080m²|Vacant land|2020671891|/77-foley-road-woombye-qld-4559-2020671891|Buyer Interest from $599,000|
 Bli Bli|47a Camelot Court|$695,000||||700m²|New land|2020204117|/47a-camelot-court-bli-bli-qld-4560-2020204117|$695,000|
 Bli Bli|62 Camelot Court|$695K+||||750m²|Vacant land|2020556963|/62-camelot-court-bli-bli-qld-4560-2020556963|$695K+|
 Mapleton|26 Warruga Street|Contact Agent|2|1|1|20440m²|Apartment / Unit / Flat|2018900920|/26-warruga-street-mapleton-qld-4560-2018900920|Contact Agent|
 Bli Bli|244 Camp Flat Road|$695,000||||750m²|Vacant land|2019272861|/244-camp-flat-road-bli-bli-qld-4560-2019272861|$695,000|
-Narangba|10 Coochin Avenue|Auction|3|2|1|871m²|House|2020815722|/10-coochin-avenue-narangba-qld-4504-2020815722|Auction|
-Narangba|56 Stunning Crescent|$575,000 to $625,000||||300m²|New land|2020779338|/56-stunning-crescent-narangba-qld-4504-2020779338|$575,000 to $625,000|
-Narangba|86-90 Tibrogargan Drive|INVITING OFFERS|||||Vacant land|2020752065|/86-90-tibrogargan-drive-narangba-qld-4504-2020752065|INVITING OFFERS|
-Narangba||For Sale|3|2|1|178m²|Townhouse|2020832976|/narangba-qld-4504-2020832976|For Sale|
-Narangba|1 Bush Tucker Drive|763,700|4|2|2|287m²|House|2019910546|/1-bush-tucker-drive-narangba-qld-4504-2019910546|763,700|
-Narangba||Priced from $620000|3|2|1||Townhouse|2015633237|/narangba-qld-4504-2015633237|Priced from $620000|
 Norman Gardens|18 Sunflower Avenue|Offers Over $799,000 Considered|4|2|2|600m²|House|2020825772|/18-sunflower-avenue-norman-gardens-qld-4701-2020825772|Offers Over $799,000 Considered|
 Deception Bay|18 Porpoise Parade|New to Market!|3|1|1|455m²|House|2020825803|/18-porpoise-parade-deception-bay-qld-4508-2020825803|New to Market!|
 Deception Bay|16 Victoria Ave|For Sale||||405m²|Vacant land|2020813830|/16-victoria-ave-deception-bay-qld-4508-2020813830|For Sale|
-Ooralea|18 Salisbury Place|By Negotiation|3|2|3|512m²|House|2020796709|/18-salisbury-place-ooralea-qld-4740-2020796709|By Negotiation|
 Rural View|3 Fantome Court|Offers Over $700,000|3|2|3|769m²|House|2020766227|/3-fantome-court-rural-view-qld-4740-2020766227|Offers Over $700,000|
 Bakers Creek|36 Fairway Drive|By Negotiation|4|2|2|600m²|House|2020763902|/36-fairway-drive-bakers-creek-qld-4740-2020763902|By Negotiation|
 Beaconsfield|12 Broomdykes Drive|OFFERS OVER $669,000|3|1|2|778m²|House|2020762987|/12-broomdykes-drive-beaconsfield-qld-4740-2020762987|OFFERS OVER $669,000|
 Mount Pleasant|16 Zeigler Street|Offers Over $750,000|3|1|2|1151m²|House|2020732469|/16-zeigler-street-mount-pleasant-qld-4740-2020732469|Offers Over $750,000|
 Slade Point|44 Keswick Avenue|Offers over $750,000|3|2|2|708m²|House|2020689935|/44-keswick-avenue-slade-point-qld-4740-2020689935|Offers over $750,000|
 Beaconsfield|1 Deguara Drive|Offers From $749,000|4|1|3|791m²|House|2020483202|/1-deguara-drive-beaconsfield-qld-4740-2020483202|Offers From $749,000|
-Oxley|40 Oxley Station Road|BY NEGOTIATION||||405m²|Vacant land|2020835641|/40-oxley-station-road-oxley-qld-4075-2020835641|BY NEGOTIATION|
-Oxley|38 Oxley Station Road|BY NEGOTIATION||||405m²|Vacant land|2020835640|/38-oxley-station-road-oxley-qld-4075-2020835640|BY NEGOTIATION|
-Oxley||From $750,000|3|2|1||Townhouse|2015610126|/oxley-qld-4075-2015610126|From $750,000|
 Inala|23 Copernicus Street|Auction|3|1|1|612m²|House|2020817597|/23-copernicus-street-inala-qld-4077-2020817597|Auction|
 Doolandella|73 Redhead Street|4 Bed Townhouses Off the Plan|4|2|3||Townhouse|2016589750|/73-redhead-street-doolandella-qld-4077-2016589750|4 Bed Townhouses Off the Plan|
 Rocklea|97 Sherwood Road|Contact for Price|6|7|6|498m²|House|2020541711|/97-sherwood-road-rocklea-qld-4106-2020541711|Contact for Price|
@@ -1656,11 +1578,6 @@ Burpengary|3 Karri Street|PRICE ON APPLICATION!!|4|2|1||House|2020825140|/3-karr
 Burpengary|319 Rowley Road|For Sale By Negotiation||||3003m²|Vacant land|2020146068|/319-rowley-road-burpengary-qld-4505-2020146068|For Sale By Negotiation|
 Burpengary||$799,900|3|3|1||Townhouse|2020821903|/burpengary-qld-4505-2020821903|$799,900|
 Burpengary||$742,900||||400m²|Vacant land|2017942154|/burpengary-qld-4505-2017942154|$742,900|
-Morayfield|7 Gabriel Street|For Sale|4|2|2|600m²|House|2020850365|/7-gabriel-street-morayfield-qld-4506-2020850365|For Sale|
-Narangba|56 Stunning Crescent|$575,000 to $625,000||||300m²|New land|2020843586|/56-stunning-crescent-narangba-qld-4504-2020843586|$575,000 to $625,000|
-Narangba|Lot 9195/56 Stunning Crescent|$575,000 to $625,000||||300m²|New land|2020843574|/lot-9195-56-stunning-crescent-narangba-qld-4504-2020843574|$575,000 to $625,000|
-Morayfield|Lot 524/59 ALPINE CRES|Contact Agent!||||448m²|Vacant land|2020841498|/lot-524-59-alpine-cres-morayfield-qld-4506-2020841498|Contact Agent!|
-Narangba|19 Possum Drive|Offers In Excess of $800,000||||810m²|Vacant land|2020600817|/19-possum-drive-narangba-qld-4504-2020600817|Offers In Excess of $800,000|
 Caboolture|30 Kipling Street|New Listing - Contact Agent|3|1|1|809m²|House|2020853744|/30-kipling-street-caboolture-qld-4510-2020853744|New Listing - Contact Agent|
 Caboolture|92 Ruby Street|Inviting Offers|3|1|4|809m²|House|2020849422|/92-ruby-street-caboolture-qld-4510-2020849422|Inviting Offers|
 Caboolture|1&2/270 King Street|Offers From $750,000 each|3|2|2|500m²|House|2020831072|/1-2-270-king-street-caboolture-qld-4510-2020831072|Offers From $750,000 each|
@@ -1785,14 +1702,7 @@ North Lakes||For Sale|3|2|1|143m²|Townhouse|2020750868|/north-lakes-qld-4509-20
 Clontarf|15 Maine Road|Presenting all offers by 5pm Monday 1/6|2|2|1|564m²|House|2020849360|/15-maine-road-clontarf-qld-4019-2020849360|Presenting all offers by 5pm Monday 1/6|
 Howard|58 Whitley Street|Contact Agent|3|1|1|1157m²|House|2020848065|/58-whitley-street-howard-qld-4659-2020848065|Contact Agent|
 K'Gari||The Best Here.....Freehold Title|2|1|||Apartment / Unit / Flat|2020847131|/k-gari-qld-4581-2020847131|The Best Here.....Freehold Title|
-Maryborough|376 Ann Street|Offers Over $599,000 Considered|3|1|3|809m²|House|2020846077|/376-ann-street-maryborough-qld-4650-2020846077|Offers Over $599,000 Considered|
-Maryborough|2 Greenway Court|Expression Of Interest|3|1|4|695m²|House|2020836234|/2-greenway-court-maryborough-qld-4650-2020836234|Expression Of Interest|
-Maryborough|43 Woodstock Street|Offers Over $699,000 Considered|3|1|2|1523m²|House|2020858827|/43-woodstock-street-maryborough-qld-4650-2020858827|Offers Over $699,000 Considered|
-Maryborough|197 Alice Street|Offers Above $625,000|3|2|6|2023m²|House|2020855559|/197-alice-street-maryborough-qld-4650-2020855559|Offers Above $625,000|
-Maryborough|6 French Avenue|Offers Around $620,000 Considered|3|1|3|534m²|House|2020849437|/6-french-avenue-maryborough-qld-4650-2020849437|Offers Around $620,000 Considered|
 Tiaro|16 Price Street|Offers Over $520,000|3|1|3|1416m²|House|2020860101|/16-price-street-tiaro-qld-4650-2020860101|Offers Over $520,000|
-Maryborough|127 Walker Street|$749,000|3|1|1|958m²|House|2020858668|/127-walker-street-maryborough-qld-4650-2020858668|$749,000|
-Maryborough|27 William Street|$590000|2|1|2|1040m²|House|2020838428|/27-william-street-maryborough-qld-4650-2020838428|$590000|
 Glenwood|Lot 42 Arbortwo Road|$349,000||||7000m²|Vacant land|2020852379|/lot-42-arbortwo-road-glenwood-qld-4570-2020852379|$349,000|
 Burrum Town|26 Dalkeith Street|$495,000|2|1||1012m²|House|2020849338|/26-dalkeith-street-burrum-town-qld-4659-2020849338|$495,000|
 Pacific Haven|3 Coral Avenue|$465,000||||15900m²|Vacant land|2020837251|/3-coral-avenue-pacific-haven-qld-4659-2020837251|$465,000|
@@ -1959,7 +1869,97 @@ Andergrove|57 Tropical Avenue|Auction|3|1|2|689m²|House|2020848343|/57-tropical
 Rural View|46 Sonoran Street|Offers Over $749,000|4|2|2|552m²|House|2020845678|/46-sonoran-street-rural-view-qld-4740-2020845678|Offers Over $749,000|
 Beaconsfield|19 Coatbridge Court|Offers from $689,000|3|2|3|823m²|House|2020842535|/19-coatbridge-court-beaconsfield-qld-4740-2020842535|Offers from $689,000|
 Mount Pleasant|5 Pioneer Street|Offers Over $730,000|3|1|2|743m²|House|2020841758|/5-pioneer-street-mount-pleasant-qld-4740-2020841758|Offers Over $730,000|
-Ooralea|59 Peak Downs Highway|By Negotiation|4|2|2|880m²|House|2020841020|/59-peak-downs-highway-ooralea-qld-4740-2020841020|By Negotiation|
 Andergrove|21 Domino Crescent|By Negotiation|4|2|2|821m²|House|2020840497|/21-domino-crescent-andergrove-qld-4740-2020840497|By Negotiation|
 Andergrove|14 Sunbird Lane|By Negotiation|3|2|1|389m²|House|2020840494|/14-sunbird-lane-andergrove-qld-4740-2020840494|By Negotiation|
 Glenella|67 Bradman Drive|By Negotiation|3|1|6|750m²|House|2020837347|/67-bradman-drive-glenella-qld-4740-2020837347|By Negotiation|
+Marsden|9 Leanne Street|$765,000+|4|2|1|382m²|House|2020767799|/9-leanne-street-marsden-qld-4132-2020767799|$765,000+|
+Marsden|8 Macaranga Street|$800,000+|3|2|2|464m²|House|2020785460|/8-macaranga-street-marsden-qld-4132-2020785460|$800,000+|
+Marsden|UNIT 106/37 Mulgrave Road|Contact for Price|3|2|3||Townhouse|2020830070|/unit-106-37-mulgrave-road-marsden-qld-4132-2020830070|Contact for Price|
+Marsden||$739,990|5|3|2|371m²|House|2017906547|/marsden-qld-4132-2017906547|$739,990|
+Maryborough|376 Ann Street|Offers Over $599,000 Considered|3|1|3|809m²|House|2020846077|/376-ann-street-maryborough-qld-4650-2020846077|Offers Over $599,000 Considered|
+Maryborough|2 Greenway Court|Expression Of Interest|3|1|4|695m²|House|2020836234|/2-greenway-court-maryborough-qld-4650-2020836234|Expression Of Interest|
+Maryborough|16 Woodstock Street|Offers Over $749,000|4|2|6|1821m²|House|2020805028|/16-woodstock-street-maryborough-qld-4650-2020805028|Offers Over $749,000|
+Maryborough|48 Tooley St|Contact Agent|2|1|4||House|2020666053|/48-tooley-st-maryborough-qld-4650-2020666053|Contact Agent|
+Maryborough|2 Doon Villa Avenue|$650,000|3|2|2|1247m²|House|2020593979|/2-doon-villa-avenue-maryborough-qld-4650-2020593979|$650,000|
+Maryborough|43 Woodstock Street|Offers Over $699,000 Considered|3|1|2|1523m²|House|2020858827|/43-woodstock-street-maryborough-qld-4650-2020858827|Offers Over $699,000 Considered|
+Maryborough|197 Alice Street|Offers Above $625,000|3|2|6|2023m²|House|2020855559|/197-alice-street-maryborough-qld-4650-2020855559|Offers Above $625,000|
+Maryborough|6 French Avenue|Offers Around $620,000 Considered|3|1|3|534m²|House|2020849437|/6-french-avenue-maryborough-qld-4650-2020849437|Offers Around $620,000 Considered|
+Maryborough|16 Bashford Street|Offers from $660,000|4|2|4|686m²|House|2020796955|/16-bashford-street-maryborough-qld-4650-2020796955|Offers from $660,000|
+Maryborough|127 Walker Street|$749,000|3|1|1|958m²|House|2020858668|/127-walker-street-maryborough-qld-4650-2020858668|$749,000|
+Maryborough|27 William Street|$590000|2|1|2|1040m²|House|2020838428|/27-william-street-maryborough-qld-4650-2020838428|$590000|
+Maryborough|13 March Lane|$520,000|3|1|1|526m²|House|2020639365|/13-march-lane-maryborough-qld-4650-2020639365|$520,000|
+Maryborough|18 Walton Street|$629,000|3|1|2|534m²|House|2020810348|/18-walton-street-maryborough-qld-4650-2020810348|$629,000|
+Maryborough|2 Brennan Avenue|ALL SERIOUS OFFERS CONSIDERED|4|2||865m²|House|2020803084|/2-brennan-avenue-maryborough-qld-4650-2020803084|ALL SERIOUS OFFERS CONSIDERED|
+Maryborough|20 NORTH STREET|SUBMIT ALL OFFERS|5|1||1282m²|House|2020800082|/20-north-street-maryborough-qld-4650-2020800082|SUBMIT ALL OFFERS|
+Maryborough|14 Robinson Street|Offers Over $695,000|3|1|2|1012m²|House|2020794180|/14-robinson-street-maryborough-qld-4650-2020794180|Offers Over $695,000|
+Maryborough|210 Fort Street|Offers over $749,000|4|2|5|1052m²|House|2020790293|/210-fort-street-maryborough-qld-4650-2020790293|Offers over $749,000|
+Maryborough|Lot 40 Bimbadeen Drive|$399,000||||5002m²|Vacant land|2020780725|/lot-40-bimbadeen-drive-maryborough-qld-4650-2020780725|$399,000|
+Maryborough|129 Mary Street|$400000|2|1|1|1012m²|House|2020758025|/129-mary-street-maryborough-qld-4650-2020758025|$400000|
+Maryborough|25 Carlisle Street|$480,000|2|1|1|1047m²|House|2020727093|/25-carlisle-street-maryborough-qld-4650-2020727093|$480,000|
+Maryborough|24 John Street|$650,000|4|2||931m²|House|2020680659|/24-john-street-maryborough-qld-4650-2020680659|$650,000|
+Maryborough|39 Tooley Street|$479000|2|1|1|607m²|House|2020618846|/39-tooley-street-maryborough-qld-4650-2020618846|$479000|
+Maryborough|116 Richmond Street|Expressions of Interest||||407m²|Vacant land|2020300210|/116-richmond-street-maryborough-qld-4650-2020300210|Expressions of Interest|
+Maryborough|33 Unity Street|725,000.00 plus|3|2|5|809m²|House|2020111081|/33-unity-street-maryborough-qld-4650-2020111081|725,000.00 plus|
+Maryborough|310 Ann Street|Contact Agent|3|1|2|637m²|House|2020852843|/310-ann-street-maryborough-qld-4650-2020852843|Contact Agent|
+Maryborough|80 Pallas Street|Offers over $749,000|4|2|5|1002m²|House|2020844116|/80-pallas-street-maryborough-qld-4650-2020844116|Offers over $749,000|
+Maryborough|114 Saltwater Creek Road|Offers Over $750,000|3|2|5|2039m²|House|2020824069|/114-saltwater-creek-road-maryborough-qld-4650-2020824069|Offers Over $750,000|
+Maryborough|11 Arbury Street|Offers Over $550,000|3|1|2|1492m²|House|2020767334|/11-arbury-street-maryborough-qld-4650-2020767334|Offers Over $550,000|
+Maryborough|96 Boys Avenue|$565,000|3|2|1|809m²|House|2020763875|/96-boys-avenue-maryborough-qld-4650-2020763875|$565,000|
+Maryborough|73 March Street|Offers Over $500,000|2|1|2|809m²|House|2020746592|/73-march-street-maryborough-qld-4650-2020746592|Offers Over $500,000|
+Maryborough|32 Muriel Street|Offers Over $499,000|2|1|2|637m²|House|2020650131|/32-muriel-street-maryborough-qld-4650-2020650131|Offers Over $499,000|
+Maryborough|62 Pallas Street|$650,000|3|2|2|941m²|House|2020648055|/62-pallas-street-maryborough-qld-4650-2020648055|$650,000|
+Maryborough|170 Queen Street|Offers From $269,000|||3|769m²|Vacant land|2020587329|/170-queen-street-maryborough-qld-4650-2020587329|Offers From $269,000|
+Morayfield|23 Coogera Court|Inviting Offers|3|2|1||House|2020723647|/23-coogera-court-morayfield-qld-4506-2020723647|Inviting Offers|
+Morayfield|7 Gabriel Street|For Sale|4|2|2|600m²|House|2020850365|/7-gabriel-street-morayfield-qld-4506-2020850365|For Sale|
+Morayfield|Lot 524/59 ALPINE CRES|Contact Agent!||||448m²|Vacant land|2020841498|/lot-524-59-alpine-cres-morayfield-qld-4506-2020841498|Contact Agent!|
+Morayfield||$605,000 to $655,000||||359m²|New land|2020808004|/morayfield-qld-4506-2020808004|$605,000 to $655,000|
+Morayfield|Lot 576 Rosella Circuit|SUBMIT ALL OFFERS||||675m²|Vacant land|2020749909|/lot-576-rosella-circuit-morayfield-qld-4506-2020749909|SUBMIT ALL OFFERS|
+Morayfield|ID:21158574/61 Caboolture River Road|FOR SALES|3|2|1||Townhouse|2020171867|/id-21158574-61-caboolture-river-road-morayfield-qld-4506-2020171867|FOR SALES|
+Morayfield||Contact Agent|3|2|1||Townhouse|2020858198|/morayfield-qld-4506-2020858198|Contact Agent|
+Morayfield||$799,900|3|3|1||Townhouse|2020821749|/morayfield-qld-4506-2020821749|$799,900|
+Morayfield|Lot 241/11 Dajarra Street|$605,000||||400m²|Vacant land|2020807080|/lot-241-11-dajarra-street-morayfield-qld-4506-2020807080|$605,000|
+Morayfield|19 Neitz Street|For Sale|4|2|2|400m²|House|2020779990|/19-neitz-street-morayfield-qld-4506-2020779990|For Sale|
+Morayfield|Lot 173/13 Malbon Street|$670,000||||535m²|Vacant land|2020766358|/lot-173-13-malbon-street-morayfield-qld-4506-2020766358|$670,000|
+Morayfield|Lot 206/6 Rokeby Street|$605,000||||400m²|Vacant land|2020766352|/lot-206-6-rokeby-street-morayfield-qld-4506-2020766352|$605,000|
+Morayfield||$775,000||||543m²|Vacant land|2020547442|/morayfield-qld-4506-2020547442|$775,000|
+Morayfield|Lot 817 Luminous Place|$455,000||||403m²|Vacant land|2019248972|/lot-817-luminous-place-morayfield-qld-4506-2019248972|$455,000|
+Morayfield|Clark Road|H&L PACKAGE FROM $800K+|4|2|2|300m²|House|2018789412|/clark-road-morayfield-qld-4506-2018789412|H&L PACKAGE FROM $800K+|
+Nambour|7 Thomas Crescent|Auction|3|1|1|903m²|House|2020733276|/7-thomas-crescent-nambour-qld-4560-2020733276|Auction|
+Nambour|2 Garden Place|$590,000||||1133m²|Vacant land|2020797910|/2-garden-place-nambour-qld-4560-2020797910|$590,000|
+Nambour|23 Esther Place|$570,000||||701m²|Vacant land|2020797898|/23-esther-place-nambour-qld-4560-2020797898|$570,000|
+Nambour|35-37 Arundell Avenue|$695,000||||810m²|Vacant land|2020099901|/35-37-arundell-avenue-nambour-qld-4560-2020099901|$695,000|
+Nambour|32 Rigby Street|Offers over $799,000 considered|3|1|4|782m²|House|2020765872|/32-rigby-street-nambour-qld-4560-2020765872|Offers over $799,000 considered|
+Nambour|unit 46/18 Doolan Street|$555,000|2|2|1||Apartment / Unit / Flat|2020667316|/unit-46-18-doolan-street-nambour-qld-4560-2020667316|$555,000|
+Nambour|*56 Price Street|Offers $650k||||1535m²|Vacant land|2020563997|/-56-price-street-nambour-qld-4560-2020563997|Offers $650k|
+Nambour|unit 54/18 Doolan Street|Best Buy $415,000|2|1|1|28327m²|Apartment / Unit / Flat|2020061916|/unit-54-18-doolan-street-nambour-qld-4560-2020061916|Best Buy $415,000|
+Nambour|unit 43/18 Doolan Street|Brand new $565,000|2|2|1||Apartment / Unit / Flat|2019989084|/unit-43-18-doolan-street-nambour-qld-4560-2019989084|Brand new $565,000|
+Nambour|28 NAMBOUR MAPLETON ROAD|$800,000||||731m²|Vacant land|2018773396|/28-nambour-mapleton-road-nambour-qld-4560-2018773396|$800,000|
+Nambour|56 Price Street|$550,000||||1535m²|Vacant land|2017819628|/56-price-street-nambour-qld-4560-2017819628|$550,000|
+Nambour|56 Price Street|Openn Offers||||1535m²|New land|2017443328|/56-price-street-nambour-qld-4560-2017443328|Openn Offers|
+Nambour|56 Price Street|$550,000||||1535m²|Vacant land|2017430296|/56-price-street-nambour-qld-4560-2017430296|$550,000|
+Nambour||From $555,000|2|1|1||Apartment / Unit / Flat|2017420148|/nambour-qld-4560-2017420148|From $555,000|
+Nambour|89 Blackall Terrace|Auction|6|1|8||House|2020790864|/89-blackall-terrace-nambour-qld-4560-2020790864|Auction|
+Bli Bli|50 Camelot Court|Contact Agent||||715m²|New land|2020487031|/50-camelot-court-bli-bli-qld-4560-2020487031|Contact Agent|
+Flaxton|25 Carrington Drive|$650,000||||1225m²|Vacant land|2020841745|/25-carrington-drive-flaxton-qld-4560-2020841745|$650,000|
+Narangba|56 Stunning Crescent|$575,000 to $625,000||||300m²|New land|2020843586|/56-stunning-crescent-narangba-qld-4504-2020843586|$575,000 to $625,000|
+Narangba|Lot 9195/56 Stunning Crescent|$575,000 to $625,000||||300m²|New land|2020843574|/lot-9195-56-stunning-crescent-narangba-qld-4504-2020843574|$575,000 to $625,000|
+Narangba|10 Coochin Avenue|For Sale|3|2|1|872m²|House|2020815722|/10-coochin-avenue-narangba-qld-4504-2020815722|For Sale|
+Narangba|86-90 Tibrogargan Drive|INVITING OFFERS|||||Vacant land|2020752065|/86-90-tibrogargan-drive-narangba-qld-4504-2020752065|INVITING OFFERS|
+Narangba|19 Possum Drive|Offers In Excess of $800,000||||810m²|Vacant land|2020600817|/19-possum-drive-narangba-qld-4504-2020600817|Offers In Excess of $800,000|
+Narangba|8 Imperial Crescent|Suit Buyers Above $729,000||||500m²|Vacant land|2020848330|/8-imperial-crescent-narangba-qld-4504-2020848330|Suit Buyers Above $729,000|
+Narangba||For Sale|3|2|1|178m²|Townhouse|2020832976|/narangba-qld-4504-2020832976|For Sale|
+Narangba|1 Bush Tucker Drive|763,700|4|2|2|287m²|House|2019910546|/1-bush-tucker-drive-narangba-qld-4504-2019910546|763,700|
+Narangba||Priced from $620000|3|2|1||Townhouse|2015633237|/narangba-qld-4504-2015633237|Priced from $620000|
+Norman Gardens|133 Springfield Drive|Offers Over $685,000 Considered|4|2|2|526m²|House|2020849671|/133-springfield-drive-norman-gardens-qld-4701-2020849671|Offers Over $685,000 Considered|
+Deception Bay|6 Awaba Court|PRICE REDUCED, ACT QUICK!|4|1|4|602m²|House|2020791339|/6-awaba-court-deception-bay-qld-4508-2020791339|PRICE REDUCED, ACT QUICK!|
+Ooralea|59 Peak Downs Highway|By Negotiation|4|2|2|880m²|House|2020841020|/59-peak-downs-highway-ooralea-qld-4740-2020841020|By Negotiation|
+Ooralea|18 Salisbury Place|By Negotiation|3|2|3|512m²|House|2020796709|/18-salisbury-place-ooralea-qld-4740-2020796709|By Negotiation|
+East Mackay|33 Shakespeare Street|Offers Over $639,000|4|2|2|418m²|House|2020645271|/33-shakespeare-street-east-mackay-qld-4740-2020645271|Offers Over $639,000|
+Oxley|72 Colwel Street|For Sale|4|1|2|1062m²|House|2020722979|/72-colwel-street-oxley-qld-4075-2020722979|For Sale|
+Oxley|41 Logan Avenue|Auction|3|1|2|602m²|House|2020848283|/41-logan-avenue-oxley-qld-4075-2020848283|Auction|
+Oxley|40 Oxley Station Road|BY NEGOTIATION||||405m²|Vacant land|2020835641|/40-oxley-station-road-oxley-qld-4075-2020835641|BY NEGOTIATION|
+Oxley|38 Oxley Station Road|BY NEGOTIATION||||405m²|Vacant land|2020835640|/38-oxley-station-road-oxley-qld-4075-2020835640|BY NEGOTIATION|
+Oxley||From $750,000|3|2|1||Townhouse|2015610126|/oxley-qld-4075-2015610126|From $750,000|
+Rocklea|15 Corella Street|Offers Over $799,000|3|1|2|607m²|House|2020854763|/15-corella-street-rocklea-qld-4106-2020854763|Offers Over $799,000|
+Richlands||for sale|3|2|1||Townhouse|2020832560|/richlands-qld-4077-2020832560|for sale|
+Richlands||for sale|3|2|1||Townhouse|2020810596|/richlands-qld-4077-2020810596|for sale|
