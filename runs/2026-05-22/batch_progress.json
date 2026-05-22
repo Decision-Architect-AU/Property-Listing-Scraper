@@ -1,0 +1,317 @@
+{
+  "completed": {
+    "beenleigh-qld-4207": {
+      "status": "done",
+      "scraped": 16,
+      "added": 16,
+      "ts": "2026-05-22 18:27:55.100840"
+    },
+    "woodridge-qld-4114": {
+      "status": "done",
+      "scraped": 7,
+      "added": 7,
+      "ts": "2026-05-22 18:28:03.032632"
+    },
+    "browns-plains-qld-4118": {
+      "status": "done",
+      "scraped": 16,
+      "added": 16,
+      "ts": "2026-05-22 18:28:11.717683"
+    },
+    "berrinba-qld-4117": {
+      "status": "done",
+      "scraped": 19,
+      "added": 19,
+      "ts": "2026-05-22 18:28:18.425080"
+    },
+    "crestmead-qld-4132": {
+      "status": "done",
+      "scraped": 23,
+      "added": 21,
+      "ts": "2026-05-22 18:28:25.808133"
+    },
+    "marsden-qld-4132": {
+      "status": "done",
+      "scraped": 14,
+      "added": 12,
+      "ts": "2026-05-22 18:28:33.723225"
+    },
+    "eagleby-qld-4207": {
+      "status": "done",
+      "scraped": 10,
+      "added": 10,
+      "ts": "2026-05-22 18:28:43.980289"
+    },
+    "bethania-qld-4205": {
+      "status": "done",
+      "scraped": 14,
+      "added": 13,
+      "ts": "2026-05-22 18:28:52.380419"
+    },
+    "slacks-creek-qld-4127": {
+      "status": "done",
+      "scraped": 16,
+      "added": 15,
+      "ts": "2026-05-22 18:29:01.928588"
+    },
+    "bahrs-scrub-qld-4207": {
+      "status": "done",
+      "scraped": 17,
+      "added": 17,
+      "ts": "2026-05-22 18:29:10.653188"
+    },
+    "ipswich-qld-4305": {
+      "status": "done",
+      "scraped": 18,
+      "added": 18,
+      "ts": "2026-05-22 18:29:18.222803"
+    },
+    "ripley-qld-4306": {
+      "status": "done",
+      "scraped": 19,
+      "added": 19,
+      "ts": "2026-05-22 18:29:25.213026"
+    },
+    "springfield-qld-4300": {
+      "status": "done",
+      "scraped": 14,
+      "added": 14,
+      "ts": "2026-05-22 18:29:32.375927"
+    },
+    "redbank-plains-qld-4301": {
+      "status": "done",
+      "scraped": 16,
+      "added": 16,
+      "ts": "2026-05-22 18:29:41.001890"
+    },
+    "bellbird-park-qld-4300": {
+      "status": "done",
+      "scraped": 17,
+      "added": 17,
+      "ts": "2026-05-22 18:29:47.181423"
+    },
+    "collingwood-park-qld-4301": {
+      "status": "done",
+      "scraped": 17,
+      "added": 17,
+      "ts": "2026-05-22 18:29:53.304859"
+    },
+    "augustine-heights-qld-4300": {
+      "status": "done",
+      "scraped": 18,
+      "added": 12,
+      "ts": "2026-05-22 18:30:02.005002"
+    },
+    "brassall-qld-4305": {
+      "status": "done",
+      "scraped": 13,
+      "added": 12,
+      "ts": "2026-05-22 18:30:11.529596"
+    },
+    "plainland-qld-4341": {
+      "status": "done",
+      "scraped": 12,
+      "added": 12,
+      "ts": "2026-05-22 18:30:20.369785"
+    },
+    "blackstone-qld-4304": {
+      "status": "done",
+      "scraped": 18,
+      "added": 14,
+      "ts": "2026-05-22 18:30:28.050586"
+    },
+    "caboolture-qld-4510": {
+      "status": "done",
+      "scraped": 15,
+      "added": 15,
+      "ts": "2026-05-22 18:30:36.970312"
+    },
+    "morayfield-qld-4506": {
+      "status": "done",
+      "scraped": 13,
+      "added": 13,
+      "ts": "2026-05-22 18:30:44.131458"
+    },
+    "north-lakes-qld-4509": {
+      "status": "done",
+      "scraped": 17,
+      "added": 17,
+      "ts": "2026-05-22 18:30:52.847877"
+    },
+    "narangba-qld-4504": {
+      "status": "done",
+      "scraped": 19,
+      "added": 18,
+      "ts": "2026-05-22 18:31:00.672456"
+    },
+    "petrie-qld-4502": {
+      "status": "done",
+      "scraped": 14,
+      "added": 14,
+      "ts": "2026-05-22 18:31:09.674066"
+    },
+    "bray-park-qld-4500": {
+      "status": "done",
+      "scraped": 18,
+      "added": 18,
+      "ts": "2026-05-22 18:31:17.995468"
+    },
+    "deception-bay-qld-4508": {
+      "status": "done",
+      "scraped": 15,
+      "added": 15,
+      "ts": "2026-05-22 18:31:27.211233"
+    },
+    "banksia-beach-qld-4507": {
+      "status": "done",
+      "scraped": 20,
+      "added": 20,
+      "ts": "2026-05-22 18:31:37.682249"
+    },
+    "beachmere-qld-4510": {
+      "status": "done",
+      "scraped": 15,
+      "added": 15,
+      "ts": "2026-05-22 18:31:44.409557"
+    },
+    "bellmere-qld-4510": {
+      "status": "done",
+      "scraped": 8,
+      "added": 8,
+      "ts": "2026-05-22 18:31:55.159566"
+    },
+    "acacia-ridge-qld-4110": {
+      "status": "done",
+      "scraped": 16,
+      "added": 16,
+      "ts": "2026-05-22 18:32:07.283538"
+    },
+    "archerfield-qld-4108": {
+      "status": "done",
+      "scraped": 17,
+      "added": 14,
+      "ts": "2026-05-22 18:32:20.183157"
+    },
+    "oxley-qld-4075": {
+      "status": "done",
+      "scraped": 14,
+      "added": 14,
+      "ts": "2026-05-22 18:32:29.369147"
+    },
+    "yeronga-qld-4104": {
+      "status": "done",
+      "scraped": 16,
+      "added": 16,
+      "ts": "2026-05-22 18:32:35.835161"
+    },
+    "wavell-heights-qld-4012": {
+      "status": "done",
+      "scraped": 14,
+      "added": 14,
+      "ts": "2026-05-22 18:32:41.971658"
+    },
+    "zillmere-qld-4034": {
+      "status": "done",
+      "scraped": 7,
+      "added": 7,
+      "ts": "2026-05-22 18:32:47.853427"
+    },
+    "nambour-qld-4560": {
+      "status": "done",
+      "scraped": 13,
+      "added": 13,
+      "ts": "2026-05-22 18:32:54.979795"
+    },
+    "bli-bli-qld-4560": {
+      "status": "done",
+      "scraped": 16,
+      "added": 16,
+      "ts": "2026-05-22 18:33:02.790700"
+    },
+    "toowoomba-qld-4350": {
+      "status": "done",
+      "scraped": 9,
+      "added": 9,
+      "ts": "2026-05-22 18:33:11.691309"
+    },
+    "harristown-qld-4350": {
+      "status": "done",
+      "scraped": 17,
+      "added": 0,
+      "ts": "2026-05-22 18:33:19.181900"
+    },
+    "townsville-qld-4810": {
+      "status": "done",
+      "scraped": 0,
+      "added": 0,
+      "ts": "2026-05-22 18:33:27.145703"
+    },
+    "bohle-plains-qld-4817": {
+      "status": "done",
+      "scraped": 19,
+      "added": 0,
+      "ts": "2026-05-22 18:33:35.410759"
+    },
+    "ooralea-qld-4740": {
+      "status": "done",
+      "scraped": 17,
+      "added": 0,
+      "ts": "2026-05-22 18:33:42.565688"
+    },
+    "andergrove-qld-4740": {
+      "status": "done",
+      "scraped": 16,
+      "added": 0,
+      "ts": "2026-05-22 18:33:51.165688"
+    },
+    "berserker-qld-4701": {
+      "status": "done",
+      "scraped": 18,
+      "added": 0,
+      "ts": "2026-05-22 18:33:56.756570"
+    },
+    "norman-gardens-qld-4701": {
+      "status": "done",
+      "scraped": 17,
+      "added": 0,
+      "ts": "2026-05-22 18:34:03.306026"
+    },
+    "park-avenue-qld-4701": {
+      "status": "done",
+      "scraped": 18,
+      "added": 0,
+      "ts": "2026-05-22 18:34:11.143991"
+    },
+    "allenstown-qld-4700": {
+      "status": "done",
+      "scraped": 15,
+      "added": 0,
+      "ts": "2026-05-22 18:34:18.096012"
+    },
+    "bargara-qld-4670": {
+      "status": "done",
+      "scraped": 19,
+      "added": 0,
+      "ts": "2026-05-22 18:34:26.036766"
+    },
+    "walkervale-qld-4670": {
+      "status": "done",
+      "scraped": 27,
+      "added": 0,
+      "ts": "2026-05-22 18:34:35.657829"
+    },
+    "avenell-heights-qld-4680": {
+      "status": "done",
+      "scraped": 0,
+      "added": 0,
+      "ts": "2026-05-22 18:34:42.714561"
+    },
+    "clinton-qld-4680": {
+      "status": "done",
+      "scraped": 19,
+      "added": 0,
+      "ts": "2026-05-22 18:34:49.197726"
+    }
+  },
+  "started": "2026-05-22 18:27:46.802637"
+}

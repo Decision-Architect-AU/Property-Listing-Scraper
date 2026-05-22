@@ -1,0 +1,376 @@
+[2026-05-22 18:27:46] [INFO] Run folder: C:\Users\Administrator\Documents\Claude\Projects\Property Listing Scraper\runs\2026-05-22
+[2026-05-22 18:27:46] [INFO] ============================================================
+[2026-05-22 18:27:46] [INFO] Batch scrape — 52 suburbs  max-pages=3  max-price=$2,000,000
+[2026-05-22 18:27:46] [INFO] Already completed: 0  Refresh: False
+[2026-05-22 18:27:46] [INFO] ============================================================
+[2026-05-22 18:27:53] [INFO] [1/52] Scraping: beenleigh-qld-4207
+[2026-05-22 18:27:55] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:27:55] [INFO]   Scraped 16 listings
+[2026-05-22 18:27:55] [INFO]   New: 16  Total in file: 16
+[2026-05-22 18:28:01] [INFO] [2/52] Scraping: woodridge-qld-4114
+[2026-05-22 18:28:03] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:28:03] [INFO]   Scraped 7 listings
+[2026-05-22 18:28:03] [INFO]   New: 7  Total in file: 23
+[2026-05-22 18:28:10] [INFO] [3/52] Scraping: browns-plains-qld-4118
+[2026-05-22 18:28:11] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:28:11] [INFO]   Scraped 16 listings
+[2026-05-22 18:28:11] [INFO]   New: 16  Total in file: 39
+[2026-05-22 18:28:17] [INFO] [4/52] Scraping: berrinba-qld-4117
+[2026-05-22 18:28:18] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:28:18] [INFO]   Scraped 19 listings
+[2026-05-22 18:28:18] [INFO]   New: 19  Total in file: 58
+[2026-05-22 18:28:24] [INFO] [5/52] Scraping: crestmead-qld-4132
+[2026-05-22 18:28:25] [INFO]   23 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:28:25] [INFO]   Scraped 23 listings
+[2026-05-22 18:28:25] [INFO]   New: 21  Total in file: 79
+[2026-05-22 18:28:32] [INFO] [6/52] Scraping: marsden-qld-4132
+[2026-05-22 18:28:33] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:28:33] [INFO]   Scraped 14 listings
+[2026-05-22 18:28:33] [INFO]   New: 12  Total in file: 91
+[2026-05-22 18:28:40] [INFO] [7/52] Scraping: eagleby-qld-4207
+[2026-05-22 18:28:43] [INFO]   21 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:28:43] [INFO]   Scraped 10 listings
+[2026-05-22 18:28:43] [INFO]   New: 10  Total in file: 101
+[2026-05-22 18:28:50] [INFO] [8/52] Scraping: bethania-qld-4205
+[2026-05-22 18:28:52] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:28:52] [INFO]   Scraped 14 listings
+[2026-05-22 18:28:52] [INFO]   New: 13  Total in file: 114
+[2026-05-22 18:28:59] [INFO] [9/52] Scraping: slacks-creek-qld-4127
+[2026-05-22 18:29:01] [INFO] Run folder: C:\Users\Administrator\Documents\Claude\Projects\Property Listing Scraper\runs\2026-05-22
+[2026-05-22 18:29:01] [INFO] ============================================================
+[2026-05-22 18:29:01] [INFO] Batch scrape — 52 suburbs  max-pages=3  max-price=$2,000,000
+[2026-05-22 18:29:01] [INFO] Already completed: 8  Refresh: False
+[2026-05-22 18:29:01] [INFO] ============================================================
+[2026-05-22 18:29:01] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:29:01] [INFO]   Scraped 16 listings
+[2026-05-22 18:29:01] [INFO]   New: 15  Total in file: 129
+[2026-05-22 18:29:06] [INFO] [1/52] SKIP beenleigh-qld-4207
+[2026-05-22 18:29:06] [INFO] [2/52] SKIP woodridge-qld-4114
+[2026-05-22 18:29:06] [INFO] [3/52] SKIP browns-plains-qld-4118
+[2026-05-22 18:29:06] [INFO] [4/52] SKIP berrinba-qld-4117
+[2026-05-22 18:29:06] [INFO] [5/52] SKIP crestmead-qld-4132
+[2026-05-22 18:29:06] [INFO] [6/52] SKIP marsden-qld-4132
+[2026-05-22 18:29:06] [INFO] [7/52] SKIP eagleby-qld-4207
+[2026-05-22 18:29:06] [INFO] [8/52] SKIP bethania-qld-4205
+[2026-05-22 18:29:06] [INFO] [9/52] Scraping: slacks-creek-qld-4127
+[2026-05-22 18:29:09] [INFO] [10/52] Scraping: bahrs-scrub-qld-4207
+[2026-05-22 18:29:10] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:29:10] [INFO]   Scraped 16 listings
+[2026-05-22 18:29:10] [INFO]   New: 0  Total in file: 129
+[2026-05-22 18:29:10] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:29:10] [INFO]   Scraped 17 listings
+[2026-05-22 18:29:10] [INFO]   New: 17  Total in file: 146
+[2026-05-22 18:29:16] [INFO] [10/52] Scraping: bahrs-scrub-qld-4207
+[2026-05-22 18:29:17] [INFO] [11/52] Scraping: ipswich-qld-4305
+[2026-05-22 18:29:17] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:29:17] [INFO]   Scraped 17 listings
+[2026-05-22 18:29:17] [INFO]   New: 0  Total in file: 146
+[2026-05-22 18:29:18] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:29:18] [INFO]   Scraped 18 listings
+[2026-05-22 18:29:18] [INFO]   New: 18  Total in file: 164
+[2026-05-22 18:29:23] [INFO] [11/52] Scraping: ipswich-qld-4305
+[2026-05-22 18:29:23] [INFO] [12/52] Scraping: ripley-qld-4306
+[2026-05-22 18:29:24] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:29:24] [INFO]   Scraped 18 listings
+[2026-05-22 18:29:24] [INFO]   New: 0  Total in file: 164
+[2026-05-22 18:29:25] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:29:25] [INFO]   Scraped 19 listings
+[2026-05-22 18:29:25] [INFO]   New: 19  Total in file: 183
+[2026-05-22 18:29:31] [INFO] [12/52] Scraping: ripley-qld-4306
+[2026-05-22 18:29:31] [INFO] [13/52] Scraping: springfield-qld-4300
+[2026-05-22 18:29:32] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:29:32] [INFO]   Scraped 14 listings
+[2026-05-22 18:29:32] [INFO]   New: 14  Total in file: 197
+[2026-05-22 18:29:32] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:29:32] [INFO]   Scraped 19 listings
+[2026-05-22 18:29:32] [INFO]   New: 0  Total in file: 197
+[2026-05-22 18:29:37] [INFO] [13/52] Scraping: springfield-qld-4300
+[2026-05-22 18:29:38] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:29:38] [INFO]   Scraped 14 listings
+[2026-05-22 18:29:38] [INFO]   New: 0  Total in file: 197
+[2026-05-22 18:29:40] [INFO] [14/52] Scraping: redbank-plains-qld-4301
+[2026-05-22 18:29:40] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:29:40] [INFO]   Scraped 16 listings
+[2026-05-22 18:29:41] [INFO]   New: 16  Total in file: 213
+[2026-05-22 18:29:44] [INFO] [14/52] Scraping: redbank-plains-qld-4301
+[2026-05-22 18:29:45] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:29:45] [INFO]   Scraped 16 listings
+[2026-05-22 18:29:45] [INFO]   New: 0  Total in file: 213
+[2026-05-22 18:29:46] [INFO] [15/52] Scraping: bellbird-park-qld-4300
+[2026-05-22 18:29:47] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:29:47] [INFO]   Scraped 17 listings
+[2026-05-22 18:29:47] [INFO]   New: 17  Total in file: 230
+[2026-05-22 18:29:52] [INFO] [15/52] Scraping: bellbird-park-qld-4300
+[2026-05-22 18:29:52] [INFO] [16/52] Scraping: collingwood-park-qld-4301
+[2026-05-22 18:29:53] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:29:53] [INFO]   Scraped 17 listings
+[2026-05-22 18:29:53] [INFO]   New: 0  Total in file: 230
+[2026-05-22 18:29:53] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:29:53] [INFO]   Scraped 17 listings
+[2026-05-22 18:29:53] [INFO]   New: 17  Total in file: 247
+[2026-05-22 18:29:59] [INFO] [16/52] Scraping: collingwood-park-qld-4301
+[2026-05-22 18:30:00] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:30:00] [INFO]   Scraped 17 listings
+[2026-05-22 18:30:00] [INFO]   New: 0  Total in file: 247
+[2026-05-22 18:30:01] [INFO] [17/52] Scraping: augustine-heights-qld-4300
+[2026-05-22 18:30:01] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:30:01] [INFO]   Scraped 18 listings
+[2026-05-22 18:30:02] [INFO]   New: 12  Total in file: 259
+[2026-05-22 18:30:08] [INFO] [17/52] Scraping: augustine-heights-qld-4300
+[2026-05-22 18:30:09] [INFO] [18/52] Scraping: brassall-qld-4305
+[2026-05-22 18:30:10] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:30:10] [INFO]   Scraped 18 listings
+[2026-05-22 18:30:10] [INFO]   New: 0  Total in file: 259
+[2026-05-22 18:30:11] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:30:11] [INFO]   Scraped 13 listings
+[2026-05-22 18:30:11] [INFO]   New: 12  Total in file: 271
+[2026-05-22 18:30:17] [INFO] [18/52] Scraping: brassall-qld-4305
+[2026-05-22 18:30:18] [INFO] [19/52] Scraping: plainland-qld-4341
+[2026-05-22 18:30:19] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:30:19] [INFO]   Scraped 13 listings
+[2026-05-22 18:30:19] [INFO]   New: 0  Total in file: 271
+[2026-05-22 18:30:20] [INFO]   24 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:30:20] [INFO]   Scraped 12 listings
+[2026-05-22 18:30:20] [INFO]   New: 12  Total in file: 283
+[2026-05-22 18:30:26] [INFO] [20/52] Scraping: blackstone-qld-4304
+[2026-05-22 18:30:28] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:30:28] [INFO]   Scraped 18 listings
+[2026-05-22 18:30:28] [INFO]   New: 14  Total in file: 297
+[2026-05-22 18:30:34] [INFO] [21/52] Scraping: caboolture-qld-4510
+[2026-05-22 18:30:36] [INFO]   24 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:30:36] [INFO]   Scraped 15 listings
+[2026-05-22 18:30:36] [INFO]   New: 15  Total in file: 312
+[2026-05-22 18:30:43] [INFO] [22/52] Scraping: morayfield-qld-4506
+[2026-05-22 18:30:44] [INFO]   23 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:30:44] [INFO]   Scraped 13 listings
+[2026-05-22 18:30:44] [INFO]   New: 13  Total in file: 325
+[2026-05-22 18:30:50] [INFO] [23/52] Scraping: north-lakes-qld-4509
+[2026-05-22 18:30:52] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:30:52] [INFO]   Scraped 17 listings
+[2026-05-22 18:30:52] [INFO]   New: 17  Total in file: 342
+[2026-05-22 18:30:59] [INFO] [24/52] Scraping: narangba-qld-4504
+[2026-05-22 18:31:00] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:31:00] [INFO]   Scraped 19 listings
+[2026-05-22 18:31:00] [INFO]   New: 18  Total in file: 360
+[2026-05-22 18:31:06] [INFO] [25/52] Scraping: petrie-qld-4502
+[2026-05-22 18:31:09] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:31:09] [INFO]   Scraped 14 listings
+[2026-05-22 18:31:09] [INFO]   New: 14  Total in file: 374
+[2026-05-22 18:31:17] [INFO] [26/52] Scraping: bray-park-qld-4500
+[2026-05-22 18:31:17] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:31:17] [INFO]   Scraped 18 listings
+[2026-05-22 18:31:17] [INFO]   New: 18  Total in file: 392
+[2026-05-22 18:31:23] [INFO] [27/52] Scraping: deception-bay-qld-4508
+[2026-05-22 18:31:27] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:31:27] [INFO]   Scraped 15 listings
+[2026-05-22 18:31:27] [INFO]   New: 15  Total in file: 407
+[2026-05-22 18:31:34] [INFO] [28/52] Scraping: banksia-beach-qld-4507
+[2026-05-22 18:31:37] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:31:37] [INFO]   Scraped 20 listings
+[2026-05-22 18:31:37] [INFO]   New: 20  Total in file: 427
+[2026-05-22 18:31:43] [INFO] [29/52] Scraping: beachmere-qld-4510
+[2026-05-22 18:31:44] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:31:44] [INFO]   Scraped 15 listings
+[2026-05-22 18:31:44] [INFO]   New: 15  Total in file: 442
+[2026-05-22 18:31:52] [INFO] [30/52] Scraping: bellmere-qld-4510
+[2026-05-22 18:31:55] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:31:55] [INFO]   Scraped 8 listings
+[2026-05-22 18:31:55] [INFO]   New: 8  Total in file: 450
+[2026-05-22 18:32:02] [INFO] [31/52] Scraping: acacia-ridge-qld-4110
+[2026-05-22 18:32:07] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:32:07] [INFO]   Scraped 16 listings
+[2026-05-22 18:32:07] [INFO]   New: 16  Total in file: 466
+[2026-05-22 18:32:14] [INFO] [32/52] Scraping: archerfield-qld-4108
+[2026-05-22 18:32:20] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:32:20] [INFO]   Scraped 17 listings
+[2026-05-22 18:32:20] [INFO]   New: 14  Total in file: 480
+[2026-05-22 18:32:25] [INFO] [33/52] Scraping: oxley-qld-4075
+[2026-05-22 18:32:29] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:32:29] [INFO]   Scraped 14 listings
+[2026-05-22 18:32:29] [INFO]   New: 14  Total in file: 494
+[2026-05-22 18:32:35] [INFO] [34/52] Scraping: yeronga-qld-4104
+[2026-05-22 18:32:35] [INFO]   24 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:32:35] [INFO]   Scraped 16 listings
+[2026-05-22 18:32:35] [INFO]   New: 16  Total in file: 510
+[2026-05-22 18:32:41] [INFO] [35/52] Scraping: wavell-heights-qld-4012
+[2026-05-22 18:32:41] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:32:41] [INFO]   Scraped 14 listings
+[2026-05-22 18:32:41] [INFO]   New: 14  Total in file: 524
+[2026-05-22 18:32:47] [INFO] [36/52] Scraping: zillmere-qld-4034
+[2026-05-22 18:32:47] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:32:47] [INFO]   Scraped 7 listings
+[2026-05-22 18:32:47] [INFO]   New: 7  Total in file: 531
+[2026-05-22 18:32:54] [INFO] [37/52] Scraping: nambour-qld-4560
+[2026-05-22 18:32:54] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:32:54] [INFO]   Scraped 13 listings
+[2026-05-22 18:32:54] [INFO]   New: 13  Total in file: 544
+[2026-05-22 18:33:02] [INFO] [38/52] Scraping: bli-bli-qld-4560
+[2026-05-22 18:33:02] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:33:02] [INFO]   Scraped 16 listings
+[2026-05-22 18:33:02] [INFO]   New: 16  Total in file: 560
+[2026-05-22 18:33:10] [INFO] [39/52] Scraping: toowoomba-qld-4350
+[2026-05-22 18:33:11] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:33:11] [INFO]   Scraped 9 listings
+[2026-05-22 18:33:11] [INFO]   New: 9  Total in file: 569
+[2026-05-22 18:33:13] [INFO] Run folder: C:\Users\Administrator\Documents\Claude\Projects\Property Listing Scraper\runs\2026-05-22
+[2026-05-22 18:33:13] [INFO] ============================================================
+[2026-05-22 18:33:13] [INFO] Batch scrape — 52 suburbs  max-pages=3  max-price=$2,000,000
+[2026-05-22 18:33:13] [INFO] Already completed: 39  Refresh: False
+[2026-05-22 18:33:13] [INFO] ============================================================
+[2026-05-22 18:33:17] [INFO] [1/52] SKIP beenleigh-qld-4207
+[2026-05-22 18:33:17] [INFO] [2/52] SKIP woodridge-qld-4114
+[2026-05-22 18:33:17] [INFO] [3/52] SKIP browns-plains-qld-4118
+[2026-05-22 18:33:17] [INFO] [4/52] SKIP berrinba-qld-4117
+[2026-05-22 18:33:17] [INFO] [5/52] SKIP crestmead-qld-4132
+[2026-05-22 18:33:17] [INFO] [6/52] SKIP marsden-qld-4132
+[2026-05-22 18:33:17] [INFO] [7/52] SKIP eagleby-qld-4207
+[2026-05-22 18:33:17] [INFO] [8/52] SKIP bethania-qld-4205
+[2026-05-22 18:33:17] [INFO] [9/52] SKIP slacks-creek-qld-4127
+[2026-05-22 18:33:17] [INFO] [10/52] SKIP bahrs-scrub-qld-4207
+[2026-05-22 18:33:17] [INFO] [11/52] SKIP ipswich-qld-4305
+[2026-05-22 18:33:17] [INFO] [12/52] SKIP ripley-qld-4306
+[2026-05-22 18:33:17] [INFO] [13/52] SKIP springfield-qld-4300
+[2026-05-22 18:33:17] [INFO] [14/52] SKIP redbank-plains-qld-4301
+[2026-05-22 18:33:17] [INFO] [15/52] SKIP bellbird-park-qld-4300
+[2026-05-22 18:33:17] [INFO] [16/52] SKIP collingwood-park-qld-4301
+[2026-05-22 18:33:17] [INFO] [17/52] SKIP augustine-heights-qld-4300
+[2026-05-22 18:33:17] [INFO] [18/52] SKIP brassall-qld-4305
+[2026-05-22 18:33:17] [INFO] [19/52] SKIP plainland-qld-4341
+[2026-05-22 18:33:17] [INFO] [20/52] SKIP blackstone-qld-4304
+[2026-05-22 18:33:17] [INFO] [21/52] SKIP caboolture-qld-4510
+[2026-05-22 18:33:17] [INFO] [22/52] SKIP morayfield-qld-4506
+[2026-05-22 18:33:17] [INFO] [23/52] SKIP north-lakes-qld-4509
+[2026-05-22 18:33:17] [INFO] [24/52] SKIP narangba-qld-4504
+[2026-05-22 18:33:17] [INFO] [25/52] SKIP petrie-qld-4502
+[2026-05-22 18:33:17] [INFO] [26/52] SKIP bray-park-qld-4500
+[2026-05-22 18:33:17] [INFO] [27/52] SKIP deception-bay-qld-4508
+[2026-05-22 18:33:17] [INFO] [28/52] SKIP banksia-beach-qld-4507
+[2026-05-22 18:33:17] [INFO] [29/52] SKIP beachmere-qld-4510
+[2026-05-22 18:33:17] [INFO] [30/52] SKIP bellmere-qld-4510
+[2026-05-22 18:33:17] [INFO] [31/52] SKIP acacia-ridge-qld-4110
+[2026-05-22 18:33:17] [INFO] [32/52] SKIP archerfield-qld-4108
+[2026-05-22 18:33:17] [INFO] [33/52] SKIP oxley-qld-4075
+[2026-05-22 18:33:17] [INFO] [34/52] SKIP yeronga-qld-4104
+[2026-05-22 18:33:17] [INFO] [35/52] SKIP wavell-heights-qld-4012
+[2026-05-22 18:33:17] [INFO] [36/52] SKIP zillmere-qld-4034
+[2026-05-22 18:33:17] [INFO] [37/52] SKIP nambour-qld-4560
+[2026-05-22 18:33:17] [INFO] [38/52] SKIP bli-bli-qld-4560
+[2026-05-22 18:33:17] [INFO] [39/52] SKIP toowoomba-qld-4350
+[2026-05-22 18:33:17] [INFO] [40/52] Scraping: harristown-qld-4350
+[2026-05-22 18:33:18] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:33:18] [INFO]   Scraped 17 listings
+[2026-05-22 18:33:18] [INFO]   New: 16  Total in file: 585
+[2026-05-22 18:33:18] [INFO] [40/52] Scraping: harristown-qld-4350
+[2026-05-22 18:33:19] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:33:19] [INFO]   Scraped 17 listings
+[2026-05-22 18:33:19] [INFO]   New: 0  Total in file: 585
+[2026-05-22 18:33:24] [INFO] [41/52] Scraping: townsville-qld-4810
+[2026-05-22 18:33:25] [INFO]   0 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:33:25] [INFO]   Scraped 0 listings
+[2026-05-22 18:33:25] [INFO]   New: 0  Total in file: 585
+[2026-05-22 18:33:26] [INFO] [41/52] Scraping: townsville-qld-4810
+[2026-05-22 18:33:27] [INFO]   0 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:33:27] [INFO]   Scraped 0 listings
+[2026-05-22 18:33:27] [INFO]   New: 0  Total in file: 585
+[2026-05-22 18:33:32] [INFO] [42/52] Scraping: bohle-plains-qld-4817
+[2026-05-22 18:33:32] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:33:32] [INFO]   Scraped 19 listings
+[2026-05-22 18:33:32] [INFO]   New: 18  Total in file: 603
+[2026-05-22 18:33:34] [INFO] [42/52] Scraping: bohle-plains-qld-4817
+[2026-05-22 18:33:35] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:33:35] [INFO]   Scraped 19 listings
+[2026-05-22 18:33:35] [INFO]   New: 0  Total in file: 603
+[2026-05-22 18:33:38] [INFO] [43/52] Scraping: ooralea-qld-4740
+[2026-05-22 18:33:38] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:33:38] [INFO]   Scraped 17 listings
+[2026-05-22 18:33:38] [INFO]   New: 17  Total in file: 620
+[2026-05-22 18:33:41] [INFO] [43/52] Scraping: ooralea-qld-4740
+[2026-05-22 18:33:42] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:33:42] [INFO]   Scraped 17 listings
+[2026-05-22 18:33:42] [INFO]   New: 0  Total in file: 620
+[2026-05-22 18:33:44] [INFO] [44/52] Scraping: andergrove-qld-4740
+[2026-05-22 18:33:45] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:33:45] [INFO]   Scraped 16 listings
+[2026-05-22 18:33:45] [INFO]   New: 16  Total in file: 636
+[2026-05-22 18:33:49] [INFO] [44/52] Scraping: andergrove-qld-4740
+[2026-05-22 18:33:51] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:33:51] [INFO]   Scraped 16 listings
+[2026-05-22 18:33:51] [INFO]   New: 0  Total in file: 636
+[2026-05-22 18:33:52] [INFO] [45/52] Scraping: berserker-qld-4701
+[2026-05-22 18:33:53] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:33:53] [INFO]   Scraped 18 listings
+[2026-05-22 18:33:53] [INFO]   New: 18  Total in file: 654
+[2026-05-22 18:33:56] [INFO] [45/52] Scraping: berserker-qld-4701
+[2026-05-22 18:33:56] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:33:56] [INFO]   Scraped 18 listings
+[2026-05-22 18:33:56] [INFO]   New: 0  Total in file: 654
+[2026-05-22 18:34:00] [INFO] [46/52] Scraping: norman-gardens-qld-4701
+[2026-05-22 18:34:00] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:34:00] [INFO]   Scraped 17 listings
+[2026-05-22 18:34:00] [INFO]   New: 17  Total in file: 671
+[2026-05-22 18:34:02] [INFO] [46/52] Scraping: norman-gardens-qld-4701
+[2026-05-22 18:34:03] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:34:03] [INFO]   Scraped 17 listings
+[2026-05-22 18:34:03] [INFO]   New: 0  Total in file: 671
+[2026-05-22 18:34:07] [INFO] [47/52] Scraping: park-avenue-qld-4701
+[2026-05-22 18:34:08] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:34:08] [INFO]   Scraped 18 listings
+[2026-05-22 18:34:09] [INFO]   New: 17  Total in file: 688
+[2026-05-22 18:34:09] [INFO] [47/52] Scraping: park-avenue-qld-4701
+[2026-05-22 18:34:11] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:34:11] [INFO]   Scraped 18 listings
+[2026-05-22 18:34:11] [INFO]   New: 0  Total in file: 688
+[2026-05-22 18:34:16] [INFO] [48/52] Scraping: allenstown-qld-4700
+[2026-05-22 18:34:16] [INFO] [48/52] Scraping: allenstown-qld-4700
+[2026-05-22 18:34:17] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:34:17] [INFO]   Scraped 15 listings
+[2026-05-22 18:34:17] [INFO]   New: 14  Total in file: 702
+[2026-05-22 18:34:18] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:34:18] [INFO]   Scraped 15 listings
+[2026-05-22 18:34:18] [INFO]   New: 0  Total in file: 702
+[2026-05-22 18:34:23] [INFO] [49/52] Scraping: bargara-qld-4670
+[2026-05-22 18:34:24] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:34:24] [INFO]   Scraped 19 listings
+[2026-05-22 18:34:24] [INFO]   New: 19  Total in file: 721
+[2026-05-22 18:34:24] [INFO] [49/52] Scraping: bargara-qld-4670
+[2026-05-22 18:34:26] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:34:26] [INFO]   Scraped 19 listings
+[2026-05-22 18:34:26] [INFO]   New: 0  Total in file: 721
+[2026-05-22 18:34:31] [INFO] [50/52] Scraping: walkervale-qld-4670
+[2026-05-22 18:34:31] [INFO] [50/52] Scraping: walkervale-qld-4670
+[2026-05-22 18:34:33] [INFO]   28 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:34:33] [INFO]   Scraped 27 listings
+[2026-05-22 18:34:33] [INFO]   New: 25  Total in file: 746
+[2026-05-22 18:34:35] [INFO]   28 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:34:35] [INFO]   Scraped 27 listings
+[2026-05-22 18:34:35] [INFO]   New: 0  Total in file: 746
+[2026-05-22 18:34:39] [INFO] [51/52] Scraping: avenell-heights-qld-4680
+[2026-05-22 18:34:39] [INFO]   0 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:34:39] [INFO]   Scraped 0 listings
+[2026-05-22 18:34:39] [INFO]   New: 0  Total in file: 746
+[2026-05-22 18:34:42] [INFO] [51/52] Scraping: avenell-heights-qld-4680
+[2026-05-22 18:34:42] [INFO]   0 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:34:42] [INFO]   Scraped 0 listings
+[2026-05-22 18:34:42] [INFO]   New: 0  Total in file: 746
+[2026-05-22 18:34:47] [INFO] [52/52] Scraping: clinton-qld-4680
+[2026-05-22 18:34:47] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:34:47] [INFO]   Scraped 19 listings
+[2026-05-22 18:34:47] [INFO]   New: 19  Total in file: 765
+[2026-05-22 18:34:47] [INFO] 
+Scraping complete — 196 new listings added
+[2026-05-22 18:34:47] [INFO] raw_listings.json saved (765 rows)
+[2026-05-22 18:34:47] [INFO] 
+Fetching listing descriptions…
+[2026-05-22 18:34:47] [INFO]   Median price: $879,000
+[2026-05-22 18:34:47] [INFO]   Descriptions needed: 755  skipped (boring): 9
+[2026-05-22 18:34:48] [INFO] [52/52] Scraping: clinton-qld-4680
+[2026-05-22 18:34:49] [INFO]   20 total listings across 1 pages — fetching up to 1
+[2026-05-22 18:34:49] [INFO]   Scraped 19 listings
+[2026-05-22 18:34:49] [INFO]   New: 0  Total in file: 765
+[2026-05-22 18:34:49] [INFO] 
+Scraping complete — 569 new listings added
+[2026-05-22 18:34:49] [INFO] raw_listings.json saved (765 rows)
+[2026-05-22 18:34:49] [INFO] 
+Fetching listing descriptions…
+[2026-05-22 18:34:49] [INFO]   Median price: $879,000
+[2026-05-22 18:34:49] [INFO]   Descriptions needed: 755  skipped (boring): 9

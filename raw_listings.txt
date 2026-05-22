@@ -1510,13 +1510,6 @@ Underwood||$725,000- $785,000|3|2|1||Apartment / Unit / Flat|2017417900|/underwo
 Annerley|ID:21171527/45 Juliette Street|Offers over $700 k|2|1|2||Apartment / Unit / Flat|2020680998|/id-21171527-45-juliette-street-annerley-qld-4103-2020680998|Offers over $700 k|
 Fairfield||Contact for Price|2|1|1|607m²|Apartment / Unit / Flat|2019664802|/fairfield-qld-4103-2019664802|Contact for Price|
 Fitzgibbon|111 Macquarie Circuit|INVITING ALL OFFERS|3|2||118m²|Townhouse|2020833856|/111-macquarie-circuit-fitzgibbon-qld-4018-2020833856|INVITING ALL OFFERS|
-Beenleigh|14 Narraport Crescent|Auction|3|1|1|648m²|House|2020802368|/14-narraport-crescent-beenleigh-qld-4207-2020802368|Auction|
-Beenleigh|18 Amy Drive|Offers Over $799,000|3|1|1|718m²|House|2020754687|/18-amy-drive-beenleigh-qld-4207-2020754687|Offers Over $799,000|
-Beenleigh|3 Kokoda Street|Contact Agent|3|1|2|1619m²|House|2020716140|/3-kokoda-street-beenleigh-qld-4207-2020716140|Contact Agent|
-Beenleigh|2 Viewbank Court|Auction|3|1|2|656m²|House|2020844787|/2-viewbank-court-beenleigh-qld-4207-2020844787|Auction|
-Beenleigh|1-3 Killinure Street|Available Now!!||||1137m²|Vacant land|2018590241|/1-3-killinure-street-beenleigh-qld-4207-2018590241|Available Now!!|
-Beenleigh|5 Benjul Drive|Offers over $800,000 to be considered|3|1|1|600m²|House|2020801140|/5-benjul-drive-beenleigh-qld-4207-2020801140|Offers over $800,000 to be considered|
-Beenleigh|26 - 30 City Rd|Offers over $635,000|2|2|2||Apartment / Unit / Flat|2016712115|/26-30-city-rd-beenleigh-qld-4207-2016712115|Offers over $635,000|
 Yarrabilba|63 WELFORD CIRCUIT|Selling Now|4|2|2|320m²|House|2020848427|/63-welford-circuit-yarrabilba-qld-4207-2020848427|Selling Now|
 Yarrabilba|4 Daniels Lane|For Sale Now|4|3|2|225m²|House|2020845426|/4-daniels-lane-yarrabilba-qld-4207-2020845426|For Sale Now|
 Yarrabilba|5 Danbulla Street|FOR SALE|4|2|2|350m²|House|2020711575|/5-danbulla-street-yarrabilba-qld-4207-2020711575|FOR SALE|
@@ -1963,3 +1956,82 @@ Oxley||From $750,000|3|2|1||Townhouse|2015610126|/oxley-qld-4075-2015610126|From
 Rocklea|15 Corella Street|Offers Over $799,000|3|1|2|607m²|House|2020854763|/15-corella-street-rocklea-qld-4106-2020854763|Offers Over $799,000|
 Richlands||for sale|3|2|1||Townhouse|2020832560|/richlands-qld-4077-2020832560|for sale|
 Richlands||for sale|3|2|1||Townhouse|2020810596|/richlands-qld-4077-2020810596|for sale|
+Beenleigh|19 Sunnyview Street|$845,000 - $895,000|3|1|2|607m²|House|2020857307|/19-sunnyview-street-beenleigh-qld-4207-2020857307|$845,000 - $895,000|
+Beenleigh|4 Meadow Crescent|Offers Over $849,000|3|1|1|728m²|House|2020841913|/4-meadow-crescent-beenleigh-qld-4207-2020841913|Offers Over $849,000|
+Beenleigh|19 Oddie Road|Present all offers|5|3|2|702m²|House|2020730275|/19-oddie-road-beenleigh-qld-4207-2020730275|Present all offers|
+Beenleigh|26 Nicolis Court|$869,000 + OFFERS|4|2|1|452m²|House|2020823200|/26-nicolis-court-beenleigh-qld-4207-2020823200|$869,000 + OFFERS|
+Beenleigh|16 Willand Drive|Rare Opportunity- Move in Ready!|3|1|4|873m²|House|2020817636|/16-willand-drive-beenleigh-qld-4207-2020817636|Rare Opportunity- Move in Ready!|
+Beenleigh|23 Viewbank Court|Offers Over 949,000|4|1|7|661m²|House|2020772187|/23-viewbank-court-beenleigh-qld-4207-2020772187|Offers Over 949,000|
+Beenleigh|89 Lehmans Road|$999,000 - $1,099,000|5|2|2|771m²|House|2020742629|/89-lehmans-road-beenleigh-qld-4207-2020742629|$999,000 - $1,099,000|
+Beenleigh|52 Lincoln Street|Offers Over $900,000|3|1|1|607m²|House|2020832100|/52-lincoln-street-beenleigh-qld-4207-2020832100|Offers Over $900,000|
+Beenleigh|4 Mahogany Court|Contact Paul|3|2|2|1000m²|House|2020816364|/4-mahogany-court-beenleigh-qld-4207-2020816364|Contact Paul|
+Beenleigh|14 Narraport Crescent|Auction|3|1|1|648m²|House|2020802368|/14-narraport-crescent-beenleigh-qld-4207-2020802368|Auction|
+Beenleigh|18 Amy Drive|Offers Over $799,000|3|1|1|718m²|House|2020754687|/18-amy-drive-beenleigh-qld-4207-2020754687|Offers Over $799,000|
+Beenleigh|3 Kokoda Street|Contact Agent|3|1|2|1619m²|House|2020716140|/3-kokoda-street-beenleigh-qld-4207-2020716140|Contact Agent|
+Beenleigh|11 Sinclair Place|SUBMIT ALL OFFERS!|3|1|2|948m²|House|2020850487|/11-sinclair-place-beenleigh-qld-4207-2020850487|SUBMIT ALL OFFERS!|
+Beenleigh|2 Viewbank Court|Auction|3|1|2|656m²|House|2020844787|/2-viewbank-court-beenleigh-qld-4207-2020844787|Auction|
+Beenleigh|72 spanns road|For Sale|4|2|4|1687m²|House|2020828344|/72-spanns-road-beenleigh-qld-4207-2020828344|For Sale|
+Beenleigh|5 Crest Street|All Serious Offers Considered!|3|2|3|1034m²|House|2020801052|/5-crest-street-beenleigh-qld-4207-2020801052|All Serious Offers Considered!|
+Beenleigh|6 Quarrian Crescent|Offers Over $849,000|4|1|3|627m²|House|2020799339|/6-quarrian-crescent-beenleigh-qld-4207-2020799339|Offers Over $849,000|
+Beenleigh|12 Cleves Street|Your Dream Home - Ready to Move !|3|2|3|809m²|House|2020763949|/12-cleves-street-beenleigh-qld-4207-2020763949|Your Dream Home - Ready to Move !|
+Beenleigh|25 Beverley Street|All offers presented|3|1|2|1066m²|House|2020746828|/25-beverley-street-beenleigh-qld-4207-2020746828|All offers presented|
+Beenleigh|Lot 2 Pacific Highway|Expressions Of Interest!||||2909m²|Vacant land|2020445606|/lot-2-pacific-highway-beenleigh-qld-4207-2020445606|Expressions Of Interest!|
+Beenleigh|75 Pheasant Avenue|FOR SALE|4|2|4|3756m²|House|2019030028|/75-pheasant-avenue-beenleigh-qld-4207-2019030028|FOR SALE|
+Beenleigh|1-3 Killinure Street|Available Now!!||||1137m²|Vacant land|2018590241|/1-3-killinure-street-beenleigh-qld-4207-2018590241|Available Now!!|
+Beenleigh|5 Benjul Drive|Offers over $800,000 to be considered|3|1|1|600m²|House|2020801140|/5-benjul-drive-beenleigh-qld-4207-2020801140|Offers over $800,000 to be considered|
+Beenleigh|59 Bougainville Street|OWNERS CIRCUMSTANCES CHANGED, ACT QUICK!|3|1|1|809m²|House|2020805634|/59-bougainville-street-beenleigh-qld-4207-2020805634|OWNERS CIRCUMSTANCES CHANGED, ACT QUICK!|
+Beenleigh|6 Woodbeck Street|OFFERS CLOSING MONDAY 25TH MAY 2026 @ 5PM|6|3|2|1606m²|House|2020759555|/6-woodbeck-street-beenleigh-qld-4207-2020759555|OFFERS CLOSING MONDAY 25TH MAY 2026 @ 5PM|
+Beenleigh|39 Manila St.|1.2m|3|1|2|607m²|House|2018978869|/39-manila-st-beenleigh-qld-4207-2018978869|1.2m|
+Beenleigh|26 - 30 City Rd|Offers over $635,000|2|2|2||Apartment / Unit / Flat|2016712115|/26-30-city-rd-beenleigh-qld-4207-2016712115|Offers over $635,000|
+Loganholme|3 Huxley Court|Offers from $849,000|3|1|6|604m²|House|2020854907|/3-huxley-court-loganholme-qld-4129-2020854907|Offers from $849,000|
+Edens Landing|21 Avonmore Street|$999,000- $1,099,000|5|2|2|1005m²|House|2020852586|/21-avonmore-street-edens-landing-qld-4207-2020852586|$999,000- $1,099,000|
+Yarrabilba|12 Amora Road|Selling Now|4|2|2|448m²|House|2020848132|/12-amora-road-yarrabilba-qld-4207-2020848132|Selling Now|
+Eagleby|127A Logan Street|Best Offers by 5th June 2026|4|2|4|650m²|House|2020846750|/127a-logan-street-eagleby-qld-4207-2020846750|Best Offers by 5th June 2026|
+Windaroo|35 Long Island Drive|$1.3m + Offers|4|2|2|525m²|House|2020800861|/35-long-island-drive-windaroo-qld-4207-2020800861|$1.3m + Offers|
+Logan Village|10 Ardara Court|â€” RIVER RESORT â€” Resort Style Living Everyday|5|2|5|1869m²|House|2020837658|/10-ardara-court-logan-village-qld-4207-2020837658|â€” RIVER RESORT â€” Resort Style Living Everyday|
+Yarrabilba|22 Bright Street|Now Introducing|4|2|2|576m²|House|2020830873|/22-bright-street-yarrabilba-qld-4207-2020830873|Now Introducing|
+Bahrs Scrub|33 Niles Court|Contact Agent|5|3|2|525m²|Semi-Detached|2020830574|/33-niles-court-bahrs-scrub-qld-4207-2020830574|Contact Agent|
+Bahrs Scrub|12 Goshawk Court|Best Offers By 1st June 2026|4|2|2|390m²|House|2020830546|/12-goshawk-court-bahrs-scrub-qld-4207-2020830546|Best Offers By 1st June 2026|
+Yarrabilba|49 Highlands Street|offers above $995,000|4|2|2|766m²|House|2020825520|/49-highlands-street-yarrabilba-qld-4207-2020825520|offers above $995,000|
+Bahrs Scrub|52 Melaleuca Way|OFFERS ABOVE $1,489,000|5|3|2|504m²|House|2020824737|/52-melaleuca-way-bahrs-scrub-qld-4207-2020824737|OFFERS ABOVE $1,489,000|
+Bahrs Scrub|5 AZURE STREET|$1,099,000 +|4|2|2|520m²|House|2020804748|/5-azure-street-bahrs-scrub-qld-4207-2020804748|$1,099,000 +|
+Yarrabilba|93 Darnell Street|Contact Agent For Price|5|2|2|576m²|House|2020797820|/93-darnell-street-yarrabilba-qld-4207-2020797820|Contact Agent For Price|
+Holmview|36 Vargon Circuit|New to Market|3|2|2|787m²|House|2020796943|/36-vargon-circuit-holmview-qld-4207-2020796943|New to Market|
+Eagleby|241 Herses Road|Contact Agent|4|2|2|600m²|House|2020793588|/241-herses-road-eagleby-qld-4207-2020793588|Contact Agent|
+Yarrabilba|22 Daybreak Street|Selling Now|4|2|2|542m²|House|2020790281|/22-daybreak-street-yarrabilba-qld-4207-2020790281|Selling Now|
+Yarrabilba|28 Pinnacle St|MAKE AN OFFER|4|2|2|333m²|House|2020706827|/28-pinnacle-st-yarrabilba-qld-4207-2020706827|MAKE AN OFFER|
+Yarrabilba|34 GARRAGULL DRIVE|No Body Corporate|4|3|2||House|2020754158|/34-garragull-drive-yarrabilba-qld-4207-2020754158|No Body Corporate|
+Bahrs Scrub|7 Havenview Court|OFFERS OVER $1,350,000|4|2|4|556m²|House|2020753334|/7-havenview-court-bahrs-scrub-qld-4207-2020753334|OFFERS OVER $1,350,000|
+Yarrabilba|14 TASKER STREET|$939,000 + Offers|4|2|2|448m²|House|2020685983|/14-tasker-street-yarrabilba-qld-4207-2020685983|$939,000 + Offers|
+Bahrs Scrub|8 Discovery Boulevard|OFFERS AROUND $950,000|4|2|2|538m²|House|2020660636|/8-discovery-boulevard-bahrs-scrub-qld-4207-2020660636|OFFERS AROUND $950,000|
+Bahrs Scrub|26 Breezeway Drive|Offers Over $950,000|4|2|2|456m²|House|2020819079|/26-breezeway-drive-bahrs-scrub-qld-4207-2020819079|Offers Over $950,000|
+Yarrabilba|10 Hillard Street|Selling Now|4|2|2|576m²|House|2020813927|/10-hillard-street-yarrabilba-qld-4207-2020813927|Selling Now|
+Yarrabilba|203 Darlington Drive|Present Your Best Offer|4|2|2|448m²|House|2020813641|/203-darlington-drive-yarrabilba-qld-4207-2020813641|Present Your Best Offer|
+Bahrs Scrub|15 Janine Drive|Contact Agent|4|2|8|6314m²|House|2020779449|/15-janine-drive-bahrs-scrub-qld-4207-2020779449|Contact Agent|
+Yarrabilba|38 Rosewood Circuit|Offers Over $835,000|4|2|2|313m²|House|2020744465|/38-rosewood-circuit-yarrabilba-qld-4207-2020744465|Offers Over $835,000|
+Yarrabilba|14 Splendour Circuit|Offers over $949,000.00|5|2|2|400m²|House|2020742279|/14-splendour-circuit-yarrabilba-qld-4207-2020742279|Offers over $949,000.00|
+Yarrabilba|57 Horseshoe Circuit|$985,000 + OFFERS|4|2|2|512m²|House|2020736296|/57-horseshoe-circuit-yarrabilba-qld-4207-2020736296|$985,000 + OFFERS|
+Yarrabilba|6 Bellenden Street|Selling Now|4|2|2|512m²|House|2020736293|/6-bellenden-street-yarrabilba-qld-4207-2020736293|Selling Now|
+Bahrs Scrub|58 Discovery Boulevard|$1,250,000 NEGOTIABLE|4|2|2|473m²|House|2020735208|/58-discovery-boulevard-bahrs-scrub-qld-4207-2020735208|$1,250,000 NEGOTIABLE|
+Yarrabilba|33 NAPIER CRESCENT|Selling Now|4|2|2|616m²|House|2020705931|/33-napier-crescent-yarrabilba-qld-4207-2020705931|Selling Now|
+Yarrabilba|30 PETERMANN CIRCUIT|$959,000 + Offers|4|2|2|400m²|House|2020700784|/30-petermann-circuit-yarrabilba-qld-4207-2020700784|$959,000 + Offers|
+Yarrabilba|43 Dorrigo Street|$849,000 + Offers|4|2|2||House|2020700771|/43-dorrigo-street-yarrabilba-qld-4207-2020700771|$849,000 + Offers|
+Bahrs Scrub|49 Bandicoot Drive|OFFERS OVER $1,100,000|4|2|2|477m²|House|2020676685|/49-bandicoot-drive-bahrs-scrub-qld-4207-2020676685|OFFERS OVER $1,100,000|
+Bahrs Scrub|34 Bangalow Circuit|PRICE BY NEGOTIATION|4|2|2|479m²|House|2020663507|/34-bangalow-circuit-bahrs-scrub-qld-4207-2020663507|PRICE BY NEGOTIATION|
+Yarrabilba|78 Skyblue Circuit|Contact Agent|4|2|2|488m²|House|2020630859|/78-skyblue-circuit-yarrabilba-qld-4207-2020630859|Contact Agent|
+Loganholme|38 Benwerrin Road|CONTACT AGENT|4|2|2|703m²|House|2020836857|/38-benwerrin-road-loganholme-qld-4129-2020836857|CONTACT AGENT|
+Windaroo|12 Denkmann Court|Offers over $939,000 Considered|3|1|2|800m²|House|2020819476|/12-denkmann-court-windaroo-qld-4207-2020819476|Offers over $939,000 Considered|
+Mount Warren Park|9 Grehan Crescent|Offers over $990,000 Considered|3|1|3|732m²|House|2020814700|/9-grehan-crescent-mount-warren-park-qld-4207-2020814700|Offers over $990,000 Considered|
+Mount Warren Park|76 Mount Warren Boulevard|Offers over $959,000 Considered|4|2|2|666m²|House|2020791118|/76-mount-warren-boulevard-mount-warren-park-qld-4207-2020791118|Offers over $959,000 Considered|
+Mount Warren Park|22 Helisma Court|Offers over $1,125,000 Considered|3|2|2|1068m²|House|2020791091|/22-helisma-court-mount-warren-park-qld-4207-2020791091|Offers over $1,125,000 Considered|
+Windaroo|24 Susan Godfrey Drive|Offers over $1,089,000 Considered|4|2|4|650m²|House|2020791079|/24-susan-godfrey-drive-windaroo-qld-4207-2020791079|Offers over $1,089,000 Considered|
+Alberton|259 Rotary Park Road|Expressions of Interest|4|2|10|4070m²|House|2020786343|/259-rotary-park-road-alberton-qld-4207-2020786343|Expressions of Interest|
+Belivah|20 Leah Drive|Submit All Offers!|4|2|6||Acreage / Semi-Rural|2020740175|/20-leah-drive-belivah-qld-4207-2020740175|Submit All Offers!|
+Loganholme|10 Bimbadeen Drive|NOW AVAILABLE!|3|2|2|797m²|House|2020711917|/10-bimbadeen-drive-loganholme-qld-4129-2020711917|NOW AVAILABLE!|
+Holmview|44 Haven Drive|Offers Over $875,000|4|2|2|400m²|House|2020662146|/44-haven-drive-holmview-qld-4207-2020662146|Offers Over $875,000|
+Buccan|727-733 Waterford Tamborine Road|Auction|5|4|10|20234m²|House|2020861600|/727-733-waterford-tamborine-road-buccan-qld-4207-2020861600|Auction|
+Loganholme|77 Timor Avenue|Contact Agent|3|1||2003m²|House|2020859268|/77-timor-avenue-loganholme-qld-4129-2020859268|Contact Agent|
+Windaroo|37 Riverside Terrace|$1,375,000 - $1,430,000|5|3|3||House|2020837630|/37-riverside-terrace-windaroo-qld-4207-2020837630|$1,375,000 - $1,430,000|
+Bahrs Scrub|14 Vista Circuit|CONTACT AGENT|4|2|2|535m²|House|2020849091|/14-vista-circuit-bahrs-scrub-qld-4207-2020849091|CONTACT AGENT|
+Buccan|105-111 Buccan Road|Property Preview!|5|2|9|2.03ha|Acreage / Semi-Rural|2020846445|/105-111-buccan-road-buccan-qld-4207-2020846445|Property Preview!|
+Loganholme|6A Harrier Avenue|Contact Agent|4|2|2|596m²|House|2020837577|/6a-harrier-avenue-loganholme-qld-4129-2020837577|Contact Agent|
