@@ -65,8 +65,11 @@ def yield_colour(yld: float) -> str:
 
 # ── HTML builder ──────────────────────────────────────────────────────────────
 
-def build_html(listings: list[dict], suburb_filter: str | None, today: str) -> str:
-    if suburb_filter:
+def build_html(listings: list[dict], suburb_filter: str | None, today: str,
+               suburb_list: set | None = None) -> str:
+    if suburb_list:
+        listings = [l for l in listings if l.get("suburb", "") in suburb_list]
+    elif suburb_filter:
         listings = [l for l in listings if l.get("suburb", "").lower() == suburb_filter.lower()]
 
     # Sort by combined score desc, then cashflow desc
@@ -210,7 +213,7 @@ def build_html(listings: list[dict], suburb_filter: str | None, today: str) -> s
 
 # ── Sender ────────────────────────────────────────────────────────────────────
 
-def send_report(suburb_filter: str | None = None) -> dict:
+def send_report(suburb_filter: str | None = None, suburb_list: set | None = None) -> dict:
     """
     Load scored listings, build HTML report, and send via Gmail SMTP.
     Returns {"success": bool, "message": str}.
@@ -229,10 +232,10 @@ def send_report(suburb_filter: str | None = None) -> dict:
     listings = json.loads(SCORED_JSON.read_text(encoding="utf-8"))
     today    = str(date.today())
 
-    suburb_label = suburb_filter or "All Suburbs"
+    suburb_label = suburb_filter or ("Fast 50" if suburb_list else "All Suburbs")
     subject = f"Property Report — {suburb_label} — {today}"
 
-    html_body = build_html(listings, suburb_filter, today)
+    html_body = build_html(listings, suburb_filter, today, suburb_list=suburb_list)
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject

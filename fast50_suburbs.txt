@@ -1,0 +1,63 @@
+# Fast 50 — QLD investment target suburbs
+# Logan / South Brisbane
+beenleigh-qld-4207
+woodridge-qld-4114
+browns-plains-qld-4118
+berrinba-qld-4117
+crestmead-qld-4132
+marsden-qld-4132
+eagleby-qld-4207
+bethania-qld-4205
+slacks-creek-qld-4127
+bahrs-scrub-qld-4207
+# Ipswich corridor
+ipswich-qld-4305
+ripley-qld-4306
+springfield-qld-4300
+redbank-plains-qld-4301
+bellbird-park-qld-4300
+collingwood-park-qld-4301
+augustine-heights-qld-4300
+brassall-qld-4305
+plainland-qld-4341
+blackstone-qld-4304
+# Moreton Bay
+caboolture-qld-4510
+morayfield-qld-4506
+north-lakes-qld-4509
+narangba-qld-4504
+petrie-qld-4502
+bray-park-qld-4500
+deception-bay-qld-4508
+banksia-beach-qld-4507
+beachmere-qld-4510
+bellmere-qld-4510
+# Brisbane inner
+acacia-ridge-qld-4110
+archerfield-qld-4108
+oxley-qld-4075
+yeronga-qld-4104
+wavell-heights-qld-4012
+zillmere-qld-4034
+# Sunshine Coast
+nambour-qld-4560
+bli-bli-qld-4560
+# Toowoomba
+toowoomba-qld-4350
+harristown-qld-4350
+# Townsville
+townsville-qld-4810
+bohle-plains-qld-4817
+# Mackay
+ooralea-qld-4740
+andergrove-qld-4740
+# Rockhampton
+berserker-qld-4701
+norman-gardens-qld-4701
+park-avenue-qld-4701
+allenstown-qld-4700
+# Bundaberg / Gladstone
+bargara-qld-4670
+walkervale-qld-4670
+avenell-heights-qld-4680
+clinton-qld-4680

@@ -1119,6 +1119,40 @@ def debug_listing_page(listing_url: str) -> dict:
 
 
 # ─────────────────────────────────────────────────────────────
+# Tool 8 — send_report
+# ─────────────────────────────────────────────────────────────
+@mcp.tool()
+def send_report(project_dir: str, suburb_filter: str = "") -> dict:
+    """
+    Email the scored listings as an HTML report via Gmail SMTP.
+
+    IMPORTANT: Call this tool EXACTLY ONCE, after ALL suburbs have been
+    processed. Never call it after an individual suburb or region group —
+    only after the entire batch is fully complete.
+
+    Args:
+        project_dir:    Absolute path to the project folder (where send_report.py lives).
+        suburb_filter:  Optional — limit the report to a single suburb name (e.g. "Ipswich").
+                        Leave empty (default) to include all suburbs in the report.
+
+    Returns:
+        { "success": bool, "message": str }
+    """
+    import importlib.util
+
+    script = Path(project_dir) / "send_report.py"
+    if not script.exists():
+        return {"success": False, "message": f"send_report.py not found at {script}"}
+
+    spec = importlib.util.spec_from_file_location("send_report", str(script))
+    mod  = importlib.util.module_from_spec(spec)
+    mod.__file__ = str(script)
+    spec.loader.exec_module(mod)
+
+    return mod.send_report(suburb_filter=suburb_filter or None)
+
+
+# ─────────────────────────────────────────────────────────────
 # Entry point
 # ─────────────────────────────────────────────────────────────
 if __name__ == "__main__":
