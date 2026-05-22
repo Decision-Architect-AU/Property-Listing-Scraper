@@ -76,11 +76,26 @@ Property Listing Scraper\
 
 ---
 
-## Email — one email per full run, NOT per suburb
+## Email — one email per full run, NOT per suburb or region
 
 `full_pipeline()` does NOT send email. It was changed deliberately to avoid sending 50 emails when running all Fast 50 suburbs.
 
-Email is sent once at the end of a full batch run by calling `send_report.py` separately (or via the scheduled task's final step).
+### The rule
+
+**Call `send_report` EXACTLY ONCE — after the very last suburb in the batch has been processed.**
+
+- ❌ Do NOT call it after each suburb
+- ❌ Do NOT call it after each region group (Logan, Ipswich corridor, Moreton Bay, etc.)
+- ✅ Call it once, only after ALL suburbs are done
+
+### How to send it
+
+Use the `send_report` MCP tool (Tool 8 in `domain_mcp.py`):
+```python
+send_report(project_dir="C:\\Users\\Administrator\\Documents\\Claude\\Projects\\Property Listing Scraper")
+```
+
+Do NOT call `python send_report.py` via Bash — use the MCP tool so the call is explicit and controlled.
 
 **Do not add email back into `full_pipeline()`.**
 
