@@ -29,7 +29,8 @@ from pathlib import Path
 # ── Config ────────────────────────────────────────────────────────────────────
 
 PROJECT_DIR = Path(__file__).parent
-SCORED_JSON = PROJECT_DIR / "scored_listings.json"
+DATA_DIR    = Path(r"C:\DomainListingData")
+SCORED_JSON = DATA_DIR / "scored_listings.json"
 CONFIG_FILE = PROJECT_DIR / "email_config.json"
 
 
@@ -213,14 +214,13 @@ def build_html(listings: list[dict], suburb_filter: str | None, today: str,
 
 # ── Sender ────────────────────────────────────────────────────────────────────
 
-def send_report(suburb_filter: str | None = None, suburb_list: set | None = None) -> dict:
+def send_report(suburb_filter: str | None = None, suburb_list: set | None = None,
+                listings_data: list | None = None) -> dict:
     """
     Load scored listings, build HTML report, and send via Gmail SMTP.
+    Pass listings_data to skip the file read (avoids race conditions with MCP server).
     Returns {"success": bool, "message": str}.
     """
-    if not SCORED_JSON.exists():
-        return {"success": False, "message": f"{SCORED_JSON} not found — run the pipeline first."}
-
     cfg = load_config()
     gmail_addr    = cfg.get("gmail_address", "")
     app_password  = cfg.get("gmail_app_password", "")
@@ -229,7 +229,12 @@ def send_report(suburb_filter: str | None = None, suburb_list: set | None = None
     if not gmail_addr or not app_password:
         return {"success": False, "message": "email_config.json is missing gmail_address or gmail_app_password."}
 
-    listings = json.loads(SCORED_JSON.read_text(encoding="utf-8"))
+    if listings_data is not None:
+        listings = listings_data
+    else:
+        if not SCORED_JSON.exists():
+            return {"success": False, "message": f"{SCORED_JSON} not found — run the pipeline first."}
+        listings = json.loads(SCORED_JSON.read_text(encoding="utf-8"))
     today    = str(date.today())
 
     suburb_label = suburb_filter or ("Fast 50" if suburb_list else "All Suburbs")
