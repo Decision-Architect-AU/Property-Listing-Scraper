@@ -19,3 +19,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+# Data files to ignore
+raw_listings.txt
+scored_listings.json
+SEQ_Listings.xlsx
