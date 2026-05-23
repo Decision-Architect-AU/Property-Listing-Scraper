@@ -374,3 +374,52 @@ Scraping complete — 569 new listings added
 Fetching listing descriptions…
 [2026-05-22 18:34:49] [INFO]   Median price: $879,000
 [2026-05-22 18:34:49] [INFO]   Descriptions needed: 755  skipped (boring): 9
+[2026-05-22 18:36:11] [INFO]   Descriptions: 50/755 (7%)  updated=50  failed=0
+[2026-05-22 18:36:12] [INFO]   Descriptions: 50/755 (7%)  updated=50  failed=0
+[2026-05-22 18:37:55] [INFO]   Descriptions: 100/755 (13%)  updated=99  failed=1
+[2026-05-22 18:38:00] [INFO]   Descriptions: 100/755 (13%)  updated=99  failed=1
+[2026-05-22 18:40:01] [INFO]   Descriptions: 150/755 (20%)  updated=148  failed=2
+[2026-05-22 18:40:02] [INFO]   Descriptions: 150/755 (20%)  updated=148  failed=2
+[2026-05-22 18:41:06] [INFO]   Descriptions: 200/755 (26%)  updated=198  failed=2
+[2026-05-22 18:41:06] [INFO]   Descriptions: 200/755 (26%)  updated=198  failed=2
+[2026-05-22 18:42:21] [INFO]   Descriptions: 250/755 (33%)  updated=248  failed=2
+[2026-05-22 18:42:21] [INFO]   Descriptions: 250/755 (33%)  updated=248  failed=2
+[2026-05-22 18:44:38] [INFO]   Descriptions: 300/755 (40%)  updated=297  failed=3
+[2026-05-22 18:44:47] [INFO]   Descriptions: 300/755 (40%)  updated=297  failed=3
+[2026-05-22 18:47:08] [INFO]   Descriptions: 350/755 (46%)  updated=346  failed=4
+[2026-05-22 18:47:30] [INFO]   Descriptions: 350/755 (46%)  updated=346  failed=4
+[2026-05-22 18:50:22] [INFO]   Descriptions: 400/755 (53%)  updated=396  failed=4
+[2026-05-22 18:51:03] [WARN]   Desc fetch failed /-57-spring-street-deception-bay-qld-4508-2020855395: Command '['curl', '-s', '-L', '--max-time', '20', '--compressed', '--cookie', 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\tmpo2j6o6vo.txt', '--cookie-jar', 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\tmpo2j6o6vo.txt', '-H', 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36', '-H', 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', '-H', 'Accept-Language: en-AU,en;q=0.9', '-H', 'Cache-Control: max-age=0', '-H', 'Sec-Fetch-Dest: document', '-H', 'Sec-Fetch-Mode: navigate', '-H', 'Sec-Fetch-Site: none', '-H', 'Upgrade-Insecure-Requests: 1', 'https://www.domain.com.au/-57-spring-street-deception-bay-qld-4508-2020855395']' timed out after 25 seconds
+[2026-05-22 18:51:08] [INFO]   Descriptions: 400/755 (53%)  updated=395  failed=5
+[2026-05-22 18:53:18] [INFO]   Descriptions: 450/755 (60%)  updated=446  failed=4
+[2026-05-22 18:53:48] [INFO]   Descriptions: 450/755 (60%)  updated=445  failed=5
+[2026-05-22 18:58:28] [INFO]   Descriptions: 500/755 (66%)  updated=495  failed=5
+[2026-05-22 18:58:39] [INFO]   Descriptions: 500/755 (66%)  updated=494  failed=6
+[2026-05-22 19:02:18] [INFO]   Descriptions: 550/755 (73%)  updated=544  failed=6
+[2026-05-22 19:02:21] [INFO]   Descriptions: 550/755 (73%)  updated=545  failed=5
+[2026-05-22 19:03:38] [INFO]   Descriptions: 600/755 (79%)  updated=594  failed=6
+[2026-05-22 19:03:40] [INFO]   Descriptions: 600/755 (79%)  updated=595  failed=5
+[2026-05-22 19:05:03] [INFO]   Descriptions: 650/755 (86%)  updated=645  failed=5
+[2026-05-22 19:05:05] [INFO]   Descriptions: 650/755 (86%)  updated=644  failed=6
+[2026-05-22 19:06:20] [INFO]   Descriptions: 700/755 (93%)  updated=694  failed=6
+[2026-05-22 19:06:21] [INFO]   Descriptions: 700/755 (93%)  updated=695  failed=5
+[2026-05-22 19:08:20] [INFO]   Descriptions: 750/755 (99%)  updated=743  failed=7
+[2026-05-22 19:08:22] [INFO]   Descriptions: 750/755 (99%)  updated=742  failed=8
+[2026-05-22 19:08:38] [INFO]   Updated: 747  Skipped: 9  Failed: 8
+[2026-05-22 19:08:38] [INFO] 
+Saving enriched_listings.json…
+[2026-05-22 19:08:40] [INFO]   Updated: 748  Skipped: 9  Failed: 7
+[2026-05-22 19:08:40] [INFO] 
+Saving enriched_listings.json…
+[2026-05-22 19:08:42] [INFO] enriched_listings.json saved (765 rows)
+[2026-05-22 19:08:42] [INFO] 
+Scoring listings…
+[2026-05-22 19:08:42] [INFO] enriched_listings.json saved (765 rows)
+[2026-05-22 19:08:42] [INFO] 
+Scoring listings…
+[2026-05-22 19:08:44] [INFO] scored_listings.json saved (765 rows)
+[2026-05-22 19:08:44] [INFO] Building Excel…
+[2026-05-22 19:08:45] [INFO] scored_listings.json saved (765 rows)
+[2026-05-22 19:08:45] [INFO] Building Excel…
+[2026-05-22 19:09:06] [INFO] Listings.xlsx saved
+[2026-05-22 19:09:07] [INFO] Listings.xlsx saved
