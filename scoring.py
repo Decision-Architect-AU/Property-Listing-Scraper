@@ -114,37 +114,32 @@ def score_listing(row: dict) -> dict:
     g_score = min(g_score, 10)
 
     # ── Deals ─────────────────────────────────────────────────
+    # Scores genuine seller pressure only — entry price, auction, and
+    # "contact agent" alone are NOT deal signals.
     d_score, d_signals = 0, []
 
-    if price_n > 0:
-        if price_n < 500_000:
-            d_score += 2;  d_signals.append("Entry <$500K")
-        elif price_n < 650_000:
-            d_score += 2;  d_signals.append("Entry <$650K")
-        elif price_n < 750_000:
-            d_score += 1;  d_signals.append("Entry <$750K")
+    # Hard distress: legal/financial events that force a sale
+    if keyword(all_text, "mortgagee", "deceased estate", "divorce",
+               "financial difficulty", "bankruptcy", "receivership"):
+        d_score += 3;  d_signals.append("Hard distress — mortgagee/estate/divorce")
 
+    # Motivated seller: explicit urgency or price concession evidence
     if keyword(all_text,
                "motivated seller", "motivated vendor", "must sell",
+               "urgent sale", "urgently selling", "owner must sell",
                "price reduced", "reduced to sell", "below market", "below valuation",
-               "urgent sale", "urgently selling", "owner must sell", "relocating",
-               "overseas", "deceased estate", "mortgagee", "financial difficulty"):
-        d_score += 1;  d_signals.append("Motivated vendor")
+               "will consider all offers", "make an offer", "vendor wants sold"):
+        d_score += 2;  d_signals.append("Motivated vendor / price evidence")
 
-    if keyword(all_text, "contact agent", "contact the agent", "call agent",
-               "expression of interest", "eoi"):
-        d_score += 1;  d_signals.append("Contact agent / EOI")
+    # Relocating / absentee owner — softer motivation but real
+    if keyword(all_text, "relocating", "overseas", "interstate"):
+        d_score += 1;  d_signals.append("Owner relocating / absentee")
 
+    # Sold as-is — deferred maintenance, seller not willing to negotiate repairs
     if keyword(all_text, "as is", "as-is", "as is where is"):
         d_score += 1;  d_signals.append("Sold as-is")
 
-    if keyword(all_text, "divorce", "estate", "mortgagee", "deceased"):
-        d_score += 2;  d_signals.append("Distressed sale")
-
-    if keyword(all_text, "auction"):
-        d_score += 1;  d_signals.append("Auction — price discovery")
-
-    # Days on market signals — longer = more vendor motivation
+    # Days on market — seller has sat unsold, leverage for negotiation
     if dom >= 180:
         d_score += 3;  d_signals.append(f"Very stale listing ({dom}d on market)")
     elif dom >= 90:
