@@ -1,187 +1,200 @@
 # Property Listing Scraper
 
-A Domain.com.au scraping and investment analysis pipeline that scores property listings against a three-pillar strategy (Growth, Deals, Cashflow) and produces Excel reports.
+Automated pipeline that scrapes Domain.com.au daily, scores every listing against a three-pillar investment strategy, and emails a ranked HTML report with an Excel attachment.
 
 ---
 
-## How it works
+## What it does
 
-1. **Scrape** — `domain_mcp.py` (the MCP server) fetches listing pages from Domain.com.au using `curl` with human-like request timing and cookie handling.
-2. **Store** — listings are written to `raw_listings.txt` (pipe-delimited), deduplicated by listing ID.
-3. **Enrich** — `fetch_descriptions` visits individual listing pages to pull full marketing text.
-4. **Score** — `scoring.py` runs each listing through the three-pillar engine using suburb zoning data from `regions.py` and rent estimates from `rent_estimator.py`.
-5. **Report** — `build_excel.py` writes `SEQ_Listings.xlsx` with colour-coded score columns.
+```
+Domain.com.au  →  raw_listings.txt  →  scored_listings.json  →  SEQ_Listings.xlsx  →  Email
+   (scrape)          (pipe-delimited)      (ranked + signals)       (Excel report)
+```
+
+1. **Scrape** — fetches listings from Domain.com.au for each target suburb
+2. **Score** — ranks every listing on Growth, Deals, and Cashflow (0–10 each)
+3. **Report** — builds a colour-coded Excel workbook
+4. **Email** — sends one HTML dashboard email with the Excel attached
 
 ---
 
-## File overview
+## File locations
 
-| File | Purpose |
+Scripts and data are kept separate:
+
+```
+Scripts:  C:\Users\Administrator\Documents\Claude\Projects\Property Listing Scraper\
+Data:     C:\DomainListingData\
+```
+
+**Data files (C:\DomainListingData\):**
+| File | Contents |
 |---|---|
-| `domain_mcp.py` | MCP server — all tools live here |
-| `scoring.py` | Three-pillar scoring engine |
-| `score_listings.py` | CLI wrapper: `raw_listings.txt` → `scored_listings.json` |
-| `build_excel.py` | Excel report builder: `scored_listings.json` → `SEQ_Listings.xlsx` |
-| `regions.py` | Suburb zoning, rezone potential, Fast 50 sets |
-| `rent_estimator.py` | Rent yield estimator by suburb / bed count |
-| `suburb_stats.py` | Suburb statistics lookup |
-| `run_batch.py` | Batch-scrape multiple suburbs in sequence |
-| `build_suburb_list.py` | Utility to build `suburbs.txt` / `master_suburbs.json` |
-| `raw_listings.txt` | Live pipe-delimited listing data (scraper output) |
-| `scored_listings.json` | Scored listings (scoring engine output) |
-| `SEQ_Listings.xlsx` | Final Excel report (build_excel output) |
-| `SEQ_Dashboard.xlsx` | Dashboard view |
-| `master_suburbs.json` | Full suburb slug list |
-| `suburbs.txt` | Active suburb list for batch runs |
-| `mcp_install.md` | MCP server install guide |
+| `raw_listings.txt` | Every scraped listing, pipe-delimited, one per line |
+| `scored_listings.json` | All listings with three-pillar scores and signals |
+| `SEQ_Listings.xlsx` | Final formatted Excel report |
+
+**Script files:**
+| File | Role |
+|---|---|
+| `domain_mcp.py` | MCP server — exposes all pipeline tools to Claude |
+| `score_listings.py` | CLI: `raw_listings.txt` → `scored_listings.json` |
+| `scoring.py` | Scoring engine (three-pillar logic) |
+| `build_excel.py` | `scored_listings.json` → `SEQ_Listings.xlsx` |
+| `send_report.py` | Emails the report via Gmail SMTP |
+| `run_batch.py` | Batch-scrapes all suburbs in a suburbs file |
+| `fast50_suburbs.txt` | Canonical slug list for the Fast 50 target suburbs |
+| `email_config.json` | Gmail credentials (not committed) |
+| `suburbs_stats_extracted.xlsx` | SQM Research suburb stats (read-only reference) |
+
+**Subdirectories:**
+| Path | Contents |
+|---|---|
+| `Domain_Info/` | `regions.py` (Fast 50, zoning), `suburb_stats.py`, `rent_estimator.py` |
+| `Strategy_Scoring/` | Canonical `scoring.py` and `score_listings.py` |
+
+---
+
+## The three scores
+
+Every listing gets three scores from 0 to 10:
+
+| Pillar | Question | Key signals |
+|---|---|---|
+| **Growth** | Will this suburb appreciate? | Rezone potential, block ≥ 400m², Fast 50 suburb, corner block, subdivision/STCA keywords |
+| **Deals** | Is there genuine seller pressure? | Mortgagee/deceased estate/divorce (+3), motivated vendor/price reduced (+2), relocating/overseas (+1), days on market 60/90/180+ (+1/2/3) |
+| **Cashflow** | Will rent cover the costs? | Estimated gross yield, granny flat/dual income signals, bedroom count, NDIS/SDA keywords, low vacancy rate |
+
+Scores are summed for a **total score** used to rank and sort the report.
+
+**What does NOT score as a Deal:**
+- Entry price alone (cheap is not the same as a deal)
+- Auction listing (price discovery is not seller distress)
+- "Contact agent" / EOI (standard listing practice)
+
+---
+
+## Fast 50 suburbs
+
+50 target suburbs across Queensland with the best mix of affordability, growth signals, and rental demand:
+
+| Region | Suburbs |
+|---|---|
+| Logan / South Brisbane | Beenleigh, Woodridge, Browns Plains, Berrinba, Crestmead, Marsden, Eagleby, Bethania, Slacks Creek, Bahrs Scrub |
+| Ipswich corridor | Ipswich, Ripley, Springfield, Redbank Plains, Bellbird Park, Collingwood Park, Augustine Heights, Brassall, Plainland, Blackstone |
+| Moreton Bay | Caboolture, Morayfield, North Lakes, Narangba, Petrie, Bray Park, Deception Bay, Banksia Beach, Beachmere, Bellmere |
+| Brisbane inner | Acacia Ridge, Archerfield, Oxley, Yeronga, Wavell Heights, Zillmere |
+| Sunshine Coast | Nambour, Bli Bli |
+| Toowoomba | Toowoomba, Harristown |
+| Townsville | Townsville, Bohle Plains |
+| Mackay | Ooralea, Andergrove |
+| Rockhampton | Berserker, Norman Gardens, Park Avenue, Allenstown |
+| Bundaberg / Gladstone | Bargara, Walkervale, Avenell Heights, Clinton |
+
+---
+
+## Running the pipeline
+
+### Automated (scheduled via Cowork)
+
+The `domain-scraper` skill runs on a schedule. It:
+1. Calls `full_pipeline()` for each Fast 50 suburb
+2. Calls `send_report()` **once** after all suburbs are done
+
+The MCP server (`C:\MCP_Servers\DomainScaper\domain_mcp.py`) must be running. It is registered in Claude's config and starts automatically.
+
+### Manual — rescore and email existing data
+
+```bash
+python score_listings.py --raw C:\DomainListingData\raw_listings.txt --out C:\DomainListingData\scored_listings.json
+python build_excel.py
+python send_report.py
+```
+
+### Manual — full batch scrape then email
+
+```bash
+python run_batch.py --suburbs fast50_suburbs.txt --max-pages 3
+python send_report.py
+```
+
+### Manual — single suburb via MCP tool
+
+```python
+full_pipeline(
+    suburb_slug="ipswich-qld-4305",
+    project_dir=r"C:\Users\Administrator\Documents\Claude\Projects\Property Listing Scraper"
+)
+```
+
+### Sending the report email
+
+Always call `send_report` **once**, after all suburbs are processed. Never call it per suburb or per region group — this is what causes multiple emails.
+
+```python
+# MCP tool (preferred):
+send_report(project_dir=r"C:\Users\Administrator\Documents\Claude\Projects\Property Listing Scraper")
+
+# CLI:
+python send_report.py
+```
+
+The HTML dashboard is in the email body; `SEQ_Listings.xlsx` is attached with a dated filename.
+
+---
+
+## Adding a new suburb
+
+1. Add to `Domain_Info/regions.py`:
+   ```python
+   # In ZONING dict:
+   "Suburb Name": {"zone": "Low Density Residential", "council": "Council Name", "notes": "..."},
+
+   # In REZONE_POTENTIAL dict:
+   "Suburb Name": "MEDIUM",  # HIGH, MEDIUM, or LOW
+
+   # Optionally add to FAST_50 set
+   ```
+
+2. Add the slug to `fast50_suburbs.txt`
+
+3. Run `full_pipeline()` for the new suburb
+
+**Suburb slug format:** `suburb-state-postcode` — e.g. `ipswich-qld-4305`, `caboolture-qld-4510`
+
+---
+
+## Email configuration
+
+Create `email_config.json` in the project folder (not committed to git):
+
+```json
+{
+  "gmail_address": "you@gmail.com",
+  "gmail_app_password": "xxxx xxxx xxxx xxxx",
+  "to": "you@gmail.com"
+}
+```
+
+Use a [Gmail App Password](https://support.google.com/accounts/answer/185833), not your account password. Enable 2FA first.
 
 ---
 
 ## Install
 
 ```bash
-pip install fastmcp httpx openpyxl
+pip install fastmcp httpx openpyxl requests
 ```
 
-`curl` must be available on the system PATH (it is on macOS/Linux by default; on Windows use WSL or install curl).
-
----
-
-## MCP server setup
-
-The pipeline runs as an MCP server inside Claude (Cowork or Claude Code). Add it to your config:
-
-**Cowork / Claude Desktop** — `claude_desktop_config.json`:
+The MCP server is registered in `claude_desktop_config.json` (Claude's config file):
 
 ```json
 {
   "mcpServers": {
     "Domaincomau-Scraper": {
       "command": "python",
-      "args": ["C:/absolute/path/to/domain_mcp.py"]
+      "args": ["C:\\MCP_Servers\\DomainScaper\\domain_mcp.py"]
     }
   }
 }
-```
-
-**Claude Code** — `.claude/settings.json` or `~/.claude/settings.json`:
-
-```json
-{
-  "mcpServers": {
-    "Domaincomau-Scraper": {
-      "command": "python",
-      "args": ["/absolute/path/to/domain_mcp.py"]
-    }
-  }
-}
-```
-
----
-
-## MCP tools
-
-### `full_pipeline` — one-call end-to-end run
-
-```
-full_pipeline(
-  suburb_slug = "toowoomba-qld-4350",
-  project_dir = "C:/Users/.../Property Listing Scraper",
-  max_price   = 2000000,   # optional, default $2M
-  max_pages   = 5          # optional, ~20 listings per page
-)
-```
-
-Scrapes Domain → updates `raw_listings.txt` → scores → builds Excel. Returns a summary dict with results from each step.
-
----
-
-### Individual tools
-
-```python
-# 1. Scrape a suburb
-search_listings("ipswich-qld-4305", max_pages=3)
-
-# 2. Merge rows into raw_listings.txt
-append_listings(project_dir, rows, suburb="Ipswich")
-
-# 3. Fetch full description text from individual listing pages
-fetch_descriptions(project_dir, batch_size=40)
-
-# 4. Score all listings
-run_scoring(project_dir)
-
-# 5. Build Excel report
-run_excel_build(project_dir)
-
-# 6. Debug a single listing page (diagnostic)
-debug_listing_page("https://www.domain.com.au/1-cedar-street-raceview-qld-4305-2020775400")
-```
-
----
-
-## Suburb slug format
-
-`lowercase-suburb-name-state-postcode`
-
-| Location | Slug |
-|---|---|
-| Ipswich QLD 4305 | `ipswich-qld-4305` |
-| Toowoomba QLD 4350 | `toowoomba-qld-4350` |
-| Caboolture QLD 4510 | `caboolture-qld-4510` |
-| Tamworth NSW 2340 | `tamworth-nsw-2340` |
-
----
-
-## Adding a new suburb
-
-Before running the pipeline on a new suburb, update `regions.py`:
-
-1. Add the suburb to `ZONING` — include zone type, council, and any notes.
-2. Add the suburb to `REZONE_POTENTIAL` — use `"HIGH"`, `"MEDIUM"`, or `"LOW"`.
-3. Add to `HIGH_REZONE` or `MEDIUM_REZONE` sets if applicable.
-4. Optionally add to `FAST_50` if it's a high-growth target suburb.
-5. Add to `CASHFLOW_DEMAND_SUBURBS` if it has strong rental demand.
-
-Without these entries the scoring engine will fall back to `DEFAULT_ZONE` and miss all rezone signals.
-
----
-
-## Scoring — three pillars
-
-Each listing is scored across three dimensions:
-
-**Growth** — rezone potential, block size (400m²+), Fast 50 suburb membership, infrastructure keywords in listing text.
-
-**Deals** — days on market, price reductions, motivated-seller keywords ("deceased estate", "mortgagee", "as-is"), auction/EOI flags.
-
-**Cashflow** — estimated gross yield (from `rent_estimator.py`), dual-income / granny flat signals, bedroom count relative to suburb demand.
-
-Scores are written to `scored_listings.json` and colour-coded in `SEQ_Listings.xlsx`.
-
----
-
-## Data files
-
-`raw_listings.txt` — pipe-delimited, one listing per line:
-
-```
-suburb | street | price | beds | baths | parking | land | type | listing_id | url | headline | listing_description
-```
-
-Listings are filtered on scrape: strata (e.g. `12/34 Smith St`) and new house-and-land packages are excluded automatically.
-
----
-
-## Running the pipeline from the command line
-
-```bash
-# Score only (after raw_listings.txt is populated)
-python score_listings.py --raw raw_listings.txt --out scored_listings.json
-
-# Build Excel only (after scored_listings.json exists)
-python build_excel.py
-
-# Batch scrape all suburbs in suburbs.txt
-python run_batch.py
 ```
