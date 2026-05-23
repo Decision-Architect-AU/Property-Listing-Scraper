@@ -20,6 +20,7 @@ import json
 import smtplib
 import sys
 from datetime import date
+from email.mime.application import MIMEApplication
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from pathlib import Path
@@ -237,11 +238,21 @@ def send_report(suburb_filter: str | None = None, suburb_list: set | None = None
 
     html_body = build_html(listings, suburb_filter, today, suburb_list=suburb_list)
 
-    msg = MIMEMultipart("alternative")
+    msg = MIMEMultipart("mixed")
     msg["Subject"] = subject
     msg["From"]    = gmail_addr
     msg["To"]      = to_addr
     msg.attach(MIMEText(html_body, "html", "utf-8"))
+
+    # Attach Excel report if it exists
+    excel_path = DATA_DIR / "SEQ_Listings.xlsx"
+    if excel_path.exists():
+        with open(excel_path, "rb") as f:
+            part = MIMEApplication(f.read(),
+                                   _subtype="vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+            part.add_header("Content-Disposition", "attachment",
+                            filename=f"SEQ_Listings_{today}.xlsx")
+            msg.attach(part)
 
     try:
         with smtplib.SMTP("smtp.gmail.com", 587) as smtp:
