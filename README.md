@@ -1,6 +1,6 @@
 # Property Listing Scraper
 
-Automated pipeline that scrapes Domain.com.au daily, scores every listing against a three-pillar investment strategy, and emails a ranked HTML report with an Excel attachment.
+Automated pipeline that scrapes Domain.com.au, scores every listing against a three-pillar investment strategy, and emails a ranked HTML report with an Excel attachment.
 
 ---
 
@@ -20,14 +20,13 @@ Domain.com.au  →  raw_listings.txt  →  scored_listings.json  →  SEQ_Listin
 
 ## File locations
 
-Scripts and data are kept separate:
-
 ```
-Scripts:  C:\Users\Administrator\Documents\Claude\Projects\Property Listing Scraper\
+Scripts:  C:\Users\Glenn\Documents\Claude\Projects\Property Listing Scraper\
 Data:     C:\DomainListingData\
 ```
 
 **Data files (C:\DomainListingData\):**
+
 | File | Contents |
 |---|---|
 | `raw_listings.txt` | Every scraped listing, pipe-delimited, one per line |
@@ -35,23 +34,27 @@ Data:     C:\DomainListingData\
 | `SEQ_Listings.xlsx` | Final formatted Excel report |
 
 **Script files:**
+
 | File | Role |
 |---|---|
 | `domain_mcp.py` | MCP server — exposes all pipeline tools to Claude |
-| `score_listings.py` | CLI: `raw_listings.txt` → `scored_listings.json` |
+| `batch_fast50.py` | **Primary batch runner** — single Chrome session, all Fast 50 suburbs, then score + Excel + email |
 | `scoring.py` | Scoring engine (three-pillar logic) |
+| `score_listings.py` | CLI: `raw_listings.txt` → `scored_listings.json` |
 | `build_excel.py` | `scored_listings.json` → `SEQ_Listings.xlsx` |
 | `send_report.py` | Emails the report via Gmail SMTP |
-| `run_batch.py` | Batch-scrapes all suburbs in a suburbs file |
-| `fast50_suburbs.txt` | Canonical slug list for the Fast 50 target suburbs |
+| `run_batch.py` | Legacy batch runner (superseded by `batch_fast50.py`) |
+| `regions.py` | Fast 50 suburb list, zoning info, rezone potential |
+| `rent_estimator.py` | Gross yield / rent estimation helpers |
+| `suburb_stats.py` | Vacancy rate and suburb stat lookups |
+| `build_suburb_list.py` | Utility to rebuild the master suburb list |
+| `fix_chromedriver.py` | Maintenance: clears cached drivers and re-downloads for current Chrome version |
+| `fast50_suburbs.txt` | Canonical slug list for Fast 50 target suburbs |
 | `email_config.json` | Gmail credentials (not committed) |
 | `suburbs_stats_extracted.xlsx` | SQM Research suburb stats (read-only reference) |
+| `domain-scraper.skill` | Cowork skill definition |
 
-**Subdirectories:**
-| Path | Contents |
-|---|---|
-| `Domain_Info/` | `regions.py` (Fast 50, zoning), `suburb_stats.py`, `rent_estimator.py` |
-| `Strategy_Scoring/` | Canonical `scoring.py` and `score_listings.py` |
+**Run logs:** `C:\DomainListingData\batch_YYYYMMDD_HHMM.log`
 
 ---
 
@@ -95,62 +98,51 @@ Scores are summed for a **total score** used to rank and sort the report.
 
 ## Running the pipeline
 
-### Automated (scheduled via Cowork)
+### Scheduled (Windows Task Scheduler — Tuesday nights)
 
-The `domain-scraper` skill runs on a schedule. It:
-1. Calls `full_pipeline()` for each Fast 50 suburb
-2. Calls `send_report()` **once** after all suburbs are done
+`batch_fast50.py` is the primary runner. It opens one Chrome session, scrapes all suburbs in `fast50_suburbs.txt`, then scores, builds Excel, and emails the report.
 
-The MCP server (`C:\MCP_Servers\DomainScaper\domain_mcp.py`) must be running. It is registered in Claude's config and starts automatically.
+```
+python "C:\Users\Glenn\Documents\Claude\Projects\Property Listing Scraper\batch_fast50.py"
+```
 
-### Manual — rescore and email existing data
+Logs are written to `C:\DomainListingData\batch_YYYYMMDD_HHMM.log`.
 
+### Via Claude / MCP (on demand)
+
+The MCP server must be running (registered in `claude_desktop_config.json` — starts automatically with Claude).
+
+Run a full pipeline for one suburb:
+```python
+full_pipeline(suburb_slug="ipswich-qld-4305")
+```
+
+Send the report after all suburbs are processed:
+```python
+send_report()
+```
+
+**Always call `send_report` once, after all suburbs are done.** Never call it per suburb — this causes multiple emails.
+
+### Manual CLI
+
+Rescore existing data and email:
 ```bash
 python score_listings.py --raw C:\DomainListingData\raw_listings.txt --out C:\DomainListingData\scored_listings.json
 python build_excel.py
 python send_report.py
 ```
 
-### Manual — full batch scrape then email
-
-```bash
-python run_batch.py --suburbs fast50_suburbs.txt --max-pages 3
-python send_report.py
-```
-
-### Manual — single suburb via MCP tool
-
-```python
-full_pipeline(
-    suburb_slug="ipswich-qld-4305",
-    project_dir=r"C:\Users\Administrator\Documents\Claude\Projects\Property Listing Scraper"
-)
-```
-
-### Sending the report email
-
-Always call `send_report` **once**, after all suburbs are processed. Never call it per suburb or per region group — this is what causes multiple emails.
-
-```python
-# MCP tool (preferred):
-send_report(project_dir=r"C:\Users\Administrator\Documents\Claude\Projects\Property Listing Scraper")
-
-# CLI:
-python send_report.py
-```
-
-The HTML dashboard is in the email body; `SEQ_Listings.xlsx` is attached with a dated filename.
-
 ---
 
 ## Adding a new suburb
 
-1. Add to `Domain_Info/regions.py`:
+1. Edit `regions.py`:
    ```python
-   # In ZONING dict:
+   # ZONING dict:
    "Suburb Name": {"zone": "Low Density Residential", "council": "Council Name", "notes": "..."},
 
-   # In REZONE_POTENTIAL dict:
+   # REZONE_POTENTIAL dict:
    "Suburb Name": "MEDIUM",  # HIGH, MEDIUM, or LOW
 
    # Optionally add to FAST_50 set
@@ -180,20 +172,37 @@ Use a [Gmail App Password](https://support.google.com/accounts/answer/185833), n
 
 ---
 
+## Troubleshooting
+
+### ChromeDriver version mismatch
+
+If Chrome auto-updated and the scraper fails to launch:
+
+```bash
+python fix_chromedriver.py
+```
+
+This clears the cached driver and re-downloads the correct version for your installed Chrome.
+
+---
+
 ## Install
 
 ```bash
-pip install fastmcp httpx openpyxl requests
+pip install fastmcp undetected-chromedriver openpyxl requests httpx
+pip install ollama  # optional — only needed for classify_listings()
 ```
 
-The MCP server is registered in `claude_desktop_config.json` (Claude's config file):
+Chrome must be installed: https://www.google.com/chrome/
+
+The MCP server is registered in `claude_desktop_config.json`:
 
 ```json
 {
   "mcpServers": {
     "Domaincomau-Scraper": {
       "command": "python",
-      "args": ["C:\\MCP_Servers\\DomainScaper\\domain_mcp.py"]
+      "args": ["C:\\Users\\Glenn\\Documents\\Claude\\Projects\\Property Listing Scraper\\domain_mcp.py"]
     }
   }
 }

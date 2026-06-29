@@ -259,9 +259,7 @@ def send_report(suburb_filter: str | None = None, suburb_list: set | None = None
             msg.attach(part)
 
     try:
-        with smtplib.SMTP("smtp.gmail.com", 587) as smtp:
-            smtp.ehlo()
-            smtp.starttls()
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
             smtp.login(gmail_addr, app_password)
             smtp.sendmail(gmail_addr, to_addr, msg.as_string())
         return {"success": True, "message": f"Report sent to {to_addr}"}

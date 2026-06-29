@@ -3,57 +3,61 @@
 domain_mcp.py
 ─────────────
 MCP server for the Domain.com.au property listing pipeline.
+Uses undetected-chromedriver (real patched Chrome) to bypass Akamai bot detection.
 
 Tools exposed:
-  search_listings(suburb_slug, max_price, max_pages)
-      → Scrapes Domain.com.au and returns pipe-delimited listing rows
-
-  append_listings(project_dir, rows, suburb)
-      → Merges rows into raw_listings.txt (deduplicates by listing ID)
-
-  run_scoring(project_dir)
-      → Runs score_listings.py, returns summary stats
-
-  run_excel_build(project_dir)
-      → Runs build_excel.py, returns output file paths
-
-  full_pipeline(suburb_slug, project_dir, state, postcode, max_price, max_pages)
-      → Chains all four steps; one call to rule them all
+  search_listings      – scrape Domain search results for a suburb
+  append_listings      – merge rows into raw_listings.txt
+  run_scoring          – run score_listings.py → scored_listings.json
+  run_excel_build      – run build_excel.py → SEQ_Listings.xlsx
+  full_pipeline        – chains all four steps in one call
+  fetch_descriptions   – back-fill listing description text
+  debug_listing_page   – dump __NEXT_DATA__ structure for a listing URL
+  send_report          – email the scored listings as an HTML report
+  classify_listings    – use local Ollama LLM to classify deals
 
 Install deps:
-  pip install fastmcp httpx
+  pip install fastmcp undetected-chromedriver ollama
+  (Chrome must be installed — https://www.google.com/chrome/)
 
-Run standalone (stdio transport, for Claude Code / Cowork):
+Run standalone (stdio transport):
   python domain_mcp.py
-
-Configure in claude_desktop_config.json or .claude/settings.json:
-  {
-    "mcpServers": {
-      "domain-listings": {
-        "command": "python",
-        "args": ["/absolute/path/to/domain_mcp.py"]
-      }
-    }
-  }
 """
 
 import json
 import re
-import subprocess
 import sys
 import os
 import time
 import random
+from contextlib import contextmanager
 from pathlib import Path
 from typing import Optional
 
-import httpx
+try:
+    import httpx as _httpx
+    _HAS_HTTPX = True
+except ImportError:
+    _HAS_HTTPX = False
 try:
     import requests as _requests
     _HAS_REQUESTS = True
 except ImportError:
     _HAS_REQUESTS = False
+
 from fastmcp import FastMCP
+
+# ─────────────────────────────────────────────────────────────
+# Data directory — all output files go here
+# ─────────────────────────────────────────────────────────────
+DEFAULT_DATA_DIR = r"C:\DomainListingData"
+
+def _ddir(data_dir: str) -> Path:
+    """Resolve the data directory, creating it if needed."""
+    d = Path(data_dir) if data_dir else Path(DEFAULT_DATA_DIR)
+    d.mkdir(parents=True, exist_ok=True)
+    return d
+
 
 # ─────────────────────────────────────────────────────────────
 # Server
@@ -63,35 +67,110 @@ mcp = FastMCP(
     instructions=(
         "Tools for scraping Domain.com.au property listings, scoring them against the "
         "three-pillar investment strategy (Growth / Deals / Cashflow), and building "
-        "Excel reports. Use full_pipeline() for a complete suburb scrape in one call."
+        "Excel reports. Use full_pipeline() for a complete suburb scrape in one call. "
+        "Use classify_listings() after scoring to get AI-powered deal analysis via Ollama."
     ),
 )
 
 # ─────────────────────────────────────────────────────────────
-# HTTP helpers
+# Chrome session helper (undetected-chromedriver)
 # ─────────────────────────────────────────────────────────────
-DOMAIN_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/124.0.0.0 Safari/537.36"
-    ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
-    "Accept-Language": "en-AU,en-GB;q=0.9,en;q=0.8",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Cache-Control": "max-age=0",
-    "Referer": "https://www.google.com/",
-    "Sec-Ch-Ua": '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
-    "Sec-Ch-Ua-Mobile": "?0",
-    "Sec-Ch-Ua-Platform": '"macOS"',
-    "Sec-Fetch-Dest": "document",
-    "Sec-Fetch-Mode": "navigate",
-    "Sec-Fetch-Site": "none",
-    "Sec-Fetch-User": "?1",
-    "Upgrade-Insecure-Requests": "1",
-}
+def _detect_chrome_major_version() -> int | None:
+    """Return the installed Chrome major version, or None if undetectable.
+    On Windows, reads from the registry (most reliable). Falls back to
+    checking common exe paths via --version flag.
+    """
+    # 1. Windows registry (fastest, works without launching Chrome)
+    try:
+        import winreg
+        reg_paths = [
+            (winreg.HKEY_CURRENT_USER,  r"SOFTWARE\Google\Chrome\BLBeacon"),
+            (winreg.HKEY_LOCAL_MACHINE, r"SOFTWARE\Google\Chrome\BLBeacon"),
+            (winreg.HKEY_LOCAL_MACHINE, r"SOFTWARE\Wow6432Node\Google\Chrome\BLBeacon"),
+        ]
+        for hive, key_path in reg_paths:
+            try:
+                with winreg.OpenKey(hive, key_path) as key:
+                    version, _ = winreg.QueryValueEx(key, "version")
+                    return int(str(version).split(".")[0])
+            except Exception:
+                continue
+    except ImportError:
+        pass  # Not on Windows
+
+    # 2. Fallback: launch Chrome with --version
+    import subprocess, shutil
+    candidates = [
+        r"C:\Program Files\Google\Chrome\Application\chrome.exe",
+        r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
+        r"C:\Users\Glenn\AppData\Local\Google\Chrome\Application\chrome.exe",
+        "google-chrome", "google-chrome-stable", "chromium-browser", "chromium",
+    ]
+    for exe in candidates:
+        path = shutil.which(exe) or (exe if os.path.isfile(exe) else None)
+        if not path:
+            continue
+        try:
+            out = subprocess.check_output(
+                [path, "--version"], timeout=5, stderr=subprocess.DEVNULL
+            ).decode().strip()
+            m = re.search(r"(\d+)\.\d+\.\d+", out)
+            if m:
+                return int(m.group(1))
+        except Exception:
+            continue
+
+    return None
 
 
+@contextmanager
+def _uc_session():
+    """
+    Context manager: launches an undetected Chrome instance, warms up with a
+    Domain homepage visit to acquire cookies, then yields the driver.
+    Caller fetches pages with driver.get(url). Cleans up on exit.
+    """
+    import undetected_chromedriver as uc
+
+    options = uc.ChromeOptions()
+    options.add_argument("--lang=en-AU")
+    options.add_argument("--window-size=1920,1080")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+
+    chrome_ver = _detect_chrome_major_version()
+    driver = uc.Chrome(
+        headless=False,
+        options=options,
+        use_subprocess=True,
+        **({"version_main": chrome_ver} if chrome_ver else {}),
+    )
+    try:
+        driver.set_page_load_timeout(30)
+        # Warm up: homepage visit seeds session cookies
+        try:
+            driver.get("https://www.domain.com.au/")
+            time.sleep(1)
+        except Exception:
+            pass
+        yield driver
+    finally:
+        try:
+            driver.quit()
+        except Exception:
+            pass
+
+
+def _uc_fetch(driver, url: str, settle: float = 1.0) -> str:
+    """Navigate to url, wait for page to settle, return full page HTML."""
+    driver.get(url)
+    time.sleep(settle + random.uniform(0, 0.3))
+    return driver.page_source
+
+
+# ─────────────────────────────────────────────────────────────
+# Parsing helpers
+# ─────────────────────────────────────────────────────────────
 def _parse_land_m2(land_str: str) -> float:
     """Convert land string like '600m²', '1.2ha', '4000sqm' to m²."""
     if not land_str:
@@ -143,15 +222,19 @@ def _extract_rows_from_html(html: str) -> tuple[list[str], int, int]:
     total_listings = comp.get("totalListings", 0)
     total_pages    = comp.get("totalPages", 1)
 
+    # Guard: ids must be a list of IDs (ints or long strings).
+    # If Domain changed the structure so ids is a dict or short-key iterable,
+    # fall back to iterating lmap keys directly.
+    if not isinstance(ids, list) or (ids and len(str(ids[0])) < 4):
+        ids = list(lmap.keys())
+
     rows = []
     for lid in ids:
-        # Domain sometimes uses int keys, sometimes string keys
         listing = lmap.get(lid) or lmap.get(str(lid))
         if not listing:
             continue
 
         try:
-            # New structure: data lives inside listingModel
             lm = listing.get("listingModel") or {}
             if not isinstance(lm, dict):
                 lm = {}
@@ -184,12 +267,10 @@ def _extract_rows_from_html(html: str) -> tuple[list[str], int, int]:
                 beds    = raw_feats.get("beds",    raw_feats.get("bedroomsCount",    raw_feats.get("bedrooms",    "")))
                 baths   = raw_feats.get("baths",   raw_feats.get("bathroomsCount",   raw_feats.get("bathrooms",   "")))
                 parking = raw_feats.get("parking", raw_feats.get("parkingSpacesCount", raw_feats.get("parkingSpaces", "")))
-                # Property type from features (House, Townhouse, Unit etc.)
                 ptype   = (raw_feats.get("propertyTypeFormatted") or raw_feats.get("propertyType") or "")
                 land_val = raw_feats.get("landSize") or raw_feats.get("land")
                 if land_val:
                     raw_unit = str(raw_feats.get("landUnit") or raw_feats.get("landSizeUnit") or "m²")
-                    # Fix double-encoded UTF-8 (e.g. "mÂ²" → "m²")
                     try:
                         raw_unit = raw_unit.encode("latin-1").decode("utf-8")
                     except Exception:
@@ -209,14 +290,11 @@ def _extract_rows_from_html(html: str) -> tuple[list[str], int, int]:
                     if lm2:
                         land = f"{lm2.group(1)}{lm2.group(2).replace('sqm','m²')}"
 
-            # Fallback property type from listing metadata
             if not ptype:
                 ptype = listing.get("listingType") or lm.get("listingType") or ""
 
-            # description = marketing headline from price field; actual price from displaySearchPriceRange
-            description = price  # the "price" text is often the headline
+            description = price
             actual_price = lm.get("displaySearchPriceRange") or ""
-            # If displaySearchPriceRange looks empty or same as description, keep price as-is
             if not actual_price or actual_price == description:
                 actual_price = price
 
@@ -224,9 +302,6 @@ def _extract_rows_from_html(html: str) -> tuple[list[str], int, int]:
             raw_url = lm.get("url") or listing.get("listingSlug") or listing.get("seoUrl") or ""
             url     = "/" + raw_url.lstrip("/") if raw_url else ""
 
-            # Extract the actual property description text
-            # Domain search results expose the marketing headline in lm["headline"];
-            # full body text (lm["description"]) is usually only on the listing page.
             raw_desc = (
                 lm.get("description")
                 or listing.get("description")
@@ -238,30 +313,25 @@ def _extract_rows_from_html(html: str) -> tuple[list[str], int, int]:
                 or listing.get("name")
                 or ""
             )
-            # Sanitise: flatten whitespace, strip pipe chars (they're our delimiter)
             listing_desc = re.sub(r"[\r\n\t]+", " ", str(raw_desc)).replace("|", " ").strip()
             if len(listing_desc) > 800:
                 listing_desc = listing_desc[:800] + "…"
 
-            # Format: suburb|street|price|beds|baths|parking|land|ptype|lid|url|headline|listing_description
-            rows.append("|".join(str(x) for x in [
+            # Strip pipe chars from free-text fields so the row stays pipe-delimited
+            def _clean(v): return str(v).replace("|", " / ").strip()
+            rows.append("|".join(_clean(x) for x in [
                 suburb, street, actual_price, beds, baths, parking, land, ptype, lid_str, url, description, listing_desc
             ]))
 
         except Exception:
-            # Skip malformed listings silently
             continue
 
     return rows, total_listings, total_pages
 
 
 def _polite_delay(base_seconds: float = 8.0, jitter: float = 2.0) -> None:
-    """
-    Sleep for base_seconds ± jitter before the next request.
-    The randomness makes the timing look less robotic to the server.
-    """
     delay = base_seconds + random.uniform(-jitter, jitter)
-    delay = max(delay, base_seconds - jitter)  # never go below floor
+    delay = max(delay, base_seconds - jitter)
     time.sleep(delay)
 
 
@@ -280,6 +350,46 @@ def _should_keep(row: str) -> bool:
     if _is_strata(address):
         return False
     return True
+
+
+def _extract_listing_desc_from_html(html: str) -> str:
+    """Extract the description body text from an individual Domain listing page."""
+    m = re.search(
+        r'<script id="__NEXT_DATA__" type="application/json">(.+?)</script>',
+        html, re.DOTALL,
+    )
+    if not m:
+        return ""
+    try:
+        data = json.loads(m.group(1))
+    except Exception:
+        return ""
+
+    cp   = data.get("props", {}).get("pageProps", {}).get("componentProps", {})
+    rg   = cp.get("rootGraphQuery", {}) or {}
+    lbv2 = rg.get("listingByIdV2", {}) or {}
+    desc = lbv2.get("description") or ""
+
+    if isinstance(desc, list):
+        desc = " ".join(str(p) for p in desc if p)
+
+    if not desc:
+        raw = cp.get("description") or ""
+        desc = " ".join(str(p) for p in raw if p) if isinstance(raw, list) else str(raw)
+
+    if not desc:
+        desc = cp.get("headline") or lbv2.get("headline") or ""
+
+    if not desc:
+        return ""
+
+    try:
+        desc = desc.encode("latin-1").decode("utf-8")
+    except Exception:
+        pass
+
+    desc = re.sub(r"[\r\n\t]+", " ", str(desc)).replace("|", " ").strip()
+    return desc[:800] + "…" if len(desc) > 800 else desc
 
 
 # ─────────────────────────────────────────────────────────────
@@ -301,147 +411,47 @@ def search_listings(
         suburb_slug:    Domain suburb slug, e.g. "tamworth-nsw-2340" or "ipswich-qld-4305".
                         Format is: lowercase-suburb-name-state-postcode
         max_price:      Upper price limit in dollars (default 2,000,000)
-        max_pages:      Maximum pages to fetch (default 5, Domain shows ~20 per page)
-        page_delay:     Seconds to wait between page requests (default 8). A small
-                        random jitter of ±2s is added so the timing looks natural.
-        listing_delay:  Seconds to wait between individual listing page fetches when
-                        retrieving description text (default 0, disabled). Use
-                        fetch_descriptions() tool to populate descriptions separately.
+        max_pages:      Maximum pages to fetch (default 5, ~20 listings/page)
+        page_delay:     Seconds to wait between page requests (default 8)
+        listing_delay:  Seconds between individual listing page fetches for descriptions
+                        (default 0, disabled — use fetch_descriptions() instead)
 
     Returns:
-        {
-          "suburb_slug": str,
-          "total_listings": int,
-          "total_pages": int,
-          "pages_fetched": int,
-          "rows_raw": int,        # before filtering
-          "rows_kept": int,       # after filtering H&L / strata
-          "desc_fetched": int,    # how many listing descriptions were retrieved
-          "rows": ["suburb|address|price|...", ...],
-          "errors": [str, ...]
-        }
+        {suburb_slug, total_listings, total_pages, pages_fetched,
+         rows_raw, rows_kept, desc_fetched, rows, errors}
     """
     all_rows: list[str] = []
     errors:   list[str] = []
     total_listings = 0
     total_pages    = 1
+    desc_fetched   = 0
 
-    # Use a temp cookie jar file so curl persists cookies across requests
-    import tempfile
-    cookie_file = tempfile.mktemp(suffix=".txt")
-
-    def _curl_get(url: str, timeout: int = 30) -> str:
-        """Fetch a URL using system curl (bypasses Python TLS fingerprinting)."""
-        cmd = [
-            "curl", "-s", "-L",
-            "--max-time", str(timeout),
-            "--compressed",
-            "--cookie", cookie_file,
-            "--cookie-jar", cookie_file,
-            "-H", f"User-Agent: {DOMAIN_HEADERS['User-Agent']}",
-            "-H", f"Accept: {DOMAIN_HEADERS['Accept']}",
-            "-H", f"Accept-Language: {DOMAIN_HEADERS['Accept-Language']}",
-            "-H", "Cache-Control: max-age=0",
-            "-H", "Sec-Fetch-Dest: document",
-            "-H", "Sec-Fetch-Mode: navigate",
-            "-H", "Sec-Fetch-Site: none",
-            "-H", "Sec-Fetch-User: ?1",
-            "-H", "Upgrade-Insecure-Requests: 1",
-            url,
-        ]
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout + 5)
-        if result.returncode != 0:
-            raise RuntimeError(f"curl exited {result.returncode}: {result.stderr.strip()}")
-        return result.stdout
-
-    def _extract_listing_desc(listing_html: str) -> str:
-        """
-        Pull the description body text from an individual listing page's __NEXT_DATA__.
-        Confirmed paths from Domain's listing page JSON (2025).
-        """
-        m = re.search(
-            r'<script id="__NEXT_DATA__" type="application/json">(.+?)</script>',
-            listing_html, re.DOTALL,
-        )
-        if not m:
-            return ""
-        try:
-            data = json.loads(m.group(1))
-        except Exception:
-            return ""
-
-        cp = data.get("props", {}).get("pageProps", {}).get("componentProps", {})
-
-        # Primary: full description text via GraphQL data
-        rg = cp.get("rootGraphQuery", {}) or {}
-        lbv2 = rg.get("listingByIdV2", {}) or {}
-        desc = lbv2.get("description") or ""
-
-        # description may be a list of paragraphs — join them
-        if isinstance(desc, list):
-            desc = " ".join(str(p) for p in desc if p)
-
-        # Fallback: componentProps.description (also sometimes a list)
-        if not desc:
-            raw = cp.get("description") or ""
-            if isinstance(raw, list):
-                desc = " ".join(str(p) for p in raw if p)
-            else:
-                desc = str(raw)
-
-        # Last resort: marketing headline
-        if not desc:
-            desc = cp.get("headline") or lbv2.get("headline") or ""
-
-        if not desc:
-            return ""
-
-        # Fix double-encoded UTF-8 (e.g. "mÂ²" → "m²")
-        try:
-            desc = desc.encode("latin-1").decode("utf-8")
-        except Exception:
-            pass
-
-        # Sanitise: flatten whitespace, strip pipe chars (our delimiter)
-        desc = re.sub(r"[\r\n\t]+", " ", str(desc)).replace("|", " ").strip()
-        if len(desc) > 800:
-            desc = desc[:800] + "…"
-        return desc
-
-    try:
-        # Warm up: visit homepage first to collect cookies
-        try:
-            _curl_get("https://www.domain.com.au/", timeout=15)
-            time.sleep(random.uniform(2, 4))
-        except Exception:
-            pass  # non-fatal
-
-        for page in range(1, max_pages + 1):
-
-            # Polite delay before every request except the very first
-            if page > 1:
+    with _uc_session() as driver:
+        for page_num in range(1, max_pages + 1):
+            if page_num > 1:
                 _polite_delay(base_seconds=page_delay)
 
-            url = _build_url(suburb_slug, max_price, page)
+            url = _build_url(suburb_slug, max_price, page_num)
             try:
-                html = _curl_get(url)
+                html = _uc_fetch(driver, url)
             except Exception as e:
-                errors.append(f"Page {page}: HTTP error — {e}")
+                errors.append(f"Page {page_num}: {e}")
                 break
 
-            # Debug: dump first listing's JSON structure
-            if debug and page == 1:
+            if debug and page_num == 1:
                 try:
-                    debug_html = os.path.join(os.path.dirname(os.path.abspath(__file__)), "debug_page.html")
-                    with open(debug_html, "w", encoding="utf-8") as _f:
-                        _f.write(html)
-                    errors.append(f"DEBUG html saved to: {debug_html}")
-                except Exception as _e:
-                    errors.append(f"DEBUG html save failed: {_e}")
+                    debug_path = os.path.join(
+                        os.path.dirname(os.path.abspath(__file__)), "debug_page.html"
+                    )
+                    with open(debug_path, "w", encoding="utf-8") as f:
+                        f.write(html)
+                    errors.append(f"DEBUG html saved to: {debug_path}")
+                except Exception as e:
+                    errors.append(f"DEBUG save failed: {e}")
 
             rows, tl, tp = _extract_rows_from_html(html)
 
-            if page == 1:
+            if page_num == 1:
                 total_listings = tl
                 total_pages    = tp
 
@@ -450,33 +460,26 @@ def search_listings(
 
             all_rows.extend(rows)
 
-            if page >= total_pages:
+            if page_num >= total_pages:
                 break
 
-        # ── Per-listing description fetch ────────────────────────
         kept = [r for r in all_rows if _should_keep(r)]
-        desc_fetched = 0
 
         if listing_delay > 0:
             for i, row in enumerate(kept):
                 parts = row.split("|")
-                # Only fetch if description slot is empty
                 existing_desc = parts[11].strip() if len(parts) > 11 else ""
                 if existing_desc:
                     desc_fetched += 1
                     continue
-
                 url_part = parts[9].strip() if len(parts) > 9 else ""
-                if not url_part or not url_part.startswith("/"):
+                if not url_part.startswith("/"):
                     continue
-
                 time.sleep(listing_delay + random.uniform(0, 0.3))
-
                 try:
-                    listing_html = _curl_get(f"https://www.domain.com.au{url_part}", timeout=20)
-                    desc = _extract_listing_desc(listing_html)
+                    listing_html = _uc_fetch(driver, f"https://www.domain.com.au{url_part}", settle=1.0)
+                    desc = _extract_listing_desc_from_html(listing_html)
                     if desc:
-                        # Pad to 12 fields if needed and set field[11]
                         while len(parts) < 12:
                             parts.append("")
                         parts[11] = desc
@@ -484,13 +487,6 @@ def search_listings(
                         desc_fetched += 1
                 except Exception as e:
                     errors.append(f"Desc fetch failed for {url_part}: {e}")
-
-    finally:
-        # Clean up temp cookie file
-        try:
-            os.unlink(cookie_file)
-        except Exception:
-            pass
 
     return {
         "suburb_slug":    suburb_slug,
@@ -510,28 +506,28 @@ def search_listings(
 # ─────────────────────────────────────────────────────────────
 @mcp.tool()
 def append_listings(
-    project_dir: str,
     rows: list[str],
     suburb: Optional[str] = None,
     replace_suburb: bool = True,
+    data_dir: str = "",
+    project_dir: str = "",   # kept for backwards compat — ignored when data_dir is set
 ) -> dict:
     """
     Write scraped listing rows into raw_listings.txt.
 
     Args:
-        project_dir:    Absolute path to the directory containing raw_listings.txt,
-                        score_listings.py, and build_excel.py
         rows:           List of pipe-delimited listing strings from search_listings()
-        suburb:         If provided and replace_suburb=True, all existing rows for this
-                        suburb are removed before writing (for a clean refresh).
-                        If None, rows are simply appended.
+        suburb:         If provided and replace_suburb=True, existing rows for this
+                        suburb are removed before writing (clean refresh).
         replace_suburb: Whether to remove old rows for this suburb first (default True)
+        data_dir:       Directory where raw_listings.txt is stored
+                        (default: C:\\DomainListingData)
 
     Returns:
         { "raw_listings_path": str, "rows_written": int,
           "rows_removed": int, "total_rows": int }
     """
-    raw_path = Path(project_dir) / "raw_listings.txt"
+    raw_path = _ddir(data_dir or project_dir) / "raw_listings.txt"
 
     existing: list[str] = []
     if raw_path.exists():
@@ -547,7 +543,6 @@ def append_listings(
         ]
         removed = before - len(existing)
 
-    # Deduplicate by listing ID (field index 8)
     seen_ids: set[str] = set()
     for line in existing:
         parts = line.split("|")
@@ -577,25 +572,28 @@ def append_listings(
 # Tool 3 — run_scoring
 # ─────────────────────────────────────────────────────────────
 @mcp.tool()
-def run_scoring(project_dir: str) -> dict:
+def run_scoring(project_dir: str, data_dir: str = "") -> dict:
     """
     Run score_listings.py logic inline to produce scored_listings.json.
 
     Args:
-        project_dir: Absolute path containing score_listings.py and raw_listings.txt
+        project_dir: Absolute path containing score_listings.py (scripts folder)
+        data_dir:    Directory containing raw_listings.txt and where scored_listings.json
+                     will be written (default: C:\\DomainListingData)
 
     Returns:
         { "success": bool, "scored_json_path": str, "rows_scored": int, "stderr": str }
     """
     import importlib.util, traceback
+    dd     = _ddir(data_dir or "")
     script = Path(project_dir) / "score_listings.py"
-    raw    = Path(project_dir) / "raw_listings.txt"
-    out    = Path(project_dir) / "scored_listings.json"
+    raw    = dd / "raw_listings.txt"
+    out    = dd / "scored_listings.json"
 
     if not script.exists():
         return {"success": False, "error": f"score_listings.py not found in {project_dir}"}
     if not raw.exists():
-        return {"success": False, "error": f"raw_listings.txt not found in {project_dir}"}
+        return {"success": False, "error": f"raw_listings.txt not found in {dd}"}
 
     try:
         spec   = importlib.util.spec_from_file_location("score_listings", str(script))
@@ -640,36 +638,38 @@ def run_scoring(project_dir: str) -> dict:
 # Tool 4 — run_excel_build
 # ─────────────────────────────────────────────────────────────
 @mcp.tool()
-def run_excel_build(project_dir: str) -> dict:
+def run_excel_build(project_dir: str, data_dir: str = "") -> dict:
     """
     Run build_excel.py logic inline to produce SEQ_Listings.xlsx.
 
     Args:
-        project_dir: Absolute path containing build_excel.py and scored_listings.json
+        project_dir: Absolute path containing build_excel.py (scripts folder)
+        data_dir:    Directory containing scored_listings.json and where the xlsx
+                     will be written (default: C:\\DomainListingData)
 
     Returns:
         { "success": bool, "files": [str, ...], "stdout": str, "stderr": str }
     """
     import importlib.util, traceback
+    dd     = _ddir(data_dir or "")
     script = Path(project_dir) / "build_excel.py"
-    scored = Path(project_dir) / "scored_listings.json"
+    scored = dd / "scored_listings.json"
 
     if not script.exists():
         return {"success": False, "error": f"build_excel.py not found in {project_dir}"}
     if not scored.exists():
-        return {"success": False, "error": f"scored_listings.json not found — run run_scoring() first"}
+        return {"success": False, "error": f"scored_listings.json not found in {dd} — run run_scoring() first"}
 
     try:
         spec = importlib.util.spec_from_file_location("build_excel", str(script))
         mod  = importlib.util.module_from_spec(spec)
-        # Make project_dir available as the script's __file__ so Path(__file__).parent works
         mod.__file__ = str(script)
         sys.path.insert(0, str(project_dir))
         spec.loader.exec_module(mod)
-        mod.main()
+        mod.main(scored_path=scored, out_path=dd / "SEQ_Listings.xlsx")
         sys.path.pop(0)
 
-        out_file = Path(project_dir) / "SEQ_Listings.xlsx"
+        out_file = dd / "SEQ_Listings.xlsx"
         files = [str(out_file)] if out_file.exists() else []
         return {
             "success": True,
@@ -692,36 +692,29 @@ def full_pipeline(
     max_pages: int = 5,
     replace_suburb: bool = True,
     page_delay: float = 8.0,
+    data_dir: str = "",
 ) -> dict:
     """
     Run the complete Domain.com.au → Excel pipeline in one call.
 
     Steps:
       1. Scrape Domain.com.au for listings in the given suburb
-      2. Merge rows into raw_listings.txt (replacing old rows for this suburb)
+      2. Merge rows into raw_listings.txt
       3. Run score_listings.py → scored_listings.json
-      4. Run build_excel.py → SEQ_Listings.xlsx + SEQ_Dashboard.xlsx
+      4. Run build_excel.py → SEQ_Listings.xlsx
 
     Args:
-        suburb_slug:    e.g. "toowoomba-qld-4350" or "tamworth-nsw-2340"
+        suburb_slug:    e.g. "loganholme-qld-4129" or "ipswich-qld-4305"
         project_dir:    Absolute path to the folder with score_listings.py and build_excel.py
         max_price:      Upper price limit in dollars (default 2,000,000)
         max_pages:      Max Domain result pages to fetch (default 5)
         replace_suburb: Remove existing rows for this suburb before writing (default True)
         page_delay:     Seconds between page requests during scraping (default 8)
-
-    Returns a summary dict with results from each step.
-
-    Note: If a new suburb is added, you must first update the ZONING and
-    REZONE_POTENTIAL dicts in score_listings.py — otherwise scoring will
-    use DEFAULT_ZONE and won't have rezone potential data.
+        data_dir:       Where to store data files (default: C:\\DomainListingData)
     """
     summary: dict = {"suburb_slug": suburb_slug, "steps": {}}
-
-    # Derive suburb name from slug for replace logic (e.g. "tamworth-nsw-2340" → "Tamworth")
     suburb_name = suburb_slug.split("-")[0].title()
 
-    # Step 1: scrape
     scrape = search_listings(suburb_slug, max_price, max_pages, page_delay)
     summary["steps"]["scrape"] = {
         "rows_kept":      scrape["rows_kept"],
@@ -735,21 +728,15 @@ def full_pipeline(
         summary["message"] = f"No listings found for {suburb_slug}. Check the slug format."
         return summary
 
-    # Step 2: append
-    append = append_listings(
-        project_dir,
-        scrape["rows"],
-        suburb=suburb_name,
-        replace_suburb=replace_suburb,
-    )
+    append = append_listings(rows=scrape["rows"], suburb=suburb_name,
+                             replace_suburb=replace_suburb, data_dir=data_dir)
     summary["steps"]["append"] = {
         "rows_written": append["rows_written"],
         "rows_removed": append["rows_removed"],
         "total_rows":   append["total_rows"],
     }
 
-    # Step 3: score
-    score = run_scoring(project_dir)
+    score = run_scoring(project_dir, data_dir=data_dir)
     summary["steps"]["score"] = {
         "success": score["success"],
         "output":  score.get("stdout", ""),
@@ -761,8 +748,7 @@ def full_pipeline(
         summary["message"] = score.get("stderr") or score.get("error", "Unknown error")
         return summary
 
-    # Step 4: build Excel
-    excel = run_excel_build(project_dir)
+    excel = run_excel_build(project_dir, data_dir=data_dir)
     summary["steps"]["excel"] = {
         "success": excel["success"],
         "files":   excel.get("files", []),
@@ -774,7 +760,6 @@ def full_pipeline(
         summary["message"] = excel.get("error", "Excel build failed")
         return summary
 
-    # Step 5: email report (optional — skipped if email_config.json is absent)
     email_result = {"success": False, "message": "email_config.json not found — skipping email"}
     try:
         import importlib.util
@@ -809,93 +794,36 @@ def fetch_descriptions(
     listing_delay: float = 0.5,
     suburb: Optional[str] = None,
     smart_filter: bool = True,
+    data_dir: str = "",
 ) -> dict:
     """
     Fetch listing description text for rows in raw_listings.txt that don't have one yet.
-    Reads field[11] — if empty, fetches the individual Domain listing page and extracts
-    the description. Writes results back to raw_listings.txt in-place.
-
-    Run this after search_listings / append_listings to populate the description column.
     Call repeatedly until rows_remaining == 0.
 
     Args:
-        project_dir:    Path containing raw_listings.txt
-        batch_size:     Max listings to process per call (default 40, ~25s at 0.5s delay)
+        project_dir:    Script directory (not used for data — kept for compat)
+        batch_size:     Max listings to process per call (default 40)
         listing_delay:  Seconds between individual page fetches (default 0.5)
         suburb:         If set, only process rows for this suburb
-        smart_filter:   If True (default), skip description fetch for listings that are
-                        clearly uninteresting: price > dataset median AND land < 500m²
-                        AND beds <= 3. Unknown prices (Contact Agent, EOI, Auction) are
-                        always fetched regardless.
+        smart_filter:   Skip clearly uninteresting listings (over median price,
+                        small block, low bed count)
+        data_dir:       Directory containing raw_listings.txt (default: C:\\DomainListingData)
 
     Returns:
         { "rows_updated": int, "rows_remaining": int, "rows_skipped": int,
           "rows_failed": int, "median_price": int, "errors": [] }
     """
-    import tempfile
-
-    raw_path = Path(project_dir) / "raw_listings.txt"
+    raw_path = _ddir(data_dir or "") / "raw_listings.txt"
     if not raw_path.exists():
         return {"success": False, "error": f"raw_listings.txt not found in {project_dir}"}
 
     lines = raw_path.read_text(encoding="utf-8").splitlines()
-    cookie_file = tempfile.mktemp(suffix=".txt")
-
-    def _curl_get(url: str, timeout: int = 20) -> str:
-        cmd = [
-            "curl", "-s", "-L", "--max-time", str(timeout), "--compressed",
-            "--cookie", cookie_file, "--cookie-jar", cookie_file,
-            "-H", f"User-Agent: {DOMAIN_HEADERS['User-Agent']}",
-            "-H", f"Accept: {DOMAIN_HEADERS['Accept']}",
-            "-H", f"Accept-Language: {DOMAIN_HEADERS['Accept-Language']}",
-            "-H", "Cache-Control: max-age=0",
-            "-H", "Sec-Fetch-Dest: document",
-            "-H", "Sec-Fetch-Mode: navigate",
-            "-H", "Sec-Fetch-Site: none",
-            "-H", "Upgrade-Insecure-Requests: 1",
-            url,
-        ]
-        r = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout + 5)
-        return r.stdout
-
-    def _extract_desc(html: str) -> str:
-        m = re.search(
-            r'<script id="__NEXT_DATA__" type="application/json">(.+?)</script>',
-            html, re.DOTALL,
-        )
-        if not m:
-            return ""
-        try:
-            data = json.loads(m.group(1))
-        except Exception:
-            return ""
-        cp = data.get("props", {}).get("pageProps", {}).get("componentProps", {})
-        rg = cp.get("rootGraphQuery", {}) or {}
-        lbv2 = rg.get("listingByIdV2", {}) or {}
-        desc = lbv2.get("description") or ""
-        if isinstance(desc, list):
-            desc = " ".join(str(p) for p in desc if p)
-        if not desc:
-            raw = cp.get("description") or ""
-            desc = " ".join(str(p) for p in raw if p) if isinstance(raw, list) else str(raw)
-        if not desc:
-            desc = cp.get("headline") or lbv2.get("headline") or ""
-        if not desc:
-            return ""
-        try:
-            desc = desc.encode("latin-1").decode("utf-8")
-        except Exception:
-            pass
-        desc = re.sub(r"[\r\n\t]+", " ", str(desc)).replace("|", " ").strip()
-        return desc[:800] + "…" if len(desc) > 800 else desc
 
     rows_updated   = 0
     rows_failed    = 0
     rows_skipped   = 0
-    rows_remaining = 0
     errors: list[str] = []
 
-    # ── Compute median price for smart filtering ──────────────
     median_price = 0
     if smart_filter:
         known_prices = []
@@ -904,60 +832,44 @@ def fetch_descriptions(
                 continue
             parts = line.split("|")
             price_s = parts[2].strip() if len(parts) > 2 else ""
-            # Strip common prefixes and take the first number
             clean = price_s.replace(",", "").replace("$", "").lower()
-            # Skip unknown-price strings
             if any(x in clean for x in ("contact", "auction", "eoi", "expression", "guide", "call")) \
                     or ("offer" in clean and not re.search(r"\d{6,}", clean)):
                 continue
             m = re.search(r"(\d{6,})", clean)
             if m:
                 val = float(m.group(1))
-                # Normalise shorthand: "$1.2m" → 1200000
-                if val < 100:
-                    val *= 1_000_000
-                elif val < 10_000:
-                    val *= 1_000
+                if val < 100:   val *= 1_000_000
+                elif val < 10_000: val *= 1_000
                 if 100_000 < val < 10_000_000:
                     known_prices.append(val)
         if known_prices:
             known_prices.sort()
-            mid = len(known_prices) // 2
-            median_price = int(known_prices[mid])
+            median_price = int(known_prices[len(known_prices) // 2])
 
     def _is_uninteresting(parts: list[str]) -> bool:
-        """Return True if this listing is a clear owner-occ / overpriced skip."""
         if not smart_filter or median_price == 0:
             return False
         price_s = parts[2].strip() if len(parts) > 2 else ""
-        # Unknown price → always interesting (might be a deal or have dual income)
         clean = price_s.replace(",", "").replace("$", "").lower()
         if any(x in clean for x in ("contact", "auction", "eoi", "expression", "guide", "call", "for sale")) \
                 or ("offer" in clean and not re.search(r"\d{6,}", clean)):
             return False
-        # Parse price
         pm = re.search(r"(\d{6,})", clean)
         if not pm:
             return False
         val = float(pm.group(1))
-        if val < 100:
-            val *= 1_000_000
-        elif val < 10_000:
-            val *= 1_000
+        if val < 100:   val *= 1_000_000
+        elif val < 10_000: val *= 1_000
         if val <= median_price:
-            return False  # At or below median → keep
-        # Over median — check land and beds
-        land_s = parts[6].strip() if len(parts) > 6 else ""
-        beds_s = parts[3].strip() if len(parts) > 3 else ""
-        land_m2 = _parse_land_m2(land_s)
+            return False
+        land_m2 = _parse_land_m2(parts[6].strip() if len(parts) > 6 else "")
         try:
-            beds = int(beds_s)
+            beds = int(parts[3].strip() if len(parts) > 3 else "0")
         except ValueError:
             beds = 0
-        # Skip only if: over-median price AND small block AND average bed count
         return land_m2 > 0 and land_m2 < 500 and beds <= 3
 
-    # ── Find rows that need descriptions ──────────────────────
     todo_indices = []
     suburb_lower = suburb.lower() if suburb else None
     for idx, line in enumerate(lines):
@@ -979,18 +891,14 @@ def fetch_descriptions(
 
     rows_remaining = max(0, len(todo_indices) - batch_size)
 
-    try:
-        # Warm up cookies
-        _curl_get("https://www.domain.com.au/", timeout=10)
-        time.sleep(1)
-
+    with _uc_session() as driver:
         for idx in todo_indices[:batch_size]:
             parts = lines[idx].split("|")
             url_part = parts[9].strip()
             time.sleep(listing_delay + random.uniform(0, 0.3))
             try:
-                html = _curl_get(f"https://www.domain.com.au{url_part}")
-                desc = _extract_desc(html)
+                html = _uc_fetch(driver, f"https://www.domain.com.au{url_part}", settle=1.0)
+                desc = _extract_listing_desc_from_html(html)
                 while len(parts) < 12:
                     parts.append("")
                 parts[11] = desc
@@ -1002,11 +910,6 @@ def fetch_descriptions(
             except Exception as e:
                 rows_failed += 1
                 errors.append(f"{url_part}: {e}")
-    finally:
-        try:
-            os.unlink(cookie_file)
-        except Exception:
-            pass
 
     raw_path.write_text("\n".join(l for l in lines if l) + "\n", encoding="utf-8")
 
@@ -1021,92 +924,63 @@ def fetch_descriptions(
 
 
 # ─────────────────────────────────────────────────────────────
-# Tool 7 — debug_listing_page (diagnostic only)
+# Tool 7 — debug_listing_page
 # ─────────────────────────────────────────────────────────────
 @mcp.tool()
 def debug_listing_page(listing_url: str) -> dict:
     """
     Fetch a single Domain listing page and dump its __NEXT_DATA__ JSON structure.
-    Use this to find the correct JSON path for description text.
+    Use this to diagnose parsing issues or verify bot detection is bypassed.
 
     Args:
         listing_url: Full URL, e.g. "https://www.domain.com.au/1-cedar-street-raceview-qld-4305-2020775400"
 
     Returns:
-        { "found_next_data": bool, "props_path_keys": dict, "description_candidates": dict }
+        { "found_next_data": bool, "pageProps_keys": list, "description_candidates": dict }
     """
-    import tempfile, subprocess as _sp
-
-    cookie_file = tempfile.mktemp(suffix=".txt")
-
-    def _curl(url: str) -> str:
-        cmd = [
-            "curl", "-s", "-L", "--max-time", "20", "--compressed",
-            "--cookie", cookie_file, "--cookie-jar", cookie_file,
-            "-H", f"User-Agent: {DOMAIN_HEADERS['User-Agent']}",
-            "-H", f"Accept: {DOMAIN_HEADERS['Accept']}",
-            "-H", f"Accept-Language: {DOMAIN_HEADERS['Accept-Language']}",
-            "-H", "Cache-Control: max-age=0",
-            "-H", "Sec-Fetch-Dest: document",
-            "-H", "Sec-Fetch-Mode: navigate",
-            "-H", "Sec-Fetch-Site: none",
-            "-H", "Upgrade-Insecure-Requests: 1",
-            url,
-        ]
-        r = _sp.run(cmd, capture_output=True, text=True, timeout=25)
-        return r.stdout
-
-    try:
-        # Warm cookies
-        _curl("https://www.domain.com.au/")
-        time.sleep(2)
-
-        html = _curl(listing_url)
-
-        m = re.search(
-            r'<script id="__NEXT_DATA__" type="application/json">(.+?)</script>',
-            html, re.DOTALL,
-        )
-        if not m:
-            return {"found_next_data": False, "html_length": len(html), "html_snippet": html[:500]}
-
-        data = json.loads(m.group(1))
-        pp = data.get("props", {}).get("pageProps", {})
-        cp = pp.get("componentProps", {})
-
-        def _keys_summary(d, depth=0):
-            """Recursively summarise dict keys up to depth 3."""
-            if not isinstance(d, dict) or depth > 3:
-                return type(d).__name__
-            return {k: _keys_summary(v, depth + 1) for k, v in list(d.items())[:30]}
-
-        # Hunt for anything called 'description' anywhere in pageProps
-        candidates = {}
-        def _hunt(obj, path=""):
-            if isinstance(obj, dict):
-                for k, v in obj.items():
-                    full = f"{path}.{k}" if path else k
-                    if "description" in k.lower() or "headline" in k.lower():
-                        candidates[full] = str(v)[:200] if not isinstance(v, (dict, list)) else f"[{type(v).__name__}]"
-                    _hunt(v, full)
-            elif isinstance(obj, list):
-                for i, v in enumerate(obj[:3]):
-                    _hunt(v, f"{path}[{i}]")
-
-        _hunt(pp)
-
-        return {
-            "found_next_data": True,
-            "pageProps_keys": list(pp.keys()),
-            "componentProps_keys": list(cp.keys()),
-            "description_candidates": candidates,
-            "pp_structure": _keys_summary(pp),
-        }
-    finally:
+    with _uc_session() as driver:
         try:
-            os.unlink(cookie_file)
-        except Exception:
-            pass
+            html = _uc_fetch(driver, listing_url)
+        except Exception as e:
+            return {"found_next_data": False, "error": str(e)}
+
+    m = re.search(
+        r'<script id="__NEXT_DATA__" type="application/json">(.+?)</script>',
+        html, re.DOTALL,
+    )
+    if not m:
+        return {"found_next_data": False, "html_length": len(html), "html_snippet": html[:500]}
+
+    data = json.loads(m.group(1))
+    pp = data.get("props", {}).get("pageProps", {})
+    cp = pp.get("componentProps", {})
+
+    def _keys_summary(d, depth=0):
+        if not isinstance(d, dict) or depth > 3:
+            return type(d).__name__
+        return {k: _keys_summary(v, depth + 1) for k, v in list(d.items())[:30]}
+
+    candidates = {}
+    def _hunt(obj, path=""):
+        if isinstance(obj, dict):
+            for k, v in obj.items():
+                full = f"{path}.{k}" if path else k
+                if "description" in k.lower() or "headline" in k.lower():
+                    candidates[full] = str(v)[:200] if not isinstance(v, (dict, list)) else f"[{type(v).__name__}]"
+                _hunt(v, full)
+        elif isinstance(obj, list):
+            for i, v in enumerate(obj[:3]):
+                _hunt(v, f"{path}[{i}]")
+
+    _hunt(pp)
+
+    return {
+        "found_next_data":        True,
+        "pageProps_keys":         list(pp.keys()),
+        "componentProps_keys":    list(cp.keys()),
+        "description_candidates": candidates,
+        "pp_structure":           _keys_summary(pp),
+    }
 
 
 # ─────────────────────────────────────────────────────────────
@@ -1117,14 +991,11 @@ def send_report(project_dir: str, suburb_filter: str = "") -> dict:
     """
     Email the scored listings as an HTML report via Gmail SMTP.
 
-    IMPORTANT: Call this tool EXACTLY ONCE, after ALL suburbs have been
-    processed. Never call it after an individual suburb or region group —
-    only after the entire batch is fully complete.
+    IMPORTANT: Call EXACTLY ONCE after ALL suburbs are processed.
 
     Args:
         project_dir:    Absolute path to the project folder (where send_report.py lives).
-        suburb_filter:  Optional — limit the report to a single suburb name (e.g. "Ipswich").
-                        Leave empty (default) to include all suburbs in the report.
+        suburb_filter:  Limit report to one suburb name (e.g. "Ipswich"). Empty = all.
 
     Returns:
         { "success": bool, "message": str }
@@ -1141,6 +1012,160 @@ def send_report(project_dir: str, suburb_filter: str = "") -> dict:
     spec.loader.exec_module(mod)
 
     return mod.send_report(suburb_filter=suburb_filter or None)
+
+
+# ─────────────────────────────────────────────────────────────
+# Tool 9 — classify_listings (Ollama LLM)
+# ─────────────────────────────────────────────────────────────
+@mcp.tool()
+def classify_listings(
+    project_dir: str,
+    model: str = "qwen2.5:14b",
+    ollama_url: str = "http://localhost:11434",
+    batch_size: int = 20,
+    min_score: float = 0.0,
+    force_reclassify: bool = False,
+    data_dir: str = "",
+) -> dict:
+    """
+    Use a local Ollama LLM to classify scored listings and identify deals.
+
+    Reads scored_listings.json, analyses each listing's description and metrics,
+    and adds AI classification fields. Writes results to classified_listings.json.
+
+    Requires Ollama to be running locally:
+      ollama serve
+      ollama pull qwen2.5:14b
+
+    Args:
+        project_dir:       Script directory (kept for compat)
+        model:             Ollama model name (default: qwen2.5:14b)
+        ollama_url:        Ollama API base URL (default: http://localhost:11434)
+        batch_size:        Max listings to classify per call (default 20)
+        min_score:         Only classify listings with total_score >= this (default 0 = all)
+        force_reclassify:  Re-classify listings that already have AI classification
+        data_dir:          Directory containing scored_listings.json (default: C:\\DomainListingData)
+
+    Returns:
+        { "success": bool, "classified": int, "skipped": int,
+          "remaining": int, "output_path": str, "errors": [] }
+    """
+    import urllib.request, urllib.error
+
+    dd          = _ddir(data_dir or "")
+    scored_path = dd / "scored_listings.json"
+    out_path    = dd / "classified_listings.json"
+
+    if not scored_path.exists():
+        return {"success": False, "error": "scored_listings.json not found — run run_scoring() first"}
+
+    listings = json.loads(scored_path.read_text(encoding="utf-8"))
+
+    # Load existing classified output if present
+    existing: dict[str, dict] = {}
+    if out_path.exists():
+        try:
+            for item in json.loads(out_path.read_text(encoding="utf-8")):
+                lid = item.get("listing_id", "")
+                if lid:
+                    existing[lid] = item
+        except Exception:
+            pass
+
+    def _ollama_classify(listing: dict) -> dict:
+        """Send one listing to Ollama and return structured classification."""
+        desc = listing.get("listing_description") or listing.get("description") or ""
+        prompt = f"""You are an Australian property investment analyst. Analyse this residential listing and respond ONLY with a JSON object — no explanation, no markdown, just the JSON.
+
+Listing:
+- Address: {listing.get("street", "")}, {listing.get("suburb", "")}
+- Price: {listing.get("price", "Unknown")}
+- Beds/Baths/Parking: {listing.get("beds", "?")}/{listing.get("baths", "?")}/{listing.get("parking", "?")}
+- Land: {listing.get("land", "Unknown")}
+- Type: {listing.get("type", "House")}
+- Investment Score: {listing.get("total_score", 0)}/100
+- Description: {desc[:600] if desc else "No description available"}
+
+Respond with exactly this JSON structure:
+{{
+  "deal_type": "cashflow|growth|development|flip|none",
+  "deal_flags": ["short flag 1", "short flag 2"],
+  "red_flags": ["concern 1"],
+  "confidence": "high|medium|low",
+  "ai_summary": "1-2 sentence investment take"
+}}"""
+
+        payload = json.dumps({
+            "model":  model,
+            "prompt": prompt,
+            "stream": False,
+            "format": "json",
+        }).encode("utf-8")
+
+        req = urllib.request.Request(
+            f"{ollama_url.rstrip('/')}/api/generate",
+            data=payload,
+            headers={"Content-Type": "application/json"},
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            result = json.loads(resp.read().decode("utf-8"))
+
+        raw = result.get("response", "{}")
+        # Extract JSON from response (model might wrap it in markdown)
+        json_match = re.search(r'\{.*\}', raw, re.DOTALL)
+        if json_match:
+            classification = json.loads(json_match.group())
+        else:
+            classification = json.loads(raw)
+
+        return classification
+
+    classified_count = 0
+    skipped_count    = 0
+    errors: list[str] = []
+    todo = []
+
+    for listing in listings:
+        lid = listing.get("listing_id", "")
+        score = listing.get("total_score", 0) or 0
+        if score < min_score:
+            skipped_count += 1
+            continue
+        if not force_reclassify and lid in existing and existing[lid].get("ai_classification"):
+            skipped_count += 1
+            continue
+        todo.append(listing)
+
+    remaining = max(0, len(todo) - batch_size)
+
+    for listing in todo[:batch_size]:
+        lid = listing.get("listing_id", "")
+        try:
+            classification = _ollama_classify(listing)
+            enriched = {**listing, "ai_classification": classification}
+            existing[lid] = enriched
+            classified_count += 1
+        except Exception as e:
+            errors.append(f"{listing.get('street', lid)}: {e}")
+            existing[lid] = {**listing, "ai_classification": None}
+
+    # Merge: preserve all listings, with classifications where available
+    output = []
+    lid_order = {l.get("listing_id"): i for i, l in enumerate(listings)}
+    for lid, item in sorted(existing.items(), key=lambda x: lid_order.get(x[0], 9999)):
+        output.append(item)
+
+    out_path.write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    return {
+        "success":      True,
+        "classified":   classified_count,
+        "skipped":      skipped_count,
+        "remaining":    remaining,
+        "output_path":  str(out_path),
+        "errors":       errors[:10],
+    }
 
 
 # ─────────────────────────────────────────────────────────────
